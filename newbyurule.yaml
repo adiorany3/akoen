@@ -31,6 +31,61 @@ dns:
   nameserver:
   - https://8.8.8.8/dns-query
   - https://8.8.4.4/dns-query
+uuid: 29eacd41-6bdc-46b8-8bc7-0db3960711c1
+password: 86fb364d-9137-4830-aea3-ac8d2033ad82
+vless_host: nautica.foolvpn.me
+trojan_host: nautica.foolvpn.me
+path: /203.194.112.119-2053
+path_trojan: /35.219.50.99-443
+vmess_uuid: 10057a00-f89c-11ef-8493-1577c1651679
+vmess_host: 5.lowh.net
+vmess_path: /hello
+vless-template:
+  type: vless
+  uuid: 29eacd41-6bdc-46b8-8bc7-0db3960711c1
+  server: nautica.foolvpn.me
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+trojan-template:
+  type: trojan
+  password: 86fb364d-9137-4830-aea3-ac8d2033ad82
+  server: nautica.foolvpn.me
+  port: 443
+  network: ws
+  sni: nautica.foolvpn.me
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /35.219.50.99-443
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+vmess-template:
+  type: vmess
+  server: 5.lowh.net
+  port: 443
+  uuid: 10057a00-f89c-11ef-8493-1577c1651679
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hello
+    headers:
+      Host: 5.lowh.net
+      User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
 proxies:
 - client-fingerprint: chrome
   name: "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"

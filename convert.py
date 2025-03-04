@@ -21,6 +21,7 @@ def convert_ambil_to_byurule():
             byurule_template = yaml.safe_load(file)
         
         # Create new data structure based on byurule format
+        # Starting with the template structure
         new_data = {}
         
         # Copy top-level keys that exist in both files
@@ -29,17 +30,6 @@ def convert_ambil_to_byurule():
                 new_data[key] = ambil_data[key]
             else:
                 new_data[key] = byurule_template[key]
-        
-        # Remove template and configuration entries
-        keys_to_remove = [
-            'uuid', 'password', 'vless_host', 'trojan_host', 'path', 
-            'path_trojan', 'vmess_uuid', 'vmess_host', 'vmess_path',
-            'vless-template', 'trojan-template', 'vmess-template'
-        ]
-        
-        for key in keys_to_remove:
-            if key in new_data:
-                del new_data[key]
         
         # Special transformations - update server values
         if 'proxies' in new_data:
@@ -63,7 +53,7 @@ def convert_ambil_to_byurule():
         with open('newbyurule.yaml', 'w') as file:
             yaml.dump(new_data, file, default_flow_style=False, sort_keys=False)
         
-        print("Successfully converted ambil.yml to newbyurule.yaml")
+        print("Successfully converted ambil.yml to newbyurule.yaml based on byurule.yaml format")
         return True
     
     except Exception as e:
