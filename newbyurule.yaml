@@ -91,7 +91,7 @@ proxies:
   name: "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   password: 31c750ed-8d1a-4fe9-a984-2a0b4f9afd38
-  port: '443'
+  port: 443
   server: 104.22.21.245
   skip-cert-verify: false
   sni: nautica.foolvpn.me
@@ -105,7 +105,7 @@ proxies:
 - client-fingerprint: chrome
   name: "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  port: '443'
+  port: 443
   server: 172.67.74.70
   servername: nautica.foolvpn.me
   tls: true
@@ -123,7 +123,7 @@ proxies:
   name: "3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   password: 31c750ed-8d1a-4fe9-a984-2a0b4f9afd38
-  port: '443'
+  port: 443
   server: 104.19.143.108
   skip-cert-verify: false
   sni: nautica.foolvpn.me
@@ -137,7 +137,7 @@ proxies:
 - client-fingerprint: chrome
   name: "4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  port: '443'
+  port: 443
   server: 104.22.21.245
   servername: nautica.foolvpn.me
   tls: true
@@ -155,7 +155,7 @@ proxies:
   name: "5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   password: 31c750ed-8d1a-4fe9-a984-2a0b4f9afd38
-  port: '443'
+  port: 443
   server: 172.67.74.70
   skip-cert-verify: false
   sni: nautica.foolvpn.me
@@ -169,7 +169,7 @@ proxies:
 - client-fingerprint: chrome
   name: "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  port: '443'
+  port: 443
   server: 104.19.143.108
   servername: nautica.foolvpn.me
   tls: true
@@ -187,7 +187,7 @@ proxies:
   name: "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   network: ws
   password: 31c750ed-8d1a-4fe9-a984-2a0b4f9afd38
-  port: '443'
+  port: 443
   server: 104.22.21.245
   skip-cert-verify: false
   sni: nautica.foolvpn.me
@@ -201,7 +201,7 @@ proxies:
 - client-fingerprint: chrome
   name: "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   network: ws
-  port: '443'
+  port: 443
   server: 172.67.74.70
   servername: nautica.foolvpn.me
   tls: true
@@ -219,7 +219,7 @@ proxies:
   name: Trojan UDP
   network: ws
   password: t.me/foolvpn
-  port: '443'
+  port: 443
   server: 104.19.143.108
   skip-cert-verify: false
   sni: id1.foolvpn.me
@@ -231,11 +231,14 @@ proxies:
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /trojan-udp
 proxy-groups:
-- name: Proxy
-  type: select
+- name: Tunnel
   proxies:
-  - Auto
-  - LoadBalance
+  - Url Test
+  - Selector
+  type: select
+- interval: 300
+  name: Url Test
+  proxies:
   - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
@@ -244,28 +247,19 @@ proxy-groups:
   - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - Trojan UDP
-- name: LoadBalance
-  type: load-balance
-  strategy: round-robin
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies: &id001
-  - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - Trojan UDP
-- name: Auto
   type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies: *id001
+- interval: 300
+  name: Selector
+  proxies:
+  - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  type: select
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
 - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
