@@ -1,0 +1,178 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+general:
+  tcp_mss: 1460
+  tfo: true
+dns:
+  default-nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+  enable: true
+  enhanced-mode: redir-host
+  fallback:
+  - https://1.1.1.1/dns-query
+  - 8.8.8.8
+  - 1.1.1.1
+  ipv6: false
+  listen: 0.0.0.0:7874
+  nameserver:
+  - https://8.8.8.8/dns-query
+  - https://8.8.4.4/dns-query
+uuid: 29eacd41-6bdc-46b8-8bc7-0db3960711c1
+password: 86fb364d-9137-4830-aea3-ac8d2033ad82
+vless_host: nautica.foolvpn.me
+trojan_host: nautica.foolvpn.me
+path: /203.194.112.119-2053
+path_trojan: /35.219.50.99-443
+vmess_uuid: 10057a00-f89c-11ef-8493-1577c1651679
+vmess_host: 5.lowh.net
+vmess_path: /hello
+vless-template:
+  type: vless
+  uuid: 29eacd41-6bdc-46b8-8bc7-0db3960711c1
+  server: nautica.foolvpn.me
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+trojan-template:
+  type: trojan
+  password: 86fb364d-9137-4830-aea3-ac8d2033ad82
+  server: nautica.foolvpn.me
+  port: 443
+  network: ws
+  sni: nautica.foolvpn.me
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /35.219.50.99-443
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+vmess-template:
+  type: vmess
+  server: 5.lowh.net
+  port: 443
+  uuid: 10057a00-f89c-11ef-8493-1577c1651679
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hello
+    headers:
+      Host: 5.lowh.net
+      User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+proxies:
+- client-fingerprint: chrome
+  name: "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  network: ws
+  password: d875abcd-1f0c-40ac-9f3b-dc9cd29dd92b
+  port: '443'
+  server: 104.22.21.245
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  network: ws
+  port: '443'
+  server: 172.67.74.70
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: d875abcd-1f0c-40ac-9f3b-dc9cd29dd92b
+  ws-opts:
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /35.219.50.99-443
+  xudp: true
+- client-fingerprint: chrome
+  name: "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  network: ws
+  password: d875abcd-1f0c-40ac-9f3b-dc9cd29dd92b
+  port: '443'
+  server: 104.19.143.108
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /203.194.112.119-2053
+- client-fingerprint: chrome
+  name: Trojan UDP
+  network: ws
+  password: t.me/foolvpn
+  port: '443'
+  server: 104.22.21.245
+  skip-cert-verify: false
+  sni: id1.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /trojan-udp
+proxy-groups:
+- name: Tunnel
+  proxies:
+  - Url Test
+  - Selector
+  type: select
+- interval: 300
+  name: Url Test
+  proxies:
+  - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  type: url-test
+- interval: 300
+  name: Selector
+  proxies:
+  - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  type: select
+rules:
+- AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+- AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
+- GEOIP,PRIVATE,DIRECT,no-resolve
+- NETWORK,UDP,Trojan UDP
+- MATCH,Tunnel
+external-ui: ./dashboard
