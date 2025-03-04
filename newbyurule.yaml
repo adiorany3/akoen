@@ -231,14 +231,12 @@ proxies:
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /trojan-udp
 proxy-groups:
-- name: Tunnel
-  proxies:
-  - Url Test
-  - Selector
-  type: select
-- interval: 300
-  name: Url Test
-  proxies:
+- name: LoadBalance
+  type: load-balance
+  strategy: round-robin
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies: &id001
   - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
@@ -247,10 +245,18 @@ proxy-groups:
   - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - Trojan UDP
+- name: UrlTest
   type: url-test
-- interval: 300
-  name: Selector
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies: *id001
+- name: PROXY
+  type: select
   proxies:
+  - LoadBalance
+  - UrlTest
   - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
@@ -259,7 +265,7 @@ proxy-groups:
   - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  type: select
+  - Trojan UDP
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
 - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
