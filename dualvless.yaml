@@ -48,13 +48,13 @@ dns:
   bind-address: 127.0.0.1 # or the IP of your proxy interface
 
 # Variabel Umum untuk Semua Proxy
-uuid: &uuid "6d87a469-8aca-4e71-a03a-1aa1bd90225a" # UUID untuk VLESS
+uuid: &uuid "29eacd41-6bdc-46b8-8bc7-0db3960711c1" # UUID untuk VLESS
 uuid_2: &uuid_2 "56620a14-6d0a-4e59-8a28-5a5803962d14" # UUID untuk VLESS Account 2
 password: &password "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2" # Password untuk Trojan
 vless_host: &vless_host "nautica.foolvpn.me" # Host untuk VLESS
 vless_host_2: &vless_host_2 "nautica.foolvpn.me" # Host untuk VLESS_2
 trojan_host: &trojan_host "sg-d6.2esge.web.id" # Host untuk Trojan
-vless_path: &vless_path "/35.219.50.99-443" # Path untuk VLESS
+vless_path: &vless_path "/203.194.112.119-2053" # Path untuk VLESS
 vless_path_2: &vless_path_2 "/203.194.112.119-8443" # Path untuk VLESS Account 2
 trojan_path: &trojan_path "/trojan" # Path untuk Trojan
 
