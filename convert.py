@@ -41,9 +41,6 @@ def convert_ambil_to_byurule():
             if key in new_data:
                 del new_data[key]
         
-        # Keep track of proxy names for load balancing
-        proxy_names = []
-        
         # Special transformations - update server values
         if 'proxies' in new_data:
             # Define new server IPs
@@ -61,46 +58,12 @@ def convert_ambil_to_byurule():
                 # Convert port from string to integer (remove quotes)
                 if 'port' in proxy and proxy['port'] == '443':
                     proxy['port'] = 443
-                
-                # Collect proxy names for load balancing
-                if 'name' in proxy:
-                    proxy_names.append(proxy['name'])
-        
-        # Add load balancing configuration
-        # Create proxy groups for load balancing
-        new_data['proxy-groups'] = [
-            {
-                'name': 'LoadBalance',
-                'type': 'load-balance',
-                'strategy': 'round-robin',
-                'url': 'http://www.gstatic.com/generate_204',
-                'interval': 300,
-                'proxies': proxy_names
-            },
-            {
-                'name': 'UrlTest',
-                'type': 'url-test',
-                'url': 'http://www.gstatic.com/generate_204',
-                'interval': 300,
-                'tolerance': 50,
-                'proxies': proxy_names
-            },
-            {
-                'name': 'PROXY',
-                'type': 'select',
-                'proxies': ['LoadBalance', 'UrlTest'] + proxy_names
-            }
-        ]
-        
-        # Add rules if not present
-        if 'rules' not in new_data:
-            new_data['rules'] = ['MATCH,PROXY']
         
         # Write to newbyurule.yaml
         with open('newbyurule.yaml', 'w') as file:
             yaml.dump(new_data, file, default_flow_style=False, sort_keys=False)
         
-        print("Successfully converted ambil.yml to newbyurule.yaml with load balancing")
+        print("Successfully converted ambil.yml to newbyurule.yaml")
         return True
     
     except Exception as e:
