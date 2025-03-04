@@ -59,8 +59,8 @@ vless_path_2: &vless_path_2 "/203.194.112.119-8443" # Path untuk VLESS Account 2
 trojan_path: &trojan_path "/trojan" # Path untuk Trojan
 
 # Variabel VMess
-vmess_uuid: &vmess_uuid "ea1601c0-f04a-11ef-a995-1577c1651679"
-vmess_host: &vmess_host "hz2.rimuru.My.id"
+vmess_uuid: &vmess_uuid "10057a00-f89c-11ef-8493-1577c1651679"
+vmess_host: &vmess_host "5.lowh.net"
 vmess_path: &vmess_path "/hello"
 
 # Template untuk Proxy VLESS
