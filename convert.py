@@ -20,24 +20,16 @@ def convert_ambil_to_byurule():
         with open('byurule.yaml', 'r') as file:
             byurule_template = yaml.safe_load(file)
         
-        # Create new data structure with only essential elements
+        # Create new data structure based on byurule format
+        # Starting with the template structure
         new_data = {}
         
-        # Define essential keys to keep from the template
-        essential_keys = [
-            'port', 'socks-port', 'redir-port', 'mixed-port', 'tproxy-port', 
-            'ipv6', 'mode', 'log-level', 'allow-lan', 'external-controller',
-            'secret', 'bind-address', 'unified-delay', 'profile', 'general', 'dns'
-        ]
-        
-        # Copy only essential keys
-        for key in essential_keys:
-            if key in byurule_template:
+        # Copy top-level keys that exist in both files
+        for key in byurule_template:
+            if key in ambil_data:
+                new_data[key] = ambil_data[key]
+            else:
                 new_data[key] = byurule_template[key]
-        
-        # Copy proxies from ambil_data
-        if 'proxies' in ambil_data:
-            new_data['proxies'] = ambil_data['proxies']
         
         # Special transformations - update server values
         if 'proxies' in new_data:
@@ -61,7 +53,7 @@ def convert_ambil_to_byurule():
         with open('newbyurule.yaml', 'w') as file:
             yaml.dump(new_data, file, default_flow_style=False, sort_keys=False)
         
-        print("Successfully converted ambil.yml to newbyurule.yaml with clean format")
+        print("Successfully converted ambil.yml to newbyurule.yaml based on byurule.yaml format")
         return True
     
     except Exception as e:
