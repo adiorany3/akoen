@@ -28,6 +28,36 @@ fi
 echo "Downloading VPN configuration..."
 curl -s -f "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206" -o "$OUTPUT_FILE"
 
+# Download the file with retries
+echo "Downloading VPN configuration..."
+MAX_RETRIES=3
+retry_count=0
+download_success=false
+
+while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success" = false ]; do
+    echo "Download attempt $(($retry_count + 1))/$MAX_RETRIES..."
+    
+    # Try with a user agent to avoid potential blocks
+    curl -s -L -A "Mozilla/5.0" \
+         "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206" \
+         -o "$OUTPUT_FILE"
+    
+    if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE" ]; then
+        download_success=true
+    else
+        retry_count=$((retry_count + 1))
+        if [ $retry_count -lt $MAX_RETRIES ]; then
+            echo "Download failed. Retrying in 5 seconds..."
+            sleep 5
+        fi
+    fi
+done
+
+# Check if download was successful
+if [ "$download_success" = true ]; then
+    echo "✓ Download successful! File saved as $OUTPUT_FILE"
+    # ...rest of your successful download code...
+
 # Check if download was successful
 if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE" ]; then
     echo "✓ Download successful! File saved as $OUTPUT_FILE"
