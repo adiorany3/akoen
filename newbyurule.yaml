@@ -33,6 +33,7 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
   bind-address: 127.0.0.1
+external-ui: ./dashboard
 proxies:
 - client-fingerprint: chrome
   name: "1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
@@ -242,4 +243,15 @@ proxy-groups:
   - "10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - Trojan UDP
 rules:
-- MATCH,Fallback
+- DOMAIN-SUFFIX,adservice.google.com,REJECT
+- DOMAIN-SUFFIX,googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,doubleclick.net,REJECT
+- DOMAIN-SUFFIX,g.doubleclick.net,REJECT
+- DOMAIN-SUFFIX,googleadservices.com,REJECT
+- DOMAIN-SUFFIX,admob.com,REJECT
+- DOMAIN-SUFFIX,pubmatic.com,REJECT
+- DOMAIN-SUFFIX,rubiconproject.com,REJECT
+- DOMAIN-SUFFIX,criteo.com,REJECT
+- DOMAIN-SUFFIX,openx.net,REJECT
+- DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+- MATCH,TUNNEL
