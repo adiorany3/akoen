@@ -420,6 +420,81 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Vidio-1 WS TLS
+  network: ws
+  password: b9d6b890-85e8-4575-8f60-2b66bc0ddfea
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Vidio-2 WS TLS
+  network: ws
+  password: b9d6b890-85e8-4575-8f60-2b66bc0ddfea
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Vidio-3 WS TLS
+  network: ws
+  password: b9d6b890-85e8-4575-8f60-2b66bc0ddfea
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Vidio-4 WS TLS
+  network: ws
+  password: b9d6b890-85e8-4575-8f60-2b66bc0ddfea
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Vidio-5 WS TLS
+  network: ws
+  password: b9d6b890-85e8-4575-8f60-2b66bc0ddfea
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /35.219.50.99-443
 proxy-groups:
 - name: Proxy
   type: select
@@ -446,6 +521,11 @@ proxy-groups:
   - WLG-1 WS TLS
   - WLG-2 WS TLS
   - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
 - name: TUNNEL
   type: url-test
   disable-udp: false
@@ -469,6 +549,11 @@ proxy-groups:
   - WLG-1 WS TLS
   - WLG-2 WS TLS
   - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
   url: http://cp.cloudflare.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -495,6 +580,11 @@ proxy-groups:
   - WLG-1 WS TLS
   - WLG-2 WS TLS
   - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
   url: http://cp.cloudflare.com/generate_204
 - name: FF
   type: select
@@ -513,6 +603,14 @@ proxy-groups:
   - WLG-1 WS TLS
   - WLG-2 WS TLS
   - WLG-3 WS TLS
+- name: Vidio
+  type: select
+  proxies:
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
