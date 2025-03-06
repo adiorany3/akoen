@@ -18,15 +18,18 @@ if ! command -v python3 &> /dev/null; then
     exit 1
 fi
 
+# Check if wget is installed
+if ! command -v wget &> /dev/null; then
+    echo "Error: wget is required but not installed."
+    echo "Install with: brew install wget"
+    exit 1
+fi
+
 # Check if convert.py exists
 if [ ! -f "$CONVERT_SCRIPT" ]; then
     echo "Error: $CONVERT_SCRIPT not found in current directory."
     exit 1
 fi
-
-# Download the file from the specified URL
-echo "Downloading VPN configuration..."
-curl -s -f "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206" -o "$OUTPUT_FILE"
 
 # Download the file with retries
 echo "Downloading VPN configuration..."
@@ -36,30 +39,37 @@ download_success=false
 
 while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success" = false ]; do
     echo "Download attempt $(($retry_count + 1))/$MAX_RETRIES..."
-    
-    # Try with a user agent to avoid potential blocks
-    curl -s -L -A "Mozilla/5.0" \
-         "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206" \
-         -o "$OUTPUT_FILE"
-    
-    if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE" ]; then
-        download_success=true
+
+    echo "Checking if server is reachable..."
+    if wget --spider --timeout=10 --quiet "https://nautica.foolvpn.me" 2>/dev/null; then
+        echo "✓ Server is reachable"
+        
+        # Try with a user agent to avoid potential blocks
+        wget --quiet --user-agent="Mozilla/5.0" \
+             --output-document="$OUTPUT_FILE" \
+             "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206"
+        
+        if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE" ]; then
+            download_success=true
+        else
+            retry_count=$((retry_count + 1))
+            if [ $retry_count -lt $MAX_RETRIES ]; then
+                echo "Download failed. Retrying in 5 seconds..."
+                sleep 5
+            fi
+        fi
     else
+        echo "✗ Error: Cannot reach the server."
         retry_count=$((retry_count + 1))
         if [ $retry_count -lt $MAX_RETRIES ]; then
-            echo "Download failed. Retrying in 5 seconds..."
+            echo "Retrying in 5 seconds..."
             sleep 5
         fi
     fi
 done
 
-# Check if download was successful
+# Rest of the script remains the same
 if [ "$download_success" = true ]; then
-    echo "✓ Download successful! File saved as $OUTPUT_FILE"
-    # ...rest of your successful download code...
-
-# Check if download was successful
-if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE" ]; then
     echo "✓ Download successful! File saved as $OUTPUT_FILE"
     echo "✓ File size: $(du -h "$OUTPUT_FILE" | cut -f1)"
     
