@@ -17,7 +17,7 @@ if [ $? -eq 0 ] && [ -s ambil.yml ]; then
     
     # Run the Python conversion script
     echo "Running conversion script..."
-    python3 convert.py
+    python3 convertxl.py
 else
     echo "Error: Failed to download the file or file is empty."
     exit 1
