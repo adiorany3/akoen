@@ -260,22 +260,20 @@ if st.button("Convert YAML"):
         st.warning("Please upload an input file")
 
 st.divider()
-if __name__ == '__main__':
-    current_year = datetime.datetime.now().year
-    main()
 
-    # Footer
-    st.markdown(f"""
-    <div style="text-align: center; padding-top: 20px;">
-        © {current_year} Developed by: Galuh Adi Insani with ❤️. All rights reserved.
-    </div>
-    """, unsafe_allow_html=True)
+# Footer
+current_year = datetime.datetime.now().year
+st.markdown(f"""
+<div style="text-align: center; padding-top: 20px;">
+    © {current_year} Developed by: Galuh Adi Insani with ❤️. All rights reserved.
+</div>
+""", unsafe_allow_html=True)
 
-    hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
+hide_st_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+        </style>
+        """
 st.markdown(hide_st_style, unsafe_allow_html=True)
