@@ -268,6 +268,36 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /trojan-udp
+- client-fingerprint: chrome
+  name: FF-1 Cloudflare WS TLS
+  network: ws
+  password: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+  port: 443
+  server: 104.17.255.156
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: FF-2 Cloudflare WS TLS
+  network: ws
+  password: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+  port: 443
+  server: 104.16.16.243
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /35.219.50.99-443
 proxy-groups:
 - name: TUNNEL
   type: url-test
@@ -282,6 +312,8 @@ proxy-groups:
   - "7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - Trojan UDP
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -298,7 +330,14 @@ proxy-groups:
   - "7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - Trojan UDP
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
   url: http://www.gstatic.com/generate_204
+- name: FF
+  type: select
+  proxies:
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
