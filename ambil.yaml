@@ -25,9 +25,9 @@ profile:
     store-selected: true
 proxies:
     - client-fingerprint: chrome
-      name: "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+      name: "1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
       network: ws
-      password: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      password: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -36,10 +36,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /35.219.50.99-443
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /43.218.77.16-1443
     - client-fingerprint: chrome
-      name: "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+      name: "2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -47,17 +47,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      uuid: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /35.219.50.99-443
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /43.218.77.16-1443
       xudp: true
     - client-fingerprint: chrome
       name: "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
       network: ws
-      password: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      password: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -66,7 +66,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
         path: /203.194.112.119-2053
     - client-fingerprint: chrome
       name: "4 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -77,17 +77,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      uuid: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
         path: /203.194.112.119-2053
       xudp: true
     - client-fingerprint: chrome
-      name: "5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+      name: "5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
       network: ws
-      password: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      password: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -96,10 +96,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /43.218.77.16-1443
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /35.219.50.99-443
     - client-fingerprint: chrome
-      name: "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+      name: "6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -107,17 +107,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      uuid: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /43.218.77.16-1443
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+        path: /35.219.50.99-443
       xudp: true
     - client-fingerprint: chrome
       name: "7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
       network: ws
-      password: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      password: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -126,7 +126,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
         path: /172.232.239.151-587
     - client-fingerprint: chrome
       name: "8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
@@ -137,11 +137,11 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 45088e96-e8b1-41aa-a5e8-2761d46d8581
+      uuid: 82f5f24a-69f0-4d04-9994-82472c31d0b6
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /172.232.239.151-587
       xudp: true
     - client-fingerprint: chrome
@@ -156,7 +156,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
         path: /trojan-udp
 proxy-groups:
     - name: Tunnel
@@ -167,24 +167,24 @@ proxy-groups:
     - interval: 300
       name: Url Test
       proxies:
-        - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-        - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+        - "1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+        - "2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
         - "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
         - "4 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-        - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+        - "5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+        - "6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
         - "7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
         - "8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
       type: url-test
     - interval: 300
       name: Selector
       proxies:
-        - "1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-        - "2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+        - "1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+        - "2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
         - "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
         - "4 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-        - "6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+        - "5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+        - "6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
         - "7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
         - "8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
       type: select

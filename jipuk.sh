@@ -4,7 +4,7 @@
 echo "Downloading VPN configuration..."
 
 # Download the file from the specified URL and save as ambil.yml
-curl -s "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206" > ambil.yml
+curl -s "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206" > ambil.yaml
 
 # Check if download was successful
 if [ $? -eq 0 ] && [ -s ambil.yml ]; then
