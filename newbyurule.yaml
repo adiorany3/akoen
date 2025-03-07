@@ -39,7 +39,7 @@ proxies:
   name: "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -48,8 +48,8 @@ proxies:
   udp: true
   ws-opts: &id001
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /203.194.112.119-2053
 - client-fingerprint: chrome
   name: "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
@@ -61,19 +61,18 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: &id002
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /203.194.112.119-2053
   xudp: true
 - client-fingerprint: chrome
-  name: "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "RG-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -82,11 +81,11 @@ proxies:
   udp: true
   ws-opts: &id003
     headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /43.218.77.16-1443
 - client-fingerprint: chrome
-  name: "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "RG-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -94,18 +93,18 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: &id004
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /43.218.77.16-1443
   xudp: true
 - client-fingerprint: chrome
-  name: "RG-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "RG-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -114,11 +113,11 @@ proxies:
   udp: true
   ws-opts: &id005
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /172.232.239.151-587
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /35.219.50.99-443
 - client-fingerprint: chrome
-  name: "RG-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "RG-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -126,19 +125,19 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: &id006
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /172.232.239.151-587
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /35.219.50.99-443
   xudp: true
 - client-fingerprint: chrome
   name: "RG-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -147,7 +146,7 @@ proxies:
   udp: true
   ws-opts: &id007
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /203.194.112.119-8443
 - client-fingerprint: chrome
@@ -160,18 +159,18 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: &id008
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /203.194.112.119-8443
   xudp: true
 - client-fingerprint: chrome
-  name: "RG-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "RG-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -180,11 +179,11 @@ proxies:
   udp: true
   ws-opts: &id009
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /172.232.239.151-587
 - client-fingerprint: chrome
-  name: "RG-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "RG-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -192,13 +191,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: &id010
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /172.232.239.151-587
   xudp: true
 - client-fingerprint: chrome
   name: RG-Trojan UDP
@@ -212,13 +211,13 @@ proxies:
   udp: true
   ws-opts: &id011
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /trojan-udp
 - client-fingerprint: chrome
   name: RG WS TLS
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: '443'
   server: 104.22.21.245
   skip-cert-verify: false
@@ -230,7 +229,7 @@ proxies:
   name: "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -248,13 +247,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id002
   xudp: true
 - client-fingerprint: chrome
-  name: "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "Ilped-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -263,7 +262,7 @@ proxies:
   udp: true
   ws-opts: *id003
 - client-fingerprint: chrome
-  name: "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "Ilped-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -271,13 +270,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id004
   xudp: true
 - client-fingerprint: chrome
-  name: "Ilped-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "Ilped-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -286,7 +285,7 @@ proxies:
   udp: true
   ws-opts: *id005
 - client-fingerprint: chrome
-  name: "Ilped-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "Ilped-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -294,14 +293,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id006
   xudp: true
 - client-fingerprint: chrome
   name: "Ilped-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -319,13 +318,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id008
   xudp: true
 - client-fingerprint: chrome
-  name: "Ilped-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "Ilped-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -334,7 +333,7 @@ proxies:
   udp: true
   ws-opts: *id009
 - client-fingerprint: chrome
-  name: "Ilped-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "Ilped-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -342,7 +341,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id010
   xudp: true
 - client-fingerprint: chrome
@@ -359,7 +358,7 @@ proxies:
 - client-fingerprint: chrome
   name: Ilped WS TLS
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: '443'
   server: 172.67.74.70
   skip-cert-verify: false
@@ -371,7 +370,7 @@ proxies:
   name: "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -389,13 +388,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id002
   xudp: true
 - client-fingerprint: chrome
-  name: "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "GGWP-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -404,7 +403,7 @@ proxies:
   udp: true
   ws-opts: *id003
 - client-fingerprint: chrome
-  name: "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "GGWP-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -412,13 +411,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id004
   xudp: true
 - client-fingerprint: chrome
-  name: "GGWP-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "GGWP-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -427,7 +426,7 @@ proxies:
   udp: true
   ws-opts: *id005
 - client-fingerprint: chrome
-  name: "GGWP-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "GGWP-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -435,14 +434,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id006
   xudp: true
 - client-fingerprint: chrome
   name: "GGWP-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -460,13 +459,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id008
   xudp: true
 - client-fingerprint: chrome
-  name: "GGWP-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "GGWP-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -475,7 +474,7 @@ proxies:
   udp: true
   ws-opts: *id009
 - client-fingerprint: chrome
-  name: "GGWP-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "GGWP-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -483,7 +482,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  uuid: f41518ca-5ba7-4638-8766-f6554c3944ec
   ws-opts: *id010
   xudp: true
 - client-fingerprint: chrome
@@ -500,7 +499,7 @@ proxies:
 - client-fingerprint: chrome
   name: GGWP WS TLS
   network: ws
-  password: c1047a58-c83a-4d01-9f58-98d61ab4d07e
+  password: f41518ca-5ba7-4638-8766-f6554c3944ec
   port: '443'
   server: 104.19.143.108
   skip-cert-verify: false
@@ -516,38 +515,38 @@ proxy-groups:
   proxies:
   - "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - RG-Trojan UDP
   - RG WS TLS
   - "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - Ilped-Trojan UDP
   - Ilped WS TLS
   - "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - GGWP-Trojan UDP
   - GGWP WS TLS
 - name: Selector
@@ -556,38 +555,38 @@ proxy-groups:
   - Fallback
   - "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - RG-Trojan UDP
   - RG WS TLS
   - "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - Ilped-Trojan UDP
   - Ilped WS TLS
   - "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - GGWP-Trojan UDP
   - GGWP WS TLS
 - name: RG
@@ -595,14 +594,14 @@ proxy-groups:
   proxies:
   - "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - RG-Trojan UDP
   - RG WS TLS
 - name: Ilped
@@ -610,14 +609,14 @@ proxy-groups:
   proxies:
   - "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - Ilped-Trojan UDP
   - Ilped WS TLS
 - name: GGWP
@@ -625,14 +624,14 @@ proxy-groups:
   proxies:
   - "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-9 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-10 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - GGWP-Trojan UDP
   - GGWP WS TLS
 rules:
