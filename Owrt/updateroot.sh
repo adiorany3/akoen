@@ -26,8 +26,8 @@ LOCK_TIMEOUT=60              # Minutes before considering lock file as stale
 
 # Notification settings (set to true to enable)
 ENABLE_NOTIFICATIONS=true    # Set to false if you don't want notifications
-TELEGRAM_BOT_TOKEN=""        # Your Telegram bot token
-TELEGRAM_CHAT_ID=""          # Your Telegram chat ID
+TELEGRAM_BOT_TOKEN="6560425395:AAHnNDWkKzqTpKUeeiH-XsGO2hF2poI9Reo"        # Your Telegram bot token
+TELEGRAM_CHAT_ID="28075319"          # Your Telegram chat ID
 
 # ============================================================================
 # FUNCTION DEFINITIONS
