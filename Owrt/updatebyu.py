@@ -22,7 +22,7 @@ from pathlib import Path
 REMOTE_URL = "https://raw.githubusercontent.com/adiorany3/akoen/refs/heads/main/newbyurule.yaml"
 LOCAL_FILE = "/etc/openclash/config/newbyurule.yaml"
 TEMP_FILE = "/tmp/newbyurule.yaml.tmp"
-BACKUP_FILE = f"{LOCAL_FILE}.backup"
+BACKUP_FILE = f"/tmp/{os.path.basename(LOCAL_FILE)}.backup"
 LOCK_FILE = "/tmp/updateroot.lock"
 LOG_FILE = "/var/log/openclash_update.log"
 
@@ -31,12 +31,12 @@ MAX_RETRIES = 3               # Number of download attempts
 DOWNLOAD_TIMEOUT = 30         # Timeout for each download attempt (seconds)
 WAIT_BEFORE_UPDATE = 5        # Wait time before applying updates (seconds)
 CONNECTIVITY_TEST_HOST = "github.com"  # Host to ping for connectivity test
-BACKUP_RETENTION = 5          # Number of backup versions to keep
+BACKUP_RETENTION = 2          # Number of backup versions to keep
 LOG_MAX_SIZE = 1024           # Max log size in KB before rotation
 LOCK_TIMEOUT = 60             # Minutes before considering lock file as stale
 
 # Notification settings (set to true to enable)
-ENABLE_NOTIFICATIONS = True   # Set to False if you don't want notifications
+ENABLE_NOTIFICATIONS = False   # Set to False if you don't want notifications
 TELEGRAM_BOT_TOKEN = "6560425395:AAHnNDWkKzqTpKUeeiH-XsGO2hF2poI9Reo"       # Your Telegram bot token
 TELEGRAM_CHAT_ID = "28075319"         # Your Telegram chat ID
 
@@ -178,12 +178,40 @@ def manage_backups():
     if not os.path.exists(base_dir):
         os.makedirs(base_dir, exist_ok=True)
     
-    # Create timestamped backup
-    shutil.copy2(LOCAL_FILE, versioned_backup)
-    os.chmod(versioned_backup, 0o644)
+    # Verify source file exists and is not empty
+    if not os.path.isfile(LOCAL_FILE):
+        log_message(f"Cannot create backup: Source file {LOCAL_FILE} does not exist", "ERROR")
+        return False
+        
+    source_size = os.path.getsize(LOCAL_FILE)
+    if source_size == 0:
+        log_message(f"Cannot create backup: Source file {LOCAL_FILE} is empty (0 bytes)", "ERROR")
+        return False
     
-    # Keep track of most recent backup for quick recovery
-    shutil.copy2(LOCAL_FILE, BACKUP_FILE)
+    log_message(f"Creating backup of {LOCAL_FILE} ({source_size} bytes)")
+        
+    # Create timestamped backup
+    try:
+        shutil.copy2(LOCAL_FILE, versioned_backup)
+        os.chmod(versioned_backup, 0o644)
+        
+        # Verify backup file size
+        if os.path.getsize(versioned_backup) == 0:
+            log_message(f"Backup file {versioned_backup} is 0 bytes after copy!", "ERROR")
+            os.remove(versioned_backup)
+            return False
+            
+        # Keep track of most recent backup for quick recovery
+        shutil.copy2(LOCAL_FILE, BACKUP_FILE)
+        
+        # Verify quick recovery backup file size
+        if os.path.getsize(BACKUP_FILE) == 0:
+            log_message(f"Backup file {BACKUP_FILE} is 0 bytes after copy!", "ERROR")
+            return False
+            
+    except Exception as e:
+        log_message(f"Failed to create backup: {str(e)}", "ERROR")
+        return False
     
     # Remove old backups (keep only BACKUP_RETENTION most recent)
     backups = sorted([f for f in os.listdir(base_dir) 
@@ -197,7 +225,8 @@ def manage_backups():
         except Exception as e:
             log_message(f"Failed to remove old backup {old_backup}: {str(e)}", "WARNING")
     
-    log_message(f"Backup created at {versioned_backup} (keeping last {BACKUP_RETENTION} versions)")
+    log_message(f"Backup created at {versioned_backup} ({os.path.getsize(versioned_backup)} bytes, keeping last {BACKUP_RETENTION} versions)")
+    return True
 
 def check_connectivity():
     """Check internet connectivity"""
