@@ -745,4 +745,10 @@ rules:
 - DOMAIN-SUFFIX,instagram.com,Selector
 - DOMAIN-SUFFIX,cdninstagram.com,Selector
 - DOMAIN-SUFFIX,fbcdn.net,Selector
+- DOMAIN-SUFFIX,whatsapp.com,Selector
+- DOMAIN-SUFFIX,whatsapp.net,Selector
+- IP-CIDR,3.0.0.0/8,Selector
+- IP-CIDR,13.0.0.0/8,Selector
+- IP-CIDR,52.0.0.0/8,Selector
+- IP-CIDR,54.0.0.0/8,Selector
 - MATCH,Fallback
