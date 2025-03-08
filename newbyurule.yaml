@@ -742,4 +742,7 @@ rules:
 - DOMAIN-SUFFIX,yieldoptimizer.com,REJECT
 - DOMAIN-SUFFIX,yieldr.com,REJECT
 - DOMAIN-SUFFIX,zedo.com,REJECT
+- DOMAIN-SUFFIX,instagram.com,Selector
+- DOMAIN-SUFFIX,cdninstagram.com,Selector
+- DOMAIN-SUFFIX,fbcdn.net,Selector
 - MATCH,Fallback
