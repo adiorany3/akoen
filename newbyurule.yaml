@@ -609,7 +609,10 @@ proxy-groups:
   - GGWP-Trojan UDP
   - GGWP WS TLS
 - name: RG
-  type: select
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
   proxies:
   - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
@@ -624,7 +627,10 @@ proxy-groups:
   - RG-Trojan UDP
   - RG WS TLS
 - name: Ilped
-  type: select
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
   proxies:
   - "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
@@ -640,7 +646,10 @@ proxy-groups:
   - Ilped-Trojan UDP
   - Ilped WS TLS
 - name: GGWP
-  type: select
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
   proxies:
   - "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
