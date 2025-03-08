@@ -568,6 +568,9 @@ proxy-groups:
   - Fallback
   - URL-Test
   - Load-Balance
+  - RG
+  - Ilped
+  - GGWP
   - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
