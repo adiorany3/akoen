@@ -508,6 +508,52 @@ proxies:
   udp: true
   ws-opts: *id001
 proxy-groups:
+- name: Selector
+  type: select
+  proxies:
+  - Fallback
+  - URL-Test
+  - Load-Balance
+  - RG
+  - Ilped
+  - GGWP
+  - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - RG-Trojan UDP
+  - RG WS TLS
+  - "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
+  - Ilped-Trojan UDP
+  - Ilped WS TLS
+  - "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - GGWP-Trojan UDP
+  - GGWP WS TLS
 - name: Fallback
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -562,52 +608,6 @@ proxy-groups:
   interval: 300
   strategy: round-robin
   proxies: *id012
-- name: Selector
-  type: select
-  proxies:
-  - Fallback
-  - URL-Test
-  - Load-Balance
-  - RG
-  - Ilped
-  - GGWP
-  - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - RG-Trojan UDP
-  - RG WS TLS
-  - "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
-  - Ilped-Trojan UDP
-  - Ilped WS TLS
-  - "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - GGWP-Trojan UDP
-  - GGWP WS TLS
 - name: RG
   type: url-test
   url: http://www.gstatic.com/generate_204
