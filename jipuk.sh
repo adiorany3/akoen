@@ -117,7 +117,8 @@ if [ "$download_success" = true ]; then
             echo "1) $CONVERT_SCRIPT1"
             echo "2) $CONVERT_SCRIPT2"
             echo "3) Run both scripts"
-            read -p "Enter your choice (1-3): " script_choice
+            echo "4) Cancel - exit without conversion"
+            read -p "Enter your choice (1-4): " script_choice
             
             case "$script_choice" in
                 1)
@@ -154,6 +155,11 @@ if [ "$download_success" = true ]; then
                     else
                         echo "✗ Error: Conversion with $CONVERT_SCRIPT2 failed."
                     fi
+                    ;;
+                4)
+                    echo "Operation canceled by user."
+                    echo "Downloaded file $OUTPUT_FILE remains unchanged."
+                    exit 0
                     ;;
                 *)
                     echo "Invalid choice. Running default script $CONVERT_SCRIPT1..."
