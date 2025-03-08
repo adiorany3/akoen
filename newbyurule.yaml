@@ -512,7 +512,7 @@ proxy-groups:
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
-  proxies:
+  proxies: &id012
   - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
@@ -550,10 +550,17 @@ proxy-groups:
   - "GGWP-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - GGWP-Trojan UDP
   - GGWP WS TLS
+- name: URL-Test
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies: *id012
 - name: Selector
   type: select
   proxies:
   - Fallback
+  - URL-Test
   - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
