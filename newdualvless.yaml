@@ -1125,6 +1125,16 @@ proxy-groups:
   - Vidio-3 WS TLS
   - Vidio-4 WS TLS
   - Vidio-5 WS TLS
+- name: LoadBalance-Country
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-Best-Latency
+  - SG-Best-Latency
+  - KR-Best-Latency
+  - JP-Best-Latency
 - name: LoadBalance
   type: load-balance
   url: http://cp.cloudflare.com/generate_204
