@@ -625,6 +625,126 @@ proxies:
     path: /free/cc/sg
     headers:
       Host: nuclear.us.kg
+- name: KR-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
 proxy-groups:
 - name: Proxy
   type: select
@@ -666,6 +786,16 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
 - name: TUNNEL
   type: url-test
   disable-udp: false
@@ -704,6 +834,16 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
   url: http://cp.cloudflare.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -745,6 +885,16 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
   url: http://cp.cloudflare.com/generate_204
 - name: ID-Best-Latency
   type: url-test
@@ -786,6 +936,16 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
 - name: SG-Best-Latency
   type: url-test
   url: http://cp.cloudflare.com/generate_204
@@ -826,6 +986,116 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: KR-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - Vidio-1
+  - Vidio-2
+  - Vidio-3
+  - Vidio-4
+  - Vidio-5
+  - Vidio-6
+  - Vidio-7
+  - Vidio-8
+  - Vidio-9
+  - Vidio-10
+  - Vidio-11
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: JP-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - Vidio-1
+  - Vidio-2
+  - Vidio-3
+  - Vidio-4
+  - Vidio-5
+  - Vidio-6
+  - Vidio-7
+  - Vidio-8
+  - Vidio-9
+  - Vidio-10
+  - Vidio-11
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
 - name: FF
   type: select
   proxies:
@@ -895,6 +1165,16 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
