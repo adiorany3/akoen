@@ -615,6 +615,36 @@ proxy-groups:
   - Vidio-3 WS TLS
   - Vidio-4 WS TLS
   - Vidio-5 WS TLS
+- name: LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - Vidio-1
+  - Vidio-2
+  - Vidio-3
+  - Vidio-4
+  - Vidio-5
+  - Vidio-6
+  - Vidio-7
+  - Vidio-8
+  - Vidio-9
+  - Vidio-10
+  - Vidio-11
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
