@@ -25,8 +25,8 @@ LOG_MAX_SIZE=1024            # Max log size in KB before rotation
 LOCK_TIMEOUT=60              # Minutes before considering lock file as stale
 
 # Notification settings (set to true to enable)
-ENABLE_NOTIFICATIONS=false    # Set to false if you don't want notifications
-TELEGRAM_BOT_TOKEN="6560425395:AAHnNDWkKzqTpKUeeiH-XsGO2hF2poI9Reo"        # Your Telegram bot token
+ENABLE_NOTIFICATIONS=true    # Set to false if you don't want notifications
+TELEGRAM_BOT_TOKEN="6560425395:AAFDGCaDlCcjZQTTc0EAhO0MrC4FoUySIh4"        # Your Telegram bot token
 TELEGRAM_CHAT_ID="28075319"          # Your Telegram chat ID
 
 # ============================================================================
