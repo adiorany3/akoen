@@ -1,0 +1,72 @@
+proxies:
+    - name: "1 🇮🇩 ID CV. Rumahweb Indonesia CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: ce521ad2-c76a-4fa6-b28a-806206982192
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+        path: /free/203.194.112.119:8443
+    - name: "2 🇮🇩 ID Amazon.com"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: ce521ad2-c76a-4fa6-b28a-806206982192
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/43.218.77.16:443
+    - name: "3 🇮🇩 ID Akamai Connected Cloud CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: ce521ad2-c76a-4fa6-b28a-806206982192
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /free/172.232.239.134:443
+    - name: "4 🇮🇩 ID Amazon.com"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: ce521ad2-c76a-4fa6-b28a-806206982192
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/43.218.77.16:1443
+    - name: "5 🇮🇩 ID Akamai Connected Cloud CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: ce521ad2-c76a-4fa6-b28a-806206982192
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/172.232.239.151:587
+    
