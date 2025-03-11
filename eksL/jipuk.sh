@@ -7,6 +7,7 @@
 OUTPUT_FILE="ambil.yaml"
 OUTPUT_FILE2="ambil2.yaml"
 OUTPUT_FILE3="ambil3.yaml"  # Added Singapore proxy output file
+OUTPUT_FILE4="ambil4.yaml"  # Added Israel proxy output file
 CONVERT_SCRIPT1="convert.py"
 CONVERT_SCRIPT2="convertxl.py"
 
@@ -184,6 +185,49 @@ done
 if [ "$download_success3" = false ]; then
     echo "✗ Error: Failed to download the Singapore proxy configuration."
     [ -f "$OUTPUT_FILE3" ] && rm "$OUTPUT_FILE3"  # Clean up empty file if it exists
+fi
+
+# Download the fourth file - Israel proxy configuration
+echo "Downloading Israel VPN configuration..."
+retry_count=0
+download_success4=false
+
+while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success4" = false ]; do
+    echo "Download attempt $(($retry_count + 1))/$MAX_RETRIES..."
+    
+    # Select a random user agent
+    random_index=$((RANDOM % ${#USER_AGENTS[@]}))
+    selected_user_agent="${USER_AGENTS[$random_index]}"
+    echo "Using user agent: ${selected_user_agent:0:30}..."
+
+    # Use the randomly selected user agent
+    wget --quiet --user-agent="$selected_user_agent" \
+         --output-document="$OUTPUT_FILE4" \
+         "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=40&format=clash-provider"
+    
+    if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE4" ]; then
+        download_success4=true
+        echo "✓ Israel VPN configuration download successful! File saved as $OUTPUT_FILE4"
+        echo "✓ File size: $(du -h "$OUTPUT_FILE4" | cut -f1)"
+        
+        # Check if the file is a valid YAML
+        if python3 -c "import yaml; yaml.safe_load(open('$OUTPUT_FILE4'))" &> /dev/null; then
+            echo "✓ File validated as proper YAML format"
+        else
+            echo "⚠️ Warning: Downloaded file may not be valid YAML, but will continue processing."
+        fi
+    else
+        retry_count=$((retry_count + 1))
+        if [ $retry_count -lt $MAX_RETRIES ]; then
+            echo "Download failed. Retrying in 5 seconds..."
+            sleep 5
+        fi
+    fi
+done
+
+if [ "$download_success4" = false ]; then
+    echo "✗ Error: Failed to download the Israel proxy configuration."
+    [ -f "$OUTPUT_FILE4" ] && rm "$OUTPUT_FILE4"  # Clean up empty file if it exists
 fi
 
 # Process the downloaded file
