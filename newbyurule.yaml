@@ -36,10 +36,9 @@ dns:
 external-ui: ./dashboard
 proxies:
 - client-fingerprint: chrome
-  name: "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
+  name: "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -48,12 +47,11 @@ proxies:
   udp: true
   ws-opts: &id001
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /203.194.112.119-2053
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /43.218.77.16-1443
 - client-fingerprint: chrome
-  name: "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
+  name: "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -61,18 +59,18 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: &id002
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /203.194.112.119-2053
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /43.218.77.16-1443
   xudp: true
 - client-fingerprint: chrome
-  name: "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -81,11 +79,11 @@ proxies:
   udp: true
   ws-opts: &id003
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /172.232.239.151-587
 - client-fingerprint: chrome
-  name: "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "RG-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -93,18 +91,19 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: &id004
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /172.232.239.151-587
   xudp: true
 - client-fingerprint: chrome
-  name: "RG-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "RG-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -113,11 +112,12 @@ proxies:
   udp: true
   ws-opts: &id005
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /203.194.112.119-2053
 - client-fingerprint: chrome
-  name: "RG-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "RG-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -125,18 +125,18 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: &id006
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /203.194.112.119-2053
   xudp: true
 - client-fingerprint: chrome
-  name: "RG-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "RG-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -145,11 +145,11 @@ proxies:
   udp: true
   ws-opts: &id007
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /172.232.239.151-587
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /35.219.50.99-443
 - client-fingerprint: chrome
-  name: "RG-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "RG-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.22.21.245
@@ -157,19 +157,19 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: &id008
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /172.232.239.151-587
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /35.219.50.99-443
   xudp: true
 - client-fingerprint: chrome
   name: "RG-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.22.21.245
   skip-cert-verify: false
@@ -178,8 +178,8 @@ proxies:
   udp: true
   ws-opts: &id009
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: "RG-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
@@ -191,12 +191,12 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: &id010
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /203.194.112.119-8443
   xudp: true
 - client-fingerprint: chrome
@@ -211,13 +211,270 @@ proxies:
   udp: true
   ws-opts: &id011
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /trojan-udp
+- name: "RG-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id012
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /free/103.6.207.108:8080
+- name: "RG-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id013
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /free/43.133.149.163:52698
+- name: "RG-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id014
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /free/147.139.181.165:443
+- name: "RG-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id015
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /free/43.218.77.16:443
+- name: "RG-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id016
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /free/172.232.239.134:443
+- name: "RG-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id017
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /free/172.232.239.151:587
+- name: "RG-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id018
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/203.194.112.119:2053
+- name: "RG-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id019
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /free/8.215.196.18:587
+- name: "RG-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id020
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /free/172.232.237.31:587
+- name: "RG-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id021
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /free/8.215.19.67:587
+- name: "RG-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id022
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /free/34.101.247.19:53681
+- name: "RG-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id023
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /free/36.95.152.58:12137
+- name: "RG-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id024
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /free/172.232.237.112:2053
+- name: "RG-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id025
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /free/43.218.77.16:1443
+- name: "RG-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id026
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: "RG-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id027
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /free/203.194.112.119:8443
+- name: "RG-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: &id028
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /free/103.63.101.10:443
 - client-fingerprint: chrome
   name: RG WS TLS
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: '443'
   server: 104.22.21.245
   skip-cert-verify: false
@@ -226,10 +483,9 @@ proxies:
   udp: true
   ws-opts: *id001
 - client-fingerprint: chrome
-  name: "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
+  name: "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -238,8 +494,7 @@ proxies:
   udp: true
   ws-opts: *id001
 - client-fingerprint: chrome
-  name: "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
+  name: "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -247,13 +502,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id002
   xudp: true
 - client-fingerprint: chrome
-  name: "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "Ilped-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -262,7 +517,7 @@ proxies:
   udp: true
   ws-opts: *id003
 - client-fingerprint: chrome
-  name: "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "Ilped-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -270,13 +525,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id004
   xudp: true
 - client-fingerprint: chrome
-  name: "Ilped-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "Ilped-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -285,7 +541,8 @@ proxies:
   udp: true
   ws-opts: *id005
 - client-fingerprint: chrome
-  name: "Ilped-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "Ilped-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -293,13 +550,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id006
   xudp: true
 - client-fingerprint: chrome
-  name: "Ilped-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "Ilped-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -308,7 +565,7 @@ proxies:
   udp: true
   ws-opts: *id007
 - client-fingerprint: chrome
-  name: "Ilped-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "Ilped-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 172.67.74.70
@@ -316,14 +573,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id008
   xudp: true
 - client-fingerprint: chrome
   name: "Ilped-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 172.67.74.70
   skip-cert-verify: false
@@ -341,7 +598,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id010
   xudp: true
 - client-fingerprint: chrome
@@ -355,10 +612,182 @@ proxies:
   type: trojan
   udp: true
   ws-opts: *id011
+- name: "Ilped-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id012
+- name: "Ilped-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id013
+- name: "Ilped-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id014
+- name: "Ilped-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id015
+- name: "Ilped-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id016
+- name: "Ilped-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id017
+- name: "Ilped-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id018
+- name: "Ilped-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id019
+- name: "Ilped-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id020
+- name: "Ilped-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id021
+- name: "Ilped-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id022
+- name: "Ilped-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id023
+- name: "Ilped-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id024
+- name: "Ilped-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id025
+- name: "Ilped-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id026
+- name: "Ilped-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc.\
+    \ CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id027
+- name: "Ilped-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id028
 - client-fingerprint: chrome
   name: Ilped WS TLS
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: '443'
   server: 172.67.74.70
   skip-cert-verify: false
@@ -367,10 +796,9 @@ proxies:
   udp: true
   ws-opts: *id001
 - client-fingerprint: chrome
-  name: "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
+  name: "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -379,8 +807,7 @@ proxies:
   udp: true
   ws-opts: *id001
 - client-fingerprint: chrome
-  name: "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
-    \ [nautica]"
+  name: "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -388,13 +815,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id002
   xudp: true
 - client-fingerprint: chrome
-  name: "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "GGWP-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -403,7 +830,7 @@ proxies:
   udp: true
   ws-opts: *id003
 - client-fingerprint: chrome
-  name: "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  name: "GGWP-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -411,13 +838,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id004
   xudp: true
 - client-fingerprint: chrome
-  name: "GGWP-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "GGWP-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -426,7 +854,8 @@ proxies:
   udp: true
   ws-opts: *id005
 - client-fingerprint: chrome
-  name: "GGWP-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  name: "GGWP-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
+    \ [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -434,13 +863,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id006
   xudp: true
 - client-fingerprint: chrome
-  name: "GGWP-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "GGWP-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -449,7 +878,7 @@ proxies:
   udp: true
   ws-opts: *id007
 - client-fingerprint: chrome
-  name: "GGWP-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  name: "GGWP-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   network: ws
   port: 443
   server: 104.19.143.108
@@ -457,14 +886,14 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id008
   xudp: true
 - client-fingerprint: chrome
   name: "GGWP-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
   server: 104.19.143.108
   skip-cert-verify: false
@@ -482,7 +911,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts: *id010
   xudp: true
 - client-fingerprint: chrome
@@ -496,10 +925,182 @@ proxies:
   type: trojan
   udp: true
   ws-opts: *id011
+- name: "GGWP-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id012
+- name: "GGWP-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id013
+- name: "GGWP-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id014
+- name: "GGWP-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id015
+- name: "GGWP-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id016
+- name: "GGWP-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id017
+- name: "GGWP-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id018
+- name: "GGWP-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id019
+- name: "GGWP-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id020
+- name: "GGWP-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id021
+- name: "GGWP-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id022
+- name: "GGWP-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id023
+- name: "GGWP-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id024
+- name: "GGWP-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id025
+- name: "GGWP-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id026
+- name: "GGWP-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id027
+- name: "GGWP-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 125156bd-b285-494f-ad9f-2862c99e3ad6
+  ws-opts: *id028
 - client-fingerprint: chrome
   name: GGWP WS TLS
   network: ws
-  password: 2083cc57-ce1b-465a-9538-4607c83e62ba
+  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: '443'
   server: 104.19.143.108
   skip-cert-verify: false
@@ -517,114 +1118,235 @@ proxy-groups:
   - RG
   - Ilped
   - GGWP
-  - "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - RG-Trojan UDP
+  - "RG-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "RG-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "RG-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "RG-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "RG-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "RG-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "RG-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "RG-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "RG-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - RG WS TLS
-  - "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   - Ilped-Trojan UDP
+  - "Ilped-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "Ilped-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "Ilped-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "Ilped-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  - "Ilped-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - Ilped WS TLS
-  - "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - GGWP-Trojan UDP
+  - "GGWP-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "GGWP-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "GGWP-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "GGWP-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "GGWP-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - GGWP WS TLS
 - name: Fallback
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
-  proxies: &id012
-  - "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  proxies: &id029
+  - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - RG-Trojan UDP
+  - "RG-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "RG-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "RG-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "RG-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "RG-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "RG-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "RG-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "RG-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "RG-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - RG WS TLS
-  - "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   - Ilped-Trojan UDP
+  - "Ilped-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "Ilped-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "Ilped-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "Ilped-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  - "Ilped-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - Ilped WS TLS
-  - "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - GGWP-Trojan UDP
+  - "GGWP-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "GGWP-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "GGWP-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "GGWP-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "GGWP-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - GGWP WS TLS
 - name: URL-Test
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies: *id012
+  proxies: *id029
 - name: Load-Balance
   type: load-balance
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
-  proxies: *id012
+  proxies: *id029
 - name: RG
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - "RG-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "RG-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "RG-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "RG-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "RG-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "RG-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "RG-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "RG-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "RG-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "RG-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - RG-Trojan UDP
+  - "RG-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "RG-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "RG-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "RG-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "RG-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "RG-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "RG-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "RG-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "RG-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "RG-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "RG-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - RG WS TLS
 - name: Ilped
   type: url-test
@@ -632,18 +1354,36 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - "Ilped-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "Ilped-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "Ilped-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "Ilped-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "Ilped-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Ilped-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS\
     \ [nautica]"
   - Ilped-Trojan UDP
+  - "Ilped-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "Ilped-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "Ilped-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "Ilped-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "Ilped-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "Ilped-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "Ilped-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "Ilped-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "Ilped-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "Ilped-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN\
+    \ TLS"
+  - "Ilped-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - Ilped WS TLS
 - name: GGWP
   type: url-test
@@ -651,17 +1391,34 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - "GGWP-1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-  - "GGWP-3 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-4 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
-  - "GGWP-5 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-6 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-  - "GGWP-7 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - "GGWP-8 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-9 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "GGWP-10 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - GGWP-Trojan UDP
+  - "GGWP-1 \U0001F1EE\U0001F1E9 ID PT Pusat Media Indonesia CDN TLS"
+  - "GGWP-2 \U0001F1EE\U0001F1E9 ID Tencent cloud computing CDN TLS"
+  - "GGWP-3 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-4 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "GGWP-5 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-6 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-7 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "GGWP-8 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-9 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-10 \U0001F1EE\U0001F1E9 ID Alibaba CDN TLS"
+  - "GGWP-11 \U0001F1EE\U0001F1E9 ID Google Cloud CDN TLS"
+  - "GGWP-12 \U0001F1EE\U0001F1E9 ID PT Telkom Indonesia CDN TLS"
+  - "GGWP-13 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-14 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
+  - "GGWP-15 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
+  - "GGWP-16 \U0001F1EE\U0001F1E9 ID First Cagayan Converge Data Center Inc. CDN TLS"
+  - "GGWP-17 \U0001F1EE\U0001F1E9 ID PT. Newton Cipta Informatika CDN TLS"
   - GGWP WS TLS
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
