@@ -128,7 +128,7 @@ proxies:
 - client-fingerprint: chrome
   name: Free-1
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 172.67.5.14
   skip-cert-verify: false
@@ -137,13 +137,28 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
+- client-fingerprint: chrome
+  name: FreeSG-1
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Vidio-1
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 172.67.5.14
   skip-cert-verify: false
@@ -152,175 +167,160 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
-  name: Free-3
+  name: Free-4
   network: ws
   port: 443
-  server: 104.22.5.240
+  server: 104.17.72.206
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /203.194.112.119-8443
   xudp: true
 - client-fingerprint: chrome
-  name: Vidio-3
+  name: FreeSG-4
   network: ws
   port: 443
-  server: 104.22.5.240
+  server: 104.17.72.206
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /203.194.112.119-8443
   xudp: true
 - client-fingerprint: chrome
-  name: Free-5
+  name: Vidio-4
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
-  server: 104.17.155.243
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
+  server: 104.17.72.206
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
   udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
+      Host: nautica.foolvpn.me
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /172.232.239.151-587
-- client-fingerprint: chrome
-  name: Vidio-5
-  network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
-  port: 443
-  server: 104.17.155.243
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /172.232.239.151-587
+    path: /203.194.112.119-8443
+  xudp: true
 - client-fingerprint: chrome
   name: Free-7
   network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 172.66.0.145
-  servername: nautica.foolvpn.me
-  tls: true
-  type: vless
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts:
     headers:
-      Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /172.232.239.151-587
-  xudp: true
+- client-fingerprint: chrome
+  name: FreeSG-7
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /172.232.239.151-587
 - client-fingerprint: chrome
   name: Vidio-7
   network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 172.66.0.145
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /172.232.239.151-587
+- client-fingerprint: chrome
+  name: Free-10
+  network: ws
+  port: 443
+  server: 104.17.155.243
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /172.232.239.151-587
   xudp: true
 - client-fingerprint: chrome
-  name: Free-9
-  network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
-  port: 443
-  server: 104.17.72.206
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /203.194.112.119-2053
-- client-fingerprint: chrome
-  name: Vidio-9
-  network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
-  port: 443
-  server: 104.17.72.206
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /203.194.112.119-2053
-- client-fingerprint: chrome
-  name: Free-11
+  name: FreeSG-10
   network: ws
   port: 443
-  server: 172.67.5.14
+  server: 104.17.155.243
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /203.194.112.119-2053
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /172.232.239.151-587
   xudp: true
 - client-fingerprint: chrome
-  name: Vidio-11
+  name: Vidio-10
   network: ws
   port: 443
-  server: 172.67.5.14
+  server: 104.17.155.243
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /203.194.112.119-2053
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /172.232.239.151-587
   xudp: true
 - client-fingerprint: chrome
   name: Free-13
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.22.5.240
   skip-cert-verify: false
@@ -329,13 +329,28 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /43.218.77.16-1443
+- client-fingerprint: chrome
+  name: FreeSG-13
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /43.218.77.16-1443
 - client-fingerprint: chrome
   name: Vidio-13
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.22.5.240
   skip-cert-verify: false
@@ -344,109 +359,254 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /43.218.77.16-1443
 - client-fingerprint: chrome
-  name: Free-15
+  name: Free-16
   network: ws
   port: 443
-  server: 104.17.155.243
+  server: 172.67.5.14
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /43.218.77.16-1443
   xudp: true
 - client-fingerprint: chrome
-  name: Vidio-15
+  name: FreeSG-16
   network: ws
   port: 443
-  server: 104.17.155.243
+  server: 172.67.5.14
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /35.219.50.99-443
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /43.218.77.16-1443
   xudp: true
 - client-fingerprint: chrome
-  name: Free-17
+  name: Vidio-16
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   port: 443
-  server: 172.66.0.145
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
+  server: 172.67.5.14
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
   udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /203.194.112.119-8443
-- client-fingerprint: chrome
-  name: Vidio-17
-  network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
-  port: 443
-  server: 172.66.0.145
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /203.194.112.119-8443
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /43.218.77.16-1443
+  xudp: true
 - client-fingerprint: chrome
   name: Free-19
   network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.17.72.206
-  servername: nautica.foolvpn.me
-  tls: true
-  type: vless
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
   ws-opts:
     headers:
-      Host: nautica.foolvpn.me
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /203.194.112.119-8443
-  xudp: true
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /203.194.112.119-2053
+- client-fingerprint: chrome
+  name: FreeSG-19
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /203.194.112.119-2053
 - client-fingerprint: chrome
   name: Vidio-19
   network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.17.72.206
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /203.194.112.119-2053
+- client-fingerprint: chrome
+  name: Free-22
+  network: ws
+  port: 443
+  server: 172.66.0.145
   servername: nautica.foolvpn.me
   tls: true
   type: vless
   udp: true
-  uuid: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  ws-opts:
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /203.194.112.119-2053
+  xudp: true
+- client-fingerprint: chrome
+  name: FreeSG-22
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  ws-opts:
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /203.194.112.119-2053
+  xudp: true
+- client-fingerprint: chrome
+  name: Vidio-22
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  ws-opts:
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /203.194.112.119-2053
+  xudp: true
+- client-fingerprint: chrome
+  name: Free-25
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: FreeSG-25
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Vidio-25
+  network: ws
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: false
+  sni: nautica.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /35.219.50.99-443
+- client-fingerprint: chrome
+  name: Free-28
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   ws-opts:
     headers:
       Host: nautica.foolvpn.me
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /203.194.112.119-8443
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /35.219.50.99-443
   xudp: true
 - client-fingerprint: chrome
-  name: Free-21
+  name: FreeSG-28
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  ws-opts:
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /35.219.50.99-443
+  xudp: true
+- client-fingerprint: chrome
+  name: Vidio-28
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7bb0af3a-6572-4669-bf86-9f570b101fd3
+  ws-opts:
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /35.219.50.99-443
+  xudp: true
+- client-fingerprint: chrome
+  name: Free-31
   network: ws
   password: t.me/foolvpn
   port: 443
@@ -457,11 +617,11 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /trojan-udp
 - client-fingerprint: chrome
-  name: Vidio-21
+  name: FreeSG-31
   network: ws
   password: t.me/foolvpn
   port: 443
@@ -472,13 +632,28 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /trojan-udp
+- client-fingerprint: chrome
+  name: Vidio-31
+  network: ws
+  password: t.me/foolvpn
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: false
+  sni: id1.foolvpn.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /trojan-udp
 - client-fingerprint: chrome
   name: FF-1 Cloudflare WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.17.255.156
   skip-cert-verify: false
@@ -487,13 +662,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: FF-2 Cloudflare WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.16.16.243
   skip-cert-verify: false
@@ -502,13 +677,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Ilped-1 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.26.7.171
   skip-cert-verify: false
@@ -517,13 +692,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Ilped-2 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.16.66.85
   skip-cert-verify: false
@@ -532,13 +707,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Ilped-3 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.17.3.81
   skip-cert-verify: false
@@ -547,13 +722,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: WLG-1 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.18.214.235
   skip-cert-verify: false
@@ -562,13 +737,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: WLG-2 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.18.213.235
   skip-cert-verify: false
@@ -577,13 +752,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: WLG-3 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: ava.game.naver.com
   skip-cert-verify: false
@@ -592,13 +767,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Vidio-1 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 172.67.5.14
   skip-cert-verify: false
@@ -607,13 +782,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Vidio-2 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 172.66.0.145
   skip-cert-verify: false
@@ -622,13 +797,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Vidio-3 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.22.5.240
   skip-cert-verify: false
@@ -637,13 +812,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Vidio-4 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.17.72.206
   skip-cert-verify: false
@@ -652,13 +827,13 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - client-fingerprint: chrome
   name: Vidio-5 WS TLS
   network: ws
-  password: c8e9e096-eae4-4a4b-a6c3-86a1ed4633df
+  password: 7bb0af3a-6572-4669-bf86-9f570b101fd3
   port: 443
   server: 104.17.155.243
   skip-cert-verify: false
@@ -667,9 +842,9 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /43.218.77.16-1443
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /203.194.112.119-8443
 - name: ID-Trojan-1
   type: trojan
   server: 172.67.5.14
@@ -927,6 +1102,7 @@ proxy-groups:
   - DIRECT
   - Free
   - Free-LoadBalance
+  - Free-SG-LoadBalance
   - REJECT
   - Fallback
   - ID-Best-Latency
@@ -934,27 +1110,38 @@ proxy-groups:
   - KR-Best-Latency
   - JP-Best-Latency
   - Free-1
+  - FreeSG-1
   - Vidio-1
-  - Free-3
-  - Vidio-3
-  - Free-5
-  - Vidio-5
+  - Free-4
+  - FreeSG-4
+  - Vidio-4
   - Free-7
+  - FreeSG-7
   - Vidio-7
-  - Free-9
-  - Vidio-9
-  - Free-11
-  - Vidio-11
+  - Free-10
+  - FreeSG-10
+  - Vidio-10
   - Free-13
+  - FreeSG-13
   - Vidio-13
-  - Free-15
-  - Vidio-15
-  - Free-17
-  - Vidio-17
+  - Free-16
+  - FreeSG-16
+  - Vidio-16
   - Free-19
+  - FreeSG-19
   - Vidio-19
-  - Free-21
-  - Vidio-21
+  - Free-22
+  - FreeSG-22
+  - Vidio-22
+  - Free-25
+  - FreeSG-25
+  - Vidio-25
+  - Free-28
+  - FreeSG-28
+  - Vidio-28
+  - Free-31
+  - FreeSG-31
+  - Vidio-31
   - FF-1 Cloudflare WS TLS
   - FF-2 Cloudflare WS TLS
   - Ilped-1 WS TLS
@@ -993,27 +1180,38 @@ proxy-groups:
   disable-udp: false
   proxies:
   - Free-1
+  - FreeSG-1
   - Vidio-1
-  - Free-3
-  - Vidio-3
-  - Free-5
-  - Vidio-5
+  - Free-4
+  - FreeSG-4
+  - Vidio-4
   - Free-7
+  - FreeSG-7
   - Vidio-7
-  - Free-9
-  - Vidio-9
-  - Free-11
-  - Vidio-11
+  - Free-10
+  - FreeSG-10
+  - Vidio-10
   - Free-13
+  - FreeSG-13
   - Vidio-13
-  - Free-15
-  - Vidio-15
-  - Free-17
-  - Vidio-17
+  - Free-16
+  - FreeSG-16
+  - Vidio-16
   - Free-19
+  - FreeSG-19
   - Vidio-19
-  - Free-21
-  - Vidio-21
+  - Free-22
+  - FreeSG-22
+  - Vidio-22
+  - Free-25
+  - FreeSG-25
+  - Vidio-25
+  - Free-28
+  - FreeSG-28
+  - Vidio-28
+  - Free-31
+  - FreeSG-31
+  - Vidio-31
   - FF-1 Cloudflare WS TLS
   - FF-2 Cloudflare WS TLS
   - Ilped-1 WS TLS
@@ -1055,27 +1253,38 @@ proxy-groups:
   type: fallback
   proxies:
   - Free-1
+  - FreeSG-1
   - Vidio-1
-  - Free-3
-  - Vidio-3
-  - Free-5
-  - Vidio-5
+  - Free-4
+  - FreeSG-4
+  - Vidio-4
   - Free-7
+  - FreeSG-7
   - Vidio-7
-  - Free-9
-  - Vidio-9
-  - Free-11
-  - Vidio-11
+  - Free-10
+  - FreeSG-10
+  - Vidio-10
   - Free-13
+  - FreeSG-13
   - Vidio-13
-  - Free-15
-  - Vidio-15
-  - Free-17
-  - Vidio-17
+  - Free-16
+  - FreeSG-16
+  - Vidio-16
   - Free-19
+  - FreeSG-19
   - Vidio-19
-  - Free-21
-  - Vidio-21
+  - Free-22
+  - FreeSG-22
+  - Vidio-22
+  - Free-25
+  - FreeSG-25
+  - Vidio-25
+  - Free-28
+  - FreeSG-28
+  - Vidio-28
+  - Free-31
+  - FreeSG-31
+  - Vidio-31
   - FF-1 Cloudflare WS TLS
   - FF-2 Cloudflare WS TLS
   - Ilped-1 WS TLS
@@ -1200,27 +1409,38 @@ proxy-groups:
   strategy: round-robin
   proxies:
   - Free-1
+  - FreeSG-1
   - Vidio-1
-  - Free-3
-  - Vidio-3
-  - Free-5
-  - Vidio-5
+  - Free-4
+  - FreeSG-4
+  - Vidio-4
   - Free-7
+  - FreeSG-7
   - Vidio-7
-  - Free-9
-  - Vidio-9
-  - Free-11
-  - Vidio-11
+  - Free-10
+  - FreeSG-10
+  - Vidio-10
   - Free-13
+  - FreeSG-13
   - Vidio-13
-  - Free-15
-  - Vidio-15
-  - Free-17
-  - Vidio-17
+  - Free-16
+  - FreeSG-16
+  - Vidio-16
   - Free-19
+  - FreeSG-19
   - Vidio-19
-  - Free-21
-  - Vidio-21
+  - Free-22
+  - FreeSG-22
+  - Vidio-22
+  - Free-25
+  - FreeSG-25
+  - Vidio-25
+  - Free-28
+  - FreeSG-28
+  - Vidio-28
+  - Free-31
+  - FreeSG-31
+  - Vidio-31
   - FF-1 Cloudflare WS TLS
   - FF-2 Cloudflare WS TLS
   - Ilped-1 WS TLS
@@ -1258,22 +1478,39 @@ proxy-groups:
   type: select
   proxies: &id001
   - Free-1
-  - Free-3
-  - Free-5
+  - Free-4
   - Free-7
-  - Free-9
-  - Free-11
+  - Free-10
   - Free-13
-  - Free-15
-  - Free-17
+  - Free-16
   - Free-19
-  - Free-21
+  - Free-22
+  - Free-25
+  - Free-28
+  - Free-31
 - name: Free-LoadBalance
   type: load-balance
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   strategy: round-robin
   proxies: *id001
+- name: Free-SG-LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - FreeSG-1
+  - FreeSG-4
+  - FreeSG-7
+  - FreeSG-10
+  - FreeSG-13
+  - FreeSG-16
+  - FreeSG-19
+  - FreeSG-22
+  - FreeSG-25
+  - FreeSG-28
+  - FreeSG-31
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
