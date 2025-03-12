@@ -2855,6 +2855,95 @@ proxies:
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /free/89.221.225.198:2053
 proxy-groups:
+- name: ID-Best
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 50
+  proxies: &id001
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - ID-6
+  - ID-7
+  - ID-8
+  - ID-9
+  - ID-10
+  - ID-11
+  - ID-12
+  - ID-13
+  - ID-14
+  - ID-15
+  - ID-16
+  - ID-17
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+- name: ID-LB
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 100
+  strategy: consistent-hashing
+  proxies: *id001
+- name: SG-Best
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 50
+  proxies: &id002
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+- name: SG-LB
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 100
+  strategy: consistent-hashing
+  proxies: *id002
+- name: KR-Best
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 50
+  proxies: &id003
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+- name: KR-LB
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 100
+  strategy: round-robin
+  proxies: *id003
+- name: JP-Best
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 50
+  proxies: &id004
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: JP-LB
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 100
+  strategy: round-robin
+  proxies: *id004
 - name: Proxy
   type: select
   proxies:
@@ -2886,6 +2975,9 @@ proxy-groups:
   - SG-Best
   - KR-Best
   - JP-Best
+  - FF-Auto
+  - Ilped-Auto
+  - WLG-Auto
 - name: Load-Balance
   type: load-balance
   url: http://cp.cloudflare.com/generate_204
@@ -2924,41 +3016,6 @@ proxy-groups:
   - ID-Trojan-5
   - ID-Best
   - ID-LB
-- name: ID-Best
-  type: url-test
-  url: http://cp.cloudflare.com/generate_204
-  interval: 180
-  tolerance: 50
-  proxies: &id001
-  - ID-1
-  - ID-2
-  - ID-3
-  - ID-4
-  - ID-5
-  - ID-6
-  - ID-7
-  - ID-8
-  - ID-9
-  - ID-10
-  - ID-11
-  - ID-12
-  - ID-13
-  - ID-14
-  - ID-15
-  - ID-16
-  - ID-17
-  - ID-Trojan-1
-  - ID-Trojan-2
-  - ID-Trojan-3
-  - ID-Trojan-4
-  - ID-Trojan-5
-- name: ID-LB
-  type: load-balance
-  url: http://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 100
-  strategy: consistent-hashing
-  proxies: *id001
 - name: SG-Select
   type: select
   proxies:
@@ -2969,24 +3026,6 @@ proxy-groups:
   - SG-VLESS-5
   - SG-Best
   - SG-LB
-- name: SG-Best
-  type: url-test
-  url: http://cp.cloudflare.com/generate_204
-  interval: 180
-  tolerance: 50
-  proxies: &id002
-  - SG-VLESS-1
-  - SG-VLESS-2
-  - SG-VLESS-3
-  - SG-VLESS-4
-  - SG-VLESS-5
-- name: SG-LB
-  type: load-balance
-  url: http://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 100
-  strategy: consistent-hashing
-  proxies: *id002
 - name: KR-Select
   type: select
   proxies:
@@ -2997,24 +3036,6 @@ proxy-groups:
   - KR-Trojan-5
   - KR-Best
   - KR-LB
-- name: KR-Best
-  type: url-test
-  url: http://cp.cloudflare.com/generate_204
-  interval: 180
-  tolerance: 50
-  proxies: &id003
-  - KR-Trojan-1
-  - KR-Trojan-2
-  - KR-Trojan-3
-  - KR-Trojan-4
-  - KR-Trojan-5
-- name: KR-LB
-  type: load-balance
-  url: http://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 100
-  strategy: round-robin
-  proxies: *id003
 - name: JP-Select
   type: select
   proxies:
@@ -3025,24 +3046,6 @@ proxy-groups:
   - JP-Trojan-5
   - JP-Best
   - JP-LB
-- name: JP-Best
-  type: url-test
-  url: http://cp.cloudflare.com/generate_204
-  interval: 180
-  tolerance: 50
-  proxies: &id004
-  - JP-Trojan-1
-  - JP-Trojan-2
-  - JP-Trojan-3
-  - JP-Trojan-4
-  - JP-Trojan-5
-- name: JP-LB
-  type: load-balance
-  url: http://cp.cloudflare.com/generate_204
-  interval: 300
-  tolerance: 100
-  strategy: round-robin
-  proxies: *id004
 - name: Vidio
   type: url-test
   url: http://cp.cloudflare.com/generate_204
@@ -3151,46 +3154,6 @@ proxy-groups:
   - SG-VLESS-3
   - SG-VLESS-4
   - SG-VLESS-5
-- name: IL-Select
-  type: select
-  proxies:
-  - IL-1
-  - IL-2
-  - IL-3
-  - IL-4
-  - IL-5
-  - IL-6
-  - IL-7
-  - IL-8
-  - IL-9
-  - IL-10
-  - IL-11
-  - IL-12
-  - IL-13
-  - IL-14
-  - IL-15
-  - IL-16
-  - IL-17
-  - IL-18
-  - IL-19
-  - IL-20
-  - IL-21
-  - IL-22
-  - IL-23
-  - IL-24
-  - IL-25
-  - IL-26
-  - IL-27
-  - IL-28
-  - IL-29
-  - IL-30
-  - IL-31
-  - IL-32
-  - IL-33
-  - IL-34
-  - IL-35
-  - IL-Best
-  - IL-LB
 - name: IL-Best
   type: url-test
   url: http://cp.cloudflare.com/generate_204
@@ -3239,6 +3202,46 @@ proxy-groups:
   tolerance: 100
   strategy: round-robin
   proxies: *id008
+- name: IL-Select
+  type: select
+  proxies:
+  - IL-1
+  - IL-2
+  - IL-3
+  - IL-4
+  - IL-5
+  - IL-6
+  - IL-7
+  - IL-8
+  - IL-9
+  - IL-10
+  - IL-11
+  - IL-12
+  - IL-13
+  - IL-14
+  - IL-15
+  - IL-16
+  - IL-17
+  - IL-18
+  - IL-19
+  - IL-20
+  - IL-21
+  - IL-22
+  - IL-23
+  - IL-24
+  - IL-25
+  - IL-26
+  - IL-27
+  - IL-28
+  - IL-29
+  - IL-30
+  - IL-31
+  - IL-32
+  - IL-33
+  - IL-34
+  - IL-35
+  - IL-Best
+  - IL-LB
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
