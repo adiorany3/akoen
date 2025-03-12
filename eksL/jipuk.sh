@@ -160,7 +160,7 @@ while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success3" = false ]; do
     # Use the randomly selected user agent
     wget --quiet --user-agent="$selected_user_agent" \
          --output-document="$OUTPUT_FILE3" \
-         "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=50&format=clash-provider"
+         "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=300&format=clash-provider"
     
     if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE3" ]; then
         download_success3=true
