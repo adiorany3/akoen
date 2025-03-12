@@ -396,6 +396,451 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /free/43.133.149.163:52698
+- name: FF-1 Cloudflare WS TLS
+  network: ws
+  port: 443
+  server: 104.17.255.156
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: FF-2 Cloudflare WS TLS
+  network: ws
+  port: 443
+  server: 104.16.16.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Ilped-1 WS TLS
+  network: ws
+  port: 443
+  server: 104.26.7.171
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Ilped-2 WS TLS
+  network: ws
+  port: 443
+  server: 104.16.66.85
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Ilped-3 WS TLS
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: WLG-1 WS TLS
+  network: ws
+  port: 443
+  server: 104.18.214.235
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: WLG-2 WS TLS
+  network: ws
+  port: 443
+  server: 104.18.213.235
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: WLG-3 WS TLS
+  network: ws
+  port: 443
+  server: ava.game.naver.com
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Vidio-1 WS TLS
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Vidio-2 WS TLS
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Vidio-3 WS TLS
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Vidio-4 WS TLS
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: Vidio-5 WS TLS
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 84b7c3fc-3c27-407c-9853-e40d641e8124
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free/103.63.101.10:443
+- name: ID-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-1
+  type: vless
+  server: 172.67.5.14
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-2
+  type: vless
+  server: 172.66.0.145
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-3
+  type: vless
+  server: 104.22.5.240
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-4
+  type: vless
+  server: 104.17.72.206
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-5
+  type: vless
+  server: 104.17.155.243
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
 - name: SG-1
   network: ws
   port: 443
@@ -3401,75 +3846,125 @@ proxies:
         Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /free/47.245.91.197:9000
 proxy-groups:
+- name: Proxy
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+  - IL-LoadBalance
+  - SG-LoadBalance
+  - ID-LoadBalance
+  - Fallback
+  - ID-Best-Latency
+  - SG-Best-Latency
+  - KR-Best-Latency
+  - JP-Best-Latency
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - ID-6
+  - ID-7
+  - ID-8
+  - ID-9
+  - ID-10
+  - ID-11
+  - ID-12
+  - ID-13
+  - ID-14
+  - ID-15
+  - ID-16
+  - ID-17
+  - ID-18
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
 - name: TUNNEL
   type: url-test
   disable-udp: false
   proxies:
-  - VLESS-VIDIO 1
-  - VLESS-VIDIO 2
-  - VLESS-VIDIO 3
-  - VLESS-VIDIO 4
-  - VLESS-VIDIO 5
-  - VLESS-VIU 1
-  - VLESS-FF 1
-  - VLESS-FF 2
-  - VLESS-ILPED 1
-  - VLESS-ILPED 2
-  - VLESS-ILPED 3
-  - VLESS-IFLIX 1
-  - VLESS-IFLIX 2
-  - VLESS-IFLIX 3
-  - VLESS-WLG 1
-  - VLESS-WLG 2
-  - VLESS-WLG 3
-  - VLESS-Edu1
-  - VLESS-Edu2
-  - TROJAN-VIDIO 1
-  - TROJAN-VIDIO 2
-  - TROJAN-VIDIO 3
-  - TROJAN-VIDIO 4
-  - TROJAN-VIDIO 5
-  - TROJAN-VIU 1
-  - TROJAN-FF 1
-  - TROJAN-FF 2
-  - TROJAN-ILPED 1
-  - TROJAN-ILPED 2
-  - TROJAN-ILPED 3
-  - TROJAN-IFLIX 1
-  - TROJAN-IFLIX 2
-  - TROJAN-IFLIX 3
-  - TROJAN-WLG 1
-  - TROJAN-WLG 2
-  - TROJAN-WLG 3
-  - TROJAN-Edu1
-  - TROJAN-Edu2
-  - VMESS-VIDIO 1
-  - VMESS-VIDIO 2
-  - VMESS-VIDIO 3
-  - VMESS-VIDIO 4
-  - VMESS-VIDIO 5
-  - VMESS-VIU 1
-  - VMESS-FF 1
-  - VMESS-FF 2
-  - VMESS-ILPED 1
-  - VMESS-ILPED 2
-  - VMESS-ILPED 3
-  - VMESS-IFLIX 1
-  - VMESS-IFLIX 2
-  - VMESS-IFLIX 3
-  - VMESS-WLG 1
-  - VMESS-WLG 2
-  - VMESS-WLG 3
-  - VMESS-Edu1
-  - VMESS-Edu2
-  - VLESS-RG
-  - VLESS-Ilped
-  - VLESS-GGWP
-  - TROJAN-RG
-  - TROJAN-Ilped
-  - TROJAN-GGWP
-  - VLESS-ACCOUNT-1
-  - VLESS-ACCOUNT-2
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - ID-6
+  - ID-7
+  - ID-8
+  - ID-9
+  - ID-10
+  - ID-11
+  - ID-12
+  - ID-13
+  - ID-14
+  - ID-15
+  - ID-16
+  - ID-17
+  - ID-18
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '150'
@@ -3477,73 +3972,104 @@ proxy-groups:
 - name: Fallback
   type: fallback
   proxies:
-  - VLESS-VIDIO 1
-  - VLESS-VIDIO 2
-  - VLESS-VIDIO 3
-  - VLESS-VIDIO 4
-  - VLESS-VIDIO 5
-  - VLESS-VIU 1
-  - VLESS-FF 1
-  - VLESS-FF 2
-  - VLESS-ILPED 1
-  - VLESS-ILPED 2
-  - VLESS-ILPED 3
-  - VLESS-IFLIX 1
-  - VLESS-IFLIX 2
-  - VLESS-IFLIX 3
-  - VLESS-WLG 1
-  - VLESS-WLG 2
-  - VLESS-WLG 3
-  - VLESS-Edu1
-  - VLESS-Edu2
-  - TROJAN-VIDIO 1
-  - TROJAN-VIDIO 2
-  - TROJAN-VIDIO 3
-  - TROJAN-VIDIO 4
-  - TROJAN-VIDIO 5
-  - TROJAN-VIU 1
-  - TROJAN-FF 1
-  - TROJAN-FF 2
-  - TROJAN-ILPED 1
-  - TROJAN-ILPED 2
-  - TROJAN-ILPED 3
-  - TROJAN-IFLIX 1
-  - TROJAN-IFLIX 2
-  - TROJAN-IFLIX 3
-  - TROJAN-WLG 1
-  - TROJAN-WLG 2
-  - TROJAN-WLG 3
-  - TROJAN-Edu1
-  - TROJAN-Edu2
-  - VMESS-VIDIO 1
-  - VMESS-VIDIO 2
-  - VMESS-VIDIO 3
-  - VMESS-VIDIO 4
-  - VMESS-VIDIO 5
-  - VMESS-VIU 1
-  - VMESS-FF 1
-  - VMESS-FF 2
-  - VMESS-ILPED 1
-  - VMESS-ILPED 2
-  - VMESS-ILPED 3
-  - VMESS-IFLIX 1
-  - VMESS-IFLIX 2
-  - VMESS-IFLIX 3
-  - VMESS-WLG 1
-  - VMESS-WLG 2
-  - VMESS-WLG 3
-  - VMESS-Edu1
-  - VMESS-Edu2
-  - VLESS-RG
-  - VLESS-Ilped
-  - VLESS-GGWP
-  - TROJAN-RG
-  - TROJAN-Ilped
-  - TROJAN-GGWP
-  - VLESS-ACCOUNT-1
-  - VLESS-ACCOUNT-2
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - ID-6
+  - ID-7
+  - ID-8
+  - ID-9
+  - ID-10
+  - ID-11
+  - ID-12
+  - ID-13
+  - ID-14
+  - ID-15
+  - ID-16
+  - ID-17
+  - ID-18
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
   url: http://www.gstatic.com/generate_204
-- type: load-balance
+- name: ID-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+- name: SG-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+- name: KR-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+- name: JP-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: ID-LoadBalance
+  type: load-balance
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   strategy: round-robin
@@ -3566,8 +4092,137 @@ proxy-groups:
   - ID-16
   - ID-17
   - ID-18
-  name: ID-LoadBalance
-- type: load-balance
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: FF
+  type: select
+  proxies:
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+- name: Ilped
+  type: select
+  proxies:
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+- name: WLG
+  type: select
+  proxies:
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+- name: Vidio
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 150
+  strategy: fallback
+  proxies:
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+- name: LoadBalance-Country
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-Best-Latency
+  - SG-Best-Latency
+  - KR-Best-Latency
+  - JP-Best-Latency
+- name: LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - ID-6
+  - ID-7
+  - ID-8
+  - ID-9
+  - ID-10
+  - ID-11
+  - ID-12
+  - ID-13
+  - ID-14
+  - ID-15
+  - ID-16
+  - ID-17
+  - ID-18
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: SG-LoadBalance
+  type: load-balance
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   strategy: round-robin
@@ -3672,8 +4327,41 @@ proxy-groups:
   - SG-98
   - SG-99
   - SG-100
-  name: SG-LoadBalance
-- type: load-balance
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: IL-LoadBalance
+  type: load-balance
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   strategy: round-robin
@@ -3778,7 +4466,39 @@ proxy-groups:
   - IL-98
   - IL-99
   - IL-100
-  name: IL-LoadBalance
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
