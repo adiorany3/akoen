@@ -5,7 +5,7 @@ with open('ambil4.yaml', 'r') as file:
     data = yaml.safe_load(file)
 
 # Ubah server dengan IP yang diberikan
-new_servers = ['172.67.5.14', '172.66.0.145', '104.22.5.240', '104.17.72.206', '104.17.155.243']
+new_servers = ['104.22.21.245', '104.19.143.108']
 
 # Pastikan data adalah dictionary (format Clash)
 if isinstance(data, list):
