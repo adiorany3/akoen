@@ -8,6 +8,7 @@ OUTPUT_FILE="ambil.yaml"
 OUTPUT_FILE2="ambil2.yaml"
 OUTPUT_FILE3="ambil3.yaml"  # Added Singapore proxy output file
 OUTPUT_FILE4="ambil4.yaml"  # Added Israel proxy output file
+OUTPUT_FILE5="ambil5.yaml"  # Added Japan proxy output file
 CONVERT_SCRIPT1="convert.py"
 CONVERT_SCRIPT2="convertxl.py"
 
@@ -228,6 +229,49 @@ done
 if [ "$download_success4" = false ]; then
     echo "✗ Error: Failed to download the Israel proxy configuration."
     [ -f "$OUTPUT_FILE4" ] && rm "$OUTPUT_FILE4"  # Clean up empty file if it exists
+fi
+
+# Download the fifth file - Japan proxy configuration
+echo "Downloading Japan VPN configuration..."
+retry_count=0
+download_success5=false
+
+while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success5" = false ]; do
+    echo "Download attempt $(($retry_count + 1))/$MAX_RETRIES..."
+    
+    # Select a random user agent
+    random_index=$((RANDOM % ${#USER_AGENTS[@]}))
+    selected_user_agent="${USER_AGENTS[$random_index]}"
+    echo "Using user agent: ${selected_user_agent:0:30}..."
+
+    # Use the randomly selected user agent
+    wget --quiet --user-agent="$selected_user_agent" \
+         --output-document="$OUTPUT_FILE5" \
+         "https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=50&format=clash-provider"
+    
+    if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE5" ]; then
+        download_success5=true
+        echo "✓ Japan VPN configuration download successful! File saved as $OUTPUT_FILE5"
+        echo "✓ File size: $(du -h "$OUTPUT_FILE5" | cut -f1)"
+        
+        # Check if the file is a valid YAML
+        if python3 -c "import yaml; yaml.safe_load(open('$OUTPUT_FILE5'))" &> /dev/null; then
+            echo "✓ File validated as proper YAML format"
+        else
+            echo "⚠️ Warning: Downloaded file may not be valid YAML, but will continue processing."
+        fi
+    else
+        retry_count=$((retry_count + 1))
+        if [ $retry_count -lt $MAX_RETRIES ]; then
+            echo "Download failed. Retrying in 5 seconds..."
+            sleep 5
+        fi
+    fi
+done
+
+if [ "$download_success5" = false ]; then
+    echo "✗ Error: Failed to download the Japan proxy configuration."
+    [ -f "$OUTPUT_FILE5" ] && rm "$OUTPUT_FILE5"  # Clean up empty file if it exists
 fi
 
 # Process the downloaded file
