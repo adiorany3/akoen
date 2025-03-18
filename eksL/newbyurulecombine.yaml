@@ -8841,10 +8841,10 @@ proxy-groups:
   strategy: round-robin
   proxies: *id212
 - name: RG
-  type: url-test
+  type: load-balance
   url: http://www.gstatic.com/generate_204
   interval: 300
-  tolerance: 50
+  strategy: round-robin
   proxies:
   - "RG-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "RG-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
@@ -9059,10 +9059,10 @@ proxy-groups:
   - "RG-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
   - RG WS TLS
 - name: Ilped
-  type: url-test
+  type: load-balance
   url: http://www.gstatic.com/generate_204
   interval: 300
-  tolerance: 50
+  strategy: round-robin
   proxies:
   - "Ilped-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Ilped-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
@@ -9277,10 +9277,10 @@ proxy-groups:
   - "Ilped-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
   - Ilped WS TLS
 - name: GGWP
-  type: url-test
+  type: load-balance
   url: http://www.gstatic.com/generate_204
   interval: 300
-  tolerance: 50
+  strategy: round-robin
   proxies:
   - "GGWP-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "GGWP-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"

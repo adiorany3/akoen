@@ -194,12 +194,12 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
             for server_type, names in server_names.items():
                 if names:
                     group = {
-                        'name': server_type,
-                        'type': 'url-test',
-                        'url': 'http://www.gstatic.com/generate_204',
-                        'interval': 300,
-                        'tolerance': 50,
-                        'proxies': names
+                    'name': server_type,
+                    'type': 'load-balance',
+                    'url': 'http://www.gstatic.com/generate_204',
+                    'interval': 300,
+                    'strategy': 'round-robin',
+                    'proxies': names
                     }
                     new_data['proxy-groups'].append(group)
             
