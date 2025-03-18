@@ -182,7 +182,7 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
                 {
                     'name': 'Selector',
                     'type': 'select',
-                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5'] + proxy_names
+                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5'] + proxy_names
                 },
                 {
                     'name': 'Fallback',
