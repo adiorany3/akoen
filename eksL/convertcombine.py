@@ -24,20 +24,6 @@ SERVER_CONFIGS = {
     "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"}
 }
 
-def create_backup(file_path):
-    """Create a backup of the file with timestamp"""
-    if os.path.exists(file_path):
-        timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-        backup_path = f"{file_path}.{timestamp}.bak"
-        try:
-            with open(file_path, 'r') as src, open(backup_path, 'w') as dst:
-                dst.write(src.read())
-            logger.info(f"Created backup at {backup_path}")
-            return True
-        except Exception as e:
-            logger.error(f"Failed to create backup: {str(e)}")
-    return False
-
 def generate_proxies(original_proxies, server_type, template_proxy):
     """Generate proxies for a specific server type"""
     config = SERVER_CONFIGS.get(server_type)
@@ -102,9 +88,6 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
     if not valid_input_files:
         logger.error("No valid input files found")
         return False
-    
-    # Create backup of output file if it exists
-    create_backup(output_file)
     
     try:
         # Read all input files and collect all proxies
