@@ -159,21 +159,6 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /172.232.239.151-587
   xudp: true
-- client-fingerprint: chrome
-  name: Trojan UDP
-  network: ws
-  password: t.me/foolvpn
-  port: '443'
-  server: 104.17.72.206
-  skip-cert-verify: false
-  sni: id1.foolvpn.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /trojan-udp
 - name: 1 🇮🇩 ID Amazon.com CDN TLS
   network: ws
   port: '443'
@@ -3191,7 +3176,6 @@ proxy-groups:
   - 8 🇮🇩 First Cagayan Converge Data Center Inc. WS TLS [nautica]
   - 9 🇮🇩 Akamai Connected Cloud WS TLS [nautica]
   - 10 🇮🇩 Akamai Connected Cloud WS TLS [nautica]
-  - Trojan UDP
   - 1 🇮🇩 ID Amazon.com CDN TLS
   - 2 🇮🇩 ID Akamai Connected Cloud CDN TLS
   - 3 🇮🇩 ID Akamai Connected Cloud CDN TLS
@@ -3409,7 +3393,6 @@ proxy-groups:
   - 8 🇮🇩 First Cagayan Converge Data Center Inc. WS TLS [nautica]
   - 9 🇮🇩 Akamai Connected Cloud WS TLS [nautica]
   - 10 🇮🇩 Akamai Connected Cloud WS TLS [nautica]
-  - Trojan UDP
   - 1 🇮🇩 ID Amazon.com CDN TLS
   - 2 🇮🇩 ID Akamai Connected Cloud CDN TLS
   - 3 🇮🇩 ID Akamai Connected Cloud CDN TLS
