@@ -18401,6 +18401,9 @@ proxy-groups:
   - Bug3
   - Bug4
   - Bug5
+  - RG
+  - Ilped
+  - GGWP
   - "Bug1-172.67.5.141 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug1-172.67.5.142 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug1-172.67.5.143 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc.\
@@ -22016,6 +22019,9 @@ proxy-groups:
   - Bug4
   - Bug5
   - URL-Test
+  - RG
+  - Ilped
+  - GGWP
 - name: Bug1-
   type: url-test
   url: http://www.gstatic.com/generate_204
