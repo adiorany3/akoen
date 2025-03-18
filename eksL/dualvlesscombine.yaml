@@ -14025,6 +14025,17 @@ proxy-groups:
   interval: 300
   strategy: round-robin
   proxies: *id213
+- name: Terbaik
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - Bug1
+  - Bug2
+  - Bug3
+  - Bug4
+  - Bug5
 - name: Bug1
   type: url-test
   url: http://www.gstatic.com/generate_204

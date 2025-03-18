@@ -206,6 +206,14 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
                     'interval': 300,
                     'strategy': 'round-robin',
                     'proxies': proxy_names
+                },
+                {
+                    'name': 'Terbaik',
+                    'type': 'load-balance',
+                    'url': 'http://www.gstatic.com/generate_204',
+                    'interval': 300,
+                    'strategy': 'round-robin',
+                    'proxies': ['Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5']
                 }
             ]
             
