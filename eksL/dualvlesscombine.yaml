@@ -11796,17 +11796,6 @@ proxies:
   packet-encoding: packetaddr
   uuid: b480fa52-76ef-4970-82d9-4c3417c8c265
   ws-opts: *id211
-- client-fingerprint: chrome
-  name: Bug5- WS TLS
-  network: ws
-  password: c5f09d33-f665-4bd4-b1a5-054bf7e67120
-  port: '443'
-  server: 104.17.155.243
-  skip-cert-verify: false
-  sni: nautica.foolvpn.me
-  type: trojan
-  udp: true
-  ws-opts: *id001
 proxy-groups:
 - name: Selector
   type: select
@@ -11830,7 +11819,6 @@ proxy-groups:
   - "Bug1-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug1-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug1-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug1-Trojan UDP
   - "Bug1-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug1-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug1-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -12031,7 +12019,6 @@ proxy-groups:
   - "Bug1-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug1-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug1-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug1- WS TLS
   - "Bug2-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug2-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug2-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -12042,7 +12029,6 @@ proxy-groups:
   - "Bug2-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug2-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug2-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug2-Trojan UDP
   - "Bug2-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug2-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug2-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -12243,7 +12229,6 @@ proxy-groups:
   - "Bug2-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug2-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug2-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug2- WS TLS
   - "Bug3-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug3-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug3-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -12254,7 +12239,6 @@ proxy-groups:
   - "Bug3-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug3-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug3-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug3-Trojan UDP
   - "Bug3-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug3-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug3-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -12455,7 +12439,6 @@ proxy-groups:
   - "Bug3-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug3-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug3-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug3- WS TLS
   - "Bug4-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug4-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug4-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -12466,7 +12449,6 @@ proxy-groups:
   - "Bug4-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug4-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug4-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug4-Trojan UDP
   - "Bug4-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug4-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug4-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -12667,7 +12649,6 @@ proxy-groups:
   - "Bug4-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug4-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug4-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug4- WS TLS
   - "Bug5-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug5-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug5-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -12678,7 +12659,6 @@ proxy-groups:
   - "Bug5-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug5-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug5-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug5-Trojan UDP
   - "Bug5-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug5-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug5-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -12879,7 +12859,6 @@ proxy-groups:
   - "Bug5-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug5-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug5-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug5- WS TLS
 - name: Fallback
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -12895,7 +12874,6 @@ proxy-groups:
   - "Bug1-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug1-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug1-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug1-Trojan UDP
   - "Bug1-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug1-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug1-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -13096,7 +13074,6 @@ proxy-groups:
   - "Bug1-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug1-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug1-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug1- WS TLS
   - "Bug2-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug2-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug2-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -13107,7 +13084,6 @@ proxy-groups:
   - "Bug2-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug2-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug2-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug2-Trojan UDP
   - "Bug2-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug2-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug2-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -13308,7 +13284,6 @@ proxy-groups:
   - "Bug2-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug2-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug2-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug2- WS TLS
   - "Bug3-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug3-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug3-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -13319,7 +13294,6 @@ proxy-groups:
   - "Bug3-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug3-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug3-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug3-Trojan UDP
   - "Bug3-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug3-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug3-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -13520,7 +13494,6 @@ proxy-groups:
   - "Bug3-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug3-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug3-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug3- WS TLS
   - "Bug4-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug4-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug4-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -13531,7 +13504,6 @@ proxy-groups:
   - "Bug4-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug4-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug4-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug4-Trojan UDP
   - "Bug4-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug4-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug4-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -13732,7 +13704,6 @@ proxy-groups:
   - "Bug4-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug4-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug4-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug4- WS TLS
   - "Bug5-1 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug5-2 \U0001F1EE\U0001F1E9 Google Cloud WS TLS [nautica]"
   - "Bug5-3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
@@ -13743,7 +13714,6 @@ proxy-groups:
   - "Bug5-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug5-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug5-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug5-Trojan UDP
   - "Bug5-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug5-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug5-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -13944,7 +13914,6 @@ proxy-groups:
   - "Bug5-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug5-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug5-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug5- WS TLS
 - name: URL-Test
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -13985,7 +13954,6 @@ proxy-groups:
   - "Bug1-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug1-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug1-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug1-Trojan UDP
   - "Bug1-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug1-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug1-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -14186,7 +14154,6 @@ proxy-groups:
   - "Bug1-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug1-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug1-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug1- WS TLS
 - name: Bug2-
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -14203,7 +14170,6 @@ proxy-groups:
   - "Bug2-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug2-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug2-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug2-Trojan UDP
   - "Bug2-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug2-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug2-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -14404,7 +14370,6 @@ proxy-groups:
   - "Bug2-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug2-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug2-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug2- WS TLS
 - name: Bug3-
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -14421,7 +14386,6 @@ proxy-groups:
   - "Bug3-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug3-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug3-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug3-Trojan UDP
   - "Bug3-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug3-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug3-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -14622,7 +14586,6 @@ proxy-groups:
   - "Bug3-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug3-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug3-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug3- WS TLS
 - name: Bug4-
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -14639,7 +14602,6 @@ proxy-groups:
   - "Bug4-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug4-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug4-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug4-Trojan UDP
   - "Bug4-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug4-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug4-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -14840,7 +14802,6 @@ proxy-groups:
   - "Bug4-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug4-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug4-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug4- WS TLS
 - name: Bug5-
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -14857,7 +14818,6 @@ proxy-groups:
   - "Bug5-8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
   - "Bug5-9 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
   - "Bug5-10 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-  - Bug5-Trojan UDP
   - "Bug5-1 \U0001F1EE\U0001F1E9 ID Amazon.com CDN TLS"
   - "Bug5-2 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
   - "Bug5-3 \U0001F1EE\U0001F1E9 ID Akamai Connected Cloud CDN TLS"
@@ -15058,7 +15018,6 @@ proxy-groups:
   - "Bug5-48 \U0001F1EF\U0001F1F5 JP Oracle Cloud CDN TLS"
   - "Bug5-49 \U0001F1EF\U0001F1F5 JP Cloudflare Warp CDN TLS"
   - "Bug5-50 \U0001F1EF\U0001F1F5 JP Vultr CDN TLS"
-  - Bug5- WS TLS
 rules:
 - DOMAIN-SUFFIX,adservice.google.com,REJECT
 - DOMAIN-SUFFIX,googlesyndication.com,REJECT
