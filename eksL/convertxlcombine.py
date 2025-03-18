@@ -199,7 +199,7 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
                     'url': 'http://www.gstatic.com/generate_204',
                     'interval': 300,
                     'strategy': 'round-robin',
-                    'proxies': ['Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'URL-Test']
+                    'proxies': ['Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'URL-Test', 'RG', 'Ilped', 'GGWP']
                 }
             ]
             
