@@ -5,7 +5,7 @@
 
 # Set output filename
 OUTPUT_FILE="ambil.yaml"
-OUTPUT_FILE2="ambil2.yaml"  # Added Indonesia proxy output file
+OUTPUT_FILE2="ambil2.yaml"
 OUTPUT_FILE3="ambil3.yaml"  # Added Singapore proxy output file
 OUTPUT_FILE4="ambil4.yaml"  # Added Israel proxy output file
 OUTPUT_FILE5="ambil5.yaml"  # Added Japan proxy output file
@@ -282,96 +282,6 @@ if [ "$download_success" = true ]; then
     # Check if the file is a valid YAML
     if python3 -c "import yaml; yaml.safe_load(open('$OUTPUT_FILE'))" &> /dev/null; then
         echo "✓ File validated as proper YAML format"
-        
-        # Create combined proxy file with URL test group
-        echo "Creating combined proxy configuration with URL test group..."
-        COMBINED_FILE="combined_proxies.yaml"
-        
-        # Create Python script to combine proxies and add URL test group
-        cat > combine_proxies.py << 'EOF'
-import yaml
-import os
-import sys
-
-# Files to process
-files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml"]
-output_file = "combined_proxies.yaml"
-
-# Initialize combined structure
-combined_data = {"proxies": [], "proxy-groups": []}
-all_proxy_names = []
-
-# Process each file if it exists
-for file in files:
-    if os.path.exists(file) and os.path.getsize(file) > 0:
-        try:
-            with open(file, 'r') as f:
-                data = yaml.safe_load(f)
-                
-                # Extract proxies if they exist in standard format
-                if data and "proxies" in data:
-                    for proxy in data["proxies"]:
-                        if "name" in proxy:
-                            combined_data["proxies"].append(proxy)
-                            all_proxy_names.append(proxy["name"])
-                    print(f"Added {len(data['proxies'])} proxies from {file}")
-                # Handle clash-provider format
-                elif data and "providers" in data:
-                    for provider_name, provider in data["providers"].items():
-                        if "proxies" in provider:
-                            for proxy in provider["proxies"]:
-                                if "name" in proxy:
-                                    combined_data["proxies"].append(proxy)
-                                    all_proxy_names.append(proxy["name"])
-                            print(f"Added {len(provider['proxies'])} proxies from provider in {file}")
-        except Exception as e:
-            print(f"Error processing {file}: {str(e)}")
-
-# Create URL test proxy group
-if all_proxy_names:
-    url_test_group = {
-        "name": "🚀 Auto Select",
-        "type": "url-test",
-        "proxies": all_proxy_names,
-        "url": "http://www.gstatic.com/generate_204",
-        "interval": 300,  # Test every 300 seconds
-        "tolerance": 50   # 50ms tolerance
-    }
-    
-    # Create select group with all proxies
-    select_group = {
-        "name": "🌐 Manual Select",
-        "type": "select",
-        "proxies": ["🚀 Auto Select"] + all_proxy_names
-    }
-    
-    # Add proxy groups
-    combined_data["proxy-groups"] = [url_test_group, select_group]
-    
-    # Write combined data to output file
-    with open(output_file, 'w') as f:
-        yaml.dump(combined_data, f, sort_keys=False, allow_unicode=True)
-    
-    print(f"Successfully created {output_file} with {len(combined_data['proxies'])} total proxies")
-    print(f"Added URL test group and select group with all proxies")
-else:
-    print("No proxies found in any of the files")
-EOF
-        
-        # Run the Python script to combine proxies
-        if python3 combine_proxies.py; then
-            echo "✓ Combined proxy configuration created as $COMBINED_FILE"
-            echo "✓ File size: $(du -h "$COMBINED_FILE" | cut -f1)"
-            
-            # Check if the file is a valid YAML
-            if python3 -c "import yaml; yaml.safe_load(open('$COMBINED_FILE'))" &> /dev/null; then
-                echo "✓ Combined file validated as proper YAML format"
-            else
-                echo "⚠️ Warning: Combined file may not be valid YAML."
-            fi
-        else
-            echo "✗ Error: Failed to create combined proxy configuration."
-        fi
         
         # Wait for 5 seconds
         echo "Waiting for 5 seconds before conversion..."
