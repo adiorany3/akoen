@@ -19,14 +19,14 @@ logger = logging.getLogger(__name__)
 
 # Server configurations
 SERVER_CONFIGS = {
-    "Bug1-": {"ip": "172.67.5.14", "prefix": "Bug1"},
-    "Bug2-": {"ip": "172.66.0.145", "prefix": "Bug2"},
-    "Bug3-": {"ip": "104.22.5.240", "prefix": "Bug3"},
-    "Bug4-": {"ip": "104.17.72.206", "prefix": "Bug4"},
-    "Bug5-": {"ip": "104.17.155.243", "prefix": "Bug5"},
-    "RG": {"ip": "104.22.21.245", "prefix": "RG"},
-    "Ilped": {"ip": "172.67.74.70", "prefix": "Ilped"},
-    "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP"}
+    "Bug1-": {"ip": "172.67.5.14", "prefix": "Bug1-"},
+    "Bug2-": {"ip": "172.66.0.145", "prefix": "Bug2-"},
+    "Bug3-": {"ip": "104.22.5.240", "prefix": "Bug3-"},
+    "Bug4-": {"ip": "104.17.72.206", "prefix": "Bug4-"},
+    "Bug5-": {"ip": "104.17.155.243", "prefix": "Bug5-"},
+    "RG": {"ip": "104.22.21.245", "prefix": "RG-"},
+    "Ilped": {"ip": "172.67.74.70", "prefix": "Ilped-"},
+    "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"}
 }
 
 def generate_proxies(original_proxies, server_type, template_proxy):
