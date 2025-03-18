@@ -26,7 +26,12 @@ SERVER_CONFIGS = {
     "Bug5": {"ip": "104.17.155.243", "prefix": "Bug5-"},
     "RG": {"ip": "104.22.21.245", "prefix": "RG-"},
     "Ilped": {"ip": "172.67.74.70", "prefix": "Ilped-"},
-    "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"}
+    "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"},
+    "VIU": {"ip": "172.64.149.213", "prefix": "VIU-"},
+    "VISION1": {"ip": "104.21.235.171", "prefix": "VISION1-"},
+    "VISION2": {"ip": "104.18.225.52", "prefix": "VISION2-"},
+    "FF1": {"ip": "104.18.56.30", "prefix": "FF2-"},
+    "FF2": {"ip": "104.17.255.156", "prefix": "FF2-"}
 }
 
 def generate_proxies(original_proxies, server_type, template_proxy):
@@ -168,7 +173,7 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
                 {
                     'name': 'Selector',
                     'type': 'select',
-                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'RG', 'Ilped', 'GGWP'] + proxy_names
+                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'RG', 'Ilped', 'GGWP', 'VIU', 'VISION1', 'VISION2', 'FF1', 'FF2'] + proxy_names
                 },
                 {
                     'name': 'Fallback',
