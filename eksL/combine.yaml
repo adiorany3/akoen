@@ -21,9 +21,9 @@ profile:
 
 # Pengaturan Umum
 general:
-  tcp_mss: 1460
-  tfo: true
-  reduce_ping: true # Aktifkan untuk mengurangi ping (eksperimental)
+  tcp-mss: 1460
+  tfo: true # Enable TCP Fast Open for improved performance
+  reduce_ping: false # Aktifkan untuk mengurangi ping (eksperimental)
 
 # Pengaturan DNS
 dns:
