@@ -3,7 +3,7 @@ import os
 import sys
 
 # Files to process (automatically generated from OUTPUT_FILES array)
-files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml", "ambil6.yaml", "ambil7.yaml", "ambil8.yaml", "ambil9.yaml"]
+files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml", "ambil6.yaml", "ambil7.yaml", "ambil8.yaml", "ambil9.yaml", "ambil10.yaml"]
 output_file = "combined_proxies.yaml"
 
 # Initialize combined structure
