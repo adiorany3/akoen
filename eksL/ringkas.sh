@@ -9,15 +9,25 @@ CONVERT_SCRIPT2="convertxlcombine.py"
 COMBINED_FILE="combined_proxies.yaml"
 MAX_RETRIES=3
 
-# Define VPN configurations to download
-declare -A VPN_CONFIGS=(
-  ["ambil.yaml"]="https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
-  ["ambil2.yaml"]="https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  ["ambil3.yaml"]="https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  ["ambil4.yaml"]="https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  ["ambil5.yaml"]="https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  ["ambil6.yaml"]="https://prod-test.jdevcloud.com/api/vless?cc=my&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  ["ambil7.yaml"]="https://prod-test.jdevcloud.com/api/vless?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+# Define VPN configurations to download - Using arrays instead of associative arrays
+OUTPUT_FILES=(
+  "ambil.yaml"
+  "ambil2.yaml"
+  "ambil3.yaml"
+  "ambil4.yaml"
+  "ambil5.yaml"
+  "ambil6.yaml"
+  "ambil7.yaml"
+)
+
+URLS=(
+  "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
+  "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=my&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
 )
 
 # Define multiple user agents
@@ -108,30 +118,31 @@ download_file() {
     if [ "$download_success" = false ]; then
         echo "✗ Error: Failed to download the file."
         [ -f "$output_file" ] && rm "$output_file"  # Clean up empty file if it exists
+        return 1
     fi
     
-    return $([ "$download_success" = true ] && echo 0 || echo 1)
+    return 0
 }
 
 # Download all VPN configurations
-declare -A download_results
+download_results=()
 primary_success=false
 
-for output_file in "${!VPN_CONFIGS[@]}"; do
-    url="${VPN_CONFIGS[$output_file]}"
+for i in "${!OUTPUT_FILES[@]}"; do
+    output_file="${OUTPUT_FILES[$i]}"
+    url="${URLS[$i]}"
     
-    # Get country code from file name or URL
-    country=$(echo "$url" | grep -oP 'cc=\K[a-z]{2}' || echo "")
-    country=${country^^} # Convert to uppercase
+    # Get country code from URL
+    country=$(echo "$url" | grep -o 'cc=[a-z][a-z]' | cut -c4- | tr '[:lower:]' '[:upper:]' || echo "")
     
     # Set description based on country
     description="${country:-Primary} VPN configuration"
     
     if download_file "$output_file" "$url" "$description"; then
-        download_results["$output_file"]=true
+        download_results[$i]=true
         [ "$output_file" = "ambil.yaml" ] && primary_success=true
     else
-        download_results["$output_file"]=false
+        download_results[$i]=false
     fi
 done
 
