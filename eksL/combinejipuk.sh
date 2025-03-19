@@ -9,6 +9,8 @@ OUTPUT_FILE2="ambil2.yaml"  # Added Indonesia proxy output file
 OUTPUT_FILE3="ambil3.yaml"  # Added Singapore proxy output file
 OUTPUT_FILE4="ambil4.yaml"  # Added Israel proxy output file
 OUTPUT_FILE5="ambil5.yaml"  # Added Japan proxy output file
+OUTPUT_FILE6="ambil6.yaml"  # Added Malaysia proxy output file
+OUTPUT_FILE7="ambil7.yaml"  # Added Australia proxy output file
 CONVERT_SCRIPT1="convertcombine.py"
 CONVERT_SCRIPT2="convertxlcombine.py"
 
@@ -19,6 +21,11 @@ USER_AGENTS=(
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/120.0.2210.144"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/120.0.6099.217 Safari/537.36"
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/120.0.6099.217 Safari/537.36"
+    "Mozilla/5.0 (Linux; Android 11; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36"
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Mobile/15E148 Safari/604.1"
 )
 
 # Display banner
@@ -274,6 +281,92 @@ if [ "$download_success5" = false ]; then
     [ -f "$OUTPUT_FILE5" ] && rm "$OUTPUT_FILE5"  # Clean up empty file if it exists
 fi
 
+# Download the sixth file - Malaysia proxy configuration
+echo "Downloading Malaysia VPN configuration..."
+retry_count=0
+download_success6=false
+
+while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success6" = false ]; do
+    echo "Download attempt $(($retry_count + 1))/$MAX_RETRIES..."
+    
+    # Select a random user agent
+    random_index=$((RANDOM % ${#USER_AGENTS[@]}))
+    selected_user_agent="${USER_AGENTS[$random_index]}"
+    echo "Using user agent: ${selected_user_agent:0:30}..."
+
+    # Use the randomly selected user agent
+    wget --quiet --user-agent="$selected_user_agent" \
+         --output-document="$OUTPUT_FILE6" \
+         "https://prod-test.jdevcloud.com/api/vless?cc=my&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+    
+    if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE6" ]; then
+        download_success6=true
+        echo "✓ Malaysia VPN configuration download successful! File saved as $OUTPUT_FILE6"
+        echo "✓ File size: $(du -h "$OUTPUT_FILE6" | cut -f1)"
+        
+        # Check if the file is a valid YAML
+        if python3 -c "import yaml; yaml.safe_load(open('$OUTPUT_FILE6'))" &> /dev/null; then
+            echo "✓ File validated as proper YAML format"
+        else
+            echo "⚠️ Warning: Downloaded file may not be valid YAML, but will continue processing."
+        fi
+    else
+        retry_count=$((retry_count + 1))
+        if [ $retry_count -lt $MAX_RETRIES ]; then
+            echo "Download failed. Retrying in 5 seconds..."
+            sleep 5
+        fi
+    fi
+done
+
+if [ "$download_success6" = false ]; then
+    echo "✗ Error: Failed to download the Malaysia proxy configuration."
+    [ -f "$OUTPUT_FILE6" ] && rm "$OUTPUT_FILE6"  # Clean up empty file if it exists
+fi
+
+# Download the seventh file - Australia proxy configuration
+echo "Downloading Australia VPN configuration..."
+retry_count=0
+download_success7=false
+
+while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success7" = false ]; do
+    echo "Download attempt $(($retry_count + 1))/$MAX_RETRIES..."
+    
+    # Select a random user agent
+    random_index=$((RANDOM % ${#USER_AGENTS[@]}))
+    selected_user_agent="${USER_AGENTS[$random_index]}"
+    echo "Using user agent: ${selected_user_agent:0:30}..."
+
+    # Use the randomly selected user agent
+    wget --quiet --user-agent="$selected_user_agent" \
+         --output-document="$OUTPUT_FILE7" \
+         "https://prod-test.jdevcloud.com/api/vless?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
+    
+    if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE7" ]; then
+        download_success7=true
+        echo "✓ Australia VPN configuration download successful! File saved as $OUTPUT_FILE7"
+        echo "✓ File size: $(du -h "$OUTPUT_FILE7" | cut -f1)"
+        
+        # Check if the file is a valid YAML
+        if python3 -c "import yaml; yaml.safe_load(open('$OUTPUT_FILE7'))" &> /dev/null; then
+            echo "✓ File validated as proper YAML format"
+        else
+            echo "⚠️ Warning: Downloaded file may not be valid YAML, but will continue processing."
+        fi
+    else
+        retry_count=$((retry_count + 1))
+        if [ $retry_count -lt $MAX_RETRIES ]; then
+            echo "Download failed. Retrying in 5 seconds..."
+            sleep 5
+        fi
+    fi
+done
+
+if [ "$download_success7" = false ]; then
+    echo "✗ Error: Failed to download the Australia proxy configuration."
+    [ -f "$OUTPUT_FILE7" ] && rm "$OUTPUT_FILE7"  # Clean up empty file if it exists
+fi
+
 # Process the downloaded file
 if [ "$download_success" = true ]; then
     echo "✓ Primary download successful! File saved as $OUTPUT_FILE"
@@ -294,7 +387,7 @@ import os
 import sys
 
 # Files to process
-files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml"]
+files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml", "ambil6.yaml", "ambil7.yaml"]
 output_file = "combined_proxies.yaml"
 
 # Initialize combined structure
