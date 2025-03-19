@@ -15575,7 +15575,7 @@ proxy-groups:
 - name: URL-Test
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies: *id151
 - name: Load-Balance
@@ -15602,7 +15602,7 @@ proxy-groups:
 - name: Bug1
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "Bug1-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -15759,7 +15759,7 @@ proxy-groups:
 - name: Bug2
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "Bug2-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -15916,7 +15916,7 @@ proxy-groups:
 - name: Bug3
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "Bug3-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -16073,7 +16073,7 @@ proxy-groups:
 - name: Bug4
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "Bug4-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -16230,7 +16230,7 @@ proxy-groups:
 - name: Bug5
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "Bug5-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -16387,7 +16387,7 @@ proxy-groups:
 - name: RG
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "RG-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -16544,7 +16544,7 @@ proxy-groups:
 - name: Ilped
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "Ilped-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
@@ -16701,7 +16701,7 @@ proxy-groups:
 - name: GGWP
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 30
   tolerance: 50
   proxies:
   - "GGWP-1 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"

@@ -141,7 +141,7 @@ def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml',
                 },
                 {
                     'name': 'URL-Test', 'type': 'url-test',
-                    'url': 'http://www.gstatic.com/generate_204', 'interval': 300, 'tolerance': 50,
+                    'url': 'http://www.gstatic.com/generate_204', 'interval': 30, 'tolerance': 50,
                     'proxies': proxy_names
                 },
                 {
@@ -162,7 +162,7 @@ def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml',
                     new_data['proxy-groups'].append({
                         'name': server, 'type': 'url-test',
                         'url': 'http://www.gstatic.com/generate_204', 
-                        'interval': 300, 'tolerance': 50, 'proxies': names
+                        'interval': 30, 'tolerance': 50, 'proxies': names
                     })
             
             # Add rules
