@@ -21,6 +21,7 @@ OUTPUT_FILES=(
   "ambil8.yaml"
   "ambil9.yaml"
   "ambil10.yaml"
+  "ambil11.yaml"
 )
 
 URLS=(
@@ -34,6 +35,7 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/vless?cc=gb&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
 )
 
 # Define multiple user agents
