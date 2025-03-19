@@ -1,20 +1,10 @@
-import yaml
-import os
-import requests
-import argparse
-import logging
-import sys
+import yaml, os, argparse, logging, sys, glob
 from datetime import datetime
 from pathlib import Path
 
 # Set up logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(sys.stdout)
-    ]
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[logging.StreamHandler(sys.stdout)])
 logger = logging.getLogger(__name__)
 
 # Server configurations
@@ -29,88 +19,78 @@ SERVER_CONFIGS = {
     "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"}
 }
 
+# Helper function to get available ambil yaml files
+def get_ambil_files():
+    """Get all ambil*.yaml files in the current directory"""
+    files = sorted(glob.glob("ambil*.yaml"))
+    if files:
+        logger.info(f"Found {len(files)} ambil files: {', '.join(files)}")
+    else:
+        logger.warning("No ambil*.yaml files found in current directory")
+    return files
+
 def generate_proxies(original_proxies, server_type, template_proxy):
     """Generate proxies for a specific server type"""
-    config = SERVER_CONFIGS.get(server_type)
-    if not config:
+    if server_type not in SERVER_CONFIGS:
         logger.error(f"Unknown server type: {server_type}")
         return [], []
     
-    server_ip = config["ip"]
-    name_prefix = config["prefix"]
-    proxies = []
-    names = []
+    config = SERVER_CONFIGS[server_type]
+    proxies, names = [], []
     
     # Add regular proxies
     for original in original_proxies:
         new_proxy = original.copy()
-        new_proxy['server'] = server_ip
-        
-        # Add prefix to name if needed
-        if 'name' in new_proxy and name_prefix:
-            new_proxy['name'] = name_prefix + new_proxy['name']
-            
-        # Convert port from string to integer if needed
+        new_proxy['server'] = config["ip"]
+        if 'name' in new_proxy:
+            new_proxy['name'] = config["prefix"] + new_proxy['name']
+            names.append(new_proxy['name'])
         if 'port' in new_proxy and new_proxy['port'] == '443':
             new_proxy['port'] = 443
-            
         proxies.append(new_proxy)
-        
-        if 'name' in new_proxy:
-            names.append(new_proxy['name'])
     
     # Add dedicated proxy
-    dedicated_proxy = template_proxy.copy()
-    dedicated_proxy['name'] = f"{server_type} WS TLS"
-    dedicated_proxy['server'] = server_ip
-    proxies.append(dedicated_proxy)
-    names.append(dedicated_proxy['name'])
+    dedicated = template_proxy.copy()
+    dedicated['name'] = f"{server_type} WS TLS"
+    dedicated['server'] = config["ip"]
+    proxies.append(dedicated)
+    names.append(dedicated['name'])
     
     return proxies, names
 
-def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_file='combine.yaml', 
-                           output_file='dualvlesscombine.yaml', telegram_bot_token=None, 
-                           telegram_chat_id=None, telegram_enabled=True):
-    """Convert multiple YAML input files to dualvlesscombine.yaml with enhanced proxy configurations"""
+def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml', 
+                            output_file='dualvlesscombine.yaml'):
+    """Convert YAML input files to enhanced proxy configurations"""
     
-    # Ensure input_files is a list
-    if isinstance(input_files, str):
+    # Validate files
+    if input_files is None:
+        input_files = get_ambil_files()
+    elif isinstance(input_files, str):
         input_files = [input_files]
-    
-    # Check if template file exists
+        
     if not os.path.exists(template_file):
-        logger.error(f"Error: {template_file} file (template) not found")
+        logger.error(f"Template {template_file} not found")
         return False
     
-    # Check if at least one input file exists
-    valid_input_files = []
-    for file_name in input_files:
-        if os.path.exists(file_name):
-            valid_input_files.append(file_name)
-        else:
-            logger.warning(f"Input file {file_name} not found, skipping")
-    
+    valid_input_files = [f for f in input_files if os.path.exists(f)]
     if not valid_input_files:
         logger.error("No valid input files found")
         return False
     
     try:
-        # Read all input files and collect all proxies
+        # Read all input files and collect proxies
         all_proxies = []
         for input_file in valid_input_files:
-            with open(input_file, 'r') as file:
-                data = yaml.safe_load(file)
-            
-            if not isinstance(data, dict):
-                logger.error(f"Invalid YAML format in {input_file}")
-                continue
-                
-            if 'proxies' not in data or not data['proxies']:
-                logger.warning(f"No proxies found in {input_file}")
-                continue
-                
-            logger.info(f"Loaded {len(data['proxies'])} proxies from {input_file}")
-            all_proxies.extend(data['proxies'])
+            try:
+                with open(input_file, 'r') as file:
+                    data = yaml.safe_load(file)
+                if not isinstance(data, dict) or 'proxies' not in data or not data['proxies']:
+                    logger.warning(f"No valid proxies in {input_file}")
+                    continue
+                logger.info(f"Loaded {len(data['proxies'])} proxies from {input_file}")
+                all_proxies.extend(data['proxies'])
+            except Exception as e:
+                logger.error(f"Error reading {input_file}: {str(e)}")
         
         if not all_proxies:
             logger.error("No proxies found in any input files")
@@ -118,44 +98,27 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
         
         # Read template file
         with open(template_file, 'r') as file:
-            byurule_template = yaml.safe_load(file)
+            template = yaml.safe_load(file)
         
-        # Create new data structure with only essential elements
-        new_data = {}
-        
-        # Define essential keys to keep from the template
-        essential_keys = [
-            'port', 'socks-port', 'redir-port', 'mixed-port', 'tproxy-port', 
-            'ipv6', 'mode', 'log-level', 'allow-lan', 'external-controller',
-            'secret', 'bind-address', 'unified-delay', 'profile', 'general', 'dns'
-        ]
-        
-        # Copy essential keys
-        for key in essential_keys:
-            if key in byurule_template:
-                new_data[key] = byurule_template[key]
-        
-        # Add external UI configuration
+        # Create new data structure
+        essential_keys = ['port', 'socks-port', 'redir-port', 'mixed-port', 'tproxy-port', 
+                         'ipv6', 'mode', 'log-level', 'allow-lan', 'external-controller',
+                         'secret', 'bind-address', 'unified-delay', 'profile', 'general', 'dns']
+        new_data = {k: template[k] for k in essential_keys if k in template}
         new_data['external-ui'] = './dashboard'
         
-        proxy_names = []
-        server_names = {server_type: [] for server_type in SERVER_CONFIGS}
-        
-        # Find a proxy to use as template
-        template_proxy = None
-        for proxy in all_proxies:
-            if all(key in proxy for key in ['server', 'port', 'name']):
-                template_proxy = proxy.copy()
-                break
-                
+        # Find template proxy
+        template_proxy = next((p.copy() for p in all_proxies 
+                             if all(k in p for k in ['server', 'port', 'name'])), None)
         if not template_proxy:
             logger.error("No suitable proxy template found")
             return False
         
-        # Initialize the proxies list
+        # Generate proxies for each server
         new_data['proxies'] = []
+        proxy_names = []
+        server_names = {server: [] for server in SERVER_CONFIGS}
         
-        # Generate proxies for each server type
         for server_type in SERVER_CONFIGS:
             proxies, names = generate_proxies(all_proxies, server_type, template_proxy)
             new_data['proxies'].extend(proxies)
@@ -164,74 +127,52 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
         
         # Add proxy groups
         if proxy_names:
+            # Main groups
             new_data['proxy-groups'] = [
                 {
-                    'name': 'Selector',
-                    'type': 'select',
-                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'RG', 'Ilped', 'GGWP'] + proxy_names
+                    'name': 'Selector', 'type': 'select',
+                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 
+                               'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'RG', 'Ilped', 'GGWP'] + proxy_names
                 },
                 {
-                    'name': 'Fallback',
-                    'type': 'fallback',
-                    'url': 'http://www.gstatic.com/generate_204',
-                    'interval': 300,
+                    'name': 'Fallback', 'type': 'fallback',
+                    'url': 'http://www.gstatic.com/generate_204', 'interval': 300,
                     'proxies': proxy_names
                 },
                 {
-                    'name': 'URL-Test',
-                    'type': 'url-test',
-                    'url': 'http://www.gstatic.com/generate_204',
-                    'interval': 300,
-                    'tolerance': 50,
+                    'name': 'URL-Test', 'type': 'url-test',
+                    'url': 'http://www.gstatic.com/generate_204', 'interval': 300, 'tolerance': 50,
                     'proxies': proxy_names
                 },
                 {
-                    'name': 'Load-Balance',
-                    'type': 'load-balance',
-                    'url': 'http://www.gstatic.com/generate_204',
-                    'interval': 300,
-                    'strategy': 'round-robin',
+                    'name': 'Load-Balance', 'type': 'load-balance',
+                    'url': 'http://www.gstatic.com/generate_204', 'interval': 300, 'strategy': 'round-robin',
                     'proxies': proxy_names
                 },
                 {
-                    'name': 'Terbaik',
-                    'type': 'load-balance',
-                    'url': 'http://www.gstatic.com/generate_204',
-                    'interval': 300,
-                    'strategy': 'round-robin',
+                    'name': 'Terbaik', 'type': 'load-balance',
+                    'url': 'http://www.gstatic.com/generate_204', 'interval': 300, 'strategy': 'round-robin',
                     'proxies': ['Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'URL-Test', 'RG', 'Ilped', 'GGWP']
                 }
             ]
             
-            # Add specialized groups for each server type
-            for server_type, names in server_names.items():
+            # Server-specific groups
+            for server, names in server_names.items():
                 if names:
-                    group = {
-                        'name': server_type,
-                        'type': 'url-test',
-                        'url': 'http://www.gstatic.com/generate_204',
-                        'interval': 300,
-                        'tolerance': 50,
-                        'proxies': names
-                    }
-                    new_data['proxy-groups'].append(group)
+                    new_data['proxy-groups'].append({
+                        'name': server, 'type': 'url-test',
+                        'url': 'http://www.gstatic.com/generate_204', 
+                        'interval': 300, 'tolerance': 50, 'proxies': names
+                    })
             
-            # Add ad-blocking and fallback rules
-            new_data['rules'] = [
-                'MATCH,Fallback'
-            ]
+            # Add rules
+            new_data['rules'] = ['MATCH,Fallback']
         
         # Write to output file
         with open(output_file, 'w') as file:
             yaml.dump(new_data, file, default_flow_style=False, sort_keys=False)
         
-        logger.info(f"Successfully converted {', '.join(valid_input_files)} to {output_file}")
-        
-        # Send to Telegram if enabled and credentials are provided
-        if telegram_enabled and telegram_bot_token and telegram_chat_id:
-            send_to_telegram(telegram_bot_token, telegram_chat_id, output_file)
-        elif telegram_enabled and (not telegram_bot_token or not telegram_chat_id):
-            logger.warning("Telegram notifications enabled but missing bot token or chat ID")
+        logger.info(f"Successfully converted to {output_file}")
         
         return True
     
@@ -240,87 +181,60 @@ def convert_ambil_to_byurule(input_files=['combined_proxies.yaml'], template_fil
         return False
 
 def send_to_telegram(bot_token, chat_id, file_path, max_retries=3):
-    """Send a file to a Telegram chat using Telegram Bot API with retry logic"""
+    """Send file to Telegram"""
     for attempt in range(max_retries):
         try:
-            url = f"https://api.telegram.org/bot{bot_token}/sendDocument"
-            
             with open(file_path, 'rb') as file:
-                files = {'document': file}
-                data = {'chat_id': chat_id}
-                
-                response = requests.post(url, files=files, data=data)
+                response = requests.post(
+                    f"https://api.telegram.org/bot{bot_token}/sendDocument",
+                    files={'document': file},
+                    data={'chat_id': chat_id}
+                )
                 
                 if response.status_code == 200:
-                    logger.info(f"Successfully sent {file_path} to Telegram")
+                    logger.info(f"Sent {file_path} to Telegram")
                     return True
                 else:
-                    logger.warning(f"Attempt {attempt+1}: Failed to send file to Telegram. Status code: {response.status_code}")
-                    logger.debug(f"Response: {response.text}")
+                    logger.warning(f"Attempt {attempt+1}: Failed to send. Status: {response.status_code}")
         
         except Exception as e:
-            logger.error(f"Attempt {attempt+1}: Error sending file to Telegram: {str(e)}")
+            logger.error(f"Attempt {attempt+1}: Error: {str(e)}")
         
         if attempt < max_retries - 1:
-            logger.info(f"Retrying in 2 seconds...")
             import time
             time.sleep(2)
     
-    logger.error(f"Failed to send {file_path} to Telegram after {max_retries} attempts")
+    logger.error(f"Failed to send to Telegram after {max_retries} attempts")
     return False
 
 def main():
-    """Main function to parse command line arguments and run the conversion"""
+    """Parse arguments and run conversion"""
     parser = argparse.ArgumentParser(description='Convert Clash configuration files')
     parser.add_argument('--input', '-i', action='append', default=[], 
-                        help='Input YAML file(s) (default: ambil.yaml, ambil2.yaml). Can be specified multiple times.')
-    parser.add_argument('--template', '-t', default='byurule.yaml', help='Template YAML file (default: byurule.yaml)')
-    parser.add_argument('--output', '-o', default='newbyurule.yaml', help='Output YAML file (default: newbyurule.yaml)')
-    parser.add_argument('--token', help='Telegram Bot Token (optional)')
-    parser.add_argument('--chat', help='Telegram Chat ID (optional)')
+                      help='Input YAML files (default: all ambil*.yaml files)')
+    parser.add_argument('--template', '-t', default='byurule.yaml', 
+                      help='Template YAML file (default: byurule.yaml)')
+    parser.add_argument('--output', '-o', default='newbyurule.yaml', 
+                      help='Output YAML file (default: newbyurule.yaml)')
     parser.add_argument('--debug', action='store_true', help='Enable debug logging')
-    parser.add_argument('--telegram', action='store_true', default=True, help='Enable Telegram notifications (default)')
-    parser.add_argument('--no-telegram', action='store_false', dest='telegram', help='Disable Telegram notifications')
     
     args = parser.parse_args()
+    if args.debug: logger.setLevel(logging.DEBUG)
     
-    # Set debug level if requested
-    if args.debug:
-        logger.setLevel(logging.DEBUG)
+    # Use defaults if no input files specified
+    input_files = args.input if args.input else get_ambil_files()
     
-    # If no input files specified, use defaults
-    input_files = args.input if args.input else ['ambil.yaml', 'ambil2.yaml', 'ambil3.yaml', 'ambil4.yaml', 'ambil5.yaml', 'ambil6.yaml', 'ambil7.yaml']
-    
-    # Get Telegram credentials from environment variables if not provided in args
-    bot_token = args.token or os.environ.get('TELEGRAM_BOT_TOKEN')
-    chat_id = args.chat or os.environ.get('TELEGRAM_CHAT_ID')
-    
-    # Run the conversion
+    # Run conversion
     success = convert_ambil_to_byurule(
         input_files=input_files,
         template_file=args.template,
-        output_file=args.output,
-        telegram_bot_token=bot_token,
-        telegram_chat_id=chat_id,
-        telegram_enabled=args.telegram
+        output_file=args.output
     )
     
     return 0 if success else 1
 
 if __name__ == "__main__":
-    # Default bot token and chat ID - Consider using environment variables instead
-    BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', "6560425395:AAHnNDWkKzqTpKUeeiH-XsGO2hF2poI9Reo")
-    CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', "28075319")
-    
-    # Use command line interface if arguments are provided, otherwise use defaults
     if len(sys.argv) > 1:
         sys.exit(main())
     else:
-        # Add environment variable check for disabling Telegram
-        telegram_enabled = os.environ.get('TELEGRAM_ENABLED', 'false').lower() != 'false'
-        convert_ambil_to_byurule(
-            input_files=['ambil.yaml', 'ambil2.yaml', 'ambil3.yaml', 'ambil4.yaml', 'ambil5.yaml', 'ambil6.yaml', 'ambil7.yaml'],
-            telegram_bot_token=BOT_TOKEN, 
-            telegram_chat_id=CHAT_ID, 
-            telegram_enabled=telegram_enabled
-        )
+        convert_ambil_to_byurule()

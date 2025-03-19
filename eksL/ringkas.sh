@@ -151,15 +151,22 @@ if [ "$primary_success" = true ]; then
     # Create combined proxy file with URL test group
     echo "Creating combined proxy configuration..."
     
+    # Convert bash array to Python list string
+    py_files_list="["
+    for file in "${OUTPUT_FILES[@]}"; do
+        py_files_list+="\"$file\", "
+    done
+    py_files_list="${py_files_list%, }]"  # Remove trailing comma and space, then close bracket
+    
     # Create Python script to combine proxies and add URL test group
-    cat > combine_proxies.py << 'EOF'
+    cat > combine_proxies.py << EOF
 import yaml
 import os
 import sys
 
-# Files to process
-files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml", "ambil6.yaml", "ambil7.yaml"]
-output_file = "combined_proxies.yaml"
+# Files to process (automatically generated from OUTPUT_FILES array)
+files = $py_files_list
+output_file = "$COMBINED_FILE"
 
 # Initialize combined structure
 combined_data = {"proxies": [], "proxy-groups": []}

@@ -2,7 +2,7 @@ import yaml
 import os
 import sys
 
-# Files to process
+# Files to process (automatically generated from OUTPUT_FILES array)
 files = ["ambil.yaml", "ambil2.yaml", "ambil3.yaml", "ambil4.yaml", "ambil5.yaml", "ambil6.yaml", "ambil7.yaml"]
 output_file = "combined_proxies.yaml"
 
