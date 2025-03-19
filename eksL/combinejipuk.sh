@@ -81,7 +81,7 @@ while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success" = false ]; do
         # Use the randomly selected user agent
         wget --quiet --user-agent="$selected_user_agent" \
              --output-document="$OUTPUT_FILE" \
-             "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=10&vpn=trojan,vless&port=443&domain=104.17.72.206"
+             "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
         
         if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE" ]; then
             download_success=true
@@ -118,7 +118,7 @@ while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success2" = false ]; do
     # Use the randomly selected user agent
     wget --quiet --user-agent="$selected_user_agent" \
          --output-document="$OUTPUT_FILE2" \
-         "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=50&format=clash-provider"
+         "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
     
     if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE2" ]; then
         download_success2=true
@@ -161,7 +161,7 @@ while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success3" = false ]; do
     # Use the randomly selected user agent
     wget --quiet --user-agent="$selected_user_agent" \
          --output-document="$OUTPUT_FILE3" \
-         "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=300&format=clash-provider"
+         "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
     
     if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE3" ]; then
         download_success3=true
@@ -204,7 +204,7 @@ while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success4" = false ]; do
     # Use the randomly selected user agent
     wget --quiet --user-agent="$selected_user_agent" \
          --output-document="$OUTPUT_FILE4" \
-         "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=40&format=clash-provider"
+         "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
     
     if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE4" ]; then
         download_success4=true
@@ -247,7 +247,7 @@ while [ $retry_count -lt $MAX_RETRIES ] && [ "$download_success5" = false ]; do
     # Use the randomly selected user agent
     wget --quiet --user-agent="$selected_user_agent" \
          --output-document="$OUTPUT_FILE5" \
-         "https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=50&format=clash-provider"
+         "https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
     
     if [ $? -eq 0 ] && [ -s "$OUTPUT_FILE5" ]; then
         download_success5=true
