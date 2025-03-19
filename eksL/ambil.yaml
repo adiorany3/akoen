@@ -25,9 +25,9 @@ profile:
     store-selected: true
 proxies:
     - client-fingerprint: chrome
-      name: "1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+      name: "1 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
       network: ws
-      password: e27d374b-7e38-478f-8c40-286796a6b5f2
+      password: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -36,70 +36,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /203.194.112.119-2053
-    - client-fingerprint: chrome
-      name: "2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-      network: ws
-      port: "443"
-      server: 104.17.72.206
-      servername: nautica.foolvpn.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: e27d374b-7e38-478f-8c40-286796a6b5f2
-      ws-opts:
-        headers:
-            Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
-        path: /203.194.112.119-2053
-      xudp: true
-    - client-fingerprint: chrome
-      name: "3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-      network: ws
-      password: e27d374b-7e38-478f-8c40-286796a6b5f2
-      port: "443"
-      server: 104.17.72.206
-      skip-cert-verify: false
-      sni: nautica.foolvpn.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /43.218.77.16-1443
-    - client-fingerprint: chrome
-      name: "4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-      network: ws
-      port: "443"
-      server: 104.17.72.206
-      servername: nautica.foolvpn.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: e27d374b-7e38-478f-8c40-286796a6b5f2
-      ws-opts:
-        headers:
-            Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /43.218.77.16-1443
-      xudp: true
-    - client-fingerprint: chrome
-      name: "5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-      network: ws
-      password: e27d374b-7e38-478f-8c40-286796a6b5f2
-      port: "443"
-      server: 104.17.72.206
-      skip-cert-verify: false
-      sni: nautica.foolvpn.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
         path: /172.232.239.151-587
     - client-fingerprint: chrome
-      name: "6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+      name: "2 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -107,17 +47,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: e27d374b-7e38-478f-8c40-286796a6b5f2
+      uuid: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /172.232.239.151-587
       xudp: true
     - client-fingerprint: chrome
-      name: "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+      name: "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
       network: ws
-      password: e27d374b-7e38-478f-8c40-286796a6b5f2
+      password: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -126,10 +66,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
         path: /203.194.112.119-8443
     - client-fingerprint: chrome
-      name: "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+      name: "4 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -137,12 +77,72 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: e27d374b-7e38-478f-8c40-286796a6b5f2
+      uuid: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /203.194.112.119-8443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+      network: ws
+      password: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
+      port: "443"
+      server: 104.17.72.206
+      skip-cert-verify: false
+      sni: nautica.foolvpn.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /203.194.112.119-2053
+    - client-fingerprint: chrome
+      name: "6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+      network: ws
+      port: "443"
+      server: 104.17.72.206
+      servername: nautica.foolvpn.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
+      ws-opts:
+        headers:
+            Host: nautica.foolvpn.me
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /203.194.112.119-2053
+      xudp: true
+    - client-fingerprint: chrome
+      name: "7 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+      network: ws
+      password: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
+      port: "443"
+      server: 104.17.72.206
+      skip-cert-verify: false
+      sni: nautica.foolvpn.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /43.218.77.16-1443
+    - client-fingerprint: chrome
+      name: "8 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+      network: ws
+      port: "443"
+      server: 104.17.72.206
+      servername: nautica.foolvpn.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: b54a63f9-03d1-4b49-9766-734b0e2ad6e1
+      ws-opts:
+        headers:
+            Host: nautica.foolvpn.me
+            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /43.218.77.16-1443
       xudp: true
     - client-fingerprint: chrome
       name: Trojan UDP
@@ -156,7 +156,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /trojan-udp
 proxy-groups:
     - name: Tunnel
@@ -167,26 +167,26 @@ proxy-groups:
     - interval: 300
       name: Url Test
       proxies:
-        - "1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-        - "4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-        - "5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-        - "6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-        - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "1 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+        - "2 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+        - "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "4 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "7 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+        - "8 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
       type: url-test
     - interval: 300
       name: Selector
       proxies:
-        - "1 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "2 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "3 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-        - "4 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
-        - "5 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-        - "6 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
-        - "7 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
-        - "8 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "1 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+        - "2 \U0001F1EE\U0001F1E9 Akamai Connected Cloud WS TLS [nautica]"
+        - "3 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "4 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "5 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "6 \U0001F1EE\U0001F1E9 First Cagayan Converge Data Center Inc. WS TLS [nautica]"
+        - "7 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
+        - "8 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [nautica]"
       type: select
 redir-port: 7892
 rules:

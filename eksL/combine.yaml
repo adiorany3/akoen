@@ -499,17 +499,6 @@ proxy-groups:
       - VLESS-ACCOUNT-2
 # Aturan
 rules:
-  - DOMAIN-SUFFIX,adservice.google.com,REJECT
-  - DOMAIN-SUFFIX,googlesyndication.com,REJECT
-  - DOMAIN-SUFFIX,doubleclick.net,REJECT
-  - DOMAIN-SUFFIX,g.doubleclick.net,REJECT
-  - DOMAIN-SUFFIX,googleadservices.com,REJECT
-  - DOMAIN-SUFFIX,admob.com,REJECT
-  - DOMAIN-SUFFIX,pubmatic.com,REJECT
-  - DOMAIN-SUFFIX,rubiconproject.com,REJECT
-  - DOMAIN-SUFFIX,criteo.com,REJECT
-  - DOMAIN-SUFFIX,openx.net,REJECT
-  - DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
   - MATCH,TUNNEL
 
 # UI Eksternal
