@@ -1,15 +1,16 @@
 #!/bin/bash
 
-# jipuk.sh - Script to download VPN configurations and convert them
-# Usage: ./jipuk.sh
+# VPN Configuration Download and Conversion Utility with Git Integration
+# Usage: ./git.sh
 
 # Set output filenames
 CONVERT_SCRIPT1="convertcombine.py"
 CONVERT_SCRIPT2="convertxlcombine.py"
 COMBINED_FILE="combined_proxies.yaml"
 MAX_RETRIES=3
+SECRET_CONFIG="secret.toml"
 
-# Define VPN configurations to download - Using arrays instead of associative arrays
+# Define VPN configurations to download
 OUTPUT_FILES=(
   "ambil.yaml"
   "ambil2.yaml"
@@ -45,12 +46,67 @@ USER_AGENTS=(
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/120.0.2210.144"
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/120.0.6099.217 Safari/537.36"
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/120.0.6099.217 Safari/537.36"
-    "Mozilla/5.0 (Linux; Android 11; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36"
-    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Mobile/15E148 Safari/604.1"
 )
+
+# Load configuration from secret.toml file
+load_secret_config() {
+    if [ ! -f "$SECRET_CONFIG" ]; then
+        echo "Secret configuration file not found: $SECRET_CONFIG"
+        return 1
+    fi
+    
+    # Use Python to read the TOML configuration
+    python3 -c "
+import toml
+import sys
+try:
+    config = toml.load('$SECRET_CONFIG')
+    # Git section
+    if 'git' in config:
+        git_config = config['git']
+        if 'repo_url' in git_config:
+            print(f\"GIT_REPO_URL={git_config['repo_url']}\")
+        if 'branch' in git_config:
+            print(f\"GIT_BRANCH={git_config['branch']}\")
+        if 'username' in git_config:
+            print(f\"GIT_USERNAME={git_config['username']}\")
+        if 'email' in git_config:
+            print(f\"GIT_EMAIL={git_config['email']}\")
+        if 'auto_push' in git_config:
+            print(f\"GIT_AUTO_PUSH={str(git_config['auto_push']).lower()}\")
+        if 'commit_message' in git_config:
+            print(f\"GIT_COMMIT_MESSAGE={git_config['commit_message']}\")
+except Exception as e:
+    print(f\"ERROR: {str(e)}\", file=sys.stderr)
+    sys.exit(1)
+" > /tmp/secret_config.sh
+
+    if [ $? -ne 0 ]; then
+        echo "Failed to parse secret configuration. Make sure you have the toml package installed."
+        echo "Install it with: pip3 install toml"
+        return 1
+    fi
+    
+    # Source the temporary file to get the variables
+    source /tmp/secret_config.sh
+    rm /tmp/secret_config.sh
+    
+    # Set default values if not specified in config
+    GIT_BRANCH="${GIT_BRANCH:-main}"
+    GIT_AUTO_PUSH="${GIT_AUTO_PUSH:-false}"
+    GIT_COMMIT_MESSAGE="${GIT_COMMIT_MESSAGE:-Update VPN configurations - %timestamp%}"
+    
+    return 0
+}
+
+# Attempt to load secret config
+SECRET_CONFIG_LOADED=false
+if load_secret_config; then
+    SECRET_CONFIG_LOADED=true
+    echo "✓ Loaded configuration from $SECRET_CONFIG"
+else
+    echo "⚠️ Using default configuration"
+fi
 
 # Display banner
 echo "====================================="
@@ -65,6 +121,15 @@ for cmd in python3 wget; do
         exit 1
     fi
 done
+
+# Check for Python toml package
+if ! python3 -c "import toml" &>/dev/null; then
+    echo "Installing Python toml package..."
+    pip3 install toml
+    if [ $? -ne 0 ]; then
+        echo "Warning: Failed to install Python toml package. Secret configuration won't be available."
+    fi
+fi
 
 # Check if conversion scripts exist
 script1_exists=false
@@ -307,38 +372,74 @@ echo "====================================="
 echo "Git Operations"
 echo "====================================="
 
+# Check if git operations are enabled
+if [ "$SECRET_CONFIG_LOADED" = true ] && [ -n "$GIT_AUTO_PUSH" ] && [ "$GIT_AUTO_PUSH" = "false" ]; then
+    echo "Git operations are disabled in configuration. Skipping."
+    exit 0
+fi
+
 # Check if this is a git repository
 if ! git rev-parse --is-inside-work-tree &>/dev/null; then
     echo "This directory is not a git repository."
-    read -p "Do you want to initialize a git repository? (y/n): " init_git
-    if [[ $init_git =~ ^[Yy]$ ]]; then
+    
+    if [ "$SECRET_CONFIG_LOADED" = true ] && [ -n "$GIT_REPO_URL" ]; then
+        echo "Initializing git repository from configuration..."
         git init
         echo "Git repository initialized."
     else
-        echo "Skipping git operations."
-        exit 0
+        read -p "Do you want to initialize a git repository? (y/n): " init_git
+        if [[ $init_git =~ ^[Yy]$ ]]; then
+            git init
+            echo "Git repository initialized."
+        else
+            echo "Skipping git operations."
+            exit 0
+        fi
     fi
+fi
+
+# Set git user info from config if available
+if [ "$SECRET_CONFIG_LOADED" = true ] && [ -n "$GIT_USERNAME" ] && [ -n "$GIT_EMAIL" ]; then
+    git config user.name "$GIT_USERNAME"
+    git config user.email "$GIT_EMAIL"
+    echo "Git user information configured."
 fi
 
 # Check for remote repository
 if ! git remote -v | grep origin &>/dev/null; then
     echo "No remote repository is configured."
-    read -p "Enter the GitHub repository URL (or leave empty to skip git push): " repo_url
-    if [ -z "$repo_url" ]; then
-        echo "Skipping git push."
-        exit 0
+    
+    if [ "$SECRET_CONFIG_LOADED" = true ] && [ -n "$GIT_REPO_URL" ]; then
+        git remote add origin "$GIT_REPO_URL"
+        echo "Remote repository configured from secret.toml."
     else
-        git remote add origin "$repo_url"
-        echo "Remote repository configured."
+        read -p "Enter the GitHub repository URL (or leave empty to skip git push): " repo_url
+        if [ -z "$repo_url" ]; then
+            echo "Skipping git push."
+            exit 0
+        else
+            git remote add origin "$repo_url"
+            echo "Remote repository configured."
+        fi
     fi
 fi
 
 # Get the current branch
-current_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
-if [ -z "$current_branch" ] || [ "$current_branch" = "HEAD" ]; then
-    # No commits yet or detached HEAD
-    current_branch="main"
-    git checkout -b "$current_branch" 2>/dev/null
+if [ "$SECRET_CONFIG_LOADED" = true ] && [ -n "$GIT_BRANCH" ]; then
+    current_branch="$GIT_BRANCH"
+    # Make sure the branch exists
+    if ! git rev-parse --verify "$current_branch" &>/dev/null; then
+        git checkout -b "$current_branch"
+    else
+        git checkout "$current_branch"
+    fi
+else
+    current_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+    if [ -z "$current_branch" ] || [ "$current_branch" = "HEAD" ]; then
+        # No commits yet or detached HEAD
+        current_branch="main"
+        git checkout -b "$current_branch" 2>/dev/null
+    fi
 fi
 
 # Add files to git
@@ -349,7 +450,16 @@ git add ${OUTPUT_FILES[@]} $COMBINED_FILE combine_proxies.py
 if ! git diff --staged --quiet; then
     # Create commit with timestamp
     timestamp=$(date +"%Y-%m-%d %H:%M:%S")
-    git commit -m "Update VPN configurations - $timestamp"
+    
+    # Use commit message from config or default
+    if [ "$SECRET_CONFIG_LOADED" = true ] && [ -n "$GIT_COMMIT_MESSAGE" ]; then
+        # Replace %timestamp% with actual timestamp if present
+        commit_message="${GIT_COMMIT_MESSAGE//%timestamp%/$timestamp}"
+    else
+        commit_message="Update VPN configurations - $timestamp"
+    fi
+    
+    git commit -m "$commit_message"
     echo "Changes committed."
     
     # Push to remote repository
@@ -360,12 +470,22 @@ if ! git diff --staged --quiet; then
         echo "✗ Failed to push changes to GitHub."
         echo "You may need to pull changes first or check your credentials."
         
-        read -p "Do you want to force push? This may overwrite remote changes (y/n): " force_push
-        if [[ $force_push =~ ^[Yy]$ ]]; then
+        # If auto_push is enabled in config, try force push without asking
+        if [ "$SECRET_CONFIG_LOADED" = true ] && [ "$GIT_AUTO_PUSH" = "true" ]; then
+            echo "Auto-push enabled, attempting force push..."
             if git push -u origin "$current_branch" --force; then
                 echo "✓ Successfully force pushed changes to GitHub."
             else
                 echo "✗ Failed to force push changes to GitHub."
+            fi
+        else
+            read -p "Do you want to force push? This may overwrite remote changes (y/n): " force_push
+            if [[ $force_push =~ ^[Yy]$ ]]; then
+                if git push -u origin "$current_branch" --force; then
+                    echo "✓ Successfully force pushed changes to GitHub."
+                else
+                    echo "✗ Failed to force push changes to GitHub."
+                fi
             fi
         fi
     fi
