@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇯🇵 JP Oracle Cloud CDN TLS"
+    - name: "1 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,13 +7,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6fb81533-bd5b-4c20-bc0e-f5dde4a6e013
+      uuid: e687dcda-b6f7-45b3-9aca-ee90eaf9a106
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /free/168.138.46.115:43138
-    - name: "2 🇯🇵 JP Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /free/38.60.195.203:10478
+    - name: "2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -21,13 +21,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6fb81533-bd5b-4c20-bc0e-f5dde4a6e013
+      uuid: e687dcda-b6f7-45b3-9aca-ee90eaf9a106
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /free/150.230.204.21:3742
-    - name: "3 🇯🇵 JP Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /free/123.253.33.182:12306
+    - name: "3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -35,27 +35,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6fb81533-bd5b-4c20-bc0e-f5dde4a6e013
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/45.12.134.197:8443
-    - name: "4 🇯🇵 JP Alibaba CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 6fb81533-bd5b-4c20-bc0e-f5dde4a6e013
+      uuid: e687dcda-b6f7-45b3-9aca-ee90eaf9a106
       ws-opts:
         headers:
             Host: nuclear.biz.id
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /free/47.74.8.30:2443
-    - name: "5 🇯🇵 JP Nearoute CDN TLS"
+        path: /free/38.60.193.247:13300
+    - name: "4 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -63,10 +49,24 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6fb81533-bd5b-4c20-bc0e-f5dde4a6e013
+      uuid: e687dcda-b6f7-45b3-9aca-ee90eaf9a106
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-        path: /free/103.20.199.166:6666
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /free/141.11.17.205:443
+    - name: "5 🇲🇾 MY Evoxt Enterprise CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: e687dcda-b6f7-45b3-9aca-ee90eaf9a106
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /free/45.195.76.190:29690
     

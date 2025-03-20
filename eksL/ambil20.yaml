@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS"
+    - name: "1 🇭🇺 HU M247 Europe CDN TLS"
       network: ws
-      password: 4113dda6-32ac-453c-91ff-8078a6c9540d
+      password: d8043f62-5f14-4210-878c-25f0eeb1b0e7
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /free/5.200.94.177:30001
-    - name: "2 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/38.180.108.148:443
+    - name: "2 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: 4113dda6-32ac-453c-91ff-8078a6c9540d
+      password: d8043f62-5f14-4210-878c-25f0eeb1b0e7
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /free/5.200.79.85:30001
-    - name: "3 🇮🇷 IR netcup CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+        path: /free/95.164.23.71:443
+    - name: "3 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: 4113dda6-32ac-453c-91ff-8078a6c9540d
+      password: d8043f62-5f14-4210-878c-25f0eeb1b0e7
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/84.47.234.11:2005
-    - name: "4 🇮🇷 IR Pars Shabakeh Azarakhsh CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/86.104.75.183:443
+    - name: "4 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: 4113dda6-32ac-453c-91ff-8078a6c9540d
+      password: d8043f62-5f14-4210-878c-25f0eeb1b0e7
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/87.107.105.79:443
-    - name: "5 🇮🇷 IR Teknosos Bilisim Hizmetleri Ve Ticaret Limited Sir CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /free/5.182.38.111:443
+    - name: "5 🇭🇺 HU M247 Europe CDN TLS"
       network: ws
-      password: 4113dda6-32ac-453c-91ff-8078a6c9540d
+      password: d8043f62-5f14-4210-878c-25f0eeb1b0e7
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/185.49.231.217:443
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+        path: /free/38.180.109.174:443
     

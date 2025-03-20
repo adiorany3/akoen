@@ -1,72 +1,67 @@
 proxies:
-    - name: "1 🇺🇸 US Multacom Corporation CDN TLS"
+    - name: "1 🇰🇷 KR Oracle Cloud CDN TLS"
       network: ws
+      password: 0f1fd803-e643-4ba2-8174-8258fe7f12ad
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: f1f3a166-b1e3-4d70-b08c-0a96a9dbbe90
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/74.48.5.119:45616
-    - name: "2 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/152.67.197.197:19120
+    - name: "2 🇰🇷 KR KT CDN TLS"
       network: ws
+      password: 0f1fd803-e643-4ba2-8174-8258fe7f12ad
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: f1f3a166-b1e3-4d70-b08c-0a96a9dbbe90
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/107.174.255.38:443
-    - name: "3 🇺🇸 US Peg Tech CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /free/125.136.10.202:29842
+    - name: "3 🇰🇷 KR KT CDN TLS"
       network: ws
+      password: 0f1fd803-e643-4ba2-8174-8258fe7f12ad
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: f1f3a166-b1e3-4d70-b08c-0a96a9dbbe90
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /free/137.175.97.21:20950
-    - name: "4 🇺🇸 US Akamai Connected Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/119.199.206.40:23860
+    - name: "4 🇰🇷 KR KT CDN TLS"
       network: ws
+      password: 0f1fd803-e643-4ba2-8174-8258fe7f12ad
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: f1f3a166-b1e3-4d70-b08c-0a96a9dbbe90
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /free/45.79.200.221:443
-    - name: "5 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: /free/115.22.115.218:30067
+    - name: "5 🇰🇷 KR LG HelloVision Corp. CDN TLS"
       network: ws
+      password: 0f1fd803-e643-4ba2-8174-8258fe7f12ad
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: f1f3a166-b1e3-4d70-b08c-0a96a9dbbe90
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: /free/107.172.108.219:38631
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /free/42.82.230.32:50000
     

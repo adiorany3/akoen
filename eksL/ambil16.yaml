@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇨🇭 CH Datacamp CDN TLS"
+    - name: "1 🇧🇷 BR Oracle Cloud CDN TLS"
       network: ws
-      password: 5e0efba7-5e10-4be9-a67c-41a510ecdf55
+      password: 6fcad2f9-27db-44bd-83ee-53ecdd48232f
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/185.126.116.70:443
-    - name: "2 🇨🇭 CH Solar Communications CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/168.138.141.235:2053
+    - name: "2 🇧🇷 BR Algar Telecom CDN TLS"
       network: ws
-      password: 5e0efba7-5e10-4be9-a67c-41a510ecdf55
+      password: 6fcad2f9-27db-44bd-83ee-53ecdd48232f
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/95.183.51.10:2053
-    - name: "3 🇨🇭 CH Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/201.16.130.6:443
+    - name: "3 🇧🇷 BR Oracle Cloud CDN TLS"
       network: ws
-      password: 5e0efba7-5e10-4be9-a67c-41a510ecdf55
+      password: 6fcad2f9-27db-44bd-83ee-53ecdd48232f
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
-        path: /free/144.24.243.207:443
-    - name: "4 🇨🇭 CH Private Layer CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /free/144.22.144.168:4242
+    - name: "4 🇧🇷 BR Oracle Cloud CDN TLS"
       network: ws
-      password: 5e0efba7-5e10-4be9-a67c-41a510ecdf55
+      password: 6fcad2f9-27db-44bd-83ee-53ecdd48232f
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
-        path: /free/179.43.176.163:443
-    - name: "5 🇨🇭 CH Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/144.22.252.124:443
+    - name: "5 🇧🇷 BR Oracle Cloud CDN TLS"
       network: ws
-      password: 5e0efba7-5e10-4be9-a67c-41a510ecdf55
+      password: 6fcad2f9-27db-44bd-83ee-53ecdd48232f
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /free/140.238.218.65:2053
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /free/164.152.61.166:50478
     

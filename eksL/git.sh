@@ -56,10 +56,10 @@ OUTPUT_FILES=(
   "ambil20.yaml"
   "ambil21.yaml"
   "ambil22.yaml"
+  "ambil23.yaml"
 )
 
 URLS=(
-  "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
   "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
@@ -81,6 +81,8 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/trojan?cc=ir&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=hu&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
+  "https://nautica.foolvpn.me/api/v1/sub/?cc=IL&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
+  "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
 )
 
 # Define multiple user agents
@@ -557,7 +559,23 @@ if ! git diff --staged --quiet; then
         fi
     fi
 else
-    echo "No changes to commit."
+echo "No changes to commit."
+fi
+
+# Run pisah.sh at the end
+if [ -f "pisah.sh" ]; then
+    echo "====================================="
+    echo "Running pisah.sh..."
+    echo "====================================="
+    chmod +x pisah.sh
+    ./pisah.sh
+    if [ $? -eq 0 ]; then
+        echo "✓ Successfully executed pisah.sh"
+    else
+        echo "✗ Error: Failed to execute pisah.sh"
+    fi
+else
+    echo "Warning: pisah.sh not found in current directory."
 fi
 
 echo "====================================="

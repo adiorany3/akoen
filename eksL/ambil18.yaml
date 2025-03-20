@@ -1,0 +1,67 @@
+proxies:
+    - name: "1 🇫🇮 FI Hetzner Online CDN TLS"
+      network: ws
+      password: 98bd2daa-c3cc-4934-880b-49d317d31d3b
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/135.181.34.171:2053
+    - name: "2 🇫🇮 FI Hetzner Online CDN TLS"
+      network: ws
+      password: 98bd2daa-c3cc-4934-880b-49d317d31d3b
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/65.109.212.183:8443
+    - name: "3 🇫🇮 FI Hetzner Online CDN TLS"
+      network: ws
+      password: 98bd2daa-c3cc-4934-880b-49d317d31d3b
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+        path: /free/65.21.246.84:8880
+    - name: "4 🇫🇮 FI Hetzner Online GmbH CDN TLS"
+      network: ws
+      password: 98bd2daa-c3cc-4934-880b-49d317d31d3b
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+        path: /free/37.27.27.91:2053
+    - name: "5 🇫🇮 FI Hetzner Online CDN TLS"
+      network: ws
+      password: 98bd2daa-c3cc-4934-880b-49d317d31d3b
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        path: /free/135.181.195.160:8443
+    
