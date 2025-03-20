@@ -7,6 +7,8 @@
 CONVERT_SCRIPT1="convertcombine.py"
 CONVERT_SCRIPT2="convertxlcombine.py"
 COMBINED_FILE="combined_proxies.yaml"
+DUALVLESS_FILE="dualvlesscombine.yaml"
+NEWBYURULE_FILE="newbyurule.yaml"
 MAX_RETRIES=3
 SECRET_CONFIG="secret.toml"
 
@@ -442,9 +444,9 @@ else
     fi
 fi
 
-# Add files to git
+# Add files to git - include dualvlesscombine.yaml and newbyurule.yaml
 echo "Adding files to git..."
-git add ${OUTPUT_FILES[@]} $COMBINED_FILE combine_proxies.py
+git add ${OUTPUT_FILES[@]} $COMBINED_FILE $DUALVLESS_FILE $NEWBYURULE_FILE combine_proxies.py $CONVERT_SCRIPT1 $CONVERT_SCRIPT2 secret.toml
 
 # Check if there are changes to commit
 if ! git diff --staged --quiet; then
