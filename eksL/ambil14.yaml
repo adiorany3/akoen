@@ -1,0 +1,28 @@
+proxies:
+    - name: "1 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: 4202a6ca-868b-49ae-a10f-6bc805f21f46
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/190.183.61.62:2053
+    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: 4202a6ca-868b-49ae-a10f-6bc805f21f46
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /free/190.183.61.62:8443
+    
