@@ -439,6 +439,76 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /free/38.180.79.9:443
+- name: "Bug1-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: &id028
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /free/43.229.149.251:2053
+- name: "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: &id029
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/47.81.9.160:443
+- name: "Bug1-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: &id030
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /free/8.213.224.55:587
+- name: "Bug1-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: &id031
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /free/8.213.216.14:587
+- name: "Bug1-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: &id032
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/171.103.232.58:20475
 - name: "Bug1-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -448,7 +518,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id028
+  ws-opts: &id033
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/51.0.2704.103 Safari/537.36
@@ -462,7 +532,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id029
+  ws-opts: &id034
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
@@ -476,7 +546,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id030
+  ws-opts: &id035
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.181 Safari/537.36
@@ -490,7 +560,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id031
+  ws-opts: &id036
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
@@ -504,7 +574,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id032
+  ws-opts: &id037
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
@@ -519,7 +589,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id033
+  ws-opts: &id038
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
@@ -533,7 +603,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id034
+  ws-opts: &id039
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/65.0.3325.181 Safari/537.36
@@ -548,7 +618,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id035
+  ws-opts: &id040
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/31.0.1650.57 Safari/537.36
@@ -562,7 +632,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id036
+  ws-opts: &id041
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
@@ -576,7 +646,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id037
+  ws-opts: &id042
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.76 Safari/537.36
@@ -590,7 +660,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id038
+  ws-opts: &id043
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/41.0.2272.104 Safari/537.36
@@ -604,7 +674,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id039
+  ws-opts: &id044
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
@@ -618,7 +688,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id040
+  ws-opts: &id045
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
@@ -632,7 +702,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id041
+  ws-opts: &id046
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.84 Safari/537.36
@@ -646,7 +716,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: &id042
+  ws-opts: &id047
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/62.0.3202.89 Safari/537.36
@@ -661,7 +731,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id043
+  ws-opts: &id048
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
@@ -676,7 +746,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id044
+  ws-opts: &id049
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/56.0.2924.87 Safari/537.36
@@ -691,7 +761,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id045
+  ws-opts: &id050
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/62.0.3202.89 Safari/537.36
@@ -706,7 +776,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id046
+  ws-opts: &id051
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/41.0.2272.104 Safari/537.36
@@ -721,7 +791,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id047
+  ws-opts: &id052
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/65.0.3325.162 Safari/537.36
@@ -736,7 +806,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id048
+  ws-opts: &id053
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/46.0.2490.80 Safari/537.36
@@ -751,7 +821,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id049
+  ws-opts: &id054
     headers:
       User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/44.0.2403.157 Safari/537.36
@@ -766,7 +836,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id050
+  ws-opts: &id055
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.118 Safari/537.36
@@ -781,7 +851,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id051
+  ws-opts: &id056
     headers:
       User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
@@ -796,7 +866,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id052
+  ws-opts: &id057
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
@@ -811,7 +881,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: &id053
+  ws-opts: &id058
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
@@ -1096,9 +1166,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "Bug2-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "Bug2-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.66.0.145
   skip-cert-verify: true
@@ -1108,7 +1178,7 @@ proxies:
   ws-opts: *id028
 - name: "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.66.0.145
   skip-cert-verify: true
@@ -1116,9 +1186,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "Bug2-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "Bug2-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.66.0.145
   skip-cert-verify: true
@@ -1128,7 +1198,7 @@ proxies:
   ws-opts: *id030
 - name: "Bug2-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.66.0.145
   skip-cert-verify: true
@@ -1136,6 +1206,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "Bug2-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "Bug2-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "Bug2-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "Bug2-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "Bug2-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -1145,7 +1265,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "Bug2-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock)\
     \ CDN TLS"
   network: ws
@@ -1156,7 +1276,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "Bug2-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -1166,7 +1286,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "Bug2-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -1177,7 +1297,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "Bug2-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -1187,7 +1307,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "Bug2-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -1197,7 +1317,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "Bug2-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1207,7 +1327,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "Bug2-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1217,7 +1337,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "Bug2-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1227,7 +1347,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "Bug2-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1237,7 +1357,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "Bug2-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1247,7 +1367,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "Bug2-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1258,7 +1378,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "Bug2-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -1269,7 +1389,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "Bug2-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1280,7 +1400,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "Bug2-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1291,7 +1411,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "Bug2-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1302,7 +1422,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "Bug2-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -1313,7 +1433,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "Bug2-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -1324,7 +1444,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "Bug2-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -1335,7 +1455,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "Bug2-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -1346,7 +1466,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "Bug2-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -1357,7 +1477,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: Bug2-Trojan UDP
   network: ws
@@ -1368,7 +1488,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: Bug2 WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -1649,9 +1769,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "Bug3-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "Bug3-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.5.240
   skip-cert-verify: true
@@ -1661,7 +1781,7 @@ proxies:
   ws-opts: *id028
 - name: "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.5.240
   skip-cert-verify: true
@@ -1669,9 +1789,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "Bug3-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "Bug3-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.5.240
   skip-cert-verify: true
@@ -1681,7 +1801,7 @@ proxies:
   ws-opts: *id030
 - name: "Bug3-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.5.240
   skip-cert-verify: true
@@ -1689,6 +1809,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "Bug3-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "Bug3-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "Bug3-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "Bug3-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "Bug3-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -1698,7 +1868,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "Bug3-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock)\
     \ CDN TLS"
   network: ws
@@ -1709,7 +1879,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "Bug3-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -1719,7 +1889,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "Bug3-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -1730,7 +1900,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "Bug3-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -1740,7 +1910,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "Bug3-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -1750,7 +1920,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "Bug3-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1760,7 +1930,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "Bug3-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1770,7 +1940,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "Bug3-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1780,7 +1950,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "Bug3-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1790,7 +1960,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "Bug3-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -1800,7 +1970,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "Bug3-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1811,7 +1981,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "Bug3-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -1822,7 +1992,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "Bug3-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1833,7 +2003,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "Bug3-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1844,7 +2014,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "Bug3-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -1855,7 +2025,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "Bug3-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -1866,7 +2036,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "Bug3-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -1877,7 +2047,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "Bug3-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -1888,7 +2058,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "Bug3-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -1899,7 +2069,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "Bug3-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -1910,7 +2080,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: Bug3-Trojan UDP
   network: ws
@@ -1921,7 +2091,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: Bug3 WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -2202,9 +2372,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "Bug4-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "Bug4-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.72.206
   skip-cert-verify: true
@@ -2214,7 +2384,7 @@ proxies:
   ws-opts: *id028
 - name: "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.72.206
   skip-cert-verify: true
@@ -2222,9 +2392,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "Bug4-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "Bug4-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.72.206
   skip-cert-verify: true
@@ -2234,7 +2404,7 @@ proxies:
   ws-opts: *id030
 - name: "Bug4-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.72.206
   skip-cert-verify: true
@@ -2242,6 +2412,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "Bug4-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "Bug4-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "Bug4-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "Bug4-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "Bug4-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -2251,7 +2471,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "Bug4-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock)\
     \ CDN TLS"
   network: ws
@@ -2262,7 +2482,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "Bug4-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -2272,7 +2492,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "Bug4-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -2283,7 +2503,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "Bug4-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -2293,7 +2513,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "Bug4-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -2303,7 +2523,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "Bug4-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2313,7 +2533,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "Bug4-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2323,7 +2543,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "Bug4-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2333,7 +2553,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "Bug4-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2343,7 +2563,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "Bug4-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2353,7 +2573,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "Bug4-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2364,7 +2584,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "Bug4-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -2375,7 +2595,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "Bug4-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2386,7 +2606,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "Bug4-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2397,7 +2617,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "Bug4-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2408,7 +2628,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "Bug4-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -2419,7 +2639,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "Bug4-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -2430,7 +2650,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "Bug4-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -2441,7 +2661,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "Bug4-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -2452,7 +2672,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "Bug4-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -2463,7 +2683,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: Bug4-Trojan UDP
   network: ws
@@ -2474,7 +2694,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: Bug4 WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -2755,9 +2975,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "Bug5-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "Bug5-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.155.243
   skip-cert-verify: true
@@ -2767,7 +2987,7 @@ proxies:
   ws-opts: *id028
 - name: "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.155.243
   skip-cert-verify: true
@@ -2775,9 +2995,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "Bug5-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "Bug5-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.155.243
   skip-cert-verify: true
@@ -2787,7 +3007,7 @@ proxies:
   ws-opts: *id030
 - name: "Bug5-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.17.155.243
   skip-cert-verify: true
@@ -2795,6 +3015,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "Bug5-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "Bug5-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "Bug5-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "Bug5-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "Bug5-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -2804,7 +3074,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "Bug5-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock)\
     \ CDN TLS"
   network: ws
@@ -2815,7 +3085,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "Bug5-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -2825,7 +3095,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "Bug5-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -2836,7 +3106,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "Bug5-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -2846,7 +3116,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "Bug5-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -2856,7 +3126,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "Bug5-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2866,7 +3136,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "Bug5-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2876,7 +3146,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "Bug5-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2886,7 +3156,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "Bug5-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2896,7 +3166,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "Bug5-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -2906,7 +3176,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "Bug5-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2917,7 +3187,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "Bug5-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -2928,7 +3198,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "Bug5-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2939,7 +3209,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "Bug5-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2950,7 +3220,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "Bug5-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -2961,7 +3231,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "Bug5-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -2972,7 +3242,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "Bug5-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -2983,7 +3253,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "Bug5-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -2994,7 +3264,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "Bug5-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -3005,7 +3275,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "Bug5-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -3016,7 +3286,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: Bug5-Trojan UDP
   network: ws
@@ -3027,7 +3297,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: Bug5 WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -3308,9 +3578,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "RG-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "RG-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.21.245
   skip-cert-verify: true
@@ -3320,7 +3590,7 @@ proxies:
   ws-opts: *id028
 - name: "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.21.245
   skip-cert-verify: true
@@ -3328,9 +3598,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "RG-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "RG-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.21.245
   skip-cert-verify: true
@@ -3340,7 +3610,7 @@ proxies:
   ws-opts: *id030
 - name: "RG-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.22.21.245
   skip-cert-verify: true
@@ -3348,6 +3618,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "RG-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 104.22.21.245
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "RG-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.21.245
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.21.245
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "RG-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.21.245
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "RG-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.22.21.245
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "RG-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -3357,7 +3677,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "RG-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN\
     \ TLS"
   network: ws
@@ -3368,7 +3688,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "RG-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -3378,7 +3698,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "RG-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -3389,7 +3709,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "RG-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -3399,7 +3719,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "RG-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -3409,7 +3729,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "RG-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3419,7 +3739,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "RG-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3429,7 +3749,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "RG-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3439,7 +3759,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "RG-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3449,7 +3769,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "RG-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3459,7 +3779,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "RG-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -3470,7 +3790,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "RG-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -3481,7 +3801,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "RG-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -3492,7 +3812,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "RG-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -3503,7 +3823,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "RG-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -3514,7 +3834,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "RG-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -3525,7 +3845,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "RG-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -3536,7 +3856,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "RG-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -3547,7 +3867,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "RG-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -3558,7 +3878,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "RG-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -3569,7 +3889,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: RG-Trojan UDP
   network: ws
@@ -3580,7 +3900,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: RG WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -3861,9 +4181,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "Ilped-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "Ilped-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.67.74.70
   skip-cert-verify: true
@@ -3873,7 +4193,7 @@ proxies:
   ws-opts: *id028
 - name: "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.67.74.70
   skip-cert-verify: true
@@ -3881,9 +4201,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "Ilped-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "Ilped-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.67.74.70
   skip-cert-verify: true
@@ -3893,7 +4213,7 @@ proxies:
   ws-opts: *id030
 - name: "Ilped-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 172.67.74.70
   skip-cert-verify: true
@@ -3901,6 +4221,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "Ilped-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 172.67.74.70
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "Ilped-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.67.74.70
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.67.74.70
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "Ilped-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.67.74.70
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "Ilped-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 172.67.74.70
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "Ilped-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -3910,7 +4280,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "Ilped-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock)\
     \ CDN TLS"
   network: ws
@@ -3921,7 +4291,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "Ilped-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -3931,7 +4301,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "Ilped-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -3942,7 +4312,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "Ilped-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -3952,7 +4322,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "Ilped-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -3962,7 +4332,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "Ilped-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3972,7 +4342,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "Ilped-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3982,7 +4352,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "Ilped-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -3992,7 +4362,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "Ilped-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4002,7 +4372,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "Ilped-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4012,7 +4382,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "Ilped-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4023,7 +4393,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "Ilped-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -4034,7 +4404,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "Ilped-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4045,7 +4415,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "Ilped-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4056,7 +4426,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "Ilped-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4067,7 +4437,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "Ilped-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -4078,7 +4448,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "Ilped-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -4089,7 +4459,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "Ilped-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -4100,7 +4470,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "Ilped-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -4111,7 +4481,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "Ilped-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -4122,7 +4492,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: Ilped-Trojan UDP
   network: ws
@@ -4133,7 +4503,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: Ilped WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -4414,9 +4784,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id027
-- name: "GGWP-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+- name: "GGWP-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.19.143.108
   skip-cert-verify: true
@@ -4426,7 +4796,7 @@ proxies:
   ws-opts: *id028
 - name: "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.19.143.108
   skip-cert-verify: true
@@ -4434,9 +4804,9 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id029
-- name: "GGWP-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+- name: "GGWP-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.19.143.108
   skip-cert-verify: true
@@ -4446,7 +4816,7 @@ proxies:
   ws-opts: *id030
 - name: "GGWP-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   network: ws
-  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
   port: 443
   server: 104.19.143.108
   skip-cert-verify: true
@@ -4454,6 +4824,56 @@ proxies:
   type: trojan
   udp: false
   ws-opts: *id031
+- name: "GGWP-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: e6ecff0f-ad06-498c-b996-0dd2d6127e22
+  port: 443
+  server: 104.19.143.108
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id032
+- name: "GGWP-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.19.143.108
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id033
+- name: "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.19.143.108
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id034
+- name: "GGWP-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.19.143.108
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id035
+- name: "GGWP-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  network: ws
+  password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
+  port: 443
+  server: 104.19.143.108
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts: *id036
 - name: "GGWP-5 \U0001F1F9\U0001F1ED TH Alibaba (US) Technology Co."
   network: ws
   password: 7767c3f4-0b4c-4910-9de1-61a9b3d659a4
@@ -4463,7 +4883,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id032
+  ws-opts: *id037
 - name: "GGWP-1 \U0001F1EE\U0001F1F7 IR Noyan Abr Arvan Co. ( Private Joint Stock)\
     \ CDN TLS"
   network: ws
@@ -4474,7 +4894,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id033
+  ws-opts: *id038
 - name: "GGWP-2 \U0001F1EE\U0001F1F7 IR Webdade CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -4484,7 +4904,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id034
+  ws-opts: *id039
 - name: "GGWP-3 \U0001F1EE\U0001F1F7 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI\
     \ CDN TLS"
   network: ws
@@ -4495,7 +4915,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id035
+  ws-opts: *id040
 - name: "GGWP-4 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -4505,7 +4925,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id036
+  ws-opts: *id041
 - name: "GGWP-5 \U0001F1EE\U0001F1F7 IR dataforest CDN TLS"
   network: ws
   password: 06e69ebb-0e26-4905-bfea-9b84228a8494
@@ -4515,7 +4935,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id037
+  ws-opts: *id042
 - name: "GGWP-1 \U0001F1ED\U0001F1FA HU M247 Europe CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4525,7 +4945,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id038
+  ws-opts: *id043
 - name: "GGWP-2 \U0001F1ED\U0001F1FA HU 23VNet Kft. CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4535,7 +4955,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id039
+  ws-opts: *id044
 - name: "GGWP-3 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4545,7 +4965,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id040
+  ws-opts: *id045
 - name: "GGWP-4 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4555,7 +4975,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id041
+  ws-opts: *id046
 - name: "GGWP-5 \U0001F1ED\U0001F1FA HU Stark Industries Solutions CDN TLS"
   network: ws
   password: 21551376-0ae8-4c40-b1cb-2607e981ff79
@@ -4565,7 +4985,7 @@ proxies:
   sni: nuclear.biz.id
   type: trojan
   udp: false
-  ws-opts: *id042
+  ws-opts: *id047
 - client-fingerprint: chrome
   name: "GGWP-1 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4576,7 +4996,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id043
+  ws-opts: *id048
 - client-fingerprint: chrome
   name: "GGWP-3 \U0001F1EE\U0001F1F1 HOTnet WS TLS [nautica]"
   network: ws
@@ -4587,7 +5007,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id044
+  ws-opts: *id049
 - client-fingerprint: chrome
   name: "GGWP-5 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4598,7 +5018,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id045
+  ws-opts: *id050
 - client-fingerprint: chrome
   name: "GGWP-7 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4609,7 +5029,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id046
+  ws-opts: *id051
 - client-fingerprint: chrome
   name: "GGWP-9 \U0001F1EE\U0001F1F1 Stark Industries Solutions WS TLS [nautica]"
   network: ws
@@ -4620,7 +5040,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id047
+  ws-opts: *id052
 - client-fingerprint: chrome
   name: "GGWP-11 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -4631,7 +5051,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id048
+  ws-opts: *id053
 - client-fingerprint: chrome
   name: "GGWP-13 \U0001F1EE\U0001F1F1 O.m.c. Computers & Communications WS TLS [nautica]"
   network: ws
@@ -4642,7 +5062,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id049
+  ws-opts: *id054
 - client-fingerprint: chrome
   name: "GGWP-15 \U0001F1EE\U0001F1F1 Oracle Cloud WS TLS [nautica]"
   network: ws
@@ -4653,7 +5073,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id050
+  ws-opts: *id055
 - client-fingerprint: chrome
   name: "GGWP-17 \U0001F1EE\U0001F1F1 Cloud Lease WS TLS [nautica]"
   network: ws
@@ -4664,7 +5084,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id051
+  ws-opts: *id056
 - client-fingerprint: chrome
   name: "GGWP-19 \U0001F1EE\U0001F1F1 SmartApe OU WS TLS [nautica]"
   network: ws
@@ -4675,7 +5095,7 @@ proxies:
   sni: nautica.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id052
+  ws-opts: *id057
 - client-fingerprint: chrome
   name: GGWP-Trojan UDP
   network: ws
@@ -4686,7 +5106,7 @@ proxies:
   sni: id1.foolvpn.me
   type: trojan
   udp: true
-  ws-opts: *id053
+  ws-opts: *id058
 - name: GGWP WS TLS
   network: ws
   password: 41f6b0a0-6676-4883-9bf9-63cd9551e275
@@ -4780,6 +5200,11 @@ proxy-groups:
   - "Bug1-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug1-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug1-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug1-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug1-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug1-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -4836,6 +5261,11 @@ proxy-groups:
   - "Bug2-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug2-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug2-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug2-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug2-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug2-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -4892,6 +5322,11 @@ proxy-groups:
   - "Bug3-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug3-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug3-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug3-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug3-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug3-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -4948,6 +5383,11 @@ proxy-groups:
   - "Bug4-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug4-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug4-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug4-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug4-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug4-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5004,6 +5444,11 @@ proxy-groups:
   - "Bug5-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug5-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug5-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug5-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug5-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug5-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5060,6 +5505,11 @@ proxy-groups:
   - "RG-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "RG-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "RG-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "RG-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "RG-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "RG-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5115,6 +5565,11 @@ proxy-groups:
   - "Ilped-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Ilped-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Ilped-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Ilped-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Ilped-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Ilped-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5171,6 +5626,11 @@ proxy-groups:
   - "GGWP-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "GGWP-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "GGWP-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "GGWP-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "GGWP-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "GGWP-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5207,7 +5667,7 @@ proxy-groups:
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
-  proxies: &id054
+  proxies: &id059
   - "Bug1-1 \U0001F1F0\U0001F1F7 KR KT CDN TLS"
   - "Bug1-2 \U0001F1F0\U0001F1F7 KR KT CDN TLS"
   - "Bug1-3 \U0001F1F0\U0001F1F7 KR LG Uplus CDN TLS"
@@ -5235,6 +5695,11 @@ proxy-groups:
   - "Bug1-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug1-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug1-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug1-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug1-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug1-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5291,6 +5756,11 @@ proxy-groups:
   - "Bug2-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug2-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug2-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug2-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug2-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug2-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5347,6 +5817,11 @@ proxy-groups:
   - "Bug3-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug3-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug3-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug3-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug3-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug3-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5403,6 +5878,11 @@ proxy-groups:
   - "Bug4-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug4-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug4-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug4-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug4-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug4-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5459,6 +5939,11 @@ proxy-groups:
   - "Bug5-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug5-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug5-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug5-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug5-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug5-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5515,6 +6000,11 @@ proxy-groups:
   - "RG-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "RG-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "RG-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "RG-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "RG-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "RG-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5570,6 +6060,11 @@ proxy-groups:
   - "Ilped-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Ilped-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Ilped-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Ilped-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Ilped-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Ilped-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5626,6 +6121,11 @@ proxy-groups:
   - "GGWP-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "GGWP-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "GGWP-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "GGWP-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "GGWP-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "GGWP-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5663,13 +6163,13 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies: *id054
+  proxies: *id059
 - name: Load-Balance
   type: load-balance
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
-  proxies: *id054
+  proxies: *id059
 - name: Terbaik
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -5727,6 +6227,11 @@ proxy-groups:
   - "Bug1-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug1-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug1-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug1-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug1-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug1-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug1-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug1-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5789,6 +6294,11 @@ proxy-groups:
   - "Bug2-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug2-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug2-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug2-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug2-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug2-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug2-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug2-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5851,6 +6361,11 @@ proxy-groups:
   - "Bug3-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug3-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug3-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug3-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug3-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug3-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug3-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug3-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5913,6 +6428,11 @@ proxy-groups:
   - "Bug4-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug4-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug4-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug4-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug4-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug4-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug4-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug4-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -5975,6 +6495,11 @@ proxy-groups:
   - "Bug5-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Bug5-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Bug5-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Bug5-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Bug5-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug5-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Bug5-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Bug5-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -6037,6 +6562,11 @@ proxy-groups:
   - "RG-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "RG-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "RG-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "RG-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "RG-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "RG-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "RG-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "RG-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -6098,6 +6628,11 @@ proxy-groups:
   - "Ilped-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "Ilped-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "Ilped-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "Ilped-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "Ilped-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Ilped-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "Ilped-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "Ilped-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
@@ -6160,6 +6695,11 @@ proxy-groups:
   - "GGWP-3 \U0001F1E7\U0001F1F7 BR Algar Telecom CDN TLS"
   - "GGWP-4 \U0001F1E7\U0001F1F7 BR Oracle Cloud CDN TLS"
   - "GGWP-5 \U0001F1E7\U0001F1F7 BR M247 Europe CDN TLS"
+  - "GGWP-1 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
+  - "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-3 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-4 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
+  - "GGWP-5 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "GGWP-1 \U0001F1F9\U0001F1ED TH True Online CDN TLS"
   - "GGWP-2 \U0001F1F9\U0001F1ED TH Alibaba CDN TLS"
   - "GGWP-3 \U0001F1F9\U0001F1ED TH Siamdata Communication Co. CDN TLS"
