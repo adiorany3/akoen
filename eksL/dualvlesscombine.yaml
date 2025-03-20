@@ -20967,6 +20967,45 @@ proxies:
   type: trojan
   udp: true
   ws-opts: *id001
+- name: BUG-IFLIX 1
+  server: sg-d6.2esge.web.id
+  port: 443
+  type: trojan
+  password: f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2
+  network: ws
+  sni: live.iflix.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-d6.2esge.web.id
+- name: BUG-IFLIX 2
+  server: sg-d6.2esge.web.id
+  port: 443
+  type: trojan
+  password: f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2
+  network: ws
+  sni: upload.iflix.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-d6.2esge.web.id
+- name: BUG-IFLIX 3
+  server: sg-d6.2esge.web.id
+  port: 443
+  type: trojan
+  password: f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2
+  network: ws
+  sni: vplay.iflix.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-d6.2esge.web.id
 proxy-groups:
 - name: Selector
   type: select
@@ -20975,6 +21014,7 @@ proxy-groups:
   - URL-Test
   - Load-Balance
   - Terbaik
+  - IFLIX
   - Bug1
   - Bug2
   - Bug3
@@ -22927,6 +22967,9 @@ proxy-groups:
   - "GGWP-29 \U0001F1ED\U0001F1F0 HK Tencent cloud computing CDN TLS"
   - "GGWP-30 \U0001F1ED\U0001F1F0 HK CTG Server CDN TLS"
   - GGWP WS TLS
+  - BUG-IFLIX 1
+  - BUG-IFLIX 2
+  - BUG-IFLIX 3
 - name: Fallback
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -24876,6 +24919,9 @@ proxy-groups:
   - "GGWP-29 \U0001F1ED\U0001F1F0 HK Tencent cloud computing CDN TLS"
   - "GGWP-30 \U0001F1ED\U0001F1F0 HK CTG Server CDN TLS"
   - GGWP WS TLS
+  - BUG-IFLIX 1
+  - BUG-IFLIX 2
+  - BUG-IFLIX 3
 - name: URL-Test
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -24903,6 +24949,16 @@ proxy-groups:
   - RG
   - Ilped
   - GGWP
+  - IFLIX
+- name: IFLIX
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - BUG-IFLIX 1
+  - BUG-IFLIX 2
+  - BUG-IFLIX 3
 - name: Bug1
   type: url-test
   url: http://www.gstatic.com/generate_204

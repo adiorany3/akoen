@@ -19,6 +19,61 @@ SERVER_CONFIGS = {
     "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"}
 }
 
+# Additional static proxies
+ADDITIONAL_PROXIES = [
+    {
+        "name": "BUG-IFLIX 1",
+        "server": "sg-d6.2esge.web.id",
+        "port": 443,
+        "type": "trojan",
+        "password": "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2",
+        "network": "ws",
+        "sni": "live.iflix.com",
+        "skip-cert-verify": True,
+        "udp": True,
+        "ws-opts": {
+            "path": "/trojan",
+            "headers": {
+                "Host": "sg-d6.2esge.web.id"
+            }
+        }
+    },
+    {
+        "name": "BUG-IFLIX 2",
+        "server": "sg-d6.2esge.web.id",
+        "port": 443,
+        "type": "trojan",
+        "password": "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2",
+        "network": "ws",
+        "sni": "upload.iflix.com",
+        "skip-cert-verify": True,
+        "udp": True,
+        "ws-opts": {
+            "path": "/trojan",
+            "headers": {
+                "Host": "sg-d6.2esge.web.id"
+            }
+        }
+    },
+    {
+        "name": "BUG-IFLIX 3",
+        "server": "sg-d6.2esge.web.id",
+        "port": 443,
+        "type": "trojan",
+        "password": "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2",
+        "network": "ws",
+        "sni": "vplay.iflix.com",
+        "skip-cert-verify": True,
+        "udp": True,
+        "ws-opts": {
+            "path": "/trojan",
+            "headers": {
+                "Host": "sg-d6.2esge.web.id"
+            }
+        }
+    }
+]
+
 # Helper function to get available ambil yaml files
 def get_ambil_files():
     """Get all ambil*.yaml files in the current directory"""
@@ -125,13 +180,21 @@ def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml',
             proxy_names.extend(names)
             server_names[server_type] = names
         
+        # Add additional static proxies
+        iflix_names = []
+        for proxy in ADDITIONAL_PROXIES:
+            new_data['proxies'].append(proxy)
+            proxy_names.append(proxy['name'])
+            iflix_names.append(proxy['name'])
+        logger.info(f"Added {len(ADDITIONAL_PROXIES)} static BUG-IFLIX proxies")
+        
         # Add proxy groups
         if proxy_names:
             # Main groups
             new_data['proxy-groups'] = [
                 {
                     'name': 'Selector', 'type': 'select',
-                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 
+                    'proxies': ['Fallback', 'URL-Test', 'Load-Balance', 'Terbaik', 'IFLIX', 
                                'Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'RG', 'Ilped', 'GGWP'] + proxy_names
                 },
                 {
@@ -152,7 +215,12 @@ def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml',
                 {
                     'name': 'Terbaik', 'type': 'load-balance',
                     'url': 'http://www.gstatic.com/generate_204', 'interval': 300, 'strategy': 'round-robin',
-                    'proxies': ['Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'URL-Test', 'RG', 'Ilped', 'GGWP']
+                    'proxies': ['Bug1', 'Bug2', 'Bug3', 'Bug4', 'Bug5', 'URL-Test', 'RG', 'Ilped', 'GGWP', 'IFLIX']
+                },
+                {
+                    'name': 'IFLIX', 'type': 'url-test',
+                    'url': 'http://www.gstatic.com/generate_204', 
+                    'interval': 30, 'tolerance': 50, 'proxies': iflix_names
                 }
             ]
             
