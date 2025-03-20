@@ -25,9 +25,9 @@ profile:
     store-selected: true
 proxies:
     - client-fingerprint: chrome
-      name: "1 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
+      name: "1 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -36,10 +36,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /185.81.29.113-8080
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /213.35.108.135-12596
     - client-fingerprint: chrome
-      name: "2 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
+      name: "2 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -47,17 +47,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /185.81.29.113-8080
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /213.35.108.135-12596
       xudp: true
     - client-fingerprint: chrome
-      name: "3 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
+      name: "3 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -66,10 +66,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
-        path: /8.219.237.57-31523
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /101.32.247.126-725
     - client-fingerprint: chrome
-      name: "4 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
+      name: "4 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -77,17 +77,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /8.219.237.57-31523
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /101.32.247.126-725
       xudp: true
     - client-fingerprint: chrome
-      name: "5 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
+      name: "5 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -96,10 +96,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /47.236.86.17-49257
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /168.138.184.142-19191
     - client-fingerprint: chrome
-      name: "6 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
+      name: "6 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -107,17 +107,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-        path: /47.236.86.17-49257
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+        path: /168.138.184.142-19191
       xudp: true
     - client-fingerprint: chrome
-      name: "7 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
+      name: "7 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -126,10 +126,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /160.22.79.174-443
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /178.128.80.43-443
     - client-fingerprint: chrome
-      name: "8 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
+      name: "8 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -137,47 +137,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /160.22.79.174-443
-      xudp: true
-    - client-fingerprint: chrome
-      name: "9 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-      network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
-      port: "443"
-      server: 104.17.72.206
-      skip-cert-verify: false
-      sni: nautica.foolvpn.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
             User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /47.236.119.190-51342
-    - client-fingerprint: chrome
-      name: "10 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-      network: ws
-      port: "443"
-      server: 104.17.72.206
-      servername: nautica.foolvpn.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
-      ws-opts:
-        headers:
-            Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /47.236.119.190-51342
+        path: /178.128.80.43-443
       xudp: true
     - client-fingerprint: chrome
-      name: "11 \U0001F1F8\U0001F1EC Viewqwest WS TLS [nautica]"
+      name: "9 \U0001F1F8\U0001F1EC Alibaba Cloud WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -186,10 +156,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-        path: /143.42.66.91-443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+        path: /161.117.249.114-2025
     - client-fingerprint: chrome
-      name: "12 \U0001F1F8\U0001F1EC Viewqwest WS TLS [nautica]"
+      name: "10 \U0001F1F8\U0001F1EC Alibaba Cloud WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -197,17 +167,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /143.42.66.91-443
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /161.117.249.114-2025
       xudp: true
     - client-fingerprint: chrome
-      name: "13 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+      name: "11 \U0001F1F8\U0001F1EC Neapol Group Ltd WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -216,10 +186,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /129.150.36.188-53435
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /194.36.179.5-2053
     - client-fingerprint: chrome
-      name: "14 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+      name: "12 \U0001F1F8\U0001F1EC Neapol Group Ltd WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -227,17 +197,47 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-        path: /129.150.36.188-53435
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+        path: /194.36.179.5-2053
+      xudp: true
+    - client-fingerprint: chrome
+      name: "13 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+      network: ws
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
+      port: "443"
+      server: 104.17.72.206
+      skip-cert-verify: false
+      sni: nautica.foolvpn.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /163.47.9.27-2053
+    - client-fingerprint: chrome
+      name: "14 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+      network: ws
+      port: "443"
+      server: 104.17.72.206
+      servername: nautica.foolvpn.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
+      ws-opts:
+        headers:
+            Host: nautica.foolvpn.me
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+        path: /163.47.9.27-2053
       xudp: true
     - client-fingerprint: chrome
       name: "15 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -246,8 +246,8 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /168.138.165.174-443
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+        path: /138.2.95.61-1111
     - client-fingerprint: chrome
       name: "16 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
       network: ws
@@ -257,17 +257,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
-        path: /168.138.165.174-443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        path: /138.2.95.61-1111
       xudp: true
     - client-fingerprint: chrome
-      name: "17 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
+      name: "17 \U0001F1F8\U0001F1EC OVHcloud WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -276,10 +276,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /150.109.94.144-8900
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /15.235.199.103-2053
     - client-fingerprint: chrome
-      name: "18 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
+      name: "18 \U0001F1F8\U0001F1EC OVHcloud WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -287,17 +287,17 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /150.109.94.144-8900
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /15.235.199.103-2053
       xudp: true
     - client-fingerprint: chrome
-      name: "19 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
+      name: "19 \U0001F1F8\U0001F1EC Green Floid WS TLS [nautica]"
       network: ws
-      password: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      password: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       port: "443"
       server: 104.17.72.206
       skip-cert-verify: false
@@ -306,10 +306,10 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /185.81.28.95-30503
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /5.34.176.119-81
     - client-fingerprint: chrome
-      name: "20 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
+      name: "20 \U0001F1F8\U0001F1EC Green Floid WS TLS [nautica]"
       network: ws
       port: "443"
       server: 104.17.72.206
@@ -317,12 +317,12 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: c02ea2f6-53a2-4a90-af82-e1e2cae686f2
+      uuid: ea1a3968-b4d5-4f23-97c9-23fcf707158e
       ws-opts:
         headers:
             Host: nautica.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /185.81.28.95-30503
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /5.34.176.119-81
       xudp: true
     - client-fingerprint: chrome
       name: Trojan UDP
@@ -336,7 +336,7 @@ proxies:
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /trojan-udp
 proxy-groups:
     - name: Tunnel
@@ -347,50 +347,50 @@ proxy-groups:
     - interval: 300
       name: Url Test
       proxies:
-        - "1 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
-        - "2 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
-        - "3 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "4 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "5 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "6 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "7 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
-        - "8 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
-        - "9 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "10 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "11 \U0001F1F8\U0001F1EC Viewqwest WS TLS [nautica]"
-        - "12 \U0001F1F8\U0001F1EC Viewqwest WS TLS [nautica]"
-        - "13 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
-        - "14 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "1 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "2 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "3 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
+        - "4 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
+        - "5 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "6 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "7 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+        - "8 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+        - "9 \U0001F1F8\U0001F1EC Alibaba Cloud WS TLS [nautica]"
+        - "10 \U0001F1F8\U0001F1EC Alibaba Cloud WS TLS [nautica]"
+        - "11 \U0001F1F8\U0001F1EC Neapol Group Ltd WS TLS [nautica]"
+        - "12 \U0001F1F8\U0001F1EC Neapol Group Ltd WS TLS [nautica]"
+        - "13 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+        - "14 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
         - "15 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
         - "16 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
-        - "17 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
-        - "18 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
-        - "19 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
-        - "20 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
+        - "17 \U0001F1F8\U0001F1EC OVHcloud WS TLS [nautica]"
+        - "18 \U0001F1F8\U0001F1EC OVHcloud WS TLS [nautica]"
+        - "19 \U0001F1F8\U0001F1EC Green Floid WS TLS [nautica]"
+        - "20 \U0001F1F8\U0001F1EC Green Floid WS TLS [nautica]"
       type: url-test
     - interval: 300
       name: Selector
       proxies:
-        - "1 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
-        - "2 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
-        - "3 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "4 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "5 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "6 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "7 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
-        - "8 \U0001F1F8\U0001F1EC Onidel WS TLS [nautica]"
-        - "9 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "10 \U0001F1F8\U0001F1EC Alibaba WS TLS [nautica]"
-        - "11 \U0001F1F8\U0001F1EC Viewqwest WS TLS [nautica]"
-        - "12 \U0001F1F8\U0001F1EC Viewqwest WS TLS [nautica]"
-        - "13 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
-        - "14 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "1 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "2 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "3 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
+        - "4 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
+        - "5 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "6 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
+        - "7 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+        - "8 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+        - "9 \U0001F1F8\U0001F1EC Alibaba Cloud WS TLS [nautica]"
+        - "10 \U0001F1F8\U0001F1EC Alibaba Cloud WS TLS [nautica]"
+        - "11 \U0001F1F8\U0001F1EC Neapol Group Ltd WS TLS [nautica]"
+        - "12 \U0001F1F8\U0001F1EC Neapol Group Ltd WS TLS [nautica]"
+        - "13 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
+        - "14 \U0001F1F8\U0001F1EC Digital Ocean WS TLS [nautica]"
         - "15 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
         - "16 \U0001F1F8\U0001F1EC Oracle Cloud WS TLS [nautica]"
-        - "17 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
-        - "18 \U0001F1F8\U0001F1EC Tencent cloud computing WS TLS [nautica]"
-        - "19 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
-        - "20 \U0001F1F8\U0001F1EC Akile WS TLS [nautica]"
+        - "17 \U0001F1F8\U0001F1EC OVHcloud WS TLS [nautica]"
+        - "18 \U0001F1F8\U0001F1EC OVHcloud WS TLS [nautica]"
+        - "19 \U0001F1F8\U0001F1EC Green Floid WS TLS [nautica]"
+        - "20 \U0001F1F8\U0001F1EC Green Floid WS TLS [nautica]"
       type: select
 redir-port: 7892
 rules:

@@ -1,0 +1,67 @@
+proxies:
+    - name: "1 🇭🇰 HK Alibaba CDN TLS"
+      network: ws
+      password: e1141ba0-7ea8-4441-a0dc-55cf1da54dcd
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /free/47.243.254.159:587
+    - name: "2 🇭🇰 HK M247 Europe CDN TLS"
+      network: ws
+      password: e1141ba0-7ea8-4441-a0dc-55cf1da54dcd
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /free/45.136.197.252:443
+    - name: "3 🇭🇰 HK Tencent cloud computing CDN TLS"
+      network: ws
+      password: e1141ba0-7ea8-4441-a0dc-55cf1da54dcd
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
+        path: /free/43.155.89.93:55527
+    - name: "4 🇭🇰 HK Alibaba CDN TLS"
+      network: ws
+      password: e1141ba0-7ea8-4441-a0dc-55cf1da54dcd
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /free/8.218.107.42:6669
+    - name: "5 🇭🇰 HK Alibaba CDN TLS"
+      network: ws
+      password: e1141ba0-7ea8-4441-a0dc-55cf1da54dcd
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /free/47.89.39.186:39251
+    

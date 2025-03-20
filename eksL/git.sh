@@ -25,6 +25,16 @@ OUTPUT_FILES=(
   "ambil9.yaml"
   "ambil10.yaml"
   "ambil11.yaml"
+  "ambil12.yaml"
+  "ambil13.yaml"
+  "ambil14.yaml"
+  "ambil15.yaml"
+  "ambil16.yaml"
+  "ambil17.yaml"
+  "ambil18.yaml"
+  "ambil19.yaml"
+  "ambil20.yaml"
+  "ambil21.yaml"
 )
 
 URLS=(
@@ -39,6 +49,16 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/vless?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=my&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=gb&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
 )
 
 # Define multiple user agents
