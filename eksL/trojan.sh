@@ -1,0 +1,1 @@
+python3 pisah.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml

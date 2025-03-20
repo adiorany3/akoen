@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇧🇬 BG Melbikomas UAB CDN TLS"
+    - name: "1 🇧🇬 BG First Server CDN TLS"
       network: ws
-      password: e4d2d185-20dd-4965-94f1-64420f4fe1cc
+      password: 09c09abc-f8b7-42b6-b000-083eb905760a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/213.183.63.68:36651
-    - name: "2 🇧🇬 BG Belcloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+        path: /free/185.232.170.30:443
+    - name: "2 🇧🇬 BG BlueVPS OU CDN TLS"
       network: ws
-      password: e4d2d185-20dd-4965-94f1-64420f4fe1cc
+      password: 09c09abc-f8b7-42b6-b000-083eb905760a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /free/85.217.171.231:443
-    - name: "3 🇧🇬 BG Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/85.239.55.21:8443
+    - name: "3 🇧🇬 BG Friendhosting LTD CDN TLS"
       network: ws
-      password: e4d2d185-20dd-4965-94f1-64420f4fe1cc
+      password: 09c09abc-f8b7-42b6-b000-083eb905760a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/95.164.21.72:443
-    - name: "4 🇧🇬 BG Ultranet CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/185.36.147.70:443
+    - name: "4 🇧🇬 BG Melbikomas UAB CDN TLS"
       network: ws
-      password: e4d2d185-20dd-4965-94f1-64420f4fe1cc
+      password: 09c09abc-f8b7-42b6-b000-083eb905760a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /free/213.149.152.219:39067
-    - name: "5 🇧🇬 BG Relink CDN TLS"
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/213.183.63.185:443
+    - name: "5 🇧🇬 BG Alexhost CDN TLS"
       network: ws
-      password: e4d2d185-20dd-4965-94f1-64420f4fe1cc
+      password: 09c09abc-f8b7-42b6-b000-083eb905760a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /free/185.68.93.39:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /free/93.157.106.107:443
     
