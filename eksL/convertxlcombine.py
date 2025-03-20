@@ -19,59 +19,30 @@ SERVER_CONFIGS = {
     "GGWP": {"ip": "104.19.143.108", "prefix": "GGWP-"}
 }
 
-# Additional static proxies
-ADDITIONAL_PROXIES = [
-    {
-        "name": "BUG-IFLIX 1",
+# Additional static proxies - IFLIX configs
+def create_iflix_proxy(num, sni):
+    """Create an IFLIX proxy with specific SNI domain"""
+    return {
+        "name": f"BUG-IFLIX {num}",
         "server": "sg-d6.2esge.web.id",
         "port": 443,
         "type": "trojan",
         "password": "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2",
         "network": "ws",
-        "sni": "live.iflix.com",
+        "sni": f"{sni}.iflix.com",
         "skip-cert-verify": True,
         "udp": True,
         "ws-opts": {
             "path": "/trojan",
-            "headers": {
-                "Host": "sg-d6.2esge.web.id"
-            }
-        }
-    },
-    {
-        "name": "BUG-IFLIX 2",
-        "server": "sg-d6.2esge.web.id",
-        "port": 443,
-        "type": "trojan",
-        "password": "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2",
-        "network": "ws",
-        "sni": "upload.iflix.com",
-        "skip-cert-verify": True,
-        "udp": True,
-        "ws-opts": {
-            "path": "/trojan",
-            "headers": {
-                "Host": "sg-d6.2esge.web.id"
-            }
-        }
-    },
-    {
-        "name": "BUG-IFLIX 3",
-        "server": "sg-d6.2esge.web.id",
-        "port": 443,
-        "type": "trojan",
-        "password": "f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2",
-        "network": "ws",
-        "sni": "vplay.iflix.com",
-        "skip-cert-verify": True,
-        "udp": True,
-        "ws-opts": {
-            "path": "/trojan",
-            "headers": {
-                "Host": "sg-d6.2esge.web.id"
-            }
+            "headers": {"Host": "sg-d6.2esge.web.id"}
         }
     }
+
+# Define the IFLIX proxy configurations
+ADDITIONAL_PROXIES = [
+    create_iflix_proxy(1, "live"),
+    create_iflix_proxy(2, "upload"),
+    create_iflix_proxy(3, "vplay")
 ]
 
 # Helper function to get available ambil yaml files
