@@ -1,7 +1,7 @@
 proxies:
     - name: "1 🇦🇪 AE Zenlayer CDN TLS"
       network: ws
-      password: 2f4a4947-d0dc-4d7f-bb21-6856aa4a950e
+      password: 90117ff4-8864-4789-9144-22de664a5650
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /free/85.237.211.59:8443
-    - name: "2 🇦🇪 AE Aryaka Networks CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/85.237.211.59:2053
+    - name: "2 🇦🇪 AE Zenlayer CDN TLS"
       network: ws
-      password: 2f4a4947-d0dc-4d7f-bb21-6856aa4a950e
+      password: 90117ff4-8864-4789-9144-22de664a5650
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-        path: /free/159.100.198.106:443
-    - name: "3 🇦🇪 AE Amazon.com CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /free/85.237.211.73:443
+    - name: "3 🇦🇪 AE Oracle Cloud CDN TLS"
       network: ws
-      password: 2f4a4947-d0dc-4d7f-bb21-6856aa4a950e
+      password: 90117ff4-8864-4789-9144-22de664a5650
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/40.172.42.247:8443
-    - name: "4 🇦🇪 AE Itglobal Com Dmcc CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/129.151.148.35:443
+    - name: "4 🇦🇪 AE Zenlayer CDN TLS"
       network: ws
-      password: 2f4a4947-d0dc-4d7f-bb21-6856aa4a950e
+      password: 90117ff4-8864-4789-9144-22de664a5650
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-        path: /free/185.209.49.17:2053
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/85.237.211.113:2096
     - name: "5 🇦🇪 AE Oracle Cloud CDN TLS"
       network: ws
-      password: 2f4a4947-d0dc-4d7f-bb21-6856aa4a950e
+      password: 90117ff4-8864-4789-9144-22de664a5650
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/139.185.39.237:48008
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/193.123.80.245:443
     

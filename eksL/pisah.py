@@ -1,5 +1,5 @@
 # cara pakai
-# python pisah.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml
+# python3 pisah.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml
 
 import yaml, os, argparse, logging, sys, glob
 from datetime import datetime

@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇫🇮 FI Hetzner Online CDN TLS"
+    - name: "1 🇫🇮 FI Hostkey CDN TLS"
       network: ws
-      password: f6fafa53-e97f-4144-9218-c79c33acee44
+      password: a0515e39-5323-4937-9b75-1902ec0c6fdb
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /free/65.108.209.46:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/212.237.219.88:2053
     - name: "2 🇫🇮 FI Hetzner Online CDN TLS"
       network: ws
-      password: f6fafa53-e97f-4144-9218-c79c33acee44
+      password: a0515e39-5323-4937-9b75-1902ec0c6fdb
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
-        path: /free/65.108.245.196:443
-    - name: "3 🇫🇮 FI Hetzner Online CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/135.181.155.32:2053
+    - name: "3 🇫🇮 FI Ihor-hosting llc CDN TLS"
       network: ws
-      password: f6fafa53-e97f-4144-9218-c79c33acee44
+      password: a0515e39-5323-4937-9b75-1902ec0c6fdb
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/95.216.214.121:443
-    - name: "4 🇫🇮 FI I-servers CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /free/185.105.118.126:2053
+    - name: "4 🇫🇮 FI Hetzner Online CDN TLS"
       network: ws
-      password: f6fafa53-e97f-4144-9218-c79c33acee44
+      password: a0515e39-5323-4937-9b75-1902ec0c6fdb
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /free/185.188.181.218:2053
-    - name: "5 🇫🇮 FI CGI GLOBAL LIMITED CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/95.217.8.141:443
+    - name: "5 🇫🇮 FI Hetzner Online GmbH CDN TLS"
       network: ws
-      password: f6fafa53-e97f-4144-9218-c79c33acee44
+      password: a0515e39-5323-4937-9b75-1902ec0c6fdb
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/95.182.99.170:2053
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/65.109.192.28:57286
     
