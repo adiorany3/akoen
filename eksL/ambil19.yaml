@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇷 IR Webdade CDN TLS"
+    - name: "1 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS"
       network: ws
-      password: 6da60b01-4945-490f-9a08-d84faa4b707c
+      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/217.219.78.209:2087
-    - name: "2 🇮🇷 IR dataforest CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /free/188.121.118.55:443
+    - name: "2 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: 6da60b01-4945-490f-9a08-d84faa4b707c
+      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,45 +23,45 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/217.219.78.195:2087
+    - name: "3 🇮🇷 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI CDN TLS"
+      network: ws
+      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /free/45.136.5.120:8443
+    - name: "4 🇮🇷 IR dataforest CDN TLS"
+      network: ws
+      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/84.47.234.14:553
+    - name: "5 🇮🇷 IR dataforest CDN TLS"
+      network: ws
+      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
         path: /free/5.198.177.209:44403
-    - name: "3 🇮🇷 IR Iran Telecommunication Company PJS CDN TLS"
-      network: ws
-      password: 6da60b01-4945-490f-9a08-d84faa4b707c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/5.198.177.196:2083
-    - name: "4 🇮🇷 IR 1&1 Internet AG CDN TLS"
-      network: ws
-      password: 6da60b01-4945-490f-9a08-d84faa4b707c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /free/5.202.13.130:8002
-    - name: "5 🇮🇷 IR Iran Telecommunication Company PJS CDN TLS"
-      network: ws
-      password: 6da60b01-4945-490f-9a08-d84faa4b707c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/5.198.177.135:32075
     

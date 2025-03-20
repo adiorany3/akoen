@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇨🇭 CH Green Floid CDN TLS"
+    - name: "1 🇨🇭 CH Datasource CDN TLS"
       network: ws
-      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      password: d895aca4-b346-4ce8-b006-d3ef90ba6b70
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: /free/45.90.58.58:81
-    - name: "2 🇨🇭 CH Infomaniak Network CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/91.192.102.170:8443
+    - name: "2 🇨🇭 CH Serva One CDN TLS"
       network: ws
-      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      password: d895aca4-b346-4ce8-b006-d3ef90ba6b70
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /free/195.15.242.197:443
-    - name: "3 🇨🇭 CH Solar Communications CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /free/45.85.93.96:443
+    - name: "3 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS"
       network: ws
-      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      password: d895aca4-b346-4ce8-b006-d3ef90ba6b70
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /free/95.183.51.10:8443
-    - name: "4 🇨🇭 CH Sunrise CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /free/45.95.232.203:2053
+    - name: "4 🇨🇭 CH Serva One CDN TLS"
       network: ws
-      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      password: d895aca4-b346-4ce8-b006-d3ef90ba6b70
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-        path: /free/194.147.173.117:443
-    - name: "5 🇨🇭 CH Datasource CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/45.85.93.21:443
+    - name: "5 🇨🇭 CH Big Data Host CDN TLS"
       network: ws
-      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      password: d895aca4-b346-4ce8-b006-d3ef90ba6b70
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/185.195.69.200:2053
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /free/91.245.225.79:2053
     
