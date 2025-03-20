@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇺🇸 US Oracle Cloud CDN TLS"
+    - name: "1 🇺🇸 US Securityservices CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,13 +7,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
-        path: /free/152.70.113.150:52125
-    - name: "2 🇺🇸 US NetLab CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/156.154.245.83:443
+    - name: "2 🇺🇸 US Digital Ocean CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -21,13 +21,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: /free/38.76.145.179:443
-    - name: "3 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /free/104.248.7.217:2096
+    - name: "3 🇺🇸 US IT7 Networks Inc CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -35,13 +35,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/107.172.103.195:16040
-    - name: "4 🇺🇸 US Amazon.com CDN TLS"
+            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
+        path: /free/93.179.112.13:8883
+    - name: "4 🇺🇸 US Secured Servers LLC CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -49,12 +49,12 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/52.11.38.216:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /free/184.95.40.67:443
     - name: "5 🇺🇸 US IT7 Networks CDN TLS"
       network: ws
       port: "443"
@@ -63,13 +63,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/23.105.199.91:19281
-    - name: "6 🇺🇸 US DMIT CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /free/23.105.220.138:20003
+    - name: "6 🇺🇸 US Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -77,13 +77,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/65.75.192.67:42930
-    - name: "7 🇺🇸 US Vultr CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/129.80.177.42:443
+    - name: "7 🇺🇸 US IT7 Networks CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -91,13 +91,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/104.238.157.207:443
-    - name: "8 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /free/104.128.89.43:23357
+    - name: "8 🇺🇸 US Aryaka Networks CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -105,13 +105,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/172.245.129.72:27486
-    - name: "9 🇺🇸 US Aiyun HK Network CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+        path: /free/147.75.231.19:443
+    - name: "9 🇺🇸 US Multacom Corporation CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -119,13 +119,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-        path: /free/157.254.227.37:587
-    - name: "10 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+        path: /free/74.48.5.119:47010
+    - name: "10 🇺🇸 US Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -133,13 +133,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/107.173.7.180:47584
-    - name: "11 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/44.209.255.249:443
+    - name: "11 🇺🇸 US IPTELECOM Global CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -147,13 +147,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/107.172.103.195:16001
-    - name: "12 🇺🇸 US tzulo CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /free/154.9.204.163:443
+    - name: "12 🇺🇸 US Google Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -161,13 +161,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /free/173.249.209.140:32037
-    - name: "13 🇺🇸 US Akamai Connected Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /free/35.185.54.229:27271
+    - name: "13 🇺🇸 US Charles River Operation CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -175,13 +175,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /free/139.144.201.17:587
-    - name: "14 🇺🇸 US Hostwinds LLC. CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /free/18.208.146.83:443
+    - name: "14 🇺🇸 US Vultr CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -189,13 +189,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /free/104.168.248.86:443
-    - name: "15 🇺🇸 US Multacom Corporation CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /free/149.28.91.206:45628
+    - name: "15 🇺🇸 US ColoCrossing CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -203,13 +203,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-        path: /free/148.135.68.228:2053
-    - name: "16 🇺🇸 US Multacom Corporation CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/107.172.103.195:16017
+    - name: "16 🇺🇸 US Digital Ocean CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -217,13 +217,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/66.103.210.62:443
-    - name: "17 🇺🇸 US AT&T Internet CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+        path: /free/174.138.43.203:587
+    - name: "17 🇺🇸 US Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -231,13 +231,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
-        path: /free/63.205.203.251:443
-    - name: "18 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+        path: /free/165.1.71.204:46597
+    - name: "18 🇺🇸 US Digital Ocean CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -245,13 +245,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /free/23.94.78.115:443
-    - name: "19 🇺🇸 US Akamai Connected Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/174.138.91.99:8880
+    - name: "19 🇺🇸 US Imagingbay CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -259,13 +259,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /free/23.239.8.165:587
-    - name: "20 🇺🇸 US OVHcloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/38.126.44.119:20069
+    - name: "20 🇺🇸 US IT7 Networks Inc CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -273,13 +273,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/15.204.247.137:443
-    - name: "21 🇺🇸 US Olink-cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /free/95.163.203.38:2052
+    - name: "21 🇺🇸 US OVHcloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -287,13 +287,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /free/172.82.16.38:27033
-    - name: "22 🇺🇸 US Amazon.com CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /free/104.234.50.9:2053
+    - name: "22 🇺🇸 US IT7 Networks Inc CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -301,13 +301,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /free/204.110.223.13:80
-    - name: "23 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /free/216.24.181.140:38481
+    - name: "23 🇺🇸 US Hetzner Online CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -315,13 +315,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/107.172.103.195:16023
-    - name: "24 🇺🇸 US Alibaba CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /free/178.156.139.174:443
+    - name: "24 🇺🇸 US Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -329,13 +329,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/47.252.46.156:40082
-    - name: "25 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/54.203.85.46:443
+    - name: "25 🇺🇸 US MULTACOM CORPORATION CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -343,13 +343,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/107.172.103.195:16093
-    - name: "26 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/74.48.4.29:37731
+    - name: "26 🇺🇸 US Multacom Corporation CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -357,13 +357,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /free/107.172.103.195:16081
-    - name: "27 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/142.171.36.3:43553
+    - name: "27 🇺🇸 US Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -371,13 +371,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/107.173.86.106:443
-    - name: "28 🇺🇸 US Baxet Group Inc. CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/129.153.193.161:42510
+    - name: "28 🇺🇸 US NetLab CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -385,13 +385,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/91.149.239.234:443
-    - name: "29 🇺🇸 US Hetzner Online CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /free/38.76.145.189:443
+    - name: "29 🇺🇸 US Friendhosting LTD CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -399,13 +399,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/5.161.176.159:50120
-    - name: "30 🇺🇸 US Cloudflare Warp CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /free/185.190.251.102:443
+    - name: "30 🇺🇸 US IT7 Networks Inc CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -413,10 +413,10 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: c07d7df5-a643-4e91-8839-c56fe04ac385
+      uuid: d3e1cd4d-860b-4f52-b9da-d594a2b2e180
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /free/192.3.208.125:59184
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/144.34.215.136:20193
     

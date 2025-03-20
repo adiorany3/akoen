@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+    - name: "1 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,27 +7,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6321803c-9d89-4158-bd9e-d4f6c1ccbea1
+      uuid: 4640fe05-394a-4612-9acd-93c79a6619d5
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/141.11.17.205:443
-    - name: "2 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 6321803c-9d89-4158-bd9e-d4f6c1ccbea1
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
         path: /free/38.60.195.203:10478
-    - name: "3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
+    - name: "2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -35,13 +21,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6321803c-9d89-4158-bd9e-d4f6c1ccbea1
+      uuid: 4640fe05-394a-4612-9acd-93c79a6619d5
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /free/38.60.193.247:13300
-    - name: "4 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /free/141.11.17.205:443
+    - name: "3 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -49,12 +35,26 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6321803c-9d89-4158-bd9e-d4f6c1ccbea1
+      uuid: 4640fe05-394a-4612-9acd-93c79a6619d5
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
         path: /free/123.253.33.182:12306
+    - name: "4 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 4640fe05-394a-4612-9acd-93c79a6619d5
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/38.60.193.247:13300
     - name: "5 🇲🇾 MY Evoxt Enterprise CDN TLS"
       network: ws
       port: "443"
@@ -63,10 +63,10 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 6321803c-9d89-4158-bd9e-d4f6c1ccbea1
+      uuid: 4640fe05-394a-4612-9acd-93c79a6619d5
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
         path: /free/45.195.76.190:29690
     
