@@ -29,16 +29,16 @@ OUTPUT_FILES=(
 
 URLS=(
   "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
-  "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=my&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=gb&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/vless?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=30&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=il&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=jp&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=my&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=gb&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/vless?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
 )
 
 # Define multiple user agents
