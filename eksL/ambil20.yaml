@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇷🇺 RU Yandex.Cloud LLC CDN TLS"
+    - name: "1 🇷🇺 RU OOO Network of data-centers Selectel CDN TLS"
       network: ws
-      password: 2349b833-09e9-4c17-b379-5d6179cfd690
+      password: 8ecd48e1-9015-4cc9-9368-3265ec2e17a3
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /free/89.169.160.84:8443
-    - name: "2 🇷🇺 RU Mt Finance CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /free/31.129.49.103:443
+    - name: "2 🇷🇺 RU TimeWeb CDN TLS"
       network: ws
-      password: 2349b833-09e9-4c17-b379-5d6179cfd690
+      password: 8ecd48e1-9015-4cc9-9368-3265ec2e17a3
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /free/195.133.13.93:443
-    - name: "3 🇷🇺 RU Domain names registrar REG.RU CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /free/213.226.126.183:2053
+    - name: "3 🇷🇺 RU First Server CDN TLS"
       network: ws
-      password: 2349b833-09e9-4c17-b379-5d6179cfd690
+      password: 8ecd48e1-9015-4cc9-9368-3265ec2e17a3
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /free/95.163.242.122:8443
-    - name: "4 🇷🇺 RU Bluevps CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+        path: /free/185.103.109.139:443
+    - name: "4 🇷🇺 RU JSC Selectel CDN TLS"
       network: ws
-      password: 2349b833-09e9-4c17-b379-5d6179cfd690
+      password: 8ecd48e1-9015-4cc9-9368-3265ec2e17a3
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/77.73.67.90:5913
-    - name: "5 🇷🇺 RU First Server CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /free/82.148.30.224:443
+    - name: "5 🇷🇺 RU TimeWeb CDN TLS"
       network: ws
-      password: 2349b833-09e9-4c17-b379-5d6179cfd690
+      password: 8ecd48e1-9015-4cc9-9368-3265ec2e17a3
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /free/185.105.89.222:2053
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /free/185.84.162.186:2053
     

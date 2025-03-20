@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇺🇸 US IT7 Networks CDN TLS"
+    - name: "1 🇺🇸 US Vultr CDN TLS"
       network: ws
-      password: d3e699e9-89a6-4c22-bb23-0711f2a3064a
+      password: 1900fea2-d66f-4b86-8098-4ae50eea6653
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-        path: /free/97.64.21.208:22712
-    - name: "2 🇺🇸 US ColoCrossing CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        path: /free/144.202.110.223:35740
+    - name: "2 🇺🇸 US Akamai Connected Cloud CDN TLS"
       network: ws
-      password: d3e699e9-89a6-4c22-bb23-0711f2a3064a
+      password: 1900fea2-d66f-4b86-8098-4ae50eea6653
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: /free/107.172.191.200:53263
-    - name: "3 🇺🇸 US IT7 Networks CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /free/172.233.224.100:587
+    - name: "3 🇺🇸 US Tencent cloud computing CDN TLS"
       network: ws
-      password: d3e699e9-89a6-4c22-bb23-0711f2a3064a
+      password: 1900fea2-d66f-4b86-8098-4ae50eea6653
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
-        path: /free/65.49.215.100:33957
-    - name: "4 🇺🇸 US Akamai Connected Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /free/43.135.166.95:17773
+    - name: "4 🇺🇸 US Digital Ocean CDN TLS"
       network: ws
-      password: d3e699e9-89a6-4c22-bb23-0711f2a3064a
+      password: 1900fea2-d66f-4b86-8098-4ae50eea6653
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /free/172.235.48.4:587
-    - name: "5 🇺🇸 US Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
+        path: /free/137.184.11.255:443
+    - name: "5 🇺🇸 US ColoCrossing CDN TLS"
       network: ws
-      password: d3e699e9-89a6-4c22-bb23-0711f2a3064a
+      password: 1900fea2-d66f-4b86-8098-4ae50eea6653
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-        path: /free/158.101.11.204:15805
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+        path: /free/107.172.142.156:443
     

@@ -1,7 +1,27 @@
 #!/bin/bash
 
 # VPN Configuration Download and Conversion Utility with Git Integration
-# Usage: ./git.sh
+# Usage: ./git.sh [--type vless|trojan|both]
+
+# Parse command line arguments
+VPN_TYPE="both"  # Default to downloading both types
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --type)
+            VPN_TYPE="$2"
+            if [[ ! "$VPN_TYPE" =~ ^(vless|trojan|both)$ ]]; then
+                echo "Error: VPN type must be 'vless', 'trojan', or 'both'"
+                exit 1
+            fi
+            shift 2
+            ;;
+        *)
+            echo "Unknown parameter: $1"
+            echo "Usage: ./git.sh [--type vless|trojan|both]"
+            exit 1
+            ;;
+    esac
+done
 
 # Set output filenames
 CONVERT_SCRIPT1="convertcombine.py"
@@ -70,6 +90,37 @@ USER_AGENTS=(
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
 )
 
+# Filter URLs based on the selected VPN type
+if [ "$VPN_TYPE" != "both" ]; then
+    echo "Filtering for $VPN_TYPE configurations only..."
+    FILTERED_URLS=()
+    FILTERED_OUTPUT_FILES=()
+    
+    # Handle first URL which contains both types separately
+    if [ "$VPN_TYPE" = "vless" ] || ([ "$VPN_TYPE" = "trojan" ] && [[ "${URLS[0]}" == *"vpn=trojan"* ]]); then
+        FILTERED_URLS+=("${URLS[0]}")
+        FILTERED_OUTPUT_FILES+=("${OUTPUT_FILES[0]}")
+    fi
+    
+    # Process remaining URLs
+    for i in $(seq 1 $((${#URLS[@]} - 1))); do
+        if [[ "${URLS[$i]}" == *"/api/$VPN_TYPE?"* ]]; then
+            FILTERED_URLS+=("${URLS[$i]}")
+            FILTERED_OUTPUT_FILES+=("${OUTPUT_FILES[$i]}")
+        fi
+    done
+    
+    # Replace original arrays with filtered ones
+    URLS=("${FILTERED_URLS[@]}")
+    OUTPUT_FILES=("${FILTERED_OUTPUT_FILES[@]}")
+    
+    echo "Selected ${#URLS[@]} $VPN_TYPE URLs for download"
+    if [ ${#URLS[@]} -eq 0 ]; then
+        echo "No URLs match the selected type. Exiting."
+        exit 1
+    fi
+fi
+
 # Load configuration from secret.toml file
 load_secret_config() {
     if [ ! -f "$SECRET_CONFIG" ]; then
@@ -134,6 +185,10 @@ fi
 echo "====================================="
 echo "VPN Configuration Download Utility"
 echo "====================================="
+echo "Download Type: $VPN_TYPE"
+echo "====================================="
+
+# Rest of the script remains unchanged
 
 # Check prerequisites
 for cmd in python3 wget; do
@@ -346,35 +401,23 @@ EOF
             fi
         }
         
-        if [ "$script1_exists" = true ] && [ "$script2_exists" = true ]; then
-            echo "Select conversion script to run:"
-            echo "1) $CONVERT_SCRIPT1"
-            echo "2) $CONVERT_SCRIPT2"
-            echo "3) Run both scripts"
-            echo "4) Cancel - exit without conversion"
-            read -p "Enter your choice (1-4): " script_choice
-            
-            case "$script_choice" in
-                1) run_conversion_script "$CONVERT_SCRIPT1" ;;
-                2) run_conversion_script "$CONVERT_SCRIPT2" ;;
-                3) 
-                    run_conversion_script "$CONVERT_SCRIPT1"
-                    run_conversion_script "$CONVERT_SCRIPT2"
-                    ;;
-                4)
-                    echo "Operation canceled by user."
-                    echo "Downloaded file ambil.yaml remains unchanged."
-                    exit 0
-                    ;;
-                *)
-                    echo "Invalid choice. Running default script $CONVERT_SCRIPT1..."
-                    run_conversion_script "$CONVERT_SCRIPT1"
-                    ;;
-            esac
-        elif [ "$script1_exists" = true ]; then
-            run_conversion_script "$CONVERT_SCRIPT1"
-        elif [ "$script2_exists" = true ]; then
+        # Directly run CONVERT_SCRIPT2 without user prompting
+        if [ "$script2_exists" = true ]; then
+            echo "Automatically running $CONVERT_SCRIPT2..."
             run_conversion_script "$CONVERT_SCRIPT2"
+        else
+            echo "Warning: $CONVERT_SCRIPT2 not found, skipping conversion."
+        fi
+        
+        # Run pisah.py script at the end
+        echo "Running pisah.py to separate trojan and vless configurations..."
+        python3 pisah.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml
+        if [ $? -eq 0 ]; then
+            echo "✓ Successfully separated trojan and vless configurations"
+            # Add these files to the list for git operations
+            OUTPUT_FILES+=("mycustom_trojan.yaml" "mycustom_vless.yaml")
+        else
+            echo "✗ Error: Failed to separate configurations with pisah.py"
         fi
     else
         echo "✗ Error: Failed to create combined proxy configuration."
@@ -464,9 +507,9 @@ else
     fi
 fi
 
-# Add files to git - include dualvlesscombine.yaml and newbyurule.yaml
+# Add files to git - include mycustom_trojan.yaml and mycustom_vless.yaml
 echo "Adding files to git..."
-git add ${OUTPUT_FILES[@]} $COMBINED_FILE $DUALVLESS_FILE $NEWBYURULE_FILE combine_proxies.py $CONVERT_SCRIPT1 $CONVERT_SCRIPT2 secret.toml
+git add ${OUTPUT_FILES[@]} $COMBINED_FILE $DUALVLESS_FILE $NEWBYURULE_FILE combine_proxies.py $CONVERT_SCRIPT1 $CONVERT_SCRIPT2 secret.toml mycustom_trojan.yaml mycustom_vless.yaml
 
 # Check if there are changes to commit
 if ! git diff --staged --quiet; then
@@ -482,7 +525,7 @@ if ! git diff --staged --quiet; then
     fi
     
     git commit -m "$commit_message"
-    echo "Changes committed."dualvlesscombine.yaml
+    echo "Changes committed."
     
     # Push to remote repository
     echo "Pushing changes to remote repository..."

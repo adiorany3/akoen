@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇩 ID First Cagayan Converge Data Center Inc. CDN TLS"
+    - name: "1 🇮🇩 ID PT Pusat Media Indonesia CDN TLS"
       network: ws
-      password: 6c1e1cca-73c4-49c6-8303-24301bdb925c
+      password: 21a61682-cecf-4b04-8a12-5f3462586f2e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
-        path: /free/203.194.112.119:8443
-    - name: "2 🇮🇩 ID PT. Newton Cipta Informatika CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /free/103.6.207.108:8080
+    - name: "2 🇮🇩 ID Akamai Connected Cloud CDN TLS"
       network: ws
-      password: 6c1e1cca-73c4-49c6-8303-24301bdb925c
+      password: 21a61682-cecf-4b04-8a12-5f3462586f2e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /free/103.63.101.10:443
-    - name: "3 🇮🇩 ID Google LLC CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /free/172.235.251.7:587
+    - name: "3 🇮🇩 ID Amazon.com CDN TLS"
       network: ws
-      password: 6c1e1cca-73c4-49c6-8303-24301bdb925c
+      password: 21a61682-cecf-4b04-8a12-5f3462586f2e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
-        path: /free/35.219.15.90:443
-    - name: "4 🇮🇩 ID Google Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/43.218.77.16:443
+    - name: "4 🇮🇩 ID Alibaba CDN TLS"
       network: ws
-      password: 6c1e1cca-73c4-49c6-8303-24301bdb925c
+      password: 21a61682-cecf-4b04-8a12-5f3462586f2e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,19 +49,19 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /free/34.101.247.19:53681
-    - name: "5 🇮🇩 ID Alibaba CDN TLS"
-      network: ws
-      password: 6c1e1cca-73c4-49c6-8303-24301bdb925c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
         path: /free/8.215.196.18:587
+    - name: "5 🇮🇩 ID Google Cloud CDN TLS"
+      network: ws
+      password: 21a61682-cecf-4b04-8a12-5f3462586f2e
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/34.101.247.19:53681
     

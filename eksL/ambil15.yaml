@@ -1,7 +1,7 @@
 proxies:
     - name: "1 🇯🇵 JP Oracle Cloud CDN TLS"
       network: ws
-      password: 8d2ad4d0-0e74-413a-85fe-230063b766cc
+      password: 38938aec-4db5-416b-b949-07741b3d623e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/150.230.204.21:3742
-    - name: "2 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /free/150.230.97.136:12502
+    - name: "2 🇯🇵 JP Nearoute CDN TLS"
       network: ws
-      password: 8d2ad4d0-0e74-413a-85fe-230063b766cc
+      password: 38938aec-4db5-416b-b949-07741b3d623e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /free/91.194.160.121:2053
-    - name: "3 🇯🇵 JP Vultr CDN TLS"
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /free/38.47.104.219:35149
+    - name: "3 🇯🇵 JP Global Connectivity Solutions Llp CDN TLS"
       network: ws
-      password: 8d2ad4d0-0e74-413a-85fe-230063b766cc
+      password: 38938aec-4db5-416b-b949-07741b3d623e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/198.13.42.58:32954
-    - name: "4 🇯🇵 JP Global Connectivity Solutions Llp CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+        path: /free/147.45.49.184:2053
+    - name: "4 🇯🇵 JP Oracle Cloud CDN TLS"
       network: ws
-      password: 8d2ad4d0-0e74-413a-85fe-230063b766cc
+      password: 38938aec-4db5-416b-b949-07741b3d623e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
-        path: /free/147.45.49.152:2053
-    - name: "5 🇯🇵 JP Vultr CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        path: /free/138.3.217.167:587
+    - name: "5 🇯🇵 JP Oracle Cloud CDN TLS"
       network: ws
-      password: 8d2ad4d0-0e74-413a-85fe-230063b766cc
+      password: 38938aec-4db5-416b-b949-07741b3d623e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
-        path: /free/66.42.32.115:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+        path: /free/141.147.185.63:443
     
