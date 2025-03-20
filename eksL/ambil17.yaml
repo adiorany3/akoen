@@ -1,7 +1,59 @@
 proxies:
-    - name: "1 🇦🇺 AU Zgx CDN TLS"
+    - name: "1 🇦🇺 AU Amazon.com CDN TLS"
       network: ws
-      password: de422704-fa71-420f-8985-624e4ccb8947
+      password: 92623b7a-0363-44c1-a04a-8bf9fcbe5054
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /free/13.54.198.183:443
+    - name: "2 🇦🇺 AU Vultr CDN TLS"
+      network: ws
+      password: 92623b7a-0363-44c1-a04a-8bf9fcbe5054
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+        path: /free/45.77.236.204:443
+    - name: "3 🇦🇺 AU Digital Ocean CDN TLS"
+      network: ws
+      password: 92623b7a-0363-44c1-a04a-8bf9fcbe5054
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /free/170.64.192.191:31257
+    - name: "4 🇦🇺 AU Oracle Cloud CDN TLS"
+      network: ws
+      password: 92623b7a-0363-44c1-a04a-8bf9fcbe5054
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/152.67.101.72:23010
+    - name: "5 🇦🇺 AU Aeza International CDN TLS"
+      network: ws
+      password: 92623b7a-0363-44c1-a04a-8bf9fcbe5054
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -11,57 +63,5 @@ proxies:
       ws-opts:
         headers:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /free/103.65.140.115:12224
-    - name: "2 🇦🇺 AU Akamai Connected Cloud CDN TLS"
-      network: ws
-      password: de422704-fa71-420f-8985-624e4ccb8947
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/172.105.174.237:587
-    - name: "3 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: de422704-fa71-420f-8985-624e4ccb8947
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /free/192.9.183.128:45673
-    - name: "4 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: de422704-fa71-420f-8985-624e4ccb8947
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
-        path: /free/152.67.99.162:443
-    - name: "5 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: de422704-fa71-420f-8985-624e4ccb8947
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/192.9.190.80:23862
+        path: /free/91.108.241.54:2053
     

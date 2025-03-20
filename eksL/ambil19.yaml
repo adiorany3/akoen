@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇭🇰 HK Hong Kong Broadband Network CDN TLS"
+    - name: "1 🇭🇰 HK CTG Server CDN TLS"
       network: ws
-      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      password: 47608845-13ed-4d23-acec-046c6aed924e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/210.6.207.42:18622
-    - name: "2 🇭🇰 HK Tencent cloud computing CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /free/192.252.182.52:7602
+    - name: "2 🇭🇰 HK Zillion-network CDN TLS"
       network: ws
-      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      password: 47608845-13ed-4d23-acec-046c6aed924e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /free/43.155.89.93:55527
-    - name: "3 🇭🇰 HK HKDF CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /free/154.55.138.210:20010
+    - name: "3 🇭🇰 HK Datawing CDN TLS"
       network: ws
-      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      password: 47608845-13ed-4d23-acec-046c6aed924e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
-        path: /free/122.10.50.98:63168
-    - name: "4 🇭🇰 HK Dimension Network & Communication CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/156.254.114.104:443
+    - name: "4 🇭🇰 HK Tencent cloud computing CDN TLS"
       network: ws
-      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      password: 47608845-13ed-4d23-acec-046c6aed924e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-        path: /free/147.92.41.168:1009
-    - name: "5 🇭🇰 HK Akile CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+        path: /free/119.28.190.161:58615
+    - name: "5 🇭🇰 HK Alibaba CDN TLS"
       network: ws
-      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      password: 47608845-13ed-4d23-acec-046c6aed924e
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/141.11.175.174:20368
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/8.218.107.42:6669
     

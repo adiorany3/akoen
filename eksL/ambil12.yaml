@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇩 ID Amazon.com CDN TLS"
+    - name: "1 🇮🇩 ID Akamai Connected Cloud CDN TLS"
       network: ws
-      password: a806bfa7-a305-477a-89b8-5ec1caf0bb8b
+      password: 991cc43f-e6a4-43fa-aef7-d809c0b484ac
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-        path: /free/43.218.77.16:1443
-    - name: "2 🇮🇩 ID PT Telkom Indonesia CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /free/172.232.239.151:587
+    - name: "2 🇮🇩 ID PT. Newton Cipta Informatika CDN TLS"
       network: ws
-      password: a806bfa7-a305-477a-89b8-5ec1caf0bb8b
+      password: 991cc43f-e6a4-43fa-aef7-d809c0b484ac
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
-        path: /free/36.95.152.58:12137
-    - name: "3 🇮🇩 ID Akamai Connected Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/103.63.101.10:443
+    - name: "3 🇮🇩 ID PT Pusat Media Indonesia CDN TLS"
       network: ws
-      password: a806bfa7-a305-477a-89b8-5ec1caf0bb8b
+      password: 991cc43f-e6a4-43fa-aef7-d809c0b484ac
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,24 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-        path: /free/172.232.239.134:443
-    - name: "4 🇮🇩 ID PT Pusat Media Indonesia CDN TLS"
-      network: ws
-      password: a806bfa7-a305-477a-89b8-5ec1caf0bb8b
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: /free/103.6.207.108:8080
-    - name: "5 🇮🇩 ID Akamai Connected Cloud CDN TLS"
+    - name: "4 🇮🇩 ID First Cagayan Converge Data Center Inc. CDN TLS"
       network: ws
-      password: a806bfa7-a305-477a-89b8-5ec1caf0bb8b
+      password: 991cc43f-e6a4-43fa-aef7-d809c0b484ac
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +49,19 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /free/172.235.251.7:587
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/203.194.112.119:8443
+    - name: "5 🇮🇩 ID First Cagayan Converge Data Center Inc. CDN TLS"
+      network: ws
+      password: 991cc43f-e6a4-43fa-aef7-d809c0b484ac
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+        path: /free/203.194.112.119:2053
     
