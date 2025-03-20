@@ -1,0 +1,67 @@
+proxies:
+    - name: "1 🇺🇸 US Multacom Corporation CDN TLS"
+      network: ws
+      password: 4d6fff56-5a26-4ff1-8bf6-913e98133b83
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /free/142.171.137.37:8443
+    - name: "2 🇺🇸 US Microsoft Azure CDN TLS"
+      network: ws
+      password: 4d6fff56-5a26-4ff1-8bf6-913e98133b83
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /free/20.62.172.88:443
+    - name: "3 🇺🇸 US Aeza International CDN TLS"
+      network: ws
+      password: 4d6fff56-5a26-4ff1-8bf6-913e98133b83
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/217.144.191.242:2053
+    - name: "4 🇺🇸 US Amazon.com CDN TLS"
+      network: ws
+      password: 4d6fff56-5a26-4ff1-8bf6-913e98133b83
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /free/204.110.222.6:80
+    - name: "5 🇺🇸 US Microsoft Azure CDN TLS"
+      network: ws
+      password: 4d6fff56-5a26-4ff1-8bf6-913e98133b83
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/13.68.186.91:443
+    

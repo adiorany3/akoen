@@ -1,0 +1,67 @@
+proxies:
+    - name: "1 🇭🇰 HK Hong Kong Broadband Network CDN TLS"
+      network: ws
+      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/210.6.207.42:18622
+    - name: "2 🇭🇰 HK Tencent cloud computing CDN TLS"
+      network: ws
+      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /free/43.155.89.93:55527
+    - name: "3 🇭🇰 HK HKDF CDN TLS"
+      network: ws
+      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /free/122.10.50.98:63168
+    - name: "4 🇭🇰 HK Dimension Network & Communication CDN TLS"
+      network: ws
+      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /free/147.92.41.168:1009
+    - name: "5 🇭🇰 HK Akile CDN TLS"
+      network: ws
+      password: 13b24acc-a9a7-41c6-af28-91ccd9dbca0e
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /free/141.11.175.174:20368
+    
