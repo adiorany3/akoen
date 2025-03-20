@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇨🇭 CH Big Data Host CDN TLS"
+    - name: "1 🇨🇭 CH Green Floid CDN TLS"
       network: ws
-      password: 1c3de1bb-7447-4be5-9bd1-a256cda3e1b7
+      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /free/91.245.225.69:443
-    - name: "2 🇨🇭 CH Serva One CDN TLS"
+            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /free/45.90.58.58:81
+    - name: "2 🇨🇭 CH Infomaniak Network CDN TLS"
       network: ws
-      password: 1c3de1bb-7447-4be5-9bd1-a256cda3e1b7
+      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,37 +23,37 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-        path: /free/45.85.93.83:443
-    - name: "3 🇨🇭 CH Big Data Host CDN TLS"
-      network: ws
-      password: 1c3de1bb-7447-4be5-9bd1-a256cda3e1b7
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /free/91.245.225.79:2053
-    - name: "4 🇨🇭 CH Infomaniak Network CDN TLS"
-      network: ws
-      password: 1c3de1bb-7447-4be5-9bd1-a256cda3e1b7
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
         path: /free/195.15.242.197:443
+    - name: "3 🇨🇭 CH Solar Communications CDN TLS"
+      network: ws
+      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /free/95.183.51.10:8443
+    - name: "4 🇨🇭 CH Sunrise CDN TLS"
+      network: ws
+      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+        path: /free/194.147.173.117:443
     - name: "5 🇨🇭 CH Datasource CDN TLS"
       network: ws
-      password: 1c3de1bb-7447-4be5-9bd1-a256cda3e1b7
+      password: 73a7689c-2efc-4046-ae34-7c376abc5a59
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /free/176.10.125.114:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/185.195.69.200:2053
     

@@ -55,8 +55,6 @@ OUTPUT_FILES=(
   "ambil19.yaml"
   "ambil20.yaml"
   "ambil21.yaml"
-  "ambil22.yaml"
-  "ambil23.yaml"
 )
 
 URLS=(
@@ -77,12 +75,10 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/trojan?cc=ch&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=br&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=ce&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=fi&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=th&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=ir&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=hu&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
   "https://nautica.foolvpn.me/api/v1/sub/?cc=IL&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
-  "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
 )
 
 # Define multiple user agents

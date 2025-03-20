@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇮🇱 IL HOTnet CDN TLS"
+    - name: "1 🇮🇱 IL Cloud Lease CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,13 +7,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: d630d68a-bee9-49b1-92d7-3babf1c32993
+      uuid: 671e752c-cf44-4633-8175-0fb2d00f68bb
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/5.29.142.200:2053
-    - name: "2 🇮🇱 IL Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /free/77.91.69.146:443
+    - name: "2 🇮🇱 IL Cloud Lease CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -21,13 +21,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: d630d68a-bee9-49b1-92d7-3babf1c32993
+      uuid: 671e752c-cf44-4633-8175-0fb2d00f68bb
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/77.91.74.6:443
-    - name: "3 🇮🇱 IL Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/77.91.69.51:8443
+    - name: "3 🇮🇱 IL Cloud Lease CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -35,13 +35,27 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: d630d68a-bee9-49b1-92d7-3babf1c32993
+      uuid: 671e752c-cf44-4633-8175-0fb2d00f68bb
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /free/77.91.69.141:2053
+    - name: "4 🇮🇱 IL Stark Industries Solutions CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 671e752c-cf44-4633-8175-0fb2d00f68bb
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /free/89.221.225.198:2053
-    - name: "4 🇮🇱 IL HOTnet CDN TLS"
+    - name: "5 🇮🇱 IL Interhost Communication Solutions CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -49,24 +63,10 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: d630d68a-bee9-49b1-92d7-3babf1c32993
+      uuid: 671e752c-cf44-4633-8175-0fb2d00f68bb
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/5.29.142.200:8443
-    - name: "5 🇮🇱 IL Stark Industries Solutions CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: d630d68a-bee9-49b1-92d7-3babf1c32993
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /free/89.221.225.198:8443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/89.46.239.156:2053
     

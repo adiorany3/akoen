@@ -1,7 +1,7 @@
 proxies:
     - name: "1 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: b4ac4ca3-82db-4d33-9305-cc2c90855939
+      password: 0b5bdb8b-8305-4a31-92de-96a3f7d24972
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
         path: /free/190.183.61.62:2053
     - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: b4ac4ca3-82db-4d33-9305-cc2c90855939
+      password: 0b5bdb8b-8305-4a31-92de-96a3f7d24972
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,6 +23,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
         path: /free/190.183.61.62:8443
     
