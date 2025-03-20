@@ -1,0 +1,974 @@
+{
+  "log": {
+    "level": "info"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "remote-dns",
+        "address": "1.1.1.1:53",
+        "address_resolver": "direct-dns",
+        "strategy": "prefer_ipv4"
+      },
+      {
+        "tag": "direct-dns",
+        "address": "local",
+        "strategy": "prefer_ipv4",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "utun",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "auto_route": true,
+      "inet4_route_exclude_address": "192.168.0.0/16",
+      "inet6_route_exclude_address": "fc00::/7",
+      "include_android_user": [
+        0,
+        10
+      ],
+      "stack": "system",
+      "sniff": true
+    },
+    {
+      "type": "redirect",
+      "tag": "redirect-in",
+      "listen": "::",
+      "listen_port": 9797,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "Internet",
+      "outbounds": [
+        "Best Latency",
+        "Ruang Guru",
+        "Ilped",
+        "GGWP",
+        "Indo",
+        "4.lowh.net",
+        "cbtp.xmbb.net",
+        "singa_vmess_ws_tls",
+        "jepangku_vmess_ws_tls",
+        "trojglob_trojan_grpc",
+        "hsp1.htmlcdn.net",
+        "Trojan45",
+        "4.lowh.netilped",
+        "cbtp.xmbb.netilped",
+        "singa_vmess_ws_tlsilped",
+        "jepangku_vmess_ws_tlsilped",
+        "trojglob_trojan_grpcilped",
+        "hsp1.htmlcdn.netilped",
+        "Trojan45ilped",
+        "4.lowh.netggwp",
+        "cbtp.xmbb.netggwp",
+        "singa_vmess_ws_tlsggwp",
+        "jepangku_vmess_ws_tlsggwp",
+        "trojglob_trojan_grpcggwp",
+        "hsp1.htmlcdn.netggwp",
+        "Trojan45ggwp",
+        "oracleggwp",
+        "oracleIlprf",
+        "oracle",
+        "alibaba",
+        "alibabailped",
+        "alibabaggwp",
+        "biz",
+        "bizilped",
+        "bizggwp"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "Best Latency",
+      "outbounds": [
+        "4.lowh.net",
+        "cbtp.xmbb.net",
+        "singa_vmess_ws_tls",
+        "jepangku_vmess_ws_tls",
+        "trojglob_trojan_grpc",
+        "hsp1.htmlcdn.net",
+        "Trojan45",
+        "4.lowh.netilped",
+        "cbtp.xmbb.netilped",
+        "singa_vmess_ws_tlsilped",
+        "jepangku_vmess_ws_tlsilped",
+        "trojglob_trojan_grpcilped",
+        "hsp1.htmlcdn.netilped",
+        "Trojan45ilped",
+        "4.lowh.netggwp",
+        "cbtp.xmbb.netggwp",
+        "singa_vmess_ws_tlsggwp",
+        "jepangku_vmess_ws_tlsggwp",
+        "trojglob_trojan_grpcggwp",
+        "hsp1.htmlcdn.netggwp",
+        "Trojan45ggwp",
+        "oracleggwp",
+        "oracleIlprf",
+        "oracle",
+        "alibaba",
+        "alibabailped",
+        "alibabaggwp",
+        "biz",
+        "bizilped",
+        "bizggwp"
+      ],
+      "url": "https://detectportal.firefox.com/success.txt",
+      "interval": "1m0s"
+    },
+    {
+      "type": "urltest",
+      "tag": "Ilped",
+      "outbounds": [
+        "4.lowh.netilped",
+        "cbtp.xmbb.netilped",
+        "singa_vmess_ws_tlsilped",
+        "jepangku_vmess_ws_tlsilped",
+        "trojglob_trojan_grpcilped",
+        "hsp1.htmlcdn.netilped",
+        "Trojan45ilped",
+        "oracleIlprf",
+        "alibabailped",
+        "bizilped"
+      ],
+      "url": "https://detectportal.firefox.com/success.txt",
+      "interval": "1m0s"
+    },
+    {
+      "type": "urltest",
+      "tag": "Ruang Guru",
+      "outbounds": [
+        "4.lowh.net",
+        "cbtp.xmbb.net",
+        "singa_vmess_ws_tls",
+        "jepangku_vmess_ws_tls",
+        "trojglob_trojan_grpc",
+        "hsp1.htmlcdn.net",
+        "Trojan45",
+        "oracle",
+        "alibaba",
+        "biz"
+      ],
+      "url": "https://detectportal.firefox.com/success.txt",
+      "interval": "1m0s"
+    },
+    {
+      "type": "urltest",
+      "tag": "GGWP",
+      "outbounds": [
+        "4.lowh.netggwp",
+        "cbtp.xmbb.netggwp",
+        "singa_vmess_ws_tlsggwp",
+        "jepangku_vmess_ws_tlsggwp",
+        "trojglob_trojan_grpcggwp",
+        "hsp1.htmlcdn.netggwp",
+        "Trojan45ggwp",
+        "oracleggwp",
+        "alibabaggwp",
+        "bizggwp"
+      ],
+      "url": "https://detectportal.firefox.com/success.txt",
+      "interval": "1m0s"
+    },
+    {
+      "type": "urltest",
+      "tag": "Indo",
+      "outbounds": [
+        "biz",
+        "bizilped",
+        "bizggwp"
+      ],
+      "url": "https://detectportal.firefox.com/success.txt",
+      "interval": "1m0s"
+    },
+    {
+      "tag": "Trojan45",
+      "type": "trojan",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "3c4749f0-bdf4-11ef-8c00-1577c1651679",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sg-trojan.1server.co",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "sg-trojan.1server.co"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "hsp1.htmlcdn.net",
+      "type": "trojan",
+      "domain_strategy": "ipv4_only",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "f8c1cff0-da67-11ef-9eae-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "hz1.cobadl.com",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "hz1.cobadl.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "tag": "trojglob_trojan_grpc",
+      "type": "trojan",
+      "domain_strategy": "ipv4_only",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "ad2ed719-42db-4f17-8896-e2fbd0ef6d67",
+      "tls": {
+        "enabled": true,
+        "server_name": "tro-sg04.gproxy.pro",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan-ws",
+        "headers": {
+          "Host": "tro-sg04.gproxy.pro"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "4.lowh.net",
+      "domain_strategy": "ipv4_only",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "ad2ed719-42db-4f17-8896-e2fbd0ef6d67",
+      "tls": {
+        "enabled": true,
+        "server_name": "tro-sg04.gproxy.pro",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan-ws",
+        "headers": {
+          "Host": "tro-sg04.gproxy.pro"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "cbtp.xmbb.net",
+      "domain_strategy": "ipv4_only",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "singa_vmess_ws_tls",
+      "domain_strategy": "ipv4_only",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "jepangku_vmess_ws_tls",
+      "domain_strategy": "ipv4_only",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "password": "b0e60290-d3b9-11ef-971a-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "biznet1.1server.co",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "biznet1.1server.co"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "oracle",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.xn--i-sx6a60i.us.kg",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "a.xn--i-sx6a60i.us.kg"
+        }
+      }
+    },
+    {
+      "tag": "Trojan45ilped",
+      "type": "trojan",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "password": "3c4749f0-bdf4-11ef-8c00-1577c1651679",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sg-trojan.1server.co",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "sg-trojan.1server.co"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "hsp1.htmlcdn.netilped",
+      "type": "trojan",
+      "server": "104.26.7.171",
+      "domain_strategy": "ipv4_only",
+      "server_port": 443,
+      "password": "3c4749f0-bdf4-11ef-8c00-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "he-tj.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "he-tj.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "tag": "trojglob_trojan_grpcilped",
+      "type": "trojan",
+      "domain_strategy": "ipv4_only",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "password": "ad2ed719-42db-4f17-8896-e2fbd0ef6d67",
+      "tls": {
+        "enabled": true,
+        "server_name": "tro-sg04.gproxy.pro",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan-ws",
+        "headers": {
+          "Host": "tro-sg04.gproxy.pro"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "4.lowh.netilped",
+      "domain_strategy": "ipv4_only",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "password": "ad2ed719-42db-4f17-8896-e2fbd0ef6d67",
+      "tls": {
+        "enabled": true,
+        "server_name": "tro-sg04.gproxy.pro",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan-ws",
+        "headers": {
+          "Host": "tro-sg04.gproxy.pro"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "cbtp.xmbb.netilped",
+      "domain_strategy": "ipv4_only",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "singa_vmess_ws_tlsilped",
+      "domain_strategy": "ipv4_only",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "jepangku_vmess_ws_tlsilped",
+      "domain_strategy": "ipv4_only",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "oracleIlprf",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.xn--i-sx6a60i.us.kg",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "a.xn--i-sx6a60i.us.kg"
+        }
+      }
+    },
+    {
+      "tag": "Trojan45ggwp",
+      "type": "trojan",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "password": "3c4749f0-bdf4-11ef-8c00-1577c1651679",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sg-trojan.1server.co",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "sg-trojan.1server.co"
+        },
+        "max_early_data": 0,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "domain_strategy": "ipv4_only"
+    },
+    {
+      "tag": "hsp1.htmlcdn.netggwp",
+      "type": "trojan",
+      "server": "104.19.143.108",
+      "domain_strategy": "ipv4_only",
+      "server_port": 443,
+      "password": "3c4749f0-bdf4-11ef-8c00-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "he-tj.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "he-tj.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "tag": "trojglob_trojan_grpcggwp",
+      "type": "trojan",
+      "domain_strategy": "ipv4_only",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "password": "ad2ed719-42db-4f17-8896-e2fbd0ef6d67",
+      "tls": {
+        "enabled": true,
+        "server_name": "tro-sg04.gproxy.pro",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan-ws",
+        "headers": {
+          "Host": "tro-sg04.gproxy.pro"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "4.lowh.netggwp",
+      "domain_strategy": "ipv4_only",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "password": "ad2ed719-42db-4f17-8896-e2fbd0ef6d67",
+      "tls": {
+        "enabled": true,
+        "server_name": "tro-sg04.gproxy.pro",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trojan-ws",
+        "headers": {
+          "Host": "tro-sg04.gproxy.pro"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "cbtp.xmbb.netggwp",
+      "domain_strategy": "ipv4_only",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "singa_vmess_ws_tlsggwp",
+      "domain_strategy": "ipv4_only",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "jepangku_vmess_ws_tlsggwp",
+      "domain_strategy": "ipv4_only",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "password": "44d3db90-98a6-11ef-a4d2-1577c1651679",
+      "tls": {
+        "enabled": true,
+        "server_name": "11-lowh.rimuru.Biz.id",
+        "insecure": true
+      },
+      "multiplex": {
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/welcome",
+        "headers": {
+          "Host": "11-lowh.rimuru.Biz.id"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "oracleggwp",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.xn--i-sx6a60i.us.kg",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "a.xn--i-sx6a60i.us.kg"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "alibaba",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "uuid": "c7d543af-1023-4b96-a698-187c190d3f4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "nautica.foolvpn.me",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/47.89.39.186-39251",
+        "headers": {
+          "Host": "nautica.foolvpn.me"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "alibabaggwp",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "uuid": "c7d543af-1023-4b96-a698-187c190d3f4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "nautica.foolvpn.me",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/47.89.39.186-39251",
+        "headers": {
+          "Host": "nautica.foolvpn.me"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "alibabailped",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "uuid": "c7d543af-1023-4b96-a698-187c190d3f4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "nautica.foolvpn.me",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/47.89.39.186-39251",
+        "headers": {
+          "Host": "nautica.foolvpn.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "biz",
+      "server": "172.67.22.129",
+      "server_port": 443,
+      "uuid": "e1f657f0-da67-11ef-96ff-1577c1651679",
+      "security": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hz2.cobadl.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hello",
+        "headers": {
+          "Host": "hz2.cobadl.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "bizilped",
+      "server": "104.26.7.171",
+      "server_port": 443,
+      "uuid": "e1f657f0-da67-11ef-96ff-1577c1651679",
+      "security": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hz2.cobadl.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hello",
+        "headers": {
+          "Host": "hz2.cobadl.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "bizggwp",
+      "server": "104.19.143.108",
+      "server_port": 443,
+      "uuid": "e1f657f0-da67-11ef-96ff-1577c1651679",
+      "security": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hz2.cobadl.com",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hello",
+        "headers": {
+          "Host": "hz2.cobadl.com"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "block"
+      },
+      {
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block"
+      }
+    ],
+    "auto_detect_interface": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "../files/yacd",
+      "cache_file": "../cache/clash.db"
+    }
+  }
+}

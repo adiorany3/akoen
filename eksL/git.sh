@@ -462,7 +462,7 @@ if ! git diff --staged --quiet; then
     fi
     
     git commit -m "$commit_message"
-    echo "Changes committed."
+    echo "Changes committed."dualvlesscombine.yaml
     
     # Push to remote repository
     echo "Pushing changes to remote repository..."
