@@ -1,0 +1,1300 @@
+port: 7890
+socks-port: 7891
+redir-port: 9797
+mixed-port: 7893
+tproxy-port: 9898
+ipv6: true
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+general:
+  tcp_mss: 1460
+  tfo: true
+  reduce_ping: true
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+  - 8.8.8.8
+  - 1.0.0.1
+  - https://dns.google/dns-query
+  - 9.9.9.9
+  fallback:
+  - 1.1.1.1
+  - 8.8.4.4
+  - https://cloudflare-dns.com/dns-query
+  - 112.215.203.254
+  - 9.9.9.10
+  default-nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 112.215.203.254
+  bind-address: 127.0.0.1
+uuid: e6c8d4a1-a5f0-4c8d-a573-a407c920c38f
+uuid_2: d875abcd-1f0c-40ac-9f3b-dc9cd29dd92b
+password: f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2
+vless_host: nautica.foolvpn.me
+vless_host_2: nautica.foolvpn.me
+trojan_host: sg-d6.2esge.web.id
+vless_path: /35.219.50.99-443
+vless_path_2: /35.219.50.99-443
+trojan_path: /trojan
+vmess_uuid: 10057a00-f89c-11ef-8493-1577c1651679
+vmess_host: 5.lowh.net
+vmess_path: /hello
+vless-template:
+  type: vless
+  uuid: e6c8d4a1-a5f0-4c8d-a573-a407c920c38f
+  server: nautica.foolvpn.me
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /35.219.50.99-443
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+vless-template-1:
+  type: vless
+  uuid: e6c8d4a1-a5f0-4c8d-a573-a407c920c38f
+  server: your_vless_server_1
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /35.219.50.99-443
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+vless-template-2:
+  type: vless
+  uuid: d875abcd-1f0c-40ac-9f3b-dc9cd29dd92b
+  server: your_vless_server_2
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /35.219.50.99-443
+    headers:
+      Host: nautica.foolvpn.me
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+trojan-template:
+  type: trojan
+  password: f165d6d8-0552-4423-a0d8-3ab3f2ab3ee2
+  server: sg-d6.2esge.web.id
+  port: 443
+  network: ws
+  sni: sg-d6.2esge.web.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-d6.2esge.web.id
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+vmess-template:
+  type: vmess
+  server: 5.lowh.net
+  port: 443
+  uuid: 10057a00-f89c-11ef-8493-1577c1651679
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hello
+    headers:
+      Host: 5.lowh.net
+      User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+proxies:
+- name: ID-1
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: ID-2
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/34.101.247.19:53681
+- name: ID-3
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /free/172.232.239.151:587
+- name: ID-4
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /free/172.232.239.134:443
+- name: ID-5
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /free/172.232.237.31:587
+- name: FF-1 Cloudflare WS TLS
+  network: ws
+  port: 443
+  server: 104.17.255.156
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: FF-2 Cloudflare WS TLS
+  network: ws
+  port: 443
+  server: 104.16.16.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Ilped-1 WS TLS
+  network: ws
+  port: 443
+  server: 104.26.7.171
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Ilped-2 WS TLS
+  network: ws
+  port: 443
+  server: 104.16.66.85
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Ilped-3 WS TLS
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: WLG-1 WS TLS
+  network: ws
+  port: 443
+  server: 104.18.214.235
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: WLG-2 WS TLS
+  network: ws
+  port: 443
+  server: 104.18.213.235
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: WLG-3 WS TLS
+  network: ws
+  port: 443
+  server: ava.game.naver.com
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Vidio-1 WS TLS
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Vidio-2 WS TLS
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Vidio-3 WS TLS
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Vidio-4 WS TLS
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: Vidio-5 WS TLS
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 64bc9d3a-7aa3-435a-b775-bfcdbb2f1194
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /free/172.235.251.7:587
+- name: ID-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: ID-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 6feaff60-31a6-4d24-9435-df966a0c0459
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/id
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-1
+  type: vless
+  server: 172.67.5.14
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-2
+  type: vless
+  server: 172.66.0.145
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-3
+  type: vless
+  server: 104.22.5.240
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-4
+  type: vless
+  server: 104.17.72.206
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: SG-VLESS-5
+  type: vless
+  server: 104.17.155.243
+  port: 443
+  uuid: 3ab3db6d-5ef1-441b-81ed-37e9bcf5137e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/sg
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: KR-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 1fdddb1f-98f2-4fb4-b70e-84747c7bbdfa
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/kr
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-2
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-4
+  type: trojan
+  server: 104.17.72.206
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: JP-Trojan-5
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: 59bf40d8-330f-4a5e-b6aa-5bd5105e5f96
+  udp: true
+  sni: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/cc/jp
+    headers:
+      Host: nuclear.us.kg
+- name: SG-1
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 11042421-ea3a-4ad8-8437-6c92ad1a510e
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /free/8.222.234.182:587
+- name: SG-2
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 11042421-ea3a-4ad8-8437-6c92ad1a510e
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /free/164.52.2.100:443
+- name: SG-3
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 11042421-ea3a-4ad8-8437-6c92ad1a510e
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /free/129.150.53.170:587
+- name: SG-4
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 11042421-ea3a-4ad8-8437-6c92ad1a510e
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /free/138.2.75.219:39341
+- name: SG-5
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 11042421-ea3a-4ad8-8437-6c92ad1a510e
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /free/129.150.41.174:16462
+- name: IL-1
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 4fd413d2-1e39-48ff-b049-49d7735101b9
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /free/129.159.132.0:2053
+- name: IL-2
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 4fd413d2-1e39-48ff-b049-49d7735101b9
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /free/185.162.126.175:443
+- name: IL-3
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 4fd413d2-1e39-48ff-b049-49d7735101b9
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /free/89.221.225.198:2053
+- name: IL-4
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 4fd413d2-1e39-48ff-b049-49d7735101b9
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /free/129.159.132.0:8443
+- name: IL-5
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 4fd413d2-1e39-48ff-b049-49d7735101b9
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /free/89.221.225.198:8443
+- name: JP-1
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: eecb5c75-db0c-4530-bd5c-f0139827f738
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /free/139.162.79.79:587
+- name: JP-2
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: eecb5c75-db0c-4530-bd5c-f0139827f738
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /free/185.18.222.208:2053
+- name: JP-3
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: eecb5c75-db0c-4530-bd5c-f0139827f738
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /free/122.210.19.25:20873
+- name: JP-4
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: eecb5c75-db0c-4530-bd5c-f0139827f738
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /free/158.101.150.33:17421
+- name: JP-5
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: eecb5c75-db0c-4530-bd5c-f0139827f738
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /free/132.145.126.40:32498
+proxy-groups:
+- name: Proxy
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+  - IL-LoadBalance
+  - SG-LoadBalance
+  - ID-LoadBalance
+  - Fallback
+  - ID-Best-Latency
+  - SG-Best-Latency
+  - KR-Best-Latency
+  - JP-Best-Latency
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: TUNNEL
+  type: url-test
+  disable-udp: false
+  proxies:
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+  tolerance: '150'
+  strategy: fallback
+- name: Fallback
+  type: fallback
+  proxies:
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+  url: http://www.gstatic.com/generate_204
+- name: ID-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+- name: SG-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+- name: KR-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+- name: JP-Best-Latency
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: ID-LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: SG-LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: FF
+  type: select
+  proxies:
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+- name: Ilped
+  type: select
+  proxies:
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+- name: WLG
+  type: select
+  proxies:
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+- name: Vidio
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 150
+  strategy: fallback
+  proxies:
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+- name: LoadBalance-Country
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-Best-Latency
+  - SG-Best-Latency
+  - KR-Best-Latency
+  - JP-Best-Latency
+  - IL-LoadBalance
+  - IL-LoadBalance
+- name: LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - ID-1
+  - ID-2
+  - ID-3
+  - ID-4
+  - ID-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+- name: IL-LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - IL-1
+  - IL-2
+  - IL-3
+  - IL-4
+  - IL-5
+- name: JP-LoadBalance
+  type: load-balance
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - JP-1
+  - JP-2
+  - JP-3
+  - JP-4
+  - JP-5
+  - FF-1 Cloudflare WS TLS
+  - FF-2 Cloudflare WS TLS
+  - Ilped-1 WS TLS
+  - Ilped-2 WS TLS
+  - Ilped-3 WS TLS
+  - WLG-1 WS TLS
+  - WLG-2 WS TLS
+  - WLG-3 WS TLS
+  - Vidio-1 WS TLS
+  - Vidio-2 WS TLS
+  - Vidio-3 WS TLS
+  - Vidio-4 WS TLS
+  - Vidio-5 WS TLS
+  - ID-Trojan-1
+  - ID-Trojan-2
+  - ID-Trojan-3
+  - ID-Trojan-4
+  - ID-Trojan-5
+  - SG-VLESS-1
+  - SG-VLESS-2
+  - SG-VLESS-3
+  - SG-VLESS-4
+  - SG-VLESS-5
+  - KR-Trojan-1
+  - KR-Trojan-2
+  - KR-Trojan-3
+  - KR-Trojan-4
+  - KR-Trojan-5
+  - JP-Trojan-1
+  - JP-Trojan-2
+  - JP-Trojan-3
+  - JP-Trojan-4
+  - JP-Trojan-5
+rules:
+- DOMAIN-SUFFIX,adservice.google.com,REJECT
+- DOMAIN-SUFFIX,googlesyndication.com,REJECT
+- DOMAIN-SUFFIX,doubleclick.net,REJECT
+- DOMAIN-SUFFIX,g.doubleclick.net,REJECT
+- DOMAIN-SUFFIX,googleadservices.com,REJECT
+- DOMAIN-SUFFIX,admob.com,REJECT
+- DOMAIN-SUFFIX,pubmatic.com,REJECT
+- DOMAIN-SUFFIX,rubiconproject.com,REJECT
+- DOMAIN-SUFFIX,criteo.com,REJECT
+- DOMAIN-SUFFIX,openx.net,REJECT
+- DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+- MATCH,TUNNEL
+external-ui: ./dashboard
