@@ -10,11 +10,6 @@ os.chdir(
     )
 )
 
-with open('dualvlesscombine.yaml', 'r') as input:
-    json_object: dict = json.loads(input.read())
-    with open('config.json', 'w') as output:
-        output.write(yaml.dump(json_object, allow_unicode=True, indent=4))
-
 def fix_port_fields(data):
     """Fix the 'port' field issue by converting it to 'server_port'"""
     if isinstance(data, dict):
@@ -33,8 +28,9 @@ def fix_port_fields(data):
                 fix_port_fields(item)
     return data
 
-# Read from YAML
+# Read from YAML file
 with open('dualvlesscombine.yaml', 'r') as input_file:
+    # Parse YAML correctly with yaml.safe_load()
     yaml_object = yaml.safe_load(input_file)
     
     # Fix port fields to prevent the "unknown field port" error
