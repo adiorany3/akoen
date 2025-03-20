@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS"
+    - name: "1 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      password: 1e23f90a-b5ea-4dc6-9397-7dbbad590945
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /free/188.121.118.55:443
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+        path: /free/217.219.78.205:2087
     - name: "2 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      password: 1e23f90a-b5ea-4dc6-9397-7dbbad590945
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/217.219.78.195:2087
-    - name: "3 🇮🇷 IR ONLINE SERVER TELEKOMUNIKASYON LIMITED SIRKETI CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/89.235.116.108:2087
+    - name: "3 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      password: 1e23f90a-b5ea-4dc6-9397-7dbbad590945
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
-        path: /free/45.136.5.120:8443
-    - name: "4 🇮🇷 IR dataforest CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/84.47.234.22:2087
+    - name: "4 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      password: 1e23f90a-b5ea-4dc6-9397-7dbbad590945
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/84.47.234.14:553
-    - name: "5 🇮🇷 IR dataforest CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /free/89.235.118.67:45707
+    - name: "5 🇮🇷 IR Pars Abr Toseeh Ertebatat Company CDN TLS"
       network: ws
-      password: 06e69ebb-0e26-4905-bfea-9b84228a8494
+      password: 1e23f90a-b5ea-4dc6-9397-7dbbad590945
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /free/5.198.177.209:44403
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /free/85.133.250.58:2052
     
