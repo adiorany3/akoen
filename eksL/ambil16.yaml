@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇧🇷 BR Oracle Cloud CDN TLS"
+    - name: "1 🇧🇷 BR Global Connectivity Solutions Llp CDN TLS"
       network: ws
-      password: 4909c94e-9d7d-4465-b8a7-111d2da760b4
+      password: 01c76330-efe7-4610-89cf-e20e68292350
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,24 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/144.22.144.168:4242
-    - name: "2 🇧🇷 BR Global Connectivity Solutions Llp CDN TLS"
-      network: ws
-      password: 4909c94e-9d7d-4465-b8a7-111d2da760b4
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
         path: /free/147.45.116.50:24443
-    - name: "3 🇧🇷 BR Oracle Cloud CDN TLS"
+    - name: "2 🇧🇷 BR Oracle Cloud CDN TLS"
       network: ws
-      password: 4909c94e-9d7d-4465-b8a7-111d2da760b4
+      password: 01c76330-efe7-4610-89cf-e20e68292350
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
-        path: /free/168.75.92.141:28053
-    - name: "4 🇧🇷 BR M247 Europe CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/132.226.163.224:2053
+    - name: "3 🇧🇷 BR M247 Europe CDN TLS"
       network: ws
-      password: 4909c94e-9d7d-4465-b8a7-111d2da760b4
+      password: 01c76330-efe7-4610-89cf-e20e68292350
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +36,24 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: /free/38.180.78.255:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/38.180.79.9:443
+    - name: "4 🇧🇷 BR Oracle Cloud CDN TLS"
+      network: ws
+      password: 01c76330-efe7-4610-89cf-e20e68292350
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /free/144.22.252.124:443
     - name: "5 🇧🇷 BR Oracle Cloud CDN TLS"
       network: ws
-      password: 4909c94e-9d7d-4465-b8a7-111d2da760b4
+      password: 01c76330-efe7-4610-89cf-e20e68292350
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /free/132.226.163.224:2053
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /free/144.22.204.102:50317
     

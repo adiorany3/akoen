@@ -14,8 +14,9 @@ unified-delay: true
 profile:
   store-selected: true
 general:
-  tcp_mss: 1460
+  tcp-mss: 1460
   tfo: true
+  reduce_ping: true
 dns:
   enable: true
   ipv6: true
@@ -23,40 +24,19 @@ dns:
   listen: 0.0.0.0:7874
   nameserver:
   - 8.8.8.8
-  - 1.1.1.1
+  - 1.0.0.1
   - https://dns.google/dns-query
-  - tls://dns.adguard.com
-  - tls://1dot1dot1dot1.cloudflare-dns.com
-  - tls://dns.google
-  - tls://dns.quad9.net
-  - tls://dns9.quad9.net
-  - tls://dns10.quad9.net
-  - tls://dns11.quad9.net
-  - tls://dns12.quad9.net
-  - tls://dns13.quad9.net
-  - tls://dns14.quad9.net
-  - tls://dns15.quad9.net
-  - tls://dns16.quad9.net
-  - tls://dns17.quad9.net
-  - tls://dns18.quad9.net
-  - tls://dns19.quad9.net
-  - tls://dns20.quad9.net
-  - tls://dns21.quad9.net
-  - tls://dns22.quad9.net
-  - tls://dns23.quad9.net
+  - 9.9.9.9
   fallback:
   - 1.1.1.1
   - 8.8.4.4
   - https://cloudflare-dns.com/dns-query
-  - tls://dns.google
-  - tls://dns.quad9.net
-  - tls://dns9.quad9.net
-  - tls://dns10.quad9.net
-  - tls://dns11.quad9.net
-  - tls://dns12.quad9.net
+  - 112.215.203.254
+  - 9.9.9.10
   default-nameserver:
   - 8.8.8.8
   - 1.1.1.1
+  - 112.215.203.254
   bind-address: 127.0.0.1
 external-ui: ./dashboard
 proxies:

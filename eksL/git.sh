@@ -558,20 +558,19 @@ else
 echo "No changes to commit."
 fi
 
-# Run pisah.sh at the end
-if [ -f "pisah.sh" ]; then
+# Run pisah.py at the end
+if [ -f "pisah.py" ]; then
     echo "====================================="
-    echo "Running pisah.sh..."
+    echo "Running pisah.py..."
     echo "====================================="
-    chmod +x pisah.sh
-    ./pisah.sh
+    python3 pisah.py
     if [ $? -eq 0 ]; then
-        echo "✓ Successfully executed pisah.sh"
+        echo "✓ Successfully executed pisah.py"
     else
-        echo "✗ Error: Failed to execute pisah.sh"
+        echo "✗ Error: Failed to execute pisah.py"
     fi
 else
-    echo "Warning: pisah.sh not found in current directory."
+    echo "Warning: pisah.py not found in current directory."
 fi
 
 echo "====================================="
