@@ -2,7 +2,7 @@
 
 # Define input and output file names
 input_file="mycustom_trojan.yaml"
-output_file="AllProxy.yaml"
+output_file="allProxy.yaml"
 
 # Check if the input file exists
 if [ ! -f "$input_file" ]; then
