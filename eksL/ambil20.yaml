@@ -1,7 +1,7 @@
 proxies:
     - name: "1 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
-        path: /free/5.182.38.183:443
-    - name: "2 🇭🇺 HU Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+        path: /free/86.104.75.8:443
+    - name: "2 🇭🇺 HU Magyar Telekom CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /free/77.91.72.82:443
-    - name: "3 🇭🇺 HU ServerAstra Kft. CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/46.183.186.57:443
+    - name: "3 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,50 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
-        path: /free/91.219.237.49:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /free/86.104.75.143:443
     - name: "4 🇭🇺 HU M247 Europe CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/38.180.108.148:443
+    - name: "5 🇭🇺 HU Stark Industries Solutions CDN TLS"
+      network: ws
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /free/86.104.75.183:443
+    - name: "6 🇭🇺 HU Stark Industries Solutions CDN TLS"
+      network: ws
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/5.182.38.111:443
+    - name: "7 🇭🇺 HU Stark Industries Solutions CDN TLS"
+      network: ws
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -50,10 +89,10 @@ proxies:
       ws-opts:
         headers:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/38.180.109.174:443
-    - name: "5 🇭🇺 HU Stark Industries Solutions CDN TLS"
+        path: /free/77.91.72.82:443
+    - name: "8 🇭🇺 HU ServerAstra Kft. CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,11 +101,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
-        path: /free/86.104.75.143:443
-    - name: "6 🇭🇺 HU Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/91.219.237.49:443
+    - name: "9 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -75,50 +114,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/86.104.75.183:443
-    - name: "7 🇭🇺 HU Stark Industries Solutions CDN TLS"
-      network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/86.104.75.8:443
-    - name: "8 🇭🇺 HU Stark Industries Solutions CDN TLS"
-      network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
         path: /free/95.164.23.71:443
-    - name: "9 🇭🇺 HU 23VNet Kft. CDN TLS"
-      network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/185.225.68.232:443
     - name: "10 🇭🇺 HU Stark Industries Solutions CDN TLS"
       network: ws
-      password: b37bcbe6-2012-4f13-8421-3b5c69f98bbd
+      password: 7e322852-d527-4150-a2b0-6f9bcfa56d1a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -127,6 +127,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/5.182.38.111:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+        path: /free/5.182.38.183:443
     

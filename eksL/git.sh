@@ -68,7 +68,7 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/vless?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=sg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=20&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=ae&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=ar&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=bg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
