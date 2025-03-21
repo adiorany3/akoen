@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇷 IR Iran Telecommunication Company PJS CDN TLS"
+    - name: "1 🇮🇷 IR 1&1 Internet AG CDN TLS"
       network: ws
-      password: 0b9a6a4d-c694-4c4d-9165-94f8f4e10f15
+      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-        path: /free/5.198.177.197:2053
-    - name: "2 🇮🇷 IR Leaseweb Germany CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/5.202.13.130:8002
+    - name: "2 🇮🇷 IR Sefroyek Pardaz Engineering PJSC CDN TLS"
       network: ws
-      password: 0b9a6a4d-c694-4c4d-9165-94f8f4e10f15
+      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-        path: /free/89.235.119.7:2096
-    - name: "3 🇮🇷 IR Webdade CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/185.58.240.164:443
+    - name: "3 🇮🇷 IR Pars Abr Toseeh Ertebatat Company CDN TLS"
       network: ws
-      password: 0b9a6a4d-c694-4c4d-9165-94f8f4e10f15
+      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /free/84.47.234.16:41294
-    - name: "4 🇮🇷 IR Digital Ocean CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /free/85.133.250.58:8880
+    - name: "4 🇮🇷 IR Iran Telecommunication Company PJS CDN TLS"
       network: ws
-      password: 0b9a6a4d-c694-4c4d-9165-94f8f4e10f15
+      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /free/31.40.4.24:8443
-    - name: "5 🇮🇷 IR Hetzner Online CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /free/5.198.177.196:2083
+    - name: "5 🇮🇷 IR OVHcloud CDN TLS"
       network: ws
-      password: 0b9a6a4d-c694-4c4d-9165-94f8f4e10f15
+      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/87.107.164.104:1401
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/87.248.155.26:41669
     

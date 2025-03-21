@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇹🇭 TH True Internet CDN TLS"
+    - name: "1 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: ae2a78d0-5935-40c9-a300-6bfc1e959ec9
+      password: 333a8982-32df-4c1f-b877-00505370ded1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/171.103.14.137:32700
-    - name: "2 🇹🇭 TH Alibaba CDN TLS"
+            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /free/211.105.161.16:50003
+    - name: "2 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: ae2a78d0-5935-40c9-a300-6bfc1e959ec9
+      password: 333a8982-32df-4c1f-b877-00505370ded1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/47.81.9.160:443
-    - name: "3 🇹🇭 TH True Internet CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /free/211.199.36.227:11853
+    - name: "3 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: ae2a78d0-5935-40c9-a300-6bfc1e959ec9
+      password: 333a8982-32df-4c1f-b877-00505370ded1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
-        path: /free/171.103.15.91:39967
-    - name: "4 🇹🇭 TH True Online CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/222.103.185.193:24656
+    - name: "4 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: ae2a78d0-5935-40c9-a300-6bfc1e959ec9
+      password: 333a8982-32df-4c1f-b877-00505370ded1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /free/171.103.13.77:25645
-    - name: "5 🇹🇭 TH Alibaba (US) Technology Co."
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /free/221.161.58.134:36376
+    - name: "5 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: ae2a78d0-5935-40c9-a300-6bfc1e959ec9
+      password: 333a8982-32df-4c1f-b877-00505370ded1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-        path: /free/8.213.237.70:587
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/59.11.31.107:30906
     
