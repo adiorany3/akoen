@@ -54,7 +54,7 @@ OUTPUT_FILES=(
   "ambil18.yaml"
   "ambil19.yaml"
   "ambil20.yaml"
-  "ambil21.yaml"
+#  "ambil21.yaml"
 )
 
 URLS=(
@@ -68,17 +68,17 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/vless?cc=hk&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=ru&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/vless?cc=us&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=ae&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=ar&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=bg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=ch&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=ce&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=kr&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=ir&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://prod-test.jdevcloud.com/api/trojan?cc=hu&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=5&format=clash-provider"
-  "https://nautica.foolvpn.me/api/v1/sub/?cc=IL&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=id&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=ae&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=ar&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=bg&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=ch&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=au&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=ce&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=kr&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=ir&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+  "https://prod-test.jdevcloud.com/api/trojan?cc=hu&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
+#  "https://nautica.foolvpn.me/api/v1/sub/?cc=IL&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
 )
 
 # Define multiple user agents
@@ -571,6 +571,21 @@ if [ -f "pisah.py" ]; then
     fi
 else
     echo "Warning: pisah.py not found in current directory."
+fi
+
+# Run ubah.sh at the end
+if [ -f "ubah.sh" ]; then
+    echo "====================================="
+    echo "Running ubah.sh..."
+    echo "====================================="
+    bash ubah.sh
+    if [ $? -eq 0 ]; then
+        echo "✓ Successfully executed ubah.sh"
+    else
+        echo "✗ Error: Failed to execute ubah.sh"
+    fi
+else
+    echo "Warning: ubah.sh not found in current directory."
 fi
 
 echo "====================================="

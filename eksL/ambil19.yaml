@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇷 IR 1&1 Internet AG CDN TLS"
+    - name: "1 🇮🇷 IR Pars Shabakeh Azarakhsh LLC CDN TLS"
       network: ws
-      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/5.202.13.130:8002
-    - name: "2 🇮🇷 IR Sefroyek Pardaz Engineering PJSC CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/87.107.54.78:4343
+    - name: "2 🇮🇷 IR Servers Tech Fzco CDN TLS"
       network: ws
-      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/185.58.240.164:443
-    - name: "3 🇮🇷 IR Pars Abr Toseeh Ertebatat Company CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/78.109.201.36:2053
+    - name: "3 🇮🇷 IR G-Core Labs SA CDN TLS"
       network: ws
-      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /free/85.133.250.58:8880
-    - name: "4 🇮🇷 IR Iran Telecommunication Company PJS CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/89.235.118.195:8443
+    - name: "4 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-        path: /free/5.198.177.196:2083
-    - name: "5 🇮🇷 IR OVHcloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        path: /free/84.47.234.27:2087
+    - name: "5 🇮🇷 IR Iran Telecommunication Company PJS CDN TLS"
       network: ws
-      password: b1e3e0b4-b9a6-4ebf-bfe2-633fd4be99aa
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,6 +62,71 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/87.248.155.26:41669
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/5.198.176.16:443
+    - name: "6 🇮🇷 IR dataforest CDN TLS"
+      network: ws
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/5.198.177.210:44403
+    - name: "7 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS"
+      network: ws
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/213.232.125.92:443
+    - name: "8 🇮🇷 IR Webdade CDN TLS"
+      network: ws
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+        path: /free/84.47.234.6:2087
+    - name: "9 🇮🇷 IR Hetzner Online CDN TLS"
+      network: ws
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/91.222.199.110:443
+    - name: "10 🇮🇷 IR dataforest CDN TLS"
+      network: ws
+      password: 4956da7d-28c7-46ed-9252-95fd5a1a93e0
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/5.198.177.210:44408
     
