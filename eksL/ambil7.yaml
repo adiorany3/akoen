@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇬🇧 GB Stark Industries Solutions CDN TLS"
+    - name: "1 🇬🇧 GB OVHcloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,12 +7,12 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 3f1adc88-d06c-4329-92ee-f1780fefe80d
+      uuid: 273cb87a-7c91-4573-8b97-6c2779a3091e
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /free/5.180.30.249:2053
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/57.129.137.87:443
     - name: "2 🇬🇧 GB OVHcloud CDN TLS"
       network: ws
       port: "443"
@@ -21,27 +21,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 3f1adc88-d06c-4329-92ee-f1780fefe80d
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /free/57.129.137.95:443
-    - name: "3 🇬🇧 GB OVHcloud CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 3f1adc88-d06c-4329-92ee-f1780fefe80d
+      uuid: 273cb87a-7c91-4573-8b97-6c2779a3091e
       ws-opts:
         headers:
             Host: nuclear.biz.id
             User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /free/51.89.137.1:8443
-    - name: "4 🇬🇧 GB OVHcloud CDN TLS"
+        path: /free/57.129.137.56:8443
+    - name: "3 🇬🇧 GB Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -49,13 +35,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 3f1adc88-d06c-4329-92ee-f1780fefe80d
+      uuid: 273cb87a-7c91-4573-8b97-6c2779a3091e
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /free/57.128.160.231:443
-    - name: "5 🇬🇧 GB Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+        path: /free/67.226.223.52:80
+    - name: "4 🇬🇧 GB OVH SAS CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -63,10 +49,24 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 3f1adc88-d06c-4329-92ee-f1780fefe80d
+      uuid: 273cb87a-7c91-4573-8b97-6c2779a3091e
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/141.147.114.60:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        path: /free/57.129.137.217:8443
+    - name: "5 🇬🇧 GB Vultr CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 273cb87a-7c91-4573-8b97-6c2779a3091e
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/95.179.231.26:2087
     

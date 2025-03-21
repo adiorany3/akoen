@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇹🇭 TH True Internet CDN TLS"
+    - name: "1 🇹🇭 TH True Online CDN TLS"
       network: ws
-      password: 445d170d-1eb4-4249-be68-7f2f36bb3eee
+      password: 8f6b1ad7-347a-490e-8c1a-cfe98da9e6cc
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-        path: /free/171.103.14.137:32700
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /free/171.103.16.153:10252
     - name: "2 🇹🇭 TH Alibaba CDN TLS"
       network: ws
-      password: 445d170d-1eb4-4249-be68-7f2f36bb3eee
+      password: 8f6b1ad7-347a-490e-8c1a-cfe98da9e6cc
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/8.213.224.55:587
-    - name: "3 🇹🇭 TH Siamdata Communication Co. CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /free/47.81.9.160:443
+    - name: "3 🇹🇭 TH CAT Telecom Data Center CDN TLS"
       network: ws
-      password: 445d170d-1eb4-4249-be68-7f2f36bb3eee
+      password: 8f6b1ad7-347a-490e-8c1a-cfe98da9e6cc
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-        path: /free/43.229.149.251:8443
-    - name: "4 🇹🇭 TH Z.com CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        path: /free/45.136.238.235:24370
+    - name: "4 🇹🇭 TH Alibaba CDN TLS"
       network: ws
-      password: 445d170d-1eb4-4249-be68-7f2f36bb3eee
+      password: 8f6b1ad7-347a-490e-8c1a-cfe98da9e6cc
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,19 +49,19 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-        path: /free/150.95.25.108:2053
-    - name: "5 🇹🇭 TH Alibaba CDN TLS"
-      network: ws
-      password: 445d170d-1eb4-4249-be68-7f2f36bb3eee
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /free/8.213.216.14:587
+    - name: "5 🇹🇭 TH True Online CDN TLS"
+      network: ws
+      password: 8f6b1ad7-347a-490e-8c1a-cfe98da9e6cc
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        path: /free/171.103.232.58:20475
     
