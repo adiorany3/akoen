@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇦🇷 AR Sondatech S.a.s. CDN TLS"
+    - name: "1 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: 6c6f23e9-dad2-415a-9983-956882e18063
+      password: dfb9db65-3da0-4521-9576-608737e9d5b1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,24 +10,24 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /free/190.103.177.131:443
-    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
-      network: ws
-      password: 6c6f23e9-dad2-415a-9983-956882e18063
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
         path: /free/190.183.61.62:2053
+    - name: "2 🇦🇷 AR Sondatech S.a.s. CDN TLS"
+      network: ws
+      password: dfb9db65-3da0-4521-9576-608737e9d5b1
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/190.103.177.131:443
     - name: "3 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: 6c6f23e9-dad2-415a-9983-956882e18063
+      password: dfb9db65-3da0-4521-9576-608737e9d5b1
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,6 +36,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
         path: /free/190.183.61.62:8443
     

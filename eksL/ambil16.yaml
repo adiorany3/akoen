@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇦🇺 AU Macquarie Technology Operations CDN TLS"
+    - name: "1 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /free/125.7.24.251:443
-    - name: "2 🇦🇺 AU DigitalOcean"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/152.67.102.161:19286
+    - name: "2 🇦🇺 AU Aeza International CDN TLS"
       network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,50 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /free/91.108.241.5:8443
+    - name: "3 🇦🇺 AU TPG Internet CDN TLS"
+      network: ws
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /free/203.219.13.251:443
+    - name: "4 🇦🇺 AU Oracle Cloud CDN TLS"
+      network: ws
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/192.9.180.162:443
+    - name: "5 🇦🇺 AU DigitalOcean"
+      network: ws
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
         path: /free/209.38.16.180:4002
-    - name: "3 🇦🇺 AU OVH Hosting CDN TLS"
+    - name: "6 🇦🇺 AU Aeza International CDN TLS"
       network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,63 +75,50 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/51.161.134.202:8443
-    - name: "4 🇦🇺 AU Digital Ocean CDN TLS"
-      network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /free/170.64.240.100:443
-    - name: "5 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /free/192.9.184.12:1010
-    - name: "6 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/192.9.179.194:24499
-    - name: "7 🇦🇺 AU Aeza International CDN TLS"
-      network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
         path: /free/91.108.241.54:8443
-    - name: "8 🇦🇺 AU OVH Hosting CDN TLS"
+    - name: "7 🇦🇺 AU Zgx CDN TLS"
       network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/103.65.140.115:12224
+    - name: "8 🇦🇺 AU Aeza International CDN TLS"
+      network: ws
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /free/91.108.241.161:2053
+    - name: "9 🇦🇺 AU Amazon.com CDN TLS"
+      network: ws
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+        path: /free/54.79.133.41:443
+    - name: "10 🇦🇺 AU Akamai Connected Cloud CDN TLS"
+      network: ws
+      password: fabaf921-9fcf-486f-bf63-2ca12104d632
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -102,31 +128,5 @@ proxies:
       ws-opts:
         headers:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/51.161.134.202:2053
-    - name: "9 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /free/152.67.101.72:23010
-    - name: "10 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 117f4d44-67ff-4556-9c30-54c052a5e7e1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /free/192.9.180.162:443
+        path: /free/172.236.43.104:2053
     
