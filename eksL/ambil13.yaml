@@ -1,7 +1,7 @@
 proxies:
     - name: "1 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: dfb9db65-3da0-4521-9576-608737e9d5b1
+      password: 218fa2f3-3181-4d59-a398-1960af29cc3a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /free/190.183.61.62:2053
-    - name: "2 🇦🇷 AR Sondatech S.a.s. CDN TLS"
+    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: dfb9db65-3da0-4521-9576-608737e9d5b1
+      password: 218fa2f3-3181-4d59-a398-1960af29cc3a
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,19 +23,19 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/190.103.177.131:443
-    - name: "3 🇦🇷 AR Gigared S.A. CDN TLS"
-      network: ws
-      password: dfb9db65-3da0-4521-9576-608737e9d5b1
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
         path: /free/190.183.61.62:8443
+    - name: "3 🇦🇷 AR Sondatech S.a.s. CDN TLS"
+      network: ws
+      password: 218fa2f3-3181-4d59-a398-1960af29cc3a
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/190.103.177.131:443
     

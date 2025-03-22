@@ -1,5 +1,5 @@
 proxies:
-- name: 1 🇮🇩 ID Akamai Connected Cloud CDN TLS
+- name: 1 🇮🇩 ID Google LLC CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -7,104 +7,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 2e75d94e-2cf0-45ce-be7d-97eba2b7bcdd
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: /free/172.235.251.7:587
-- name: 2 🇮🇩 ID Amazon.com CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 2e75d94e-2cf0-45ce-be7d-97eba2b7bcdd
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/43.218.77.16:443
-- name: 3 🇮🇩 ID Amazon.com CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 2e75d94e-2cf0-45ce-be7d-97eba2b7bcdd
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /free/43.218.77.16:1443
-- name: 4 🇮🇩 ID PT Pusat Media Indonesia CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 2e75d94e-2cf0-45ce-be7d-97eba2b7bcdd
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /free/103.6.207.108:8080
-- name: 5 🇮🇩 ID PT. Newton Cipta Informatika CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 2e75d94e-2cf0-45ce-be7d-97eba2b7bcdd
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /free/103.63.101.10:443
-- name: 1 🇸🇬 SG Vultr CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 89ffd86b-e594-46cd-8215-f3740215a470
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /free/45.32.100.46:13802
-- name: 2 🇸🇬 SG Digital Ocean CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 89ffd86b-e594-46cd-8215-f3740215a470
+  uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /free/209.97.173.243:443
-- name: 3 🇸🇬 SG Oracle Corporation CDN TLS
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /free/35.219.15.90:443
+- name: 2 🇮🇩 ID PT Telkom Indonesia CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -112,14 +22,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 89ffd86b-e594-46cd-8215-f3740215a470
+  uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /free/129.150.35.29:587
-- name: 4 🇸🇬 SG Onidel CDN TLS
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /free/36.95.152.58:12137
+- name: 3 🇮🇩 ID PT Pusat Media Indonesia CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -127,44 +37,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 89ffd86b-e594-46cd-8215-f3740215a470
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /free/160.22.79.174:443
-- name: 5 🇸🇬 SG OVHcloud CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 89ffd86b-e594-46cd-8215-f3740215a470
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /free/15.235.199.103:8443
-- name: 1 🇮🇱 IL Cloud Lease CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 181efaaa-ca2a-4b0f-bd81-50be8cb46058
+  uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /free/77.91.69.51:8443
-- name: 2 🇮🇱 IL Interhost Communication Solutions CDN TLS
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /free/103.6.207.108:8080
+- name: 4 🇮🇩 ID Amazon.com CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -172,14 +52,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 181efaaa-ca2a-4b0f-bd81-50be8cb46058
+  uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /free/89.46.239.156:8443
-- name: 3 🇮🇱 IL Cloud Lease CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /free/43.218.77.16:443
+- name: 5 🇮🇩 ID Akamai Connected Cloud CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -187,14 +67,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 181efaaa-ca2a-4b0f-bd81-50be8cb46058
+  uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /free/77.91.69.238:2053
-- name: 4 🇮🇱 IL Oracle Cloud CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /free/172.232.239.134:443
+- name: 1 🇸🇬 SG Oracle Cloud CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -202,13 +82,134 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 181efaaa-ca2a-4b0f-bd81-50be8cb46058
+  uuid: 174b889a-5501-4d94-8172-965e52d9ef3f
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/129.150.41.174:16462
+- name: 2 🇸🇬 SG Akamai Connected Cloud CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 174b889a-5501-4d94-8172-965e52d9ef3f
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/172.104.50.166:587
+- name: 3 🇸🇬 SG Melbikomas UAB CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 174b889a-5501-4d94-8172-965e52d9ef3f
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /free/91.192.81.154:2053
+- name: 4 🇸🇬 SG Aloi Pte. CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 174b889a-5501-4d94-8172-965e52d9ef3f
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /free/185.217.5.3:443
+- name: 5 🇸🇬 SG Oracle Cloud CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 174b889a-5501-4d94-8172-965e52d9ef3f
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /free/129.159.132.0:8443
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /free/138.2.89.238:43254
+- name: 1 🇮🇱 IL Oracle Cloud CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 94d65827-2559-41d0-9d8a-030ad365f946
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /free/129.159.129.107:8443
+- name: 2 🇮🇱 IL Vultr CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 94d65827-2559-41d0-9d8a-030ad365f946
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /free/64.176.163.9:8443
+- name: 3 🇮🇱 IL Stark Industries Solutions CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 94d65827-2559-41d0-9d8a-030ad365f946
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /free/89.221.225.198:2053
+- name: 4 🇮🇱 IL SmartApe OU CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 94d65827-2559-41d0-9d8a-030ad365f946
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/185.239.48.97:2053
 - name: 5 🇮🇱 IL Cloud Lease CDN TLS
   network: ws
   port: '443'
@@ -217,14 +218,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 181efaaa-ca2a-4b0f-bd81-50be8cb46058
+  uuid: 94d65827-2559-41d0-9d8a-030ad365f946
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /free/77.91.69.141:2053
-- name: 1 🇯🇵 JP Tencent cloud computing CDN TLS
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /free/77.91.69.238:8443
+- name: 1 🇯🇵 JP G-Core Labs SA CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -232,14 +233,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 0d0b533a-6b57-4cbb-80c3-2d54ad9c24df
+  uuid: 9b785217-3209-4e5c-9d23-04e926f89915
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /free/124.156.238.155:443
-- name: 2 🇯🇵 JP Nearoute CDN TLS
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /free/94.177.131.183:8443
+- name: 2 🇯🇵 JP Oracle Cloud CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -247,30 +248,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 0d0b533a-6b57-4cbb-80c3-2d54ad9c24df
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /free/82.153.65.154:24620
-- name: 3 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 0d0b533a-6b57-4cbb-80c3-2d54ad9c24df
+  uuid: 9b785217-3209-4e5c-9d23-04e926f89915
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /free/91.194.160.121:2053
-- name: 4 🇯🇵 JP CDN TLS
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /free/138.2.32.76:15821
+- name: 3 🇯🇵 JP Oracle Cloud CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -278,14 +263,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 0d0b533a-6b57-4cbb-80c3-2d54ad9c24df
+  uuid: 9b785217-3209-4e5c-9d23-04e926f89915
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /free/47.91.24.239:443
-- name: 5 🇯🇵 JP Oracle Cloud CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /free/132.226.8.109:43257
+- name: 4 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -293,13 +278,28 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 0d0b533a-6b57-4cbb-80c3-2d54ad9c24df
+  uuid: 9b785217-3209-4e5c-9d23-04e926f89915
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/155.248.176.48:38192
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /free/91.194.160.79:2053
+- name: 5 🇯🇵 JP Akamai Connected Cloud CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 9b785217-3209-4e5c-9d23-04e926f89915
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /free/139.162.79.79:587
 - name: 1 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
   network: ws
   port: '443'
@@ -308,14 +308,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: ab8c3555-79e1-4c35-9e93-2c34d47aa0d1
+  uuid: 03188f6a-46ee-4047-a11d-d0df3b3a0a1a
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /free/123.253.33.182:12306
-- name: 2 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
+- name: 2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -323,45 +323,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: ab8c3555-79e1-4c35-9e93-2c34d47aa0d1
+  uuid: 03188f6a-46ee-4047-a11d-d0df3b3a0a1a
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /free/38.60.193.247:13300
-- name: 3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: ab8c3555-79e1-4c35-9e93-2c34d47aa0d1
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /free/38.60.195.203:10478
-- name: 4 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: ab8c3555-79e1-4c35-9e93-2c34d47aa0d1
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /free/141.11.17.205:443
-- name: 5 🇲🇾 MY Evoxt Enterprise CDN TLS
+- name: 3 🇲🇾 MY Evoxt Enterprise CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -369,13 +338,43 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: ab8c3555-79e1-4c35-9e93-2c34d47aa0d1
+  uuid: 03188f6a-46ee-4047-a11d-d0df3b3a0a1a
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /free/45.195.76.190:29690
+- name: 4 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 03188f6a-46ee-4047-a11d-d0df3b3a0a1a
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /free/38.60.193.247:13300
+- name: 5 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 03188f6a-46ee-4047-a11d-d0df3b3a0a1a
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/38.60.195.203:10478
 - name: 1 🇦🇺 AU Oracle Cloud CDN TLS
   network: ws
   port: '443'
@@ -384,29 +383,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: e2534479-a838-4505-8a91-fa167068bed5
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /free/152.69.174.99:25248
-- name: 2 🇦🇺 AU Vultr CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: e2534479-a838-4505-8a91-fa167068bed5
+  uuid: b1a4bef6-3924-4ddf-af7c-6fc36422d34f
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /free/45.77.236.204:443
-- name: 3 🇦🇺 AU Oracle Cloud CDN TLS
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /free/192.9.184.12:1010
+- name: 2 🇦🇺 AU Aeza International CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -414,14 +398,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: e2534479-a838-4505-8a91-fa167068bed5
+  uuid: b1a4bef6-3924-4ddf-af7c-6fc36422d34f
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /free/192.9.177.204:443
-- name: 4 🇦🇺 AU Amazon.com CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /free/91.108.241.54:2053
+- name: 3 🇦🇺 AU Amazon.com CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -429,14 +413,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: e2534479-a838-4505-8a91-fa167068bed5
+  uuid: b1a4bef6-3924-4ddf-af7c-6fc36422d34f
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /free/3.24.174.233:443
-- name: 5 🇦🇺 AU Oracle Cloud CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /free/54.79.133.41:443
+- name: 4 🇦🇺 AU Aeza International CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -444,13 +428,28 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: e2534479-a838-4505-8a91-fa167068bed5
+  uuid: b1a4bef6-3924-4ddf-af7c-6fc36422d34f
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /free/152.67.101.72:23010
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /free/91.108.241.161:8443
+- name: 5 🇦🇺 AU Aeza International CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: b1a4bef6-3924-4ddf-af7c-6fc36422d34f
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/91.108.241.56:8443
 - name: 1 🇬🇧 GB OVHcloud CDN TLS
   network: ws
   port: '443'
@@ -459,13 +458,13 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: eea0f2e8-ba8e-4da7-98a7-6a118b0a0e93
+  uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /free/5.144.182.81:2053
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /free/57.128.177.235:8443
 - name: 2 🇬🇧 GB OVHcloud CDN TLS
   network: ws
   port: '443'
@@ -474,14 +473,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: eea0f2e8-ba8e-4da7-98a7-6a118b0a0e93
+  uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /free/51.89.148.203:12122
-- name: 3 🇬🇧 GB 1&1 Internet AG CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/57.129.137.93:443
+- name: 3 🇬🇧 GB Stark Industries Solutions CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -489,14 +488,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: eea0f2e8-ba8e-4da7-98a7-6a118b0a0e93
+  uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /free/213.165.88.177:443
-- name: 4 🇬🇧 GB Akamai Connected Cloud CDN TLS
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /free/5.180.30.112:443
+- name: 4 🇬🇧 GB OVHcloud CDN TLS
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -504,58 +503,58 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: eea0f2e8-ba8e-4da7-98a7-6a118b0a0e93
+  uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/5.144.181.127:2053
+- name: 5 🇬🇧 GB OVHcloud CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /free/57.129.137.96:8443
+- name: 1 🇭🇰 HK Tencent cloud computing CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 66e48ae6-90d7-4afa-b68a-98c9f445c17a
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /free/43.128.26.74:443
+- name: 2 🇭🇰 HK M247 Europe CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 66e48ae6-90d7-4afa-b68a-98c9f445c17a
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /free/139.162.229.111:587
-- name: 5 🇬🇧 GB Akamai Connected Cloud CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: eea0f2e8-ba8e-4da7-98a7-6a118b0a0e93
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /free/88.80.186.246:587
-- name: 1 🇭🇰 HK Alibaba CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: f816c25d-4f2c-4f35-93e8-66af27fc6f69
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /free/47.238.236.147:587
-- name: 2 🇭🇰 HK Tencent cloud computing CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: f816c25d-4f2c-4f35-93e8-66af27fc6f69
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /free/119.28.190.161:58615
+    path: /free/45.136.197.252:443
 - name: 3 🇭🇰 HK Tencent cloud computing CDN TLS
   network: ws
   port: '443'
@@ -564,149 +563,14 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: f816c25d-4f2c-4f35-93e8-66af27fc6f69
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /free/43.132.110.81:33683
-- name: 4 🇭🇰 HK Datawing CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: f816c25d-4f2c-4f35-93e8-66af27fc6f69
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /free/156.254.114.104:443
-- name: 5 🇭🇰 HK Akile CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: f816c25d-4f2c-4f35-93e8-66af27fc6f69
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/141.11.78.77:8080
-- name: 1 🇷🇺 RU Aeza International CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: bd03da69-7310-4429-b1d4-56af7406c719
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /free/185.112.83.40:8443
-- name: 2 🇷🇺 RU Baykov Ilya Sergeevich CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: bd03da69-7310-4429-b1d4-56af7406c719
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /free/193.124.33.57:443
-- name: 3 🇷🇺 RU Global Internet Solutions CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: bd03da69-7310-4429-b1d4-56af7406c719
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /free/45.151.62.156:8443
-- name: 4 🇷🇺 RU VDSina.com CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: bd03da69-7310-4429-b1d4-56af7406c719
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /free/62.113.118.4:8443
-- name: 5 🇷🇺 RU TimeWeb CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: bd03da69-7310-4429-b1d4-56af7406c719
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /free/194.87.190.57:8443
-- name: 1 🇺🇸 US Amazon.com CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 39fa758b-1634-4288-b436-492c9ad4d179
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /free/67.226.221.100:80
-- name: 2 🇺🇸 US Cnservers LLC CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 39fa758b-1634-4288-b436-492c9ad4d179
+  uuid: 66e48ae6-90d7-4afa-b68a-98c9f445c17a
   ws-opts:
     headers:
       Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /free/216.38.168.34:16384
-- name: 3 🇺🇸 US Baxet Group Inc. CDN TLS
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /free/43.132.244.52:21415
+- name: 4 🇭🇰 HK Alibaba (US) Technology Co.
   network: ws
   port: '443'
   server: 104.17.3.81
@@ -714,719 +578,309 @@ proxies:
   tls: true
   type: vless
   packet-encoding: packetaddr
-  uuid: 39fa758b-1634-4288-b436-492c9ad4d179
+  uuid: 66e48ae6-90d7-4afa-b68a-98c9f445c17a
   ws-opts:
     headers:
       Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /free/194.135.104.96:443
-- name: 4 🇺🇸 US RoyaleHosting CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 39fa758b-1634-4288-b436-492c9ad4d179
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /free/141.11.89.128:443
-- name: 5 🇺🇸 US Multacom Corporation CDN TLS
-  network: ws
-  port: '443'
-  server: 104.17.3.81
-  servername: nuclear.biz.id
-  tls: true
-  type: vless
-  packet-encoding: packetaddr
-  uuid: 39fa758b-1634-4288-b436-492c9ad4d179
-  ws-opts:
-    headers:
-      Host: nuclear.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /free/142.171.147.201:20274
-- name: 1 🇸🇬 SG Akamai Connected Cloud CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /free/172.236.150.194:443
-- name: 2 🇸🇬 SG Oracle Cloud CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /free/158.178.243.152:61731
-- name: 3 🇸🇬 SG GoDaddy.com
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /free/97.74.82.87:45837
-- name: 4 🇸🇬 SG Akile CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/185.126.80.195:443
-- name: 5 🇸🇬 SG Alibaba CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /free/47.236.22.194:52324
-- name: 6 🇸🇬 SG Chelyabinsk-Signal CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /free/31.192.238.71:8443
-- name: 7 🇸🇬 SG Digital Ocean CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/128.199.171.100:8443
-- name: 8 🇸🇬 SG Chelyabinsk-Signal CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /free/31.192.238.71:2053
-- name: 9 🇸🇬 SG Alibaba CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /free/8.222.165.104:443
-- name: 10 🇸🇬 SG Latitude-sh CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /free/31.58.136.31:443
-- name: 11 🇸🇬 SG Alibaba CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /free/8.222.220.81:25435
-- name: 12 🇸🇬 SG Alibaba CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/47.236.19.88:443
-- name: 13 🇸🇬 SG Akamai Connected Cloud CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /free/172.104.50.166:587
-- name: 14 🇸🇬 SG Oracle Cloud CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /free/152.69.220.136:53076
-- name: 15 🇸🇬 SG Oracle Cloud CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /free/138.2.95.61:1111
-- name: 16 🇸🇬 SG Alibaba (US) Technology Co.
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /free/8.219.59.208:11178
-- name: 17 🇸🇬 SG Alibaba CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /free/47.245.91.197:9000
-- name: 18 🇸🇬 SG CDS Global Cloud CO.
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /free/164.52.2.98:443
-- name: 19 🇸🇬 SG Digital Ocean CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/68.183.179.5:2053
-- name: 20 🇸🇬 SG Oracle Cloud CDN TLS
-  network: ws
-  password: 896f44df-2e73-4b77-836a-aa82fffdaa56
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /free/138.2.101.213:15204
-- name: 1 🇦🇪 AE Zenlayer CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /free/37.202.222.182:2053
-- name: 2 🇦🇪 AE G-Core Labs SA CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /free/217.195.200.138:443
-- name: 3 🇦🇪 AE G-Core Labs SA CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /free/195.158.230.134:8443
-- name: 4 🇦🇪 AE Oracle Cloud CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /free/193.123.81.105:443
-- name: 5 🇦🇪 AE Global Connectivity Solutions Llp CDN TLS
+    path: /free/8.218.73.41:443
+- name: 5 🇭🇰 HK Hytron Network Services CDN TLS
   network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: 66e48ae6-90d7-4afa-b68a-98c9f445c17a
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/5.44.42.166:2053
-- name: 6 🇦🇪 AE G-Core Labs SA CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /free/217.195.200.52:80
-- name: 7 🇦🇪 AE M247 Europe CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/176.97.78.80:2053
-- name: 8 🇦🇪 AE Oracle Cloud CDN TLS
-  network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
+      Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /free/139.185.34.131:443
-- name: 9 🇦🇪 AE Zenlayer CDN TLS
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /free/62.72.163.191:8443
+- name: 1 🇷🇺 RU Cloud.ru CDN TLS
   network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: de839ca3-9d0a-45d3-804f-2589faeeecbd
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/85.237.211.59:2053
-- name: 10 🇦🇪 AE Oracle Cloud CDN TLS
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /free/176.109.106.61:8443
+- name: 2 🇷🇺 RU Kontel CDN TLS
   network: ws
-  password: eda008a4-4b79-42de-a698-d62d808534ba
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: de839ca3-9d0a-45d3-804f-2589faeeecbd
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/129.151.128.105:16731
-- name: 1 🇦🇷 AR Gigared S.A. CDN TLS
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /free/46.8.210.216:2053
+- name: 3 🇷🇺 RU First Server CDN TLS
   network: ws
-  password: dfb9db65-3da0-4521-9576-608737e9d5b1
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: de839ca3-9d0a-45d3-804f-2589faeeecbd
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /free/190.183.61.62:2053
-- name: 2 🇦🇷 AR Sondatech S.a.s. CDN TLS
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /free/185.128.106.14:51820
+- name: 4 🇷🇺 RU Hosting technology CDN TLS
   network: ws
-  password: dfb9db65-3da0-4521-9576-608737e9d5b1
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: de839ca3-9d0a-45d3-804f-2589faeeecbd
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /free/190.103.177.131:443
-- name: 3 🇦🇷 AR Gigared S.A. CDN TLS
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /free/85.198.109.79:8443
+- name: 5 🇷🇺 RU First Server CDN TLS
   network: ws
-  password: dfb9db65-3da0-4521-9576-608737e9d5b1
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: de839ca3-9d0a-45d3-804f-2589faeeecbd
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /free/190.183.61.62:8443
-- name: 1 🇧🇬 BG First Server CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
         Safari/537.36
-    path: /free/185.232.170.30:443
-- name: 2 🇧🇬 BG Web Singularity CDN TLS
+    path: /free/185.244.173.81:443
+- name: 1 🇺🇸 US ColoCrossing CDN TLS
   network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
   port: '443'
   server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: ca102ce0-4656-44b5-bd9f-9d301a19b60c
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/185.82.218.224:8443
-- name: 3 🇧🇬 BG Stark Industries Solutions CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/95.164.21.104:443
-- name: 4 🇧🇬 BG Alexhost CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /free/93.157.106.107:443
-- name: 5 🇧🇬 BG Melbikomas UAB CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /free/213.183.63.68:36651
-- name: 6 🇧🇬 BG M247 Europe CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /free/45.136.198.107:31202
-- name: 7 🇧🇬 BG Friendhosting LTD CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /free/91.210.166.82:443
-- name: 8 🇧🇬 BG Web Singularity CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /free/185.82.218.224:9443
-- name: 9 🇧🇬 BG Melbikomas UAB CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /free/213.183.63.71:53811
-- name: 10 🇧🇬 BG Ultranet CDN TLS
-  network: ws
-  password: cdbc995a-2cd8-4a44-afcc-381de322154f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /free/213.149.152.219:17849
-- name: 1 🇨🇭 CH Friendhosting LTD CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /free/91.90.193.24:443
-- name: 2 🇨🇭 CH Datasource CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /free/185.195.69.153:8443
-- name: 3 🇨🇭 CH Google Cloud CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /free/35.216.136.212:443
-- name: 4 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /free/45.95.232.203:2053
-- name: 5 🇨🇭 CH Stark Industries Solutions CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
+      Host: nuclear.biz.id
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /free/94.131.12.30:8443
-- name: 6 🇨🇭 CH Serva One CDN TLS
+    path: /free/23.94.43.51:443
+- name: 2 🇺🇸 US ColoCrossing CDN TLS
   network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: ca102ce0-4656-44b5-bd9f-9d301a19b60c
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /free/198.23.146.239:443
+- name: 3 🇺🇸 US Alibaba CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: ca102ce0-4656-44b5-bd9f-9d301a19b60c
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /free/47.252.4.59:15023
+- name: 4 🇺🇸 US Amazon.com CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: ca102ce0-4656-44b5-bd9f-9d301a19b60c
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /free/3.215.143.191:443
+- name: 5 🇺🇸 US Oracle Cloud CDN TLS
+  network: ws
+  port: '443'
+  server: 104.17.3.81
+  servername: nuclear.biz.id
+  tls: true
+  type: vless
+  packet-encoding: packetaddr
+  uuid: ca102ce0-4656-44b5-bd9f-9d301a19b60c
+  ws-opts:
+    headers:
+      Host: nuclear.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
+    path: /free/129.146.89.30:31134
+- name: 1 🇸🇬 SG Hivelocity CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /free/209.182.237.252:8080
+- name: 2 🇸🇬 SG Oracle Cloud CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /free/168.138.165.174:443
+- name: 3 🇸🇬 SG Cloudflare Warp CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /free/47.236.60.3:443
+- name: 4 🇸🇬 SG Oracle Cloud CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /free/138.2.100.221:26621
+- name: 5 🇸🇬 SG Alibaba CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/47.236.25.107:27903
+- name: 6 🇸🇬 SG Akile CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /free/185.126.80.14:8443
+- name: 7 🇸🇬 SG Vultr CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /free/45.32.115.93:8443
+- name: 8 🇸🇬 SG Alibaba CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /free/47.245.91.197:9000
+- name: 9 🇸🇬 SG Alibaba CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /free/8.219.59.132:48130
+- name: 10 🇸🇬 SG Latitude-sh CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
   port: '443'
   server: 104.17.3.81
   skip-cert-verify: true
@@ -1437,24 +891,10 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /free/45.85.93.18:8443
-- name: 7 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+    path: /free/64.49.14.41:2053
+- name: 11 🇸🇬 SG Onidel CDN TLS
   network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /free/45.95.232.236:2053
-- name: 8 🇨🇭 CH Datasource CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
   port: '443'
   server: 104.17.3.81
   skip-cert-verify: true
@@ -1464,585 +904,11 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /free/176.10.125.114:443
-- name: 9 🇨🇭 CH Private Layer CDN TLS
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /free/160.22.79.174:443
+- name: 12 🇸🇬 SG Amazon.com CDN TLS
   network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/38.180.15.45:443
-- name: 10 🇨🇭 CH Oracle Cloud CDN TLS
-  network: ws
-  password: facda4db-aae5-458e-9fab-5f26b6266935
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /free/140.238.218.65:8443
-- name: 1 🇦🇺 AU Oracle Cloud CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/152.67.102.161:19286
-- name: 2 🇦🇺 AU Aeza International CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /free/91.108.241.5:8443
-- name: 3 🇦🇺 AU TPG Internet CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /free/203.219.13.251:443
-- name: 4 🇦🇺 AU Oracle Cloud CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /free/192.9.180.162:443
-- name: 5 🇦🇺 AU DigitalOcean
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /free/209.38.16.180:4002
-- name: 6 🇦🇺 AU Aeza International CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /free/91.108.241.54:8443
-- name: 7 🇦🇺 AU Zgx CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /free/103.65.140.115:12224
-- name: 8 🇦🇺 AU Aeza International CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /free/91.108.241.161:2053
-- name: 9 🇦🇺 AU Amazon.com CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /free/54.79.133.41:443
-- name: 10 🇦🇺 AU Akamai Connected Cloud CDN TLS
-  network: ws
-  password: fabaf921-9fcf-486f-bf63-2ca12104d632
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /free/172.236.43.104:2053
-- name: 1 🇰🇷 KR Gyeongbuk Cable TV CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /free/115.69.101.29:11025
-- name: 2 🇰🇷 KR LG Uplus CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /free/106.240.106.61:32929
-- name: 3 🇰🇷 KR KT CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /free/14.33.77.185:33601
-- name: 4 🇰🇷 KR Hcn Chungbuk Cable Tv Systems CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/39.126.188.174:50000
-- name: 5 🇰🇷 KR LG HelloVision Corp. CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /free/110.45.69.216:27265
-- name: 6 🇰🇷 KR LG Uplus CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /free/112.156.154.95:30067
-- name: 7 🇰🇷 KR LG Uplus CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /free/49.166.108.89:38043
-- name: 8 🇰🇷 KR KT CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /free/175.208.103.63:15044
-- name: 9 🇰🇷 KR LG Uplus CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /free/49.171.48.200:20040
-- name: 10 🇰🇷 KR KT CDN TLS
-  network: ws
-  password: f2618b4f-48ac-49e5-939f-2f6e9c7aa5bf
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/119.195.173.74:30109
-- name: 1 🇮🇷 IR Asre Pardazeshe Ettelaate Amin Institute CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /free/185.142.157.65:8075
-- name: 2 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /free/5.200.94.190:30001
-- name: 3 🇮🇷 IR FanAvaran Mihan Mizban PJSC CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /free/62.60.192.43:9090
-- name: 4 🇮🇷 IR Webdade CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /free/5.198.177.199:2083
-- name: 5 🇮🇷 IR Hetzner Online GmbH CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /free/178.239.146.202:8443
-- name: 6 🇮🇷 IR dataforest CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /free/5.198.177.210:553
-- name: 7 🇮🇷 IR Hetzner Online CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /free/185.126.7.250:443
-- name: 8 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /free/213.232.124.138:443
-- name: 9 🇮🇷 IR Webdade CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /free/217.219.78.203:2083
-- name: 10 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS
-  network: ws
-  password: 262023b7-47bd-41b6-954c-40769e3b6e6d
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /free/94.101.188.101:30768
-- name: 1 🇭🇺 HU M247 Europe CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /free/38.180.109.174:443
-- name: 2 🇭🇺 HU Magyar Telekom CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /free/46.183.186.57:443
-- name: 3 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /free/86.104.75.143:443
-- name: 4 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /free/5.182.38.183:443
-- name: 5 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
-    path: /free/95.164.23.71:443
-- name: 6 🇭🇺 HU ServerAstra Kft. CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /free/91.219.237.49:443
-- name: 7 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /free/5.182.38.111:443
-- name: 8 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /free/86.104.75.183:443
-- name: 9 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
-  port: '443'
-  server: 104.17.3.81
-  skip-cert-verify: true
-  sni: nuclear.biz.id
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /free/77.91.72.82:443
-- name: 10 🇭🇺 HU Stark Industries Solutions CDN TLS
-  network: ws
-  password: 6c515265-db31-4358-950f-87f294f11f0f
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
   port: '443'
   server: 104.17.3.81
   skip-cert-verify: true
@@ -2053,153 +919,989 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/49.0.2623.112 Safari/537.36
+    path: /free/13.228.142.218:443
+- name: 13 🇸🇬 SG OVH Hosting CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /free/51.79.158.58:2053
+- name: 14 🇸🇬 SG Amazon.com CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /free/3.1.116.161:8443
+- name: 15 🇸🇬 SG Akile CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /free/185.126.80.181:51207
+- name: 16 🇸🇬 SG Oracle Cloud CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /free/138.2.95.33:17465
+- name: 17 🇸🇬 SG Tencent cloud computing CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /free/43.156.26.205:23654
+- name: 18 🇸🇬 SG Akamai Connected Cloud CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /free/139.162.54.41:587
+- name: 19 🇸🇬 SG Huawei Cloud CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /free/101.44.163.253:21578
+- name: 20 🇸🇬 SG Alibaba CDN TLS
+  network: ws
+  password: bf2863b1-d23b-4d84-82e6-c05105ebec08
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /free/47.236.119.190:51342
+- name: 1 🇦🇷 AR Gigared S.A. CDN TLS
+  network: ws
+  password: 218fa2f3-3181-4d59-a398-1960af29cc3a
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/190.183.61.62:2053
+- name: 2 🇦🇷 AR Gigared S.A. CDN TLS
+  network: ws
+  password: 218fa2f3-3181-4d59-a398-1960af29cc3a
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /free/190.183.61.62:8443
+- name: 3 🇦🇷 AR Sondatech S.a.s. CDN TLS
+  network: ws
+  password: 218fa2f3-3181-4d59-a398-1960af29cc3a
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /free/190.103.177.131:443
+- name: 1 🇧🇬 BG Belcloud CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/193.37.215.115:443
+- name: 2 🇧🇬 BG Web Singularity CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/185.82.218.224:9443
+- name: 3 🇧🇬 BG Belcloud CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /free/185.203.116.174:443
+- name: 4 🇧🇬 BG Stark Industries Solutions CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/95.164.21.104:443
+- name: 5 🇧🇬 BG Clouvider Limited CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /free/78.128.127.93:443
+- name: 6 🇧🇬 BG Belcloud CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /free/193.37.214.60:18836
+- name: 7 🇧🇬 BG Web Singularity CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /free/185.82.218.224:8443
+- name: 8 🇧🇬 BG Friendhosting LTD CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/91.210.166.145:443
+- name: 9 🇧🇬 BG First Server CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /free/193.239.160.25:443
+- name: 10 🇧🇬 BG M247 Europe CDN TLS
+  network: ws
+  password: 10a204de-cb1d-49f8-ba85-ca55168e68ed
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /free/45.136.198.107:31202
+- name: 1 🇨🇭 CH Private Layer CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/179.43.176.163:10443
+- name: 2 🇨🇭 CH Datasource CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /free/185.195.69.200:2053
+- name: 3 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /free/45.95.232.58:4955
+- name: 4 🇨🇭 CH Serva One CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /free/45.85.93.59:443
+- name: 5 🇨🇭 CH Private Layer CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /free/179.43.190.20:8443
+- name: 6 🇨🇭 CH Datasource CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /free/185.195.69.200:8443
+- name: 7 🇨🇭 CH Infomaniak Network CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /free/195.15.242.197:443
+- name: 8 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /free/45.95.232.203:8443
+- name: 9 🇨🇭 CH Datasource CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /free/91.192.102.170:2053
+- name: 10 🇨🇭 CH Sunrise CDN TLS
+  network: ws
+  password: ff24733f-0685-40fd-bac1-4373ccf31628
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /free/195.141.59.27:443
+- name: 1 🇦🇺 AU Digital Ocean CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/170.64.152.77:7443
+- name: 2 🇦🇺 AU Oracle Cloud CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /free/130.162.193.183:15401
+- name: 3 🇦🇺 AU Aeza International CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /free/91.108.241.161:2053
+- name: 4 🇦🇺 AU Digital Ocean CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/170.64.192.191:31257
+- name: 5 🇦🇺 AU Amazon.com CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /free/54.79.133.41:443
+- name: 6 🇦🇺 AU Oracle Cloud CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /free/192.9.184.12:1013
+- name: 7 🇦🇺 AU Aeza International CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/91.108.241.44:8443
+- name: 8 🇦🇺 AU Amazon.com CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /free/13.54.198.183:443
+- name: 9 🇦🇺 AU Aeza International CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /free/91.108.241.161:8443
+- name: 10 🇦🇺 AU Macquarie Technology Operations CDN TLS
+  network: ws
+  password: db7d181e-451e-4db7-87cd-614dce1edbd8
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /free/125.7.24.251:443
+- name: 1 🇮🇷 IR G-Core Labs SA CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /free/89.235.118.195:8443
+- name: 2 🇮🇷 IR Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret S CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /free/93.113.234.218:443
+- name: 3 🇮🇷 IR NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.) CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /free/185.173.107.37:443
+- name: 4 🇮🇷 IR Hetzner Online CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /free/94.182.134.214:8445
+- name: 5 🇮🇷 IR Webdade CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /free/5.198.177.134:32075
+- name: 6 🇮🇷 IR Webdade CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /free/84.47.234.28:2087
+- name: 7 🇮🇷 IR Webdade CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /free/89.235.118.83:21695
+- name: 8 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /free/188.121.112.133:443
+- name: 9 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/193.105.6.84:443
+- name: 10 🇮🇷 IR Webdade CDN TLS
+  network: ws
+  password: cb401e50-7b0c-4666-9d40-0d9ad4d5bd91
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /free/84.47.234.22:2083
+- name: 1 🇭🇺 HU M247 Europe CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /free/38.180.108.148:443
+- name: 2 🇭🇺 HU ServerAstra Kft. CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /free/91.219.237.49:443
+- name: 3 🇭🇺 HU Stark Industries Solutions CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
     path: /free/86.104.75.8:443
+- name: 4 🇭🇺 HU 23VNet Kft. CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /free/185.225.68.232:443
+- name: 5 🇭🇺 HU Stark Industries Solutions CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /free/5.182.38.183:443
+- name: 6 🇭🇺 HU Stark Industries Solutions CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /free/95.164.23.71:443
+- name: 7 🇭🇺 HU Stark Industries Solutions CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /free/86.104.75.143:443
+- name: 8 🇭🇺 HU M247 Europe CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /free/38.180.109.174:443
+- name: 9 🇭🇺 HU Magyar Telekom CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /free/46.183.186.57:443
+- name: 10 🇭🇺 HU Stark Industries Solutions CDN TLS
+  network: ws
+  password: 2be10eb8-dcb6-485e-9efe-0b7f183e61ab
+  port: '443'
+  server: 104.17.3.81
+  skip-cert-verify: true
+  sni: nuclear.biz.id
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /free/5.182.38.111:443
 proxy-groups:
 - name: 🚀 Auto Select
   type: url-test
   proxies:
-  - 1 🇮🇩 ID Akamai Connected Cloud CDN TLS
-  - 2 🇮🇩 ID Amazon.com CDN TLS
-  - 3 🇮🇩 ID Amazon.com CDN TLS
-  - 4 🇮🇩 ID PT Pusat Media Indonesia CDN TLS
-  - 5 🇮🇩 ID PT. Newton Cipta Informatika CDN TLS
-  - 1 🇸🇬 SG Vultr CDN TLS
-  - 2 🇸🇬 SG Digital Ocean CDN TLS
-  - 3 🇸🇬 SG Oracle Corporation CDN TLS
-  - 4 🇸🇬 SG Onidel CDN TLS
-  - 5 🇸🇬 SG OVHcloud CDN TLS
-  - 1 🇮🇱 IL Cloud Lease CDN TLS
-  - 2 🇮🇱 IL Interhost Communication Solutions CDN TLS
-  - 3 🇮🇱 IL Cloud Lease CDN TLS
-  - 4 🇮🇱 IL Oracle Cloud CDN TLS
+  - 1 🇮🇩 ID Google LLC CDN TLS
+  - 2 🇮🇩 ID PT Telkom Indonesia CDN TLS
+  - 3 🇮🇩 ID PT Pusat Media Indonesia CDN TLS
+  - 4 🇮🇩 ID Amazon.com CDN TLS
+  - 5 🇮🇩 ID Akamai Connected Cloud CDN TLS
+  - 1 🇸🇬 SG Oracle Cloud CDN TLS
+  - 2 🇸🇬 SG Akamai Connected Cloud CDN TLS
+  - 3 🇸🇬 SG Melbikomas UAB CDN TLS
+  - 4 🇸🇬 SG Aloi Pte. CDN TLS
+  - 5 🇸🇬 SG Oracle Cloud CDN TLS
+  - 1 🇮🇱 IL Oracle Cloud CDN TLS
+  - 2 🇮🇱 IL Vultr CDN TLS
+  - 3 🇮🇱 IL Stark Industries Solutions CDN TLS
+  - 4 🇮🇱 IL SmartApe OU CDN TLS
   - 5 🇮🇱 IL Cloud Lease CDN TLS
-  - 1 🇯🇵 JP Tencent cloud computing CDN TLS
-  - 2 🇯🇵 JP Nearoute CDN TLS
-  - 3 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS
-  - 4 🇯🇵 JP CDN TLS
-  - 5 🇯🇵 JP Oracle Cloud CDN TLS
+  - 1 🇯🇵 JP G-Core Labs SA CDN TLS
+  - 2 🇯🇵 JP Oracle Cloud CDN TLS
+  - 3 🇯🇵 JP Oracle Cloud CDN TLS
+  - 4 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS
+  - 5 🇯🇵 JP Akamai Connected Cloud CDN TLS
   - 1 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
-  - 2 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
-  - 3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
-  - 4 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
-  - 5 🇲🇾 MY Evoxt Enterprise CDN TLS
-  - 1 🇦🇺 AU Oracle Cloud CDN TLS
-  - 2 🇦🇺 AU Vultr CDN TLS
-  - 3 🇦🇺 AU Oracle Cloud CDN TLS
-  - 4 🇦🇺 AU Amazon.com CDN TLS
-  - 5 🇦🇺 AU Oracle Cloud CDN TLS
-  - 1 🇬🇧 GB OVHcloud CDN TLS
-  - 2 🇬🇧 GB OVHcloud CDN TLS
-  - 3 🇬🇧 GB 1&1 Internet AG CDN TLS
-  - 4 🇬🇧 GB Akamai Connected Cloud CDN TLS
-  - 5 🇬🇧 GB Akamai Connected Cloud CDN TLS
-  - 1 🇭🇰 HK Alibaba CDN TLS
-  - 2 🇭🇰 HK Tencent cloud computing CDN TLS
-  - 3 🇭🇰 HK Tencent cloud computing CDN TLS
-  - 4 🇭🇰 HK Datawing CDN TLS
-  - 5 🇭🇰 HK Akile CDN TLS
-  - 1 🇷🇺 RU Aeza International CDN TLS
-  - 2 🇷🇺 RU Baykov Ilya Sergeevich CDN TLS
-  - 3 🇷🇺 RU Global Internet Solutions CDN TLS
-  - 4 🇷🇺 RU VDSina.com CDN TLS
-  - 5 🇷🇺 RU TimeWeb CDN TLS
-  - 1 🇺🇸 US Amazon.com CDN TLS
-  - 2 🇺🇸 US Cnservers LLC CDN TLS
-  - 3 🇺🇸 US Baxet Group Inc. CDN TLS
-  - 4 🇺🇸 US RoyaleHosting CDN TLS
-  - 5 🇺🇸 US Multacom Corporation CDN TLS
-  - 1 🇸🇬 SG Akamai Connected Cloud CDN TLS
-  - 2 🇸🇬 SG Oracle Cloud CDN TLS
-  - 3 🇸🇬 SG GoDaddy.com
-  - 4 🇸🇬 SG Akile CDN TLS
-  - 5 🇸🇬 SG Alibaba CDN TLS
-  - 6 🇸🇬 SG Chelyabinsk-Signal CDN TLS
-  - 7 🇸🇬 SG Digital Ocean CDN TLS
-  - 8 🇸🇬 SG Chelyabinsk-Signal CDN TLS
-  - 9 🇸🇬 SG Alibaba CDN TLS
-  - 10 🇸🇬 SG Latitude-sh CDN TLS
-  - 11 🇸🇬 SG Alibaba CDN TLS
-  - 12 🇸🇬 SG Alibaba CDN TLS
-  - 13 🇸🇬 SG Akamai Connected Cloud CDN TLS
-  - 14 🇸🇬 SG Oracle Cloud CDN TLS
-  - 15 🇸🇬 SG Oracle Cloud CDN TLS
-  - 16 🇸🇬 SG Alibaba (US) Technology Co.
-  - 17 🇸🇬 SG Alibaba CDN TLS
-  - 18 🇸🇬 SG CDS Global Cloud CO.
-  - 19 🇸🇬 SG Digital Ocean CDN TLS
-  - 20 🇸🇬 SG Oracle Cloud CDN TLS
-  - 1 🇦🇪 AE Zenlayer CDN TLS
-  - 2 🇦🇪 AE G-Core Labs SA CDN TLS
-  - 3 🇦🇪 AE G-Core Labs SA CDN TLS
-  - 4 🇦🇪 AE Oracle Cloud CDN TLS
-  - 5 🇦🇪 AE Global Connectivity Solutions Llp CDN TLS
-  - 6 🇦🇪 AE G-Core Labs SA CDN TLS
-  - 7 🇦🇪 AE M247 Europe CDN TLS
-  - 8 🇦🇪 AE Oracle Cloud CDN TLS
-  - 9 🇦🇪 AE Zenlayer CDN TLS
-  - 10 🇦🇪 AE Oracle Cloud CDN TLS
-  - 1 🇦🇷 AR Gigared S.A. CDN TLS
-  - 2 🇦🇷 AR Sondatech S.a.s. CDN TLS
-  - 3 🇦🇷 AR Gigared S.A. CDN TLS
-  - 1 🇧🇬 BG First Server CDN TLS
-  - 2 🇧🇬 BG Web Singularity CDN TLS
-  - 3 🇧🇬 BG Stark Industries Solutions CDN TLS
-  - 4 🇧🇬 BG Alexhost CDN TLS
-  - 5 🇧🇬 BG Melbikomas UAB CDN TLS
-  - 6 🇧🇬 BG M247 Europe CDN TLS
-  - 7 🇧🇬 BG Friendhosting LTD CDN TLS
-  - 8 🇧🇬 BG Web Singularity CDN TLS
-  - 9 🇧🇬 BG Melbikomas UAB CDN TLS
-  - 10 🇧🇬 BG Ultranet CDN TLS
-  - 1 🇨🇭 CH Friendhosting LTD CDN TLS
-  - 2 🇨🇭 CH Datasource CDN TLS
-  - 3 🇨🇭 CH Google Cloud CDN TLS
-  - 4 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
-  - 5 🇨🇭 CH Stark Industries Solutions CDN TLS
-  - 6 🇨🇭 CH Serva One CDN TLS
-  - 7 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
-  - 8 🇨🇭 CH Datasource CDN TLS
-  - 9 🇨🇭 CH Private Layer CDN TLS
-  - 10 🇨🇭 CH Oracle Cloud CDN TLS
+  - 2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
+  - 3 🇲🇾 MY Evoxt Enterprise CDN TLS
+  - 4 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
+  - 5 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
   - 1 🇦🇺 AU Oracle Cloud CDN TLS
   - 2 🇦🇺 AU Aeza International CDN TLS
-  - 3 🇦🇺 AU TPG Internet CDN TLS
-  - 4 🇦🇺 AU Oracle Cloud CDN TLS
-  - 5 🇦🇺 AU DigitalOcean
-  - 6 🇦🇺 AU Aeza International CDN TLS
-  - 7 🇦🇺 AU Zgx CDN TLS
-  - 8 🇦🇺 AU Aeza International CDN TLS
-  - 9 🇦🇺 AU Amazon.com CDN TLS
-  - 10 🇦🇺 AU Akamai Connected Cloud CDN TLS
-  - 1 🇰🇷 KR Gyeongbuk Cable TV CDN TLS
-  - 2 🇰🇷 KR LG Uplus CDN TLS
-  - 3 🇰🇷 KR KT CDN TLS
-  - 4 🇰🇷 KR Hcn Chungbuk Cable Tv Systems CDN TLS
-  - 5 🇰🇷 KR LG HelloVision Corp. CDN TLS
-  - 6 🇰🇷 KR LG Uplus CDN TLS
-  - 7 🇰🇷 KR LG Uplus CDN TLS
-  - 8 🇰🇷 KR KT CDN TLS
-  - 9 🇰🇷 KR LG Uplus CDN TLS
-  - 10 🇰🇷 KR KT CDN TLS
-  - 1 🇮🇷 IR Asre Pardazeshe Ettelaate Amin Institute CDN TLS
-  - 2 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS
-  - 3 🇮🇷 IR FanAvaran Mihan Mizban PJSC CDN TLS
-  - 4 🇮🇷 IR Webdade CDN TLS
-  - 5 🇮🇷 IR Hetzner Online GmbH CDN TLS
-  - 6 🇮🇷 IR dataforest CDN TLS
-  - 7 🇮🇷 IR Hetzner Online CDN TLS
-  - 8 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS
-  - 9 🇮🇷 IR Webdade CDN TLS
-  - 10 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS
+  - 3 🇦🇺 AU Amazon.com CDN TLS
+  - 4 🇦🇺 AU Aeza International CDN TLS
+  - 5 🇦🇺 AU Aeza International CDN TLS
+  - 1 🇬🇧 GB OVHcloud CDN TLS
+  - 2 🇬🇧 GB OVHcloud CDN TLS
+  - 3 🇬🇧 GB Stark Industries Solutions CDN TLS
+  - 4 🇬🇧 GB OVHcloud CDN TLS
+  - 5 🇬🇧 GB OVHcloud CDN TLS
+  - 1 🇭🇰 HK Tencent cloud computing CDN TLS
+  - 2 🇭🇰 HK M247 Europe CDN TLS
+  - 3 🇭🇰 HK Tencent cloud computing CDN TLS
+  - 4 🇭🇰 HK Alibaba (US) Technology Co.
+  - 5 🇭🇰 HK Hytron Network Services CDN TLS
+  - 1 🇷🇺 RU Cloud.ru CDN TLS
+  - 2 🇷🇺 RU Kontel CDN TLS
+  - 3 🇷🇺 RU First Server CDN TLS
+  - 4 🇷🇺 RU Hosting technology CDN TLS
+  - 5 🇷🇺 RU First Server CDN TLS
+  - 1 🇺🇸 US ColoCrossing CDN TLS
+  - 2 🇺🇸 US ColoCrossing CDN TLS
+  - 3 🇺🇸 US Alibaba CDN TLS
+  - 4 🇺🇸 US Amazon.com CDN TLS
+  - 5 🇺🇸 US Oracle Cloud CDN TLS
+  - 1 🇸🇬 SG Hivelocity CDN TLS
+  - 2 🇸🇬 SG Oracle Cloud CDN TLS
+  - 3 🇸🇬 SG Cloudflare Warp CDN TLS
+  - 4 🇸🇬 SG Oracle Cloud CDN TLS
+  - 5 🇸🇬 SG Alibaba CDN TLS
+  - 6 🇸🇬 SG Akile CDN TLS
+  - 7 🇸🇬 SG Vultr CDN TLS
+  - 8 🇸🇬 SG Alibaba CDN TLS
+  - 9 🇸🇬 SG Alibaba CDN TLS
+  - 10 🇸🇬 SG Latitude-sh CDN TLS
+  - 11 🇸🇬 SG Onidel CDN TLS
+  - 12 🇸🇬 SG Amazon.com CDN TLS
+  - 13 🇸🇬 SG OVH Hosting CDN TLS
+  - 14 🇸🇬 SG Amazon.com CDN TLS
+  - 15 🇸🇬 SG Akile CDN TLS
+  - 16 🇸🇬 SG Oracle Cloud CDN TLS
+  - 17 🇸🇬 SG Tencent cloud computing CDN TLS
+  - 18 🇸🇬 SG Akamai Connected Cloud CDN TLS
+  - 19 🇸🇬 SG Huawei Cloud CDN TLS
+  - 20 🇸🇬 SG Alibaba CDN TLS
+  - 1 🇦🇷 AR Gigared S.A. CDN TLS
+  - 2 🇦🇷 AR Gigared S.A. CDN TLS
+  - 3 🇦🇷 AR Sondatech S.a.s. CDN TLS
+  - 1 🇧🇬 BG Belcloud CDN TLS
+  - 2 🇧🇬 BG Web Singularity CDN TLS
+  - 3 🇧🇬 BG Belcloud CDN TLS
+  - 4 🇧🇬 BG Stark Industries Solutions CDN TLS
+  - 5 🇧🇬 BG Clouvider Limited CDN TLS
+  - 6 🇧🇬 BG Belcloud CDN TLS
+  - 7 🇧🇬 BG Web Singularity CDN TLS
+  - 8 🇧🇬 BG Friendhosting LTD CDN TLS
+  - 9 🇧🇬 BG First Server CDN TLS
+  - 10 🇧🇬 BG M247 Europe CDN TLS
+  - 1 🇨🇭 CH Private Layer CDN TLS
+  - 2 🇨🇭 CH Datasource CDN TLS
+  - 3 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+  - 4 🇨🇭 CH Serva One CDN TLS
+  - 5 🇨🇭 CH Private Layer CDN TLS
+  - 6 🇨🇭 CH Datasource CDN TLS
+  - 7 🇨🇭 CH Infomaniak Network CDN TLS
+  - 8 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+  - 9 🇨🇭 CH Datasource CDN TLS
+  - 10 🇨🇭 CH Sunrise CDN TLS
+  - 1 🇦🇺 AU Digital Ocean CDN TLS
+  - 2 🇦🇺 AU Oracle Cloud CDN TLS
+  - 3 🇦🇺 AU Aeza International CDN TLS
+  - 4 🇦🇺 AU Digital Ocean CDN TLS
+  - 5 🇦🇺 AU Amazon.com CDN TLS
+  - 6 🇦🇺 AU Oracle Cloud CDN TLS
+  - 7 🇦🇺 AU Aeza International CDN TLS
+  - 8 🇦🇺 AU Amazon.com CDN TLS
+  - 9 🇦🇺 AU Aeza International CDN TLS
+  - 10 🇦🇺 AU Macquarie Technology Operations CDN TLS
+  - 1 🇮🇷 IR G-Core Labs SA CDN TLS
+  - 2 🇮🇷 IR Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret S CDN TLS
+  - 3 🇮🇷 IR NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.) CDN TLS
+  - 4 🇮🇷 IR Hetzner Online CDN TLS
+  - 5 🇮🇷 IR Webdade CDN TLS
+  - 6 🇮🇷 IR Webdade CDN TLS
+  - 7 🇮🇷 IR Webdade CDN TLS
+  - 8 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS
+  - 9 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS
+  - 10 🇮🇷 IR Webdade CDN TLS
   - 1 🇭🇺 HU M247 Europe CDN TLS
-  - 2 🇭🇺 HU Magyar Telekom CDN TLS
+  - 2 🇭🇺 HU ServerAstra Kft. CDN TLS
   - 3 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 4 🇭🇺 HU Stark Industries Solutions CDN TLS
+  - 4 🇭🇺 HU 23VNet Kft. CDN TLS
   - 5 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 6 🇭🇺 HU ServerAstra Kft. CDN TLS
+  - 6 🇭🇺 HU Stark Industries Solutions CDN TLS
   - 7 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 8 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 9 🇭🇺 HU Stark Industries Solutions CDN TLS
+  - 8 🇭🇺 HU M247 Europe CDN TLS
+  - 9 🇭🇺 HU Magyar Telekom CDN TLS
   - 10 🇭🇺 HU Stark Industries Solutions CDN TLS
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -2208,146 +1910,126 @@ proxy-groups:
   type: select
   proxies:
   - 🚀 Auto Select
-  - 1 🇮🇩 ID Akamai Connected Cloud CDN TLS
-  - 2 🇮🇩 ID Amazon.com CDN TLS
-  - 3 🇮🇩 ID Amazon.com CDN TLS
-  - 4 🇮🇩 ID PT Pusat Media Indonesia CDN TLS
-  - 5 🇮🇩 ID PT. Newton Cipta Informatika CDN TLS
-  - 1 🇸🇬 SG Vultr CDN TLS
-  - 2 🇸🇬 SG Digital Ocean CDN TLS
-  - 3 🇸🇬 SG Oracle Corporation CDN TLS
-  - 4 🇸🇬 SG Onidel CDN TLS
-  - 5 🇸🇬 SG OVHcloud CDN TLS
-  - 1 🇮🇱 IL Cloud Lease CDN TLS
-  - 2 🇮🇱 IL Interhost Communication Solutions CDN TLS
-  - 3 🇮🇱 IL Cloud Lease CDN TLS
-  - 4 🇮🇱 IL Oracle Cloud CDN TLS
+  - 1 🇮🇩 ID Google LLC CDN TLS
+  - 2 🇮🇩 ID PT Telkom Indonesia CDN TLS
+  - 3 🇮🇩 ID PT Pusat Media Indonesia CDN TLS
+  - 4 🇮🇩 ID Amazon.com CDN TLS
+  - 5 🇮🇩 ID Akamai Connected Cloud CDN TLS
+  - 1 🇸🇬 SG Oracle Cloud CDN TLS
+  - 2 🇸🇬 SG Akamai Connected Cloud CDN TLS
+  - 3 🇸🇬 SG Melbikomas UAB CDN TLS
+  - 4 🇸🇬 SG Aloi Pte. CDN TLS
+  - 5 🇸🇬 SG Oracle Cloud CDN TLS
+  - 1 🇮🇱 IL Oracle Cloud CDN TLS
+  - 2 🇮🇱 IL Vultr CDN TLS
+  - 3 🇮🇱 IL Stark Industries Solutions CDN TLS
+  - 4 🇮🇱 IL SmartApe OU CDN TLS
   - 5 🇮🇱 IL Cloud Lease CDN TLS
-  - 1 🇯🇵 JP Tencent cloud computing CDN TLS
-  - 2 🇯🇵 JP Nearoute CDN TLS
-  - 3 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS
-  - 4 🇯🇵 JP CDN TLS
-  - 5 🇯🇵 JP Oracle Cloud CDN TLS
+  - 1 🇯🇵 JP G-Core Labs SA CDN TLS
+  - 2 🇯🇵 JP Oracle Cloud CDN TLS
+  - 3 🇯🇵 JP Oracle Cloud CDN TLS
+  - 4 🇯🇵 JP STARK INDUSTRIES SOLUTIONS LTD CDN TLS
+  - 5 🇯🇵 JP Akamai Connected Cloud CDN TLS
   - 1 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
-  - 2 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
-  - 3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
-  - 4 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
-  - 5 🇲🇾 MY Evoxt Enterprise CDN TLS
-  - 1 🇦🇺 AU Oracle Cloud CDN TLS
-  - 2 🇦🇺 AU Vultr CDN TLS
-  - 3 🇦🇺 AU Oracle Cloud CDN TLS
-  - 4 🇦🇺 AU Amazon.com CDN TLS
-  - 5 🇦🇺 AU Oracle Cloud CDN TLS
-  - 1 🇬🇧 GB OVHcloud CDN TLS
-  - 2 🇬🇧 GB OVHcloud CDN TLS
-  - 3 🇬🇧 GB 1&1 Internet AG CDN TLS
-  - 4 🇬🇧 GB Akamai Connected Cloud CDN TLS
-  - 5 🇬🇧 GB Akamai Connected Cloud CDN TLS
-  - 1 🇭🇰 HK Alibaba CDN TLS
-  - 2 🇭🇰 HK Tencent cloud computing CDN TLS
-  - 3 🇭🇰 HK Tencent cloud computing CDN TLS
-  - 4 🇭🇰 HK Datawing CDN TLS
-  - 5 🇭🇰 HK Akile CDN TLS
-  - 1 🇷🇺 RU Aeza International CDN TLS
-  - 2 🇷🇺 RU Baykov Ilya Sergeevich CDN TLS
-  - 3 🇷🇺 RU Global Internet Solutions CDN TLS
-  - 4 🇷🇺 RU VDSina.com CDN TLS
-  - 5 🇷🇺 RU TimeWeb CDN TLS
-  - 1 🇺🇸 US Amazon.com CDN TLS
-  - 2 🇺🇸 US Cnservers LLC CDN TLS
-  - 3 🇺🇸 US Baxet Group Inc. CDN TLS
-  - 4 🇺🇸 US RoyaleHosting CDN TLS
-  - 5 🇺🇸 US Multacom Corporation CDN TLS
-  - 1 🇸🇬 SG Akamai Connected Cloud CDN TLS
-  - 2 🇸🇬 SG Oracle Cloud CDN TLS
-  - 3 🇸🇬 SG GoDaddy.com
-  - 4 🇸🇬 SG Akile CDN TLS
-  - 5 🇸🇬 SG Alibaba CDN TLS
-  - 6 🇸🇬 SG Chelyabinsk-Signal CDN TLS
-  - 7 🇸🇬 SG Digital Ocean CDN TLS
-  - 8 🇸🇬 SG Chelyabinsk-Signal CDN TLS
-  - 9 🇸🇬 SG Alibaba CDN TLS
-  - 10 🇸🇬 SG Latitude-sh CDN TLS
-  - 11 🇸🇬 SG Alibaba CDN TLS
-  - 12 🇸🇬 SG Alibaba CDN TLS
-  - 13 🇸🇬 SG Akamai Connected Cloud CDN TLS
-  - 14 🇸🇬 SG Oracle Cloud CDN TLS
-  - 15 🇸🇬 SG Oracle Cloud CDN TLS
-  - 16 🇸🇬 SG Alibaba (US) Technology Co.
-  - 17 🇸🇬 SG Alibaba CDN TLS
-  - 18 🇸🇬 SG CDS Global Cloud CO.
-  - 19 🇸🇬 SG Digital Ocean CDN TLS
-  - 20 🇸🇬 SG Oracle Cloud CDN TLS
-  - 1 🇦🇪 AE Zenlayer CDN TLS
-  - 2 🇦🇪 AE G-Core Labs SA CDN TLS
-  - 3 🇦🇪 AE G-Core Labs SA CDN TLS
-  - 4 🇦🇪 AE Oracle Cloud CDN TLS
-  - 5 🇦🇪 AE Global Connectivity Solutions Llp CDN TLS
-  - 6 🇦🇪 AE G-Core Labs SA CDN TLS
-  - 7 🇦🇪 AE M247 Europe CDN TLS
-  - 8 🇦🇪 AE Oracle Cloud CDN TLS
-  - 9 🇦🇪 AE Zenlayer CDN TLS
-  - 10 🇦🇪 AE Oracle Cloud CDN TLS
-  - 1 🇦🇷 AR Gigared S.A. CDN TLS
-  - 2 🇦🇷 AR Sondatech S.a.s. CDN TLS
-  - 3 🇦🇷 AR Gigared S.A. CDN TLS
-  - 1 🇧🇬 BG First Server CDN TLS
-  - 2 🇧🇬 BG Web Singularity CDN TLS
-  - 3 🇧🇬 BG Stark Industries Solutions CDN TLS
-  - 4 🇧🇬 BG Alexhost CDN TLS
-  - 5 🇧🇬 BG Melbikomas UAB CDN TLS
-  - 6 🇧🇬 BG M247 Europe CDN TLS
-  - 7 🇧🇬 BG Friendhosting LTD CDN TLS
-  - 8 🇧🇬 BG Web Singularity CDN TLS
-  - 9 🇧🇬 BG Melbikomas UAB CDN TLS
-  - 10 🇧🇬 BG Ultranet CDN TLS
-  - 1 🇨🇭 CH Friendhosting LTD CDN TLS
-  - 2 🇨🇭 CH Datasource CDN TLS
-  - 3 🇨🇭 CH Google Cloud CDN TLS
-  - 4 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
-  - 5 🇨🇭 CH Stark Industries Solutions CDN TLS
-  - 6 🇨🇭 CH Serva One CDN TLS
-  - 7 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
-  - 8 🇨🇭 CH Datasource CDN TLS
-  - 9 🇨🇭 CH Private Layer CDN TLS
-  - 10 🇨🇭 CH Oracle Cloud CDN TLS
+  - 2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS
+  - 3 🇲🇾 MY Evoxt Enterprise CDN TLS
+  - 4 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
+  - 5 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS
   - 1 🇦🇺 AU Oracle Cloud CDN TLS
   - 2 🇦🇺 AU Aeza International CDN TLS
-  - 3 🇦🇺 AU TPG Internet CDN TLS
-  - 4 🇦🇺 AU Oracle Cloud CDN TLS
-  - 5 🇦🇺 AU DigitalOcean
-  - 6 🇦🇺 AU Aeza International CDN TLS
-  - 7 🇦🇺 AU Zgx CDN TLS
-  - 8 🇦🇺 AU Aeza International CDN TLS
-  - 9 🇦🇺 AU Amazon.com CDN TLS
-  - 10 🇦🇺 AU Akamai Connected Cloud CDN TLS
-  - 1 🇰🇷 KR Gyeongbuk Cable TV CDN TLS
-  - 2 🇰🇷 KR LG Uplus CDN TLS
-  - 3 🇰🇷 KR KT CDN TLS
-  - 4 🇰🇷 KR Hcn Chungbuk Cable Tv Systems CDN TLS
-  - 5 🇰🇷 KR LG HelloVision Corp. CDN TLS
-  - 6 🇰🇷 KR LG Uplus CDN TLS
-  - 7 🇰🇷 KR LG Uplus CDN TLS
-  - 8 🇰🇷 KR KT CDN TLS
-  - 9 🇰🇷 KR LG Uplus CDN TLS
-  - 10 🇰🇷 KR KT CDN TLS
-  - 1 🇮🇷 IR Asre Pardazeshe Ettelaate Amin Institute CDN TLS
-  - 2 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS
-  - 3 🇮🇷 IR FanAvaran Mihan Mizban PJSC CDN TLS
-  - 4 🇮🇷 IR Webdade CDN TLS
-  - 5 🇮🇷 IR Hetzner Online GmbH CDN TLS
-  - 6 🇮🇷 IR dataforest CDN TLS
-  - 7 🇮🇷 IR Hetzner Online CDN TLS
-  - 8 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS
-  - 9 🇮🇷 IR Webdade CDN TLS
-  - 10 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS
+  - 3 🇦🇺 AU Amazon.com CDN TLS
+  - 4 🇦🇺 AU Aeza International CDN TLS
+  - 5 🇦🇺 AU Aeza International CDN TLS
+  - 1 🇬🇧 GB OVHcloud CDN TLS
+  - 2 🇬🇧 GB OVHcloud CDN TLS
+  - 3 🇬🇧 GB Stark Industries Solutions CDN TLS
+  - 4 🇬🇧 GB OVHcloud CDN TLS
+  - 5 🇬🇧 GB OVHcloud CDN TLS
+  - 1 🇭🇰 HK Tencent cloud computing CDN TLS
+  - 2 🇭🇰 HK M247 Europe CDN TLS
+  - 3 🇭🇰 HK Tencent cloud computing CDN TLS
+  - 4 🇭🇰 HK Alibaba (US) Technology Co.
+  - 5 🇭🇰 HK Hytron Network Services CDN TLS
+  - 1 🇷🇺 RU Cloud.ru CDN TLS
+  - 2 🇷🇺 RU Kontel CDN TLS
+  - 3 🇷🇺 RU First Server CDN TLS
+  - 4 🇷🇺 RU Hosting technology CDN TLS
+  - 5 🇷🇺 RU First Server CDN TLS
+  - 1 🇺🇸 US ColoCrossing CDN TLS
+  - 2 🇺🇸 US ColoCrossing CDN TLS
+  - 3 🇺🇸 US Alibaba CDN TLS
+  - 4 🇺🇸 US Amazon.com CDN TLS
+  - 5 🇺🇸 US Oracle Cloud CDN TLS
+  - 1 🇸🇬 SG Hivelocity CDN TLS
+  - 2 🇸🇬 SG Oracle Cloud CDN TLS
+  - 3 🇸🇬 SG Cloudflare Warp CDN TLS
+  - 4 🇸🇬 SG Oracle Cloud CDN TLS
+  - 5 🇸🇬 SG Alibaba CDN TLS
+  - 6 🇸🇬 SG Akile CDN TLS
+  - 7 🇸🇬 SG Vultr CDN TLS
+  - 8 🇸🇬 SG Alibaba CDN TLS
+  - 9 🇸🇬 SG Alibaba CDN TLS
+  - 10 🇸🇬 SG Latitude-sh CDN TLS
+  - 11 🇸🇬 SG Onidel CDN TLS
+  - 12 🇸🇬 SG Amazon.com CDN TLS
+  - 13 🇸🇬 SG OVH Hosting CDN TLS
+  - 14 🇸🇬 SG Amazon.com CDN TLS
+  - 15 🇸🇬 SG Akile CDN TLS
+  - 16 🇸🇬 SG Oracle Cloud CDN TLS
+  - 17 🇸🇬 SG Tencent cloud computing CDN TLS
+  - 18 🇸🇬 SG Akamai Connected Cloud CDN TLS
+  - 19 🇸🇬 SG Huawei Cloud CDN TLS
+  - 20 🇸🇬 SG Alibaba CDN TLS
+  - 1 🇦🇷 AR Gigared S.A. CDN TLS
+  - 2 🇦🇷 AR Gigared S.A. CDN TLS
+  - 3 🇦🇷 AR Sondatech S.a.s. CDN TLS
+  - 1 🇧🇬 BG Belcloud CDN TLS
+  - 2 🇧🇬 BG Web Singularity CDN TLS
+  - 3 🇧🇬 BG Belcloud CDN TLS
+  - 4 🇧🇬 BG Stark Industries Solutions CDN TLS
+  - 5 🇧🇬 BG Clouvider Limited CDN TLS
+  - 6 🇧🇬 BG Belcloud CDN TLS
+  - 7 🇧🇬 BG Web Singularity CDN TLS
+  - 8 🇧🇬 BG Friendhosting LTD CDN TLS
+  - 9 🇧🇬 BG First Server CDN TLS
+  - 10 🇧🇬 BG M247 Europe CDN TLS
+  - 1 🇨🇭 CH Private Layer CDN TLS
+  - 2 🇨🇭 CH Datasource CDN TLS
+  - 3 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+  - 4 🇨🇭 CH Serva One CDN TLS
+  - 5 🇨🇭 CH Private Layer CDN TLS
+  - 6 🇨🇭 CH Datasource CDN TLS
+  - 7 🇨🇭 CH Infomaniak Network CDN TLS
+  - 8 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS
+  - 9 🇨🇭 CH Datasource CDN TLS
+  - 10 🇨🇭 CH Sunrise CDN TLS
+  - 1 🇦🇺 AU Digital Ocean CDN TLS
+  - 2 🇦🇺 AU Oracle Cloud CDN TLS
+  - 3 🇦🇺 AU Aeza International CDN TLS
+  - 4 🇦🇺 AU Digital Ocean CDN TLS
+  - 5 🇦🇺 AU Amazon.com CDN TLS
+  - 6 🇦🇺 AU Oracle Cloud CDN TLS
+  - 7 🇦🇺 AU Aeza International CDN TLS
+  - 8 🇦🇺 AU Amazon.com CDN TLS
+  - 9 🇦🇺 AU Aeza International CDN TLS
+  - 10 🇦🇺 AU Macquarie Technology Operations CDN TLS
+  - 1 🇮🇷 IR G-Core Labs SA CDN TLS
+  - 2 🇮🇷 IR Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret S CDN TLS
+  - 3 🇮🇷 IR NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.) CDN TLS
+  - 4 🇮🇷 IR Hetzner Online CDN TLS
+  - 5 🇮🇷 IR Webdade CDN TLS
+  - 6 🇮🇷 IR Webdade CDN TLS
+  - 7 🇮🇷 IR Webdade CDN TLS
+  - 8 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS
+  - 9 🇮🇷 IR Toesegaran Shabakeh Arseh Novin CDN TLS
+  - 10 🇮🇷 IR Webdade CDN TLS
   - 1 🇭🇺 HU M247 Europe CDN TLS
-  - 2 🇭🇺 HU Magyar Telekom CDN TLS
+  - 2 🇭🇺 HU ServerAstra Kft. CDN TLS
   - 3 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 4 🇭🇺 HU Stark Industries Solutions CDN TLS
+  - 4 🇭🇺 HU 23VNet Kft. CDN TLS
   - 5 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 6 🇭🇺 HU ServerAstra Kft. CDN TLS
+  - 6 🇭🇺 HU Stark Industries Solutions CDN TLS
   - 7 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 8 🇭🇺 HU Stark Industries Solutions CDN TLS
-  - 9 🇭🇺 HU Stark Industries Solutions CDN TLS
+  - 8 🇭🇺 HU M247 Europe CDN TLS
+  - 9 🇭🇺 HU Magyar Telekom CDN TLS
   - 10 🇭🇺 HU Stark Industries Solutions CDN TLS
