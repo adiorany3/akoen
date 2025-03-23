@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇮🇩 ID Google LLC CDN TLS"
+    - name: "1 🇮🇩 ID Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,54 +7,54 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
+      uuid: 48f9bfcd-2b8a-49b4-8e0c-9af97ab022cb
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/35.219.15.90:443
-    - name: "2 🇮🇩 ID PT Telkom Indonesia CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/36.95.152.58:12137
-    - name: "3 🇮🇩 ID PT Pusat Media Indonesia CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /free/103.6.207.108:8080
-    - name: "4 🇮🇩 ID Amazon.com CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
         path: /free/43.218.77.16:443
+    - name: "2 🇮🇩 ID Akamai Connected Cloud CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 48f9bfcd-2b8a-49b4-8e0c-9af97ab022cb
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+        path: /free/172.232.237.112:2053
+    - name: "3 🇮🇩 ID PT Telkom Indonesia CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 48f9bfcd-2b8a-49b4-8e0c-9af97ab022cb
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /free/36.95.152.58:12137
+    - name: "4 🇮🇩 ID Akamai Connected Cloud CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 48f9bfcd-2b8a-49b4-8e0c-9af97ab022cb
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /free/172.232.237.31:587
     - name: "5 🇮🇩 ID Akamai Connected Cloud CDN TLS"
       network: ws
       port: "443"
@@ -63,10 +63,10 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: a8c2695b-390d-48cf-93f1-0057fe20237f
+      uuid: 48f9bfcd-2b8a-49b4-8e0c-9af97ab022cb
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /free/172.232.239.134:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /free/172.232.239.151:587
     

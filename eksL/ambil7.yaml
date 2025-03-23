@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇬🇧 GB OVHcloud CDN TLS"
+    - name: "1 🇬🇧 GB Gamma Network Solution CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,12 +7,12 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
+      uuid: 17fa1533-5709-4877-9d9d-20fd01e6a420
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /free/57.128.177.235:8443
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/46.227.50.116:443
     - name: "2 🇬🇧 GB OVHcloud CDN TLS"
       network: ws
       port: "443"
@@ -21,13 +21,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
+      uuid: 17fa1533-5709-4877-9d9d-20fd01e6a420
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/57.129.137.93:443
-    - name: "3 🇬🇧 GB Stark Industries Solutions CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+        path: /free/5.144.181.97:2053
+    - name: "3 🇬🇧 GB Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -35,12 +35,12 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
+      uuid: 17fa1533-5709-4877-9d9d-20fd01e6a420
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
-        path: /free/5.180.30.112:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /free/67.226.223.157:80
     - name: "4 🇬🇧 GB OVHcloud CDN TLS"
       network: ws
       port: "443"
@@ -49,12 +49,12 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
+      uuid: 17fa1533-5709-4877-9d9d-20fd01e6a420
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/5.144.181.127:2053
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /free/51.89.148.203:12122
     - name: "5 🇬🇧 GB OVHcloud CDN TLS"
       network: ws
       port: "443"
@@ -63,10 +63,10 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 1a33cd5f-556b-4729-8321-b60c7fbb55c1
+      uuid: 17fa1533-5709-4877-9d9d-20fd01e6a420
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/57.129.137.96:8443
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /free/5.144.181.237:2053
     

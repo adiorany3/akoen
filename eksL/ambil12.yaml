@@ -1,0 +1,132 @@
+proxies:
+    - name: "1 🇦🇪 AE Online Server Telekomunikasyon Sirketi CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+        path: /free/87.248.129.26:443
+    - name: "2 🇦🇪 AE Zenlayer CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /free/85.237.211.59:2053
+    - name: "3 🇦🇪 AE G-Core Labs SA CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/195.158.230.134:8443
+    - name: "4 🇦🇪 AE G-Core Labs SA CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /free/109.61.42.167:6633
+    - name: "5 🇦🇪 AE Oracle Cloud CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /free/84.235.245.18:34501
+    - name: "6 🇦🇪 AE Oracle Cloud CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/139.185.39.237:48008
+    - name: "7 🇦🇪 AE G-Core Labs SA CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /free/109.61.42.53:8081
+    - name: "8 🇦🇪 AE G-Core Labs SA CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/217.195.200.138:443
+    - name: "9 🇦🇪 AE Amazon.com CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        path: /free/3.28.62.7:443
+    - name: "10 🇦🇪 AE Amazon.com CDN TLS"
+      network: ws
+      password: 0db9167d-fe6d-43f0-8d6b-ef243dcd4b20
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /free/40.172.42.247:8443
+    
