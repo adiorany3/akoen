@@ -80,7 +80,7 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/trojan?cc=ir&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
   "https://prod-test.jdevcloud.com/api/trojan?cc=hu&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
 #  "https://nautica.foolvpn.me/api/v1/sub/?cc=IL&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
-  "https://sub.garaaa.biz.id/sub/clash?type=trojan&bug=104.22.21.245&wildcard=false&tls=true&country=SG&limit=20"
+  "https://sub.garaaa.biz.id/sub/clash?type=mix&bug=104.22.21.245&wildcard=false&tls=true&country=ID&limit=20"
 )
 
 # Define multiple user agents

@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+    - name: "1 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -7,27 +7,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 575d2084-a41b-4d11-bdb4-1b42d8dfc1fc
+      uuid: bbf2b7d3-ee87-4960-b2fd-5f1a335694f4
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/141.11.17.205:443
-    - name: "2 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 575d2084-a41b-4d11-bdb4-1b42d8dfc1fc
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
         path: /free/38.60.193.247:13300
-    - name: "3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
+    - name: "2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -35,12 +21,26 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 575d2084-a41b-4d11-bdb4-1b42d8dfc1fc
+      uuid: bbf2b7d3-ee87-4960-b2fd-5f1a335694f4
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
-        path: /free/38.60.195.203:10478
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /free/123.253.33.182:12306
+    - name: "3 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: bbf2b7d3-ee87-4960-b2fd-5f1a335694f4
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/141.11.17.205:443
     - name: "4 🇲🇾 MY Evoxt Enterprise CDN TLS"
       network: ws
       port: "443"
@@ -49,13 +49,13 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 575d2084-a41b-4d11-bdb4-1b42d8dfc1fc
+      uuid: bbf2b7d3-ee87-4960-b2fd-5f1a335694f4
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
         path: /free/45.195.76.190:29690
-    - name: "5 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+    - name: "5 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -63,10 +63,10 @@ proxies:
       tls: true
       type: vless
       packet-encoding: packetaddr
-      uuid: 575d2084-a41b-4d11-bdb4-1b42d8dfc1fc
+      uuid: bbf2b7d3-ee87-4960-b2fd-5f1a335694f4
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/123.253.33.182:12306
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/38.60.195.203:10478
     

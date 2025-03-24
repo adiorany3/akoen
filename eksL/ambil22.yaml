@@ -1,0 +1,943 @@
+#### CREATED BY : t.me/xionalvabot ####
+### JOIN https://t.me/freecloudflare ###
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: false
+  use-host: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - +.nflxvideo.net
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+proxies:
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 0991ae89-265e-4a88-936a-6c1abfa84c24
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 0991ae89-265e-4a88-936a-6c1abfa84c24
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 0991ae89-265e-4a88-936a-6c1abfa84c24
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 9f57f544-20e0-4f2b-be31-2b797e7b8791
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 9f57f544-20e0-4f2b-be31-2b797e7b8791
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 9f57f544-20e0-4f2b-be31-2b797e7b8791
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Google Cloud 3 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: c00286d7-c799-4a20-9884-d64363d0995d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/35.219.15.90-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Google Cloud 3 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: c00286d7-c799-4a20-9884-d64363d0995d
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/35.219.15.90-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Google Cloud 3 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: c00286d7-c799-4a20-9884-d64363d0995d
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/35.219.15.90-443
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Amazoncom 4 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 2893d254-88c0-4b23-b1fb-31a7edebe5c0
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Amazoncom 4 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 2893d254-88c0-4b23-b1fb-31a7edebe5c0
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Amazoncom 4 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 2893d254-88c0-4b23-b1fb-31a7edebe5c0
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Amazoncom 5 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 0b14cd12-df7d-480e-a0d9-44e8ae42bc9b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Amazoncom 5 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 0b14cd12-df7d-480e-a0d9-44e8ae42bc9b
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Amazoncom 5 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 0b14cd12-df7d-480e-a0d9-44e8ae42bc9b
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Alibaba 6 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 2a8db639-699c-4269-a0d3-1013b8b864bd
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Alibaba 6 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 2a8db639-699c-4269-a0d3-1013b8b864bd
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Alibaba 6 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 2a8db639-699c-4269-a0d3-1013b8b864bd
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 6783fff0-b320-424c-82ae-8c1faf69802d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.112-2053
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 6783fff0-b320-424c-82ae-8c1faf69802d
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.112-2053
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 6783fff0-b320-424c-82ae-8c1faf69802d
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.237.112-2053
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 95ebac96-9dab-4217-9b95-7f88ba238281
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 95ebac96-9dab-4217-9b95-7f88ba238281
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 95ebac96-9dab-4217-9b95-7f88ba238281
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Google Cloud 9 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 97233e37-ea44-4e8b-8590-f153a7a6a52a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/35.219.50.99-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Google Cloud 9 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 97233e37-ea44-4e8b-8590-f153a7a6a52a
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/35.219.50.99-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Google Cloud 9 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 97233e37-ea44-4e8b-8590-f153a7a6a52a
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/35.219.50.99-443
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: c9fd7339-4a4a-4390-9822-7c7f426c190e
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.31-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: c9fd7339-4a4a-4390-9822-7c7f426c190e
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.31-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: c9fd7339-4a4a-4390-9822-7c7f426c190e
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.237.31-587
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 884316a7-b4f8-46ac-ad22-ba24114ba1af
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.91-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 884316a7-b4f8-46ac-ad22-ba24114ba1af
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.91-587
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 884316a7-b4f8-46ac-ad22-ba24114ba1af
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.237.91-587
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: db501583-fc16-4ae3-b43c-409d3c3d40ff
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-8443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: db501583-fc16-4ae3-b43c-409d3c3d40ff
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-8443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: db501583-fc16-4ae3-b43c-409d3c3d40ff
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/203.194.112.119-8443
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 64a8edfa-c621-482c-ba02-4911f2bf9aab
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 64a8edfa-c621-482c-ba02-4911f2bf9aab
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 64a8edfa-c621-482c-ba02-4911f2bf9aab
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: f0e9f8c7-33cc-496c-bbb2-47288af92b71
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.134-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: f0e9f8c7-33cc-496c-bbb2-47288af92b71
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.134-443
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: f0e9f8c7-33cc-496c-bbb2-47288af92b71
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.239.134-443
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 vless
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  uuid: 54adaa9a-74f6-427e-b2f1-3dd1145187a1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 trojan
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 54adaa9a-74f6-427e-b2f1-3dd1145187a1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.gegegeming.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    headers:
+      Host: free.gegegeming.Biz.id
+- name: ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 ss
+  type: ss
+  server: 172.67.5.14
+  port: 443
+  cipher: none
+  password: 54adaa9a-74f6-427e-b2f1-3dd1145187a1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.gegegeming.Biz.id
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    mux: false
+    headers:
+      custom: free.gegegeming.Biz.id
+proxy-groups:
+- name: INTERNET
+  type: select
+  disable-udp: false
+  proxies:
+  - BEST-PING
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 ss
+  - ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 vless
+  - ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 trojan
+  - ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 ss
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 3 vless
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 3 trojan
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 3 ss
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 4 vless
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 4 trojan
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 4 ss
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 5 vless
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 5 trojan
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 5 ss
+  - ðŸ‡®ðŸ‡© (ID) Alibaba 6 vless
+  - ðŸ‡®ðŸ‡© (ID) Alibaba 6 trojan
+  - ðŸ‡®ðŸ‡© (ID) Alibaba 6 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 ss
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 9 vless
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 9 trojan
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 9 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 ss
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 vless
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 trojan
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 ss
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 vless
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 trojan
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 ss
+  - ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 vless
+  - ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 trojan
+  - ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 ss
+- name: ADS
+  type: select
+  disable-udp: false
+  proxies:
+  - REJECT
+  - INTERNET
+- name: BEST-PING
+  type: url-test
+  url: https://detectportal.firefox.com/success.txt
+  interval: 60
+  proxies:
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 1 ss
+  - ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 vless
+  - ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 trojan
+  - ðŸ‡®ðŸ‡© (ID) PT Pusat Media Indonesia 2 ss
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 3 vless
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 3 trojan
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 3 ss
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 4 vless
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 4 trojan
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 4 ss
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 5 vless
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 5 trojan
+  - ðŸ‡®ðŸ‡© (ID) Amazoncom 5 ss
+  - ðŸ‡®ðŸ‡© (ID) Alibaba 6 vless
+  - ðŸ‡®ðŸ‡© (ID) Alibaba 6 trojan
+  - ðŸ‡®ðŸ‡© (ID) Alibaba 6 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 7 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 8 ss
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 9 vless
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 9 trojan
+  - ðŸ‡®ðŸ‡© (ID) Google Cloud 9 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 10 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 11 ss
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 vless
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 trojan
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 12 ss
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 vless
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 trojan
+  - ðŸ‡®ðŸ‡© (ID) First Cagayan Converge Data Center Inc. 13 ss
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 vless
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 trojan
+  - ðŸ‡®ðŸ‡© (ID) Akamai Connected Cloud 14 ss
+  - ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 vless
+  - ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 trojan
+  - ðŸ‡®ðŸ‡© (ID) PT Telkom Indonesia 15 ss
+rule-providers:
+  rule_hijacking:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rule_hijacking.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_hijacking.yaml
+  rule_privacy:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
+    path: "./rule_provider/rule_privacy.yaml"
+  rule_basicads:
+    type: file
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
+    path: "./rule_provider/rule_basicads.yaml"
+  rule_personalads:
+    type: file
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
+    path: "./rule_provider/rule_personalads.yaml"
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- RULE-SET,rule_personalads,ADS
+- RULE-SET,rule_basicads,ADS
+- RULE-SET,rule_hijacking,ADS
+- RULE-SET,rule_privacy,ADS
+- MATCH,INTERNET
