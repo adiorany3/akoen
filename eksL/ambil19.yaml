@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇮🇷 IR Noyan Abr Arvan Co. ( Private Joint Stock) CDN TLS"
+    - name: "1 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/185.228.236.86:28802
-    - name: "2 🇮🇷 IR Asiatech Data Transmission company CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+        path: /free/84.47.234.27:2087
+    - name: "2 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-        path: /free/77.238.108.234:43017
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /free/5.200.94.178:30001
     - name: "3 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /free/217.219.78.203:2083
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /free/5.198.177.196:2083
     - name: "4 🇮🇷 IR Aeza International CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,37 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
+        path: /free/62.60.156.57:443
+    - name: "5 🇮🇷 IR Webdade CDN TLS"
+      network: ws
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /free/5.198.177.197:2053
+    - name: "6 🇮🇷 IR Aeza International CDN TLS"
+      network: ws
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
         path: /free/62.60.159.83:443
-    - name: "5 🇮🇷 IR TimeWeb CDN TLS"
+    - name: "7 🇮🇷 IR Asre Pardazeshe Ettelaate Amin Institute CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,11 +88,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /free/81.31.245.115:7777
-    - name: "6 🇮🇷 IR Faraso Samaneh Pasargad Ltd. CDN TLS"
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /free/89.47.200.147:443
+    - name: "8 🇮🇷 IR Pars Parva System CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -75,11 +101,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/45.89.236.7:443
-    - name: "7 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /free/45.149.76.243:443
+    - name: "9 🇮🇷 IR Asre Pardazeshe Ettelaate Amin Institute CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -88,11 +114,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-        path: /free/5.200.79.87:30001
-    - name: "8 🇮🇷 IR Webdade CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /free/185.142.157.65:8075
+    - name: "10 🇮🇷 IR Webdade CDN TLS"
       network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
+      password: fb0e42e9-ea87-44b0-b00a-667552858128
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -101,32 +127,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/217.219.78.195:2087
-    - name: "9 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS"
-      network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-        path: /free/5.200.79.84:30001
-    - name: "10 🇮🇷 IR Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS CDN TLS"
-      network: ws
-      password: bca16314-7919-4ce0-9fbf-a684d17159f0
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /free/5.200.94.191:30001
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /free/185.133.125.190:443
     
