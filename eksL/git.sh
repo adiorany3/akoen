@@ -419,15 +419,15 @@ EOF
             echo "Warning: $CONVERT_SCRIPT2 not found, skipping conversion."
         fi
         
-        # Run pisah.py script at the end
-        echo "Running pisah.py to separate trojan and vless configurations..."
+        # Run pisahss.py script at the end
+        echo "Running pisahss.py to separate trojan and vless configurations..."
         python3 pisahss.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml --ss-output mycustom_ss.yaml
         if [ $? -eq 0 ]; then
             echo "✓ Successfully separated trojan and vless configurations"
             # Add these files to the list for git operations
             OUTPUT_FILES+=("mycustom_trojan.yaml" "mycustom_vless.yaml")
         else
-            echo "✗ Error: Failed to separate configurations with pisah.py"
+            echo "✗ Error: Failed to separate configurations with pisahss.py"
         fi
     else
         echo "✗ Error: Failed to create combined proxy configuration."
@@ -568,19 +568,19 @@ else
 echo "No changes to commit."
 fi
 
-# Run pisah.py at the end
-if [ -f "pisah.py" ]; then
+# Run pisahss.py at the end
+if [ -f "pisahss.py" ]; then
     echo "====================================="
-    echo "Running pisah.py..."
+    echo "Running pisahss.py..."
     echo "====================================="
-    python3 pisah.py
+    python3 pisahss.py
     if [ $? -eq 0 ]; then
-        echo "✓ Successfully executed pisah.py"
+        echo "✓ Successfully executed pisahss.py"
     else
-        echo "✗ Error: Failed to execute pisah.py"
+        echo "✗ Error: Failed to execute pisahss.py"
     fi
 else
-    echo "Warning: pisah.py not found in current directory."
+    echo "Warning: pisahss.py not found in current directory."
 fi
 
 # Run ubah.sh at the end
