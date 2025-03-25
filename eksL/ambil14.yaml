@@ -1,7 +1,7 @@
 proxies:
     - name: "1 🇧🇬 BG Stark Industries Solutions CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/95.164.21.104:443
-    - name: "2 🇧🇬 BG Belcloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /free/95.164.21.72:443
+    - name: "2 🇧🇬 BG Friendhosting LTD CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
-        path: /free/185.203.116.174:443
-    - name: "3 🇧🇬 BG Friendhosting LTD CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /free/91.210.166.32:443
+    - name: "3 🇧🇬 BG Vivacom Bulgaria EAD CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,24 +36,24 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/185.36.147.70:443
-    - name: "4 🇧🇬 BG Vivacom Bulgaria EAD CDN TLS"
-      network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
         path: /free/158.58.237.156:10809
+    - name: "4 🇧🇬 BG Belcloud CDN TLS"
+      network: ws
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+        path: /free/193.37.214.60:18836
     - name: "5 🇧🇬 BG First Server CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,11 +62,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /free/193.239.160.25:443
-    - name: "6 🇧🇬 BG BlueVPS OU CDN TLS"
+    - name: "6 🇧🇬 BG Web Singularity CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -75,11 +75,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /free/85.239.55.179:34688
-    - name: "7 🇧🇬 BG M247 Europe CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /free/195.123.230.40:443
+    - name: "7 🇧🇬 BG Friendhosting LTD CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -88,11 +88,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /free/45.136.198.107:23291
-    - name: "8 🇧🇬 BG Melbikomas UAB CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/91.215.153.85:443
+    - name: "8 🇧🇬 BG M247 Europe CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -101,11 +101,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /free/213.183.63.68:36651
-    - name: "9 🇧🇬 BG Clouvider Limited CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/45.136.198.107:31202
+    - name: "9 🇧🇬 BG Friendhosting LTD CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -114,11 +114,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/82.118.230.220:443
-    - name: "10 🇧🇬 BG Belcloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+        path: /free/185.36.147.70:443
+    - name: "10 🇧🇬 BG Melbikomas UAB CDN TLS"
       network: ws
-      password: 40020907-00cb-4166-bf3e-afd118c82eb9
+      password: 169ee6fd-d47a-44d6-af31-817f410a9374
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -127,6 +127,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/94.156.35.144:18836
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/213.183.63.71:53811
     

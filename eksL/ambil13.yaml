@@ -1,33 +1,7 @@
 proxies:
     - name: "1 🇦🇷 AR Sondatech S.a.s. CDN TLS"
       network: ws
-      password: cda590f5-79f8-4843-a652-1b5c1db05f35
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/190.103.177.131:443
-    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
-      network: ws
-      password: cda590f5-79f8-4843-a652-1b5c1db05f35
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /free/190.183.61.62:8443
-    - name: "3 🇦🇷 AR Gigared S.A. CDN TLS"
-      network: ws
-      password: cda590f5-79f8-4843-a652-1b5c1db05f35
+      password: fe652f6e-8ee3-4a65-b856-e0495040cce5
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -37,5 +11,31 @@ proxies:
       ws-opts:
         headers:
             User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/190.103.177.131:443
+    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: fe652f6e-8ee3-4a65-b856-e0495040cce5
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/190.183.61.62:8443
+    - name: "3 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: fe652f6e-8ee3-4a65-b856-e0495040cce5
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
         path: /free/190.183.61.62:2053
     
