@@ -56,6 +56,10 @@ OUTPUT_FILES=(
   "ambil20.yaml"
 #  "ambil21.yaml"
   "ambil22.yaml"
+  "ambil23.yaml"
+  "ambil24.yaml"
+  "ambil25.yaml"
+  "ambil26.yaml"
 )
 
 URLS=(
@@ -81,6 +85,10 @@ URLS=(
   "https://prod-test.jdevcloud.com/api/trojan?cc=hu&cdn=true&tls=true&bug=104.17.3.81&subdomain=zoomcares.gov&limit=10&format=clash-provider"
 #  "https://nautica.foolvpn.me/api/v1/sub/?cc=IL&format=clash&limit=20&vpn=trojan,vless&port=443&domain=104.17.72.206"
   "https://sub.garaaa.biz.id/sub/clash?type=mix&bug=172.67.5.14&wildcard=false&tls=true&country=ID&limit=20"
+  "https://sub.garaaa.biz.id/sub/clash?type=mix&bug=172.66.0.145&wildcard=false&tls=true&country=ID&limit=20"
+  "https://sub.garaaa.biz.id/sub/clash?type=mix&bug=104.22.5.240&wildcard=false&tls=true&country=ID&limit=20"
+  "https://sub.garaaa.biz.id/sub/clash?type=mix&bug=104.17.72.206&wildcard=false&tls=true&country=ID&limit=20"
+  "https://sub.garaaa.biz.id/sub/clash?type=mix&bug=104.17.155.243&wildcard=false&tls=true&country=ID&limit=20"
 )
 
 # Define multiple user agents

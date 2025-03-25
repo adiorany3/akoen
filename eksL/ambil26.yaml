@@ -132,680 +132,680 @@ dns:
     - +.media.dssott.com
 proxies:
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 3e180497-6c6e-4868-86b4-4ecf23fc3a04
+  uuid: c30c16b9-e651-4e2a-927d-db022fb5a80a
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 3e180497-6c6e-4868-86b4-4ecf23fc3a04
+  password: c30c16b9-e651-4e2a-927d-db022fb5a80a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 3e180497-6c6e-4868-86b4-4ecf23fc3a04
+  password: c30c16b9-e651-4e2a-927d-db022fb5a80a
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 2 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: d6eff982-0212-431c-8e5b-706436d8581f
+  uuid: b802d4d9-2f24-4fee-adfc-5a78f252b985
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 2 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: d6eff982-0212-431c-8e5b-706436d8581f
+  password: b802d4d9-2f24-4fee-adfc-5a78f252b985
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 2 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: d6eff982-0212-431c-8e5b-706436d8581f
+  password: b802d4d9-2f24-4fee-adfc-5a78f252b985
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 3 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 193c2777-e483-4095-a5cc-24135796506b
+  uuid: df07907d-f78a-4558-bcc1-1c92e67a844b
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.15.90-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 3 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 193c2777-e483-4095-a5cc-24135796506b
+  password: df07907d-f78a-4558-bcc1-1c92e67a844b
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.15.90-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 3 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 193c2777-e483-4095-a5cc-24135796506b
+  password: df07907d-f78a-4558-bcc1-1c92e67a844b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/35.219.15.90-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 4 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: da90a3b9-5469-4ca4-bdc4-85beb8c8ad26
+  uuid: 5e33d55a-f2c4-447d-b6e6-65d5f56ee0e2
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 4 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: da90a3b9-5469-4ca4-bdc4-85beb8c8ad26
+  password: 5e33d55a-f2c4-447d-b6e6-65d5f56ee0e2
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 4 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: da90a3b9-5469-4ca4-bdc4-85beb8c8ad26
+  password: 5e33d55a-f2c4-447d-b6e6-65d5f56ee0e2
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 5 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 8036163b-0b64-48dd-9fa6-85b143c22c07
+  uuid: bf983c45-d668-4fd9-b6ab-28869fa53f0c
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 5 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 8036163b-0b64-48dd-9fa6-85b143c22c07
+  password: bf983c45-d668-4fd9-b6ab-28869fa53f0c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 5 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 8036163b-0b64-48dd-9fa6-85b143c22c07
+  password: bf983c45-d668-4fd9-b6ab-28869fa53f0c
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Alibaba 6 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: f9d8f18d-4a73-42ac-a092-107522a0012e
+  uuid: b51c7486-edde-4327-b94a-d4c6c93d674d
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/8.215.196.18-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Alibaba 6 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: f9d8f18d-4a73-42ac-a092-107522a0012e
+  password: b51c7486-edde-4327-b94a-d4c6c93d674d
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/8.215.196.18-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Alibaba 6 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: f9d8f18d-4a73-42ac-a092-107522a0012e
+  password: b51c7486-edde-4327-b94a-d4c6c93d674d
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/8.215.196.18-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 7 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: a66436d2-7845-4d9b-8a13-22bd0483abf6
+  uuid: 537625e6-de30-4d04-9872-5d065f88b1d4
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 7 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: a66436d2-7845-4d9b-8a13-22bd0483abf6
+  password: 537625e6-de30-4d04-9872-5d065f88b1d4
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 7 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: a66436d2-7845-4d9b-8a13-22bd0483abf6
+  password: 537625e6-de30-4d04-9872-5d065f88b1d4
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 8 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: b75f4738-25aa-4133-9783-e990ac4f0fd7
+  uuid: 95d498c2-6b2c-4dc2-89d5-9241e30beb8d
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 8 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: b75f4738-25aa-4133-9783-e990ac4f0fd7
+  password: 95d498c2-6b2c-4dc2-89d5-9241e30beb8d
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 8 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: b75f4738-25aa-4133-9783-e990ac4f0fd7
+  password: 95d498c2-6b2c-4dc2-89d5-9241e30beb8d
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 9 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 9a235020-1b03-45f2-865d-3714ea9e3e5f
+  uuid: 39ccc272-eb6e-4470-b846-8d0c00316d62
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.50.99-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 9 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 9a235020-1b03-45f2-865d-3714ea9e3e5f
+  password: 39ccc272-eb6e-4470-b846-8d0c00316d62
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.50.99-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 9 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 9a235020-1b03-45f2-865d-3714ea9e3e5f
+  password: 39ccc272-eb6e-4470-b846-8d0c00316d62
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/35.219.50.99-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 10 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 5b9c444f-0ac1-4a4e-87fb-cac0b9eafbec
+  uuid: 8e4f0c64-d20c-49aa-b34b-c60b6d5e70b8
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.31-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 10 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 5b9c444f-0ac1-4a4e-87fb-cac0b9eafbec
+  password: 8e4f0c64-d20c-49aa-b34b-c60b6d5e70b8
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.31-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 10 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 5b9c444f-0ac1-4a4e-87fb-cac0b9eafbec
+  password: 8e4f0c64-d20c-49aa-b34b-c60b6d5e70b8
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/172.232.237.31-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 11 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 0b29af60-ec95-4a53-93ac-e088b128d515
+  uuid: eb260024-7527-42b3-aad8-a0b15f524b13
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.91-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 0b29af60-ec95-4a53-93ac-e088b128d515
+  password: eb260024-7527-42b3-aad8-a0b15f524b13
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.91-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 11 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 0b29af60-ec95-4a53-93ac-e088b128d515
+  password: eb260024-7527-42b3-aad8-a0b15f524b13
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/172.232.237.91-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 12 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 17f81ba0-7a0e-4338-84cd-9325ac2bd777
+  uuid: 4b53819b-3109-48a8-82c2-1ea87688be36
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 12 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 17f81ba0-7a0e-4338-84cd-9325ac2bd777
+  password: 4b53819b-3109-48a8-82c2-1ea87688be36
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 12 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 17f81ba0-7a0e-4338-84cd-9325ac2bd777
+  password: 4b53819b-3109-48a8-82c2-1ea87688be36
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 13 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: f76cd2f3-4354-4cca-bbb3-7bedef0d0ff3
+  uuid: 649e0261-de92-4ebf-bdea-5b70cfceac4f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 13 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: f76cd2f3-4354-4cca-bbb3-7bedef0d0ff3
+  password: 649e0261-de92-4ebf-bdea-5b70cfceac4f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 13 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: f76cd2f3-4354-4cca-bbb3-7bedef0d0ff3
+  password: 649e0261-de92-4ebf-bdea-5b70cfceac4f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 14 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 7494b7aa-f9a1-46e2-a346-a63df4c49030
+  uuid: c9f6edae-817b-4459-9a23-e1a58ba7b0de
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.134-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 14 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: 7494b7aa-f9a1-46e2-a346-a63df4c49030
+  password: c9f6edae-817b-4459-9a23-e1a58ba7b0de
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.134-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 14 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: 7494b7aa-f9a1-46e2-a346-a63df4c49030
+  password: c9f6edae-817b-4459-9a23-e1a58ba7b0de
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/172.232.239.134-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 15 vless
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: vless
-  uuid: cf047d32-7df8-4e13-a4b9-60bfc2e3d6f9
+  uuid: b065325b-0217-42a2-917e-72450042d469
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 15 trojan
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   type: trojan
-  password: cf047d32-7df8-4e13-a4b9-60bfc2e3d6f9
+  password: b065325b-0217-42a2-917e-72450042d469
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.xiongt.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.xiongt.Biz.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 15 ss
   type: ss
-  server: 172.67.5.14
+  server: 104.17.155.243
   port: 443
   cipher: none
-  password: cf047d32-7df8-4e13-a4b9-60bfc2e3d6f9
+  password: b065325b-0217-42a2-917e-72450042d469
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.xiongt.Biz.id
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.xiongt.Biz.id
 proxy-groups:
 - name: INTERNET
   type: select
