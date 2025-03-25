@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇦🇷 AR Gigared S.A. CDN TLS"
+    - name: "1 🇦🇷 AR Sondatech S.a.s. CDN TLS"
       network: ws
-      password: d4c7e50c-7cf4-4301-85ff-1782ff18e1a2
+      password: f05343cc-0b94-4037-9b25-f5e28a03c7ec
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,24 +10,24 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /free/190.183.61.62:2053
-    - name: "2 🇦🇷 AR Sondatech S.a.s. CDN TLS"
-      network: ws
-      password: d4c7e50c-7cf4-4301-85ff-1782ff18e1a2
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /free/190.103.177.131:443
+    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: f05343cc-0b94-4037-9b25-f5e28a03c7ec
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /free/190.183.61.62:2053
     - name: "3 🇦🇷 AR Gigared S.A. CDN TLS"
       network: ws
-      password: d4c7e50c-7cf4-4301-85ff-1782ff18e1a2
+      password: f05343cc-0b94-4037-9b25-f5e28a03c7ec
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,6 +36,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
         path: /free/190.183.61.62:8443
     

@@ -132,680 +132,680 @@ dns:
     - +.media.dssott.com
 proxies:
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: b76543d1-3630-48c7-a430-c2b733e56385
+  uuid: 5f89a12b-3890-431b-bd72-90ba4d6e8f9b
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: b76543d1-3630-48c7-a430-c2b733e56385
+  password: 5f89a12b-3890-431b-bd72-90ba4d6e8f9b
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: b76543d1-3630-48c7-a430-c2b733e56385
+  password: 5f89a12b-3890-431b-bd72-90ba4d6e8f9b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 2 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: e83b5130-a104-49ab-9427-f2b7ee4c547f
+  uuid: 08e1e4f6-d04a-4491-91cf-5c2c9eb64046
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 2 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: e83b5130-a104-49ab-9427-f2b7ee4c547f
+  password: 08e1e4f6-d04a-4491-91cf-5c2c9eb64046
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 2 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: e83b5130-a104-49ab-9427-f2b7ee4c547f
+  password: 08e1e4f6-d04a-4491-91cf-5c2c9eb64046
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 3 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: ef7a002a-001b-449e-ae9f-7fe867d1ca71
+  uuid: 63c73fd3-e397-49e4-9b52-7e6e9a1137c7
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.15.90-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 3 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: ef7a002a-001b-449e-ae9f-7fe867d1ca71
+  password: 63c73fd3-e397-49e4-9b52-7e6e9a1137c7
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.15.90-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 3 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: ef7a002a-001b-449e-ae9f-7fe867d1ca71
+  password: 63c73fd3-e397-49e4-9b52-7e6e9a1137c7
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/35.219.15.90-443
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 4 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: c50c0251-3a23-4153-a6a5-2f476eaa658a
+  uuid: 10cab2ad-9db4-4d54-a1d6-4d5136bd70dc
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 4 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: c50c0251-3a23-4153-a6a5-2f476eaa658a
+  password: 10cab2ad-9db4-4d54-a1d6-4d5136bd70dc
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 4 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: c50c0251-3a23-4153-a6a5-2f476eaa658a
+  password: 10cab2ad-9db4-4d54-a1d6-4d5136bd70dc
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 5 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 518b6050-d732-4726-82e1-db1b4ff7c970
+  uuid: aaef5730-7900-4b78-aeeb-97fd85ccb4dd
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 5 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 518b6050-d732-4726-82e1-db1b4ff7c970
+  password: aaef5730-7900-4b78-aeeb-97fd85ccb4dd
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Amazoncom 5 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 518b6050-d732-4726-82e1-db1b4ff7c970
+  password: aaef5730-7900-4b78-aeeb-97fd85ccb4dd
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Alibaba 6 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 3591721f-abe4-4733-b6b5-edc3087f5543
+  uuid: 5e2ca7f0-0dfc-41d5-9711-eb48f937afc7
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/8.215.196.18-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Alibaba 6 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 3591721f-abe4-4733-b6b5-edc3087f5543
+  password: 5e2ca7f0-0dfc-41d5-9711-eb48f937afc7
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/8.215.196.18-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Alibaba 6 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 3591721f-abe4-4733-b6b5-edc3087f5543
+  password: 5e2ca7f0-0dfc-41d5-9711-eb48f937afc7
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/8.215.196.18-587
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 7 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 8fd63c4e-79a2-48e2-8175-aed2abb9972a
+  uuid: 1a909a7b-df06-487f-a1c6-7360799acb7b
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 7 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 8fd63c4e-79a2-48e2-8175-aed2abb9972a
+  password: 1a909a7b-df06-487f-a1c6-7360799acb7b
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 7 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 8fd63c4e-79a2-48e2-8175-aed2abb9972a
+  password: 1a909a7b-df06-487f-a1c6-7360799acb7b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 8 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: a2052095-d1b7-4077-afcd-0dbca2b5162e
+  uuid: 264c948a-558c-447a-9836-6d12f02ec58e
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 8 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: a2052095-d1b7-4077-afcd-0dbca2b5162e
+  password: 264c948a-558c-447a-9836-6d12f02ec58e
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 8 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: a2052095-d1b7-4077-afcd-0dbca2b5162e
+  password: 264c948a-558c-447a-9836-6d12f02ec58e
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 9 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: f9c7c3ef-3aea-4a7a-bd11-2ad1e3a58286
+  uuid: 9a903f5b-9f82-47ce-9df4-063c0cb53b4e
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.50.99-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 9 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: f9c7c3ef-3aea-4a7a-bd11-2ad1e3a58286
+  password: 9a903f5b-9f82-47ce-9df4-063c0cb53b4e
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/35.219.50.99-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Google Cloud 9 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: f9c7c3ef-3aea-4a7a-bd11-2ad1e3a58286
+  password: 9a903f5b-9f82-47ce-9df4-063c0cb53b4e
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/35.219.50.99-443
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 10 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: e326de55-28ba-4e49-b4d4-a28dfddacf17
+  uuid: eab3a78d-129d-4582-b3d7-2c4f99c1817a
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.31-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 10 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: e326de55-28ba-4e49-b4d4-a28dfddacf17
+  password: eab3a78d-129d-4582-b3d7-2c4f99c1817a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.31-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 10 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: e326de55-28ba-4e49-b4d4-a28dfddacf17
+  password: eab3a78d-129d-4582-b3d7-2c4f99c1817a
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/172.232.237.31-587
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 11 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 10841c27-47b0-4ee5-9fab-e6cd189c6e39
+  uuid: 0acc4c36-98f6-418c-af6e-f3817fb91fab
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.91-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 10841c27-47b0-4ee5-9fab-e6cd189c6e39
+  password: 0acc4c36-98f6-418c-af6e-f3817fb91fab
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.91-587
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 11 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 10841c27-47b0-4ee5-9fab-e6cd189c6e39
+  password: 0acc4c36-98f6-418c-af6e-f3817fb91fab
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/172.232.237.91-587
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 12 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 471c8205-0fa9-4057-a7e6-5b3865c03582
+  uuid: 554fa70b-6949-4018-998d-d25593203467
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 12 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 471c8205-0fa9-4057-a7e6-5b3865c03582
+  password: 554fa70b-6949-4018-998d-d25593203467
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 12 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 471c8205-0fa9-4057-a7e6-5b3865c03582
+  password: 554fa70b-6949-4018-998d-d25593203467
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 13 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: a426f02b-20f3-4cbb-bc2e-c54de7059cd8
+  uuid: eba77101-5e59-48ce-804f-6eaf32d27715
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 13 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: a426f02b-20f3-4cbb-bc2e-c54de7059cd8
+  password: eba77101-5e59-48ce-804f-6eaf32d27715
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 13 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: a426f02b-20f3-4cbb-bc2e-c54de7059cd8
+  password: eba77101-5e59-48ce-804f-6eaf32d27715
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 14 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 1db8ec85-6c84-42fb-8ad6-16168a3601bb
+  uuid: e290e1af-5700-4f6e-8175-f96d3afae8c0
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.134-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 14 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 1db8ec85-6c84-42fb-8ad6-16168a3601bb
+  password: e290e1af-5700-4f6e-8175-f96d3afae8c0
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.134-443
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 14 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 1db8ec85-6c84-42fb-8ad6-16168a3601bb
+  password: e290e1af-5700-4f6e-8175-f96d3afae8c0
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/172.232.239.134-443
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 15 vless
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 431bb8ce-f103-4df7-8cbc-5fa0aeea9412
+  uuid: 6d91822d-8f18-4fb6-bd17-401119c2545c
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.Biz.id
+  servername: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 15 trojan
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   type: trojan
-  password: 431bb8ce-f103-4df7-8cbc-5fa0aeea9412
+  password: 6d91822d-8f18-4fb6-bd17-401119c2545c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.Biz.id
+  sni: free.garaaa.Biz.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.gegegeming.Biz.id
+      Host: free.garaaa.Biz.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 15 ss
   type: ss
-  server: 172.66.0.145
+  server: 104.22.5.240
   port: 443
   cipher: none
-  password: 431bb8ce-f103-4df7-8cbc-5fa0aeea9412
+  password: 6d91822d-8f18-4fb6-bd17-401119c2545c
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.Biz.id
+    host: free.garaaa.Biz.id
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     mux: false
     headers:
-      custom: free.gegegeming.Biz.id
+      custom: free.garaaa.Biz.id
 proxy-groups:
 - name: INTERNET
   type: select

@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇰🇷 KR Oracle Cloud CDN TLS"
+    - name: "1 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/146.56.162.25:443
-    - name: "2 🇰🇷 KR KT CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/119.194.63.100:30045
+    - name: "2 🇰🇷 KR Cloudflare Warp CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,11 +23,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /free/218.148.212.190:33739
-    - name: "3 🇰🇷 KR SK Broadband CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/146.56.140.79:22561
+    - name: "3 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -36,11 +36,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-        path: /free/175.121.137.173:50003
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /free/118.39.69.146:50000
     - name: "4 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -49,11 +49,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-        path: /free/211.219.241.28:31337
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /free/121.131.27.49:23389
     - name: "5 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -62,50 +62,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /free/121.154.68.40:22256
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /free/203.228.105.253:50000
     - name: "6 🇰🇷 KR KT CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/220.80.128.180:10435
-    - name: "7 🇰🇷 KR KT CDN TLS"
-      network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/61.74.124.238:14921
-    - name: "8 🇰🇷 KR Oracle Cloud CDN TLS"
-      network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /free/146.56.151.224:29349
-    - name: "9 🇰🇷 KR LG Uplus CDN TLS"
-      network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -115,10 +76,10 @@ proxies:
       ws-opts:
         headers:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
-        path: /free/112.221.184.36:50000
-    - name: "10 🇰🇷 KR KT CDN TLS"
+        path: /free/14.35.29.177:15903
+    - name: "7 🇰🇷 KR Oracle Cloud CDN TLS"
       network: ws
-      password: 8d8ee9c9-0106-4265-9589-50e098d604d4
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -127,6 +88,45 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /free/61.74.124.238:22697
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/131.186.20.178:24960
+    - name: "8 🇰🇷 KR LG Uplus CDN TLS"
+      network: ws
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+        path: /free/14.4.47.67:50001
+    - name: "9 🇰🇷 KR KT CDN TLS"
+      network: ws
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/220.83.36.68:30059
+    - name: "10 🇰🇷 KR KT CDN TLS"
+      network: ws
+      password: 4ba7646b-cbc2-47ab-84eb-b9f1d7923a8d
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /free/175.203.94.155:30056
     
