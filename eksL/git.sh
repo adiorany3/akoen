@@ -421,7 +421,7 @@ EOF
         
         # Run pisah.py script at the end
         echo "Running pisah.py to separate trojan and vless configurations..."
-        python3 pisah.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml
+        python3 pisahss.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml --ss-output mycustom_ss.yaml
         if [ $? -eq 0 ]; then
             echo "✓ Successfully separated trojan and vless configurations"
             # Add these files to the list for git operations
