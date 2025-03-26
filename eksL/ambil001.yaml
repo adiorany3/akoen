@@ -1,0 +1,31 @@
+proxies:
+    - alterId: 0
+      cipher: auto
+      name: 10.lowh.net
+      network: ws
+      port: "443"
+      server: 10.lowh.net
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+      ws-opts:
+        headers:
+            Host: 10.lowh.net
+        path: /hello
+      xudp: true
+    - client-fingerprint: chrome
+      name: Trojan WS 443 WS
+      network: ws
+      password: 1e13cf90-09c2-11f0-a0cf-1577c1651679
+      port: "443"
+      server: sg-trojan.1server.co
+      skip-cert-verify: false
+      sni: sg-trojan.1server.co
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /welcome
