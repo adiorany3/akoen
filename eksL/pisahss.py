@@ -1,5 +1,5 @@
 # cara pakai
-# python3 pisahss.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml --ss-output mycustom_ss.yaml
+# python3 pisahss.py --trojan-output mycustom_trojan.yaml --vless-output mycustom_vless.yaml --ss-output mycustom_ss.yaml --vmess-output mycustom_vmess.yaml
 
 import yaml, os, argparse, logging, sys, glob
 from datetime import datetime
@@ -89,7 +89,7 @@ def generate_proxies(original_proxies, server_type, template_proxy):
 
 def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml', 
                            trojan_output='trojanakun.yaml', vless_output='vlessakun.yaml', 
-                           ss_output='mycustom_ss.yaml'):
+                           ss_output='mycustom_ss.yaml', vmess_output='mycustom_vmess.yaml'):
     """Convert YAML input files to enhanced proxy configurations split by account type"""
     
     # Validate files
@@ -139,13 +139,15 @@ def convert_ambil_to_byurule(input_files=None, template_file='combine.yaml',
         trojan_proxies = [p for p in all_proxies if p.get('type') == 'trojan']
         vless_proxies = [p for p in all_proxies if p.get('type') == 'vless']
         ss_proxies = [p for p in all_proxies if p.get('type') == 'ss']
+        vmess_proxies = [p for p in all_proxies if p.get('type') == 'vmess']
         
-        logger.info(f"Found {len(trojan_proxies)} Trojan proxies, {len(vless_proxies)} VLESS proxies, and {len(ss_proxies)} Shadowsocks proxies")
+        logger.info(f"Found {len(trojan_proxies)} Trojan proxies, {len(vless_proxies)} VLESS proxies, {len(ss_proxies)} Shadowsocks proxies, and {len(vmess_proxies)} VMESS proxies")
         
         for proxy_type, proxies, output_file in [
             ('Trojan', trojan_proxies, trojan_output),
             ('VLESS', vless_proxies, vless_output),
-            ('Shadowsocks', ss_proxies, ss_output)
+            ('Shadowsocks', ss_proxies, ss_output),
+            ('VMESS', vmess_proxies, vmess_output)
         ]:
             if not proxies:
                 logger.warning(f"No {proxy_type} proxies found, skipping {output_file}")
@@ -287,6 +289,8 @@ def main():
                       help='Output YAML file for VLESS accounts (default: vlessakun.yaml)')
     parser.add_argument('--ss-output', default='mycustom_ss.yaml',
                       help='Output YAML file for Shadowsocks accounts (default: mycustom_ss.yaml)')
+    parser.add_argument('--vmess-output', default='mycustom_vmess.yaml',
+                      help='Output YAML file for VMESS accounts (default: mycustom_vmess.yaml)')
     parser.add_argument('--debug', action='store_true', help='Enable debug logging')
     
     args = parser.parse_args()
@@ -301,7 +305,8 @@ def main():
         template_file=args.template,
         trojan_output=args.trojan_output,
         vless_output=args.vless_output,
-        ss_output=args.ss_output
+        ss_output=args.ss_output,
+        vmess_output=args.vmess_output
     )
     
     return 0 if success else 1

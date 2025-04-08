@@ -1,7 +1,7 @@
 proxies:
-    - name: "1 🇦🇷 AR Gigared S.A. CDN TLS"
+    - name: "{1 🇦🇷 AR Sondatech S.a.s. CDN TLS"
       network: ws
-      password: 3cd336e1-602d-46f5-92a4-e3f7c4247713
+      password: 9d22d7be-8a6b-4713-85a7-9be7dda1d1b2
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,32 +10,32 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-        path: /free/190.183.61.62:2053
-    - name: "2 🇦🇷 AR Gigared S.A. CDN TLS"
-      network: ws
-      password: 3cd336e1-602d-46f5-92a4-e3f7c4247713
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/190.183.61.62:8443
-    - name: "3 🇦🇷 AR Sondatech S.a.s. CDN TLS"
-      network: ws
-      password: 3cd336e1-602d-46f5-92a4-e3f7c4247713
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /free/190.103.177.131:443
+    - name: "{2 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: 9d22d7be-8a6b-4713-85a7-9be7dda1d1b2
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /free/190.183.61.62:2053
+    - name: "{3 🇦🇷 AR Gigared S.A. CDN TLS"
+      network: ws
+      password: 9d22d7be-8a6b-4713-85a7-9be7dda1d1b2
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /free/190.183.61.62:8443
     

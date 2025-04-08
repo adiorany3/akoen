@@ -1,0 +1,555 @@
+port: 7890
+socks-port: 7891
+redir-port: 9797
+mixed-port: 7893
+tproxy-port: 9898
+ipv6: true
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+general:
+  tcp-mss: 1460
+  tfo: true
+  reduce_ping: true
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+  - 8.8.8.8
+  - 1.0.0.1
+  - https://dns.google/dns-query
+  - 9.9.9.9
+  fallback:
+  - 1.1.1.1
+  - 8.8.4.4
+  - https://cloudflare-dns.com/dns-query
+  - 112.215.203.254
+  - 9.9.9.10
+  default-nameserver:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 112.215.203.254
+  bind-address: 127.0.0.1
+external-ui: ./dashboard
+proxies:
+- alterId: 0
+  cipher: auto
+  name: Bug1-10.lowh.net
+  network: ws
+  port: 443
+  server: 172.67.5.14
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: &id001
+    headers:
+      Host: 10.lowh.net
+    path: /hello
+  xudp: true
+- name: Bug1-VM
+  type: vmess
+  server: 172.67.5.14
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: &id002
+    path: /hello
+    headers:
+      Host: hz2.rimuru.My.id
+- alterId: 0
+  cipher: auto
+  name: Bug1 WS TLS
+  network: ws
+  port: '443'
+  server: 172.67.5.14
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Bug2-10.lowh.net
+  network: ws
+  port: 443
+  server: 172.66.0.145
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: Bug2-VM
+  type: vmess
+  server: 172.66.0.145
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: Bug2 WS TLS
+  network: ws
+  port: '443'
+  server: 172.66.0.145
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Bug3-10.lowh.net
+  network: ws
+  port: 443
+  server: 104.22.5.240
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: Bug3-VM
+  type: vmess
+  server: 104.22.5.240
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: Bug3 WS TLS
+  network: ws
+  port: '443'
+  server: 104.22.5.240
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Bug4-10.lowh.net
+  network: ws
+  port: 443
+  server: 104.17.72.206
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: Bug4-VM
+  type: vmess
+  server: 104.17.72.206
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: Bug4 WS TLS
+  network: ws
+  port: '443'
+  server: 104.17.72.206
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Bug5-10.lowh.net
+  network: ws
+  port: 443
+  server: 104.17.155.243
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: Bug5-VM
+  type: vmess
+  server: 104.17.155.243
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: Bug5 WS TLS
+  network: ws
+  port: '443'
+  server: 104.17.155.243
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: RG-10.lowh.net
+  network: ws
+  port: 443
+  server: 104.22.21.245
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: RG-VM
+  type: vmess
+  server: 104.22.21.245
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: RG WS TLS
+  network: ws
+  port: '443'
+  server: 104.22.21.245
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Ilped-10.lowh.net
+  network: ws
+  port: 443
+  server: 172.67.74.70
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: Ilped-VM
+  type: vmess
+  server: 172.67.74.70
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: Ilped WS TLS
+  network: ws
+  port: '443'
+  server: 172.67.74.70
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: GGWP-10.lowh.net
+  network: ws
+  port: 443
+  server: 104.19.143.108
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+- name: GGWP-VM
+  type: vmess
+  server: 104.19.143.108
+  port: 443
+  uuid: ea1601c0-f04a-11ef-a995-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: hz2.rimuru.My.id
+  network: ws
+  ws-opts: *id002
+- alterId: 0
+  cipher: auto
+  name: GGWP WS TLS
+  network: ws
+  port: '443'
+  server: 104.19.143.108
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7d3e10a0-09c1-11f0-b752-1577c1651679
+  ws-opts: *id001
+  xudp: true
+proxy-groups:
+- name: Selector
+  type: select
+  proxies:
+  - Fallback
+  - URL-Test
+  - Load-Balance
+  - Terbaik
+  - IFLIX
+  - Bug1
+  - Bug2
+  - Bug3
+  - Bug4
+  - Bug5
+  - RG
+  - Ilped
+  - GGWP
+  - Bug1-10.lowh.net
+  - Bug1-VM
+  - Bug1 WS TLS
+  - Bug2-10.lowh.net
+  - Bug2-VM
+  - Bug2 WS TLS
+  - Bug3-10.lowh.net
+  - Bug3-VM
+  - Bug3 WS TLS
+  - Bug4-10.lowh.net
+  - Bug4-VM
+  - Bug4 WS TLS
+  - Bug5-10.lowh.net
+  - Bug5-VM
+  - Bug5 WS TLS
+  - RG-10.lowh.net
+  - RG-VM
+  - RG WS TLS
+  - Ilped-10.lowh.net
+  - Ilped-VM
+  - Ilped WS TLS
+  - GGWP-10.lowh.net
+  - GGWP-VM
+  - GGWP WS TLS
+- name: Fallback
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies: &id003
+  - Bug1-10.lowh.net
+  - Bug1-VM
+  - Bug1 WS TLS
+  - Bug2-10.lowh.net
+  - Bug2-VM
+  - Bug2 WS TLS
+  - Bug3-10.lowh.net
+  - Bug3-VM
+  - Bug3 WS TLS
+  - Bug4-10.lowh.net
+  - Bug4-VM
+  - Bug4 WS TLS
+  - Bug5-10.lowh.net
+  - Bug5-VM
+  - Bug5 WS TLS
+  - RG-10.lowh.net
+  - RG-VM
+  - RG WS TLS
+  - Ilped-10.lowh.net
+  - Ilped-VM
+  - Ilped WS TLS
+  - GGWP-10.lowh.net
+  - GGWP-VM
+  - GGWP WS TLS
+- name: URL-Test
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies: *id003
+- name: Load-Balance
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies: *id003
+- name: Terbaik
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+  - Bug1
+  - Bug2
+  - Bug3
+  - Bug4
+  - Bug5
+  - URL-Test
+  - RG
+  - Ilped
+  - GGWP
+- name: Bug1
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - Bug1-10.lowh.net
+  - Bug1-VM
+  - Bug1 WS TLS
+- name: Bug2
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - Bug2-10.lowh.net
+  - Bug2-VM
+  - Bug2 WS TLS
+- name: Bug3
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - Bug3-10.lowh.net
+  - Bug3-VM
+  - Bug3 WS TLS
+- name: Bug4
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - Bug4-10.lowh.net
+  - Bug4-VM
+  - Bug4 WS TLS
+- name: Bug5
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - Bug5-10.lowh.net
+  - Bug5-VM
+  - Bug5 WS TLS
+- name: RG
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - RG-10.lowh.net
+  - RG-VM
+  - RG WS TLS
+- name: Ilped
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - Ilped-10.lowh.net
+  - Ilped-VM
+  - Ilped WS TLS
+- name: GGWP
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 30
+  tolerance: 50
+  proxies:
+  - GGWP-10.lowh.net
+  - GGWP-VM
+  - GGWP WS TLS
+rules:
+- MATCH,Fallback

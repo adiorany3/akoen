@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define input and output file pairs as arrays
-input_files=("mycustom_trojan.yaml" "mycustom_ss.yaml" "mycustom_vless.yaml")
-output_files=("Troj_allProxy.yaml" "SSl_Proxy.yaml" "Vless_allProxy.yaml")
+input_files=("mycustom_trojan.yaml" "mycustom_ss.yaml" "mycustom_vless.yaml" "mycustom_vmess.yaml")
+output_files=("Troj_allProxy.yaml" "SSl_Proxy.yaml" "Vless_allProxy.yaml" "Vmess_allProxy.yaml")
 
 # Process each file pair
 for i in "${!input_files[@]}"; do
