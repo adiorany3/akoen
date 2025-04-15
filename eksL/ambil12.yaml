@@ -1,7 +1,7 @@
 proxies:
-    - name: "{1 🇦🇪 AE Zenlayer CDN TLS"
+    - name: "{1 🇦🇪 AE Itglobal Com Dmcc CDN TLS"
       network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -10,11 +10,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/37.202.222.182:2053
-    - name: "{2 🇦🇪 AE G-Core Labs SA CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/185.209.49.17:2053
+    - name: "{2 🇦🇪 AE Latitude-sh CDN TLS"
       network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -23,63 +23,63 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /free/217.195.200.52:80
-    - name: "{3 🇦🇪 AE G-Core Labs SA CDN TLS"
-      network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /free/195.158.230.134:2053
-    - name: "{4 🇦🇪 AE M247 Europe CDN TLS"
-      network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/176.97.66.175:443
-    - name: "{5 🇦🇪 AE Baxet Group Inc. CDN TLS"
-      network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /free/212.192.215.163:443
-    - name: "{6 🇦🇪 AE Latitude-sh CDN TLS"
-      network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /free/31.58.136.31:443
+    - name: "{3 🇦🇪 AE Zenlayer CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/98.98.236.58:15608
+    - name: "{4 🇦🇪 AE Oracle Cloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /free/84.235.241.165:443
+    - name: "{5 🇦🇪 AE International Hosting Company CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /free/194.58.33.42:443
+    - name: "{6 🇦🇪 AE G-Core Labs SA CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /free/109.61.42.53:8081
     - name: "{7 🇦🇪 AE Oracle Cloud CDN TLS"
       network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -88,11 +88,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /free/193.123.80.245:443
-    - name: "{8 🇦🇪 AE Innovative Telecom Systems FZE CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /free/129.151.128.105:16731
+    - name: "{8 🇦🇪 AE Amazon.com CDN TLS"
       network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -101,11 +101,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/158.255.77.169:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/3.28.199.214:443
     - name: "{9 🇦🇪 AE G-Core Labs SA CDN TLS"
       network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -114,11 +114,11 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/109.61.42.53:8081
-    - name: "{10 🇦🇪 AE Amazon.com CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /free/195.158.230.134:2053
+    - name: "{10 🇦🇪 AE Zenlayer CDN TLS"
       network: ws
-      password: 40b03675-181f-4157-9bd0-e72173887d9c
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
       server: 104.17.3.81
       skip-cert-verify: true
@@ -127,6 +127,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /free/3.29.115.162:8443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /free/37.202.222.182:8443
     

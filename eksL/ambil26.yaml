@@ -131,12 +131,972 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
+- name: 🇯🇵 (JP) Amazoncom 1 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: a22c5fee-292f-4dd0-adb7-ea74d01780bc
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/54.199.222.232-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇯🇵 (JP) Amazoncom 1 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: a22c5fee-292f-4dd0-adb7-ea74d01780bc
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/54.199.222.232-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇯🇵 (JP) Amazoncom 1 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: a22c5fee-292f-4dd0-adb7-ea74d01780bc
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/54.199.222.232-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) netcup 2 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 78e2072c-2506-4961-8a41-48ab1ddbdb1e
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/202.61.195.218-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) netcup 2 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 78e2072c-2506-4961-8a41-48ab1ddbdb1e
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/202.61.195.218-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) netcup 2 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 78e2072c-2506-4961-8a41-48ab1ddbdb1e
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/202.61.195.218-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇨🇭 (CH) Private Layer 3 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 564ad7f5-9912-490b-859a-1ed42f6f43a3
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/179.43.190.20-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇨🇭 (CH) Private Layer 3 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 564ad7f5-9912-490b-859a-1ed42f6f43a3
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/179.43.190.20-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇨🇭 (CH) Private Layer 3 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 564ad7f5-9912-490b-859a-1ed42f6f43a3
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/179.43.190.20-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) Digital Ocean 4 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 54a2ff68-c478-4b4b-b377-59b1e300bc30
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/159.65.122.67-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Digital Ocean 4 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 54a2ff68-c478-4b4b-b377-59b1e300bc30
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/159.65.122.67-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Digital Ocean 4 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 54a2ff68-c478-4b4b-b377-59b1e300bc30
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/159.65.122.67-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇨🇦 (CA) Datacamp 5 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: dd4221b2-8f82-4118-904e-20e6ea7a6e92
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/104.234.240.179-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇨🇦 (CA) Datacamp 5 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: dd4221b2-8f82-4118-904e-20e6ea7a6e92
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/104.234.240.179-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇨🇦 (CA) Datacamp 5 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: dd4221b2-8f82-4118-904e-20e6ea7a6e92
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/104.234.240.179-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇪🇸 (ES) Spotting Brands Technologies SL 6 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 502820f0-cb3b-4d5e-87df-c0f9bd97e483
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/89.29.152.22-32688
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇪🇸 (ES) Spotting Brands Technologies SL 6 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 502820f0-cb3b-4d5e-87df-c0f9bd97e483
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/89.29.152.22-32688
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇪🇸 (ES) Spotting Brands Technologies SL 6 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 502820f0-cb3b-4d5e-87df-c0f9bd97e483
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/89.29.152.22-32688
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇸🇬 (SG) Oracle Cloud 7 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: d21039e9-f258-4783-9b8f-b9fcaa3124bf
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/138.2.64.229-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇸🇬 (SG) Oracle Cloud 7 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: d21039e9-f258-4783-9b8f-b9fcaa3124bf
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/138.2.64.229-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇸🇬 (SG) Oracle Cloud 7 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: d21039e9-f258-4783-9b8f-b9fcaa3124bf
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/138.2.64.229-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) Digital Ocean 8 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 5c760024-f8e9-4b34-bb3f-10ee661a5cef
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/165.22.82.35-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Digital Ocean 8 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 5c760024-f8e9-4b34-bb3f-10ee661a5cef
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/165.22.82.35-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Digital Ocean 8 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 5c760024-f8e9-4b34-bb3f-10ee661a5cef
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/165.22.82.35-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner Online 9 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: e8ed84a3-4b7e-4258-954e-fd96fec27cb1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/65.109.182.235-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner Online 9 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: e8ed84a3-4b7e-4258-954e-fd96fec27cb1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/65.109.182.235-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner Online 9 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: e8ed84a3-4b7e-4258-954e-fd96fec27cb1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/65.109.182.235-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 10 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: cd982d40-239d-44b8-8833-c60be09706b9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/5.178.106.63-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 10 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: cd982d40-239d-44b8-8833-c60be09706b9
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/5.178.106.63-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 10 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: cd982d40-239d-44b8-8833-c60be09706b9
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/5.178.106.63-2053
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) Fornex Hosting SL 11 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: a4fa5e93-260d-454b-b419-fa19352d30b9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/31.172.77.67-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Fornex Hosting SL 11 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: a4fa5e93-260d-454b-b419-fa19352d30b9
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/31.172.77.67-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Fornex Hosting SL 11 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: a4fa5e93-260d-454b-b419-fa19352d30b9
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/31.172.77.67-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) Hetzner Online 12 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 965eef5f-1f2e-4fc9-93be-b09d1867e510
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/78.47.234.20-14539
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Hetzner Online 12 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 965eef5f-1f2e-4fc9-93be-b09d1867e510
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/78.47.234.20-14539
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Hetzner Online 12 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 965eef5f-1f2e-4fc9-93be-b09d1867e510
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/78.47.234.20-14539
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 13 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 8041a6af-a412-4cc5-b465-bd8be0c6d52a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/57.129.47.35-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 13 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 8041a6af-a412-4cc5-b465-bd8be0c6d52a
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/57.129.47.35-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 13 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 8041a6af-a412-4cc5-b465-bd8be0c6d52a
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/57.129.47.35-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner+Online+GmbH 14 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 912c3e4e-bc18-4251-8b41-8aaefd75a1af
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/65.109.220.238-8738
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner+Online+GmbH 14 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 912c3e4e-bc18-4251-8b41-8aaefd75a1af
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/65.109.220.238-8738
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner+Online+GmbH 14 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 912c3e4e-bc18-4251-8b41-8aaefd75a1af
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/65.109.220.238-8738
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) Contabo GmbH 15 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 1c0b41d6-2cee-479a-9cfc-9d1ed24ee103
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/185.215.166.116-37801
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Contabo GmbH 15 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 1c0b41d6-2cee-479a-9cfc-9d1ed24ee103
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/185.215.166.116-37801
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) Contabo GmbH 15 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 1c0b41d6-2cee-479a-9cfc-9d1ed24ee103
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/185.215.166.116-37801
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇸🇬 (SG) Vultr 16 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: dca8eb50-5689-499f-b7cf-e0b391b71ec3
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/45.76.179.81-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇸🇬 (SG) Vultr 16 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: dca8eb50-5689-499f-b7cf-e0b391b71ec3
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/45.76.179.81-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇸🇬 (SG) Vultr 16 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: dca8eb50-5689-499f-b7cf-e0b391b71ec3
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/45.76.179.81-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner Online 17 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 488dd602-73db-47d8-9ca7-e8bad7daff3b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/65.109.242.142-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner Online 17 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 488dd602-73db-47d8-9ca7-e8bad7daff3b
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/65.109.242.142-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇫🇮 (FI) Hetzner Online 17 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 488dd602-73db-47d8-9ca7-e8bad7daff3b
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/65.109.242.142-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 18 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: fa260c2a-1b68-4b19-9c8b-21a305406180
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/31.24.253.119-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 18 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: fa260c2a-1b68-4b19-9c8b-21a305406180
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/31.24.253.119-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 18 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: fa260c2a-1b68-4b19-9c8b-21a305406180
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/31.24.253.119-2053
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) RouterHosting 19 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 50fbf300-9434-4124-bd6d-cf73d4578cf4
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.86.69.45-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) RouterHosting 19 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 50fbf300-9434-4124-bd6d-cf73d4578cf4
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.86.69.45-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) RouterHosting 19 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 50fbf300-9434-4124-bd6d-cf73d4578cf4
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/172.86.69.45-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 20 vless
+  server: 104.17.155.243
+  port: 443
+  type: vless
+  uuid: 6f445e53-6440-48c5-a564-6dfe9aaa30b9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/31.24.253.57-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 20 trojan
+  server: 104.17.155.243
+  port: 443
+  type: trojan
+  password: 6f445e53-6440-48c5-a564-6dfe9aaa30b9
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/31.24.253.57-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇩🇪 (DE) OVHcloud 20 ss
+  type: ss
+  server: 104.17.155.243
+  port: 443
+  cipher: none
+  password: 6f445e53-6440-48c5-a564-6dfe9aaa30b9
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/31.24.253.57-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
 proxy-groups:
 - name: INTERNET
   type: select
   disable-udp: false
   proxies:
   - BEST-PING
+  - 🇯🇵 (JP) Amazoncom 1 vless
+  - 🇯🇵 (JP) Amazoncom 1 trojan
+  - 🇯🇵 (JP) Amazoncom 1 ss
+  - 🇩🇪 (DE) netcup 2 vless
+  - 🇩🇪 (DE) netcup 2 trojan
+  - 🇩🇪 (DE) netcup 2 ss
+  - 🇨🇭 (CH) Private Layer 3 vless
+  - 🇨🇭 (CH) Private Layer 3 trojan
+  - 🇨🇭 (CH) Private Layer 3 ss
+  - 🇩🇪 (DE) Digital Ocean 4 vless
+  - 🇩🇪 (DE) Digital Ocean 4 trojan
+  - 🇩🇪 (DE) Digital Ocean 4 ss
+  - 🇨🇦 (CA) Datacamp 5 vless
+  - 🇨🇦 (CA) Datacamp 5 trojan
+  - 🇨🇦 (CA) Datacamp 5 ss
+  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 vless
+  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 trojan
+  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 ss
+  - 🇸🇬 (SG) Oracle Cloud 7 vless
+  - 🇸🇬 (SG) Oracle Cloud 7 trojan
+  - 🇸🇬 (SG) Oracle Cloud 7 ss
+  - 🇩🇪 (DE) Digital Ocean 8 vless
+  - 🇩🇪 (DE) Digital Ocean 8 trojan
+  - 🇩🇪 (DE) Digital Ocean 8 ss
+  - 🇫🇮 (FI) Hetzner Online 9 vless
+  - 🇫🇮 (FI) Hetzner Online 9 trojan
+  - 🇫🇮 (FI) Hetzner Online 9 ss
+  - 🇩🇪 (DE) OVHcloud 10 vless
+  - 🇩🇪 (DE) OVHcloud 10 trojan
+  - 🇩🇪 (DE) OVHcloud 10 ss
+  - 🇩🇪 (DE) Fornex Hosting SL 11 vless
+  - 🇩🇪 (DE) Fornex Hosting SL 11 trojan
+  - 🇩🇪 (DE) Fornex Hosting SL 11 ss
+  - 🇩🇪 (DE) Hetzner Online 12 vless
+  - 🇩🇪 (DE) Hetzner Online 12 trojan
+  - 🇩🇪 (DE) Hetzner Online 12 ss
+  - 🇩🇪 (DE) OVHcloud 13 vless
+  - 🇩🇪 (DE) OVHcloud 13 trojan
+  - 🇩🇪 (DE) OVHcloud 13 ss
+  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 vless
+  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 trojan
+  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 ss
+  - 🇩🇪 (DE) Contabo GmbH 15 vless
+  - 🇩🇪 (DE) Contabo GmbH 15 trojan
+  - 🇩🇪 (DE) Contabo GmbH 15 ss
+  - 🇸🇬 (SG) Vultr 16 vless
+  - 🇸🇬 (SG) Vultr 16 trojan
+  - 🇸🇬 (SG) Vultr 16 ss
+  - 🇫🇮 (FI) Hetzner Online 17 vless
+  - 🇫🇮 (FI) Hetzner Online 17 trojan
+  - 🇫🇮 (FI) Hetzner Online 17 ss
+  - 🇩🇪 (DE) OVHcloud 18 vless
+  - 🇩🇪 (DE) OVHcloud 18 trojan
+  - 🇩🇪 (DE) OVHcloud 18 ss
+  - 🇩🇪 (DE) RouterHosting 19 vless
+  - 🇩🇪 (DE) RouterHosting 19 trojan
+  - 🇩🇪 (DE) RouterHosting 19 ss
+  - 🇩🇪 (DE) OVHcloud 20 vless
+  - 🇩🇪 (DE) OVHcloud 20 trojan
+  - 🇩🇪 (DE) OVHcloud 20 ss
 - name: ADS
   type: select
   disable-udp: false
@@ -148,6 +1108,66 @@ proxy-groups:
   url: https://detectportal.firefox.com/success.txt
   interval: 60
   proxies:
+  - 🇯🇵 (JP) Amazoncom 1 vless
+  - 🇯🇵 (JP) Amazoncom 1 trojan
+  - 🇯🇵 (JP) Amazoncom 1 ss
+  - 🇩🇪 (DE) netcup 2 vless
+  - 🇩🇪 (DE) netcup 2 trojan
+  - 🇩🇪 (DE) netcup 2 ss
+  - 🇨🇭 (CH) Private Layer 3 vless
+  - 🇨🇭 (CH) Private Layer 3 trojan
+  - 🇨🇭 (CH) Private Layer 3 ss
+  - 🇩🇪 (DE) Digital Ocean 4 vless
+  - 🇩🇪 (DE) Digital Ocean 4 trojan
+  - 🇩🇪 (DE) Digital Ocean 4 ss
+  - 🇨🇦 (CA) Datacamp 5 vless
+  - 🇨🇦 (CA) Datacamp 5 trojan
+  - 🇨🇦 (CA) Datacamp 5 ss
+  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 vless
+  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 trojan
+  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 ss
+  - 🇸🇬 (SG) Oracle Cloud 7 vless
+  - 🇸🇬 (SG) Oracle Cloud 7 trojan
+  - 🇸🇬 (SG) Oracle Cloud 7 ss
+  - 🇩🇪 (DE) Digital Ocean 8 vless
+  - 🇩🇪 (DE) Digital Ocean 8 trojan
+  - 🇩🇪 (DE) Digital Ocean 8 ss
+  - 🇫🇮 (FI) Hetzner Online 9 vless
+  - 🇫🇮 (FI) Hetzner Online 9 trojan
+  - 🇫🇮 (FI) Hetzner Online 9 ss
+  - 🇩🇪 (DE) OVHcloud 10 vless
+  - 🇩🇪 (DE) OVHcloud 10 trojan
+  - 🇩🇪 (DE) OVHcloud 10 ss
+  - 🇩🇪 (DE) Fornex Hosting SL 11 vless
+  - 🇩🇪 (DE) Fornex Hosting SL 11 trojan
+  - 🇩🇪 (DE) Fornex Hosting SL 11 ss
+  - 🇩🇪 (DE) Hetzner Online 12 vless
+  - 🇩🇪 (DE) Hetzner Online 12 trojan
+  - 🇩🇪 (DE) Hetzner Online 12 ss
+  - 🇩🇪 (DE) OVHcloud 13 vless
+  - 🇩🇪 (DE) OVHcloud 13 trojan
+  - 🇩🇪 (DE) OVHcloud 13 ss
+  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 vless
+  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 trojan
+  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 ss
+  - 🇩🇪 (DE) Contabo GmbH 15 vless
+  - 🇩🇪 (DE) Contabo GmbH 15 trojan
+  - 🇩🇪 (DE) Contabo GmbH 15 ss
+  - 🇸🇬 (SG) Vultr 16 vless
+  - 🇸🇬 (SG) Vultr 16 trojan
+  - 🇸🇬 (SG) Vultr 16 ss
+  - 🇫🇮 (FI) Hetzner Online 17 vless
+  - 🇫🇮 (FI) Hetzner Online 17 trojan
+  - 🇫🇮 (FI) Hetzner Online 17 ss
+  - 🇩🇪 (DE) OVHcloud 18 vless
+  - 🇩🇪 (DE) OVHcloud 18 trojan
+  - 🇩🇪 (DE) OVHcloud 18 ss
+  - 🇩🇪 (DE) RouterHosting 19 vless
+  - 🇩🇪 (DE) RouterHosting 19 trojan
+  - 🇩🇪 (DE) RouterHosting 19 ss
+  - 🇩🇪 (DE) OVHcloud 20 vless
+  - 🇩🇪 (DE) OVHcloud 20 trojan
+  - 🇩🇪 (DE) OVHcloud 20 ss
 rule-providers:
   rule_hijacking:
     type: file

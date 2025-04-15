@@ -1,0 +1,324 @@
+# Vless 1
+uuid: &uuid "628e8fb8-a5a6-47b6-8e00-7845b838b98b" # UUID untuk VLESS 1
+vless_host: &vless_host "nautica.foolvpn.me" # Host untuk VLESS 1
+vless_path: &vless_path "/36.95.152.58-12137" # Path untuk VLESS 1
+
+# Vless 2
+uuid_2: &uuid_2 "187ec8da-a4c8-4d83-96f7-677c3f510012" # UUID untuk VLESS Account 2
+vless_host_2: &vless_host_2 "nuclear.biz.id" # Host untuk VLESS 2
+vless_path_2: &vless_path_2 "/free/cc/il" # Path untuk VLESS Account 2
+
+# Tojan
+password: &password "3143d550-15f0-11f0-a0c1-1577c1651679" # Password untuk Trojan
+trojan_host: &trojan_host "sg-trojan.1server.co" # Host untuk Trojan
+trojan_path: &trojan_path "/welcome" # Path untuk Trojan
+
+# VMess
+vmess_uuid: &vmess_uuid "a2caeca0-1851-11f0-8454-1577c1651679"
+vmess_host: &vmess_host "2.htmlcdn.net"
+vmess_path: &vmess_path "/hello"
+
+# Template untuk Proxy VLESS
+vless-template: &vless-template
+  type: vless
+  uuid: *uuid
+  server: *vless_host # Menggunakan vless_host
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: *vless_path
+    headers:
+      Host: *vless_host # Menggunakan vless_host
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+
+vless-template-1: &vless-template-1
+  type: vless
+  uuid: *uuid
+  server: your_vless_server_1 # Menggunakan vless_host
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: *vless_path
+    headers:
+      Host: *vless_host # Menggunakan vless_host
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+
+vless-template-2: &vless-template-2
+  type: vless
+  uuid: *uuid_2
+  server: your_vless_server_2 # Menggunakan vless_host
+  port: 443
+  tls: true
+  network: ws
+  udp: true
+  skip-cert-verify: true
+  ws-opts:
+    path: *vless_path_2
+    headers:
+      Host: *vless_host_2 # Menggunakan vless_host
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+
+# Template untuk Proxy Trojan
+trojan-template: &trojan-template
+  type: trojan
+  password: *password
+  server: *trojan_host # Menggunakan trojan_host
+  port: 443
+  network: ws
+  sni: *trojan_host # Menggunakan trojan_host
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: *trojan_path
+    headers:
+      Host: *trojan_host # Menggunakan trojan_host
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+
+# Template untuk Proxy VMess
+vmess-template: &vmess-template
+  type: vmess
+  server: *vmess_host
+  port: 443
+  uuid: *vmess_uuid
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: *vmess_path
+    headers:
+      Host: *vmess_host
+      User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Mobile Safari/537.36
+
+# Daftar Server
+proxies:
+  # === VLESS Servers ===
+  - name: VLESS-VIDIO 1
+    <<: *vless-template
+    server: 172.66.0.145 # Override server jika perlu
+  - name: VLESS-VIDIO 2
+    <<: *vless-template
+    server: 104.22.5.240 # Override server jika perlu
+  - name: VLESS-VIDIO 3
+    <<: *vless-template
+    server: 172.67.5.14 # Override server jika perlu
+  - name: VLESS-VIDIO 4
+    <<: *vless-template
+    server: 104.17.72.206 # Override server jika perlu
+  - name: VLESS-VIDIO 5
+    <<: *vless-template
+    server: 104.17.155.243 # Override server jika perlu
+  - name: VLESS-VIU 1
+    <<: *vless-template
+    server: 104.18.62.203 # Override server jika perlu
+  - name: VLESS-FF 1
+    <<: *vless-template
+    server: 104.17.255.156 # Override server jika perlu
+  - name: VLESS-FF 2
+    <<: *vless-template
+    server: 104.16.16.243 # Override server jika perlu
+  - name: VLESS-ILPED 1
+    <<: *vless-template
+    server: 104.26.7.171 # Override server jika perlu
+  - name: VLESS-ILPED 2
+    <<: *vless-template
+    server: 104.16.66.85 # Override server jika perlu
+  - name: VLESS-ILPED 3
+    <<: *vless-template
+    server: 104.17.3.81 # Override server jika perlu
+  - name: VLESS-IFLIX 1
+    <<: *vless-template
+    server: *vless_host # Override server jika perlu
+    sni: upload.iflix.com
+  - name: VLESS-IFLIX 2
+    <<: *vless-template
+    server: *vless_host # Override server jika perlu
+    sni: vplay.iflix.com
+  - name: VLESS-IFLIX 3
+    <<: *vless-template
+    server: *vless_host # Override server jika perlu
+    sni: live.iflix.com
+  - name: VLESS-WLG 1
+    <<: *vless-template
+    server: 104.18.214.235 # Override server jika perlu
+  - name: VLESS-WLG 2
+    <<: *vless-template
+    server: 104.18.213.235 # Override server jika perlu
+  - name: VLESS-WLG 3
+    server: ava.game.naver.com
+    <<: *vless-template
+  - name: VLESS-RG
+    <<: *vless-template
+    server: 104.26.7.171 # Override server jika perlu
+  - name: VLESS-Ilped
+    <<: *vless-template
+    server: 172.67.22.129 # Override server jika perlu
+  - name: VLESS-GGWP
+    <<: *vless-template
+    server: 104.19.143.108 # Override server jika perlu
+  - name: VLESS-Edu1
+    <<: *vless-template
+    server: 104.17.3.81 # Override server jika perlu
+  - name: VLESS-Edu2
+    <<: *vless-template
+    server: 172.67.73.39 # Override server jika perlu
+  - name: VLESS-ACCOUNT-1
+    <<: *vless-template-1
+    server: 172.67.5.14 # Ganti dengan server VLESS Anda
+  - name: VLESS-ACCOUNT-2
+    <<: *vless-template-2
+    server: 172.67.5.14 # Ganti dengan server VLESS Anda
+
+  # === Trojan Servers ===
+  - name: TROJAN-VIDIO 1
+    <<: *trojan-template
+    server: 172.66.0.145 # Override server jika perlu
+  - name: TROJAN-VIDIO 2
+    <<: *trojan-template
+    server: 104.22.5.240 # Override server jika perlu
+  - name: TROJAN-VIDIO 3
+    <<: *trojan-template
+    server: 172.67.5.14 # Override server jika perlu
+  - name: TROJAN-VIDIO 4
+    <<: *trojan-template
+    server: 104.17.72.206 # Override server jika perlu
+  - name: TROJAN-VIDIO 5
+    <<: *trojan-template
+    server: 104.17.155.243 # Override server jika perlu
+  - name: TROJAN-VIU 1
+    <<: *trojan-template
+    server: 104.18.62.203 # Override server jika perlu
+  - name: TROJAN-FF 1
+    <<: *trojan-template
+    server: 104.17.255.156 # Override server jika perlu
+  - name: TROJAN-FF 2
+    <<: *trojan-template
+    server: 104.16.16.243 # Override server jika perlu
+  - name: TROJAN-ILPED 1
+    <<: *trojan-template
+    server: 104.26.7.171 # Override server jika perlu
+  - name: TROJAN-ILPED 2
+    <<: *trojan-template
+    server: 104.16.66.85 # Override server jika perlu
+  - name: TROJAN-ILPED 3
+    <<: *trojan-template
+    server: 104.17.3.81 # Override server jika perlu
+  - name: TROJAN-IFLIX 1
+    <<: *trojan-template
+    server: *trojan_host # Override server jika perlu
+    sni: upload.iflix.com
+  - name: TROJAN-IFLIX 2
+    <<: *trojan-template
+    server: *trojan_host # Override server jika perlu
+    sni: vplay.iflix.com
+  - name: TROJAN-IFLIX 3
+    <<: *trojan-template
+    server: *trojan_host # Override server jika perlu
+    sni: live.iflix.com
+  - name: TROJAN-WLG 1
+    <<: *trojan-template
+    server: 104.18.214.235 # Override server jika perlu
+  - name: TROJAN-WLG 2
+    <<: *trojan-template
+    server: 104.18.213.235 # Override server jika perlu
+  - name: TROJAN-WLG 3
+    server: ava.game.naver.com
+    <<: *trojan-template
+  - name: TROJAN-RG
+    <<: *trojan-template
+    server: 104.26.7.171 # Override server jika perlu
+  - name: TROJAN-Ilped
+    <<: *trojan-template
+    server: 172.67.22.129 # Override server jika perlu
+  - name: TROJAN-GGWP
+    <<: *trojan-template
+    server: 104.19.143.108 # Override server jika perlu
+  - name: TROJAN-Edu1
+    <<: *trojan-template
+    server: 104.17.3.81 # Override server jika perlu
+  - name: TROJAN-Edu2
+    <<: *trojan-template
+    server: 172.67.73.39 # Override server jika perlu
+
+  # === VMESS Servers ===
+  - name: VMESS-VIDIO 1
+    <<: *vmess-template
+    server: 172.66.0.145 # Override server jika perlu
+  - name: VMESS-VIDIO 2
+    <<: *vmess-template
+    server: 104.17.255.156 # Override server jika perlu
+  - name: VMESS-VIDIO 3
+    <<: *vmess-template
+    server: 172.67.5.14 # Override server jika perlu
+  - name: VMESS-VIDIO 4
+    <<: *vmess-template
+    server: 104.17.72.206 # Override server jika perlu
+  - name: VMESS-VIDIO 5
+    <<: *vmess-template
+    server: 104.17.155.243 # Override server jika perlu
+  - name: VMESS-VIU 1
+    <<: *vmess-template
+    server: 104.18.62.203 # Override server jika perlu
+  - name: VMESS-FF 1
+    <<: *vmess-template
+    server: 104.17.255.156 # Override server jika perlu
+  - name: VMESS-FF 2
+    <<: *vmess-template
+    server: 104.16.16.243 # Override server jika perlu
+  - name: VMESS-ILPED 1
+    <<: *vmess-template
+    server: 104.26.7.171 # Override server jika perlu
+  - name: VMESS-ILPED 2
+    <<: *vmess-template
+    server: 104.16.66.85 # Override server jika perlu
+  - name: VMESS-ILPED 3
+    <<: *vmess-template
+    server: 104.17.3.81 # Override server jika perlu
+  - name: VMESS-IFLIX 1
+    <<: *vmess-template
+    server: *vmess_host # Override server jika perlu
+    sni: upload.iflix.com
+  - name: VMESS-IFLIX 2
+    <<: *vmess-template
+    server: *vmess_host # Override server jika perlu
+    sni: vplay.iflix.com
+  - name: VMESS-IFLIX 3
+    <<: *vmess-template
+    server: *vmess_host # Override server jika perlu
+    sni: live.iflix.com
+  - name: VMESS-WLG 1
+    <<: *vmess-template
+    server: 104.18.214.235 # Override server jika perlu
+  - name: VMESS-WLG 2
+    <<: *vmess-template
+    server: 104.18.213.235 # Override server jika perlu
+  - name: VMESS-WLG 3
+    server: ava.game.naver.com
+    <<: *vmess-template
+  - name: VMESS-Edu1
+    <<: *vmess-template
+    server: 104.17.3.81 # Override server jika perlu
+  - name: VMESS-Edu2
+    <<: *vmess-template
+    server: 172.67.73.39 # Override server jika perlu
+    
+  - name: Trojan ID HSP
+    server: *trojan_host
+    port: 443
+    type: trojan
+    password: *password
+    skip-cert-verify: true
+    sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: *trojan_path
+      headers:
+        Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+    udp: true

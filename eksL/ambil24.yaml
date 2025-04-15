@@ -131,12 +131,636 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
+- name: 🇮🇩 (ID) Google Cloud 1 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: b95599c3-72a4-43b9-9f0f-ff76f51b39da
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/34.101.247.19-53681
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Google Cloud 1 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: b95599c3-72a4-43b9-9f0f-ff76f51b39da
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/34.101.247.19-53681
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Google Cloud 1 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: b95599c3-72a4-43b9-9f0f-ff76f51b39da
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/34.101.247.19-53681
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Amazoncom 2 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 2ee6fed9-c6d4-4714-9039-bf4b4628ca2f
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Amazoncom 2 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 2ee6fed9-c6d4-4714-9039-bf4b4628ca2f
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Amazoncom 2 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 2ee6fed9-c6d4-4714-9039-bf4b4628ca2f
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Amazoncom 3 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 36e6931d-2754-410c-9d87-aad6e432d2d1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Amazoncom 3 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 36e6931d-2754-410c-9d87-aad6e432d2d1
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Amazoncom 3 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 36e6931d-2754-410c-9d87-aad6e432d2d1
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/43.218.77.16-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 41dfc6fb-ea22-4e57-95e3-211b9de0fb62
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 41dfc6fb-ea22-4e57-95e3-211b9de0fb62
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-8443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 41dfc6fb-ea22-4e57-95e3-211b9de0fb62
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/203.194.112.119-8443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 5 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 55dffe9e-8957-4ea6-bbd5-f6a3efb24a6a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 5 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 55dffe9e-8957-4ea6-bbd5-f6a3efb24a6a
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 5 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 55dffe9e-8957-4ea6-bbd5-f6a3efb24a6a
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 6 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 2cfe4546-4522-4864-97c1-ec95707aa369
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 2cfe4546-4522-4864-97c1-ec95707aa369
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 6 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 2cfe4546-4522-4864-97c1-ec95707aa369
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Google Cloud 7 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: b01cb8c1-10c3-427c-bac8-5b1b55b22ffe
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/35.219.15.90-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Google Cloud 7 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: b01cb8c1-10c3-427c-bac8-5b1b55b22ffe
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/35.219.15.90-443
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Google Cloud 7 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: b01cb8c1-10c3-427c-bac8-5b1b55b22ffe
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/35.219.15.90-443
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Alibaba 8 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: c1d28f66-0796-4276-8075-38c90d245885
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Alibaba 8 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: c1d28f66-0796-4276-8075-38c90d245885
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Alibaba 8 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: c1d28f66-0796-4276-8075-38c90d245885
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) PT Telkom Indonesia 9 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 5be4a166-9670-49b5-bab3-0336e30a0885
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) PT Telkom Indonesia 9 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 5be4a166-9670-49b5-bab3-0336e30a0885
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) PT Telkom Indonesia 9 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 5be4a166-9670-49b5-bab3-0336e30a0885
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 8a4d90d3-8935-4c43-b111-cef3b6bd2977
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 8a4d90d3-8935-4c43-b111-cef3b6bd2977
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 8a4d90d3-8935-4c43-b111-cef3b6bd2977
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 11 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: ee01be42-dce8-47da-ac6c-68b9d269e31a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.112-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: ee01be42-dce8-47da-ac6c-68b9d269e31a
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.112-2053
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 11 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: ee01be42-dce8-47da-ac6c-68b9d269e31a
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/172.232.237.112-2053
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) PT Pusat Media Indonesia 12 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 3969868d-ad94-4f02-b385-1d2d1035e99b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) PT Pusat Media Indonesia 12 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 3969868d-ad94-4f02-b385-1d2d1035e99b
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) PT Pusat Media Indonesia 12 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 3969868d-ad94-4f02-b385-1d2d1035e99b
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 13 vless
+  server: 104.22.5.240
+  port: 443
+  type: vless
+  uuid: 64c8781f-e100-47b3-a5c2-0d5155b7e375
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.91-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 13 trojan
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 64c8781f-e100-47b3-a5c2-0d5155b7e375
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.xiongt.My.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.237.91-587
+    headers:
+      Host: free.xiongt.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 13 ss
+  type: ss
+  server: 104.22.5.240
+  port: 443
+  cipher: none
+  password: 64c8781f-e100-47b3-a5c2-0d5155b7e375
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.xiongt.My.id
+    path: /Free/TG-at-XionAlva/172.232.237.91-587
+    mux: false
+    headers:
+      custom: free.xiongt.My.id
 proxy-groups:
 - name: INTERNET
   type: select
   disable-udp: false
   proxies:
   - BEST-PING
+  - 🇮🇩 (ID) Google Cloud 1 vless
+  - 🇮🇩 (ID) Google Cloud 1 trojan
+  - 🇮🇩 (ID) Google Cloud 1 ss
+  - 🇮🇩 (ID) Amazoncom 2 vless
+  - 🇮🇩 (ID) Amazoncom 2 trojan
+  - 🇮🇩 (ID) Amazoncom 2 ss
+  - 🇮🇩 (ID) Amazoncom 3 vless
+  - 🇮🇩 (ID) Amazoncom 3 trojan
+  - 🇮🇩 (ID) Amazoncom 3 ss
+  - 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 vless
+  - 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 trojan
+  - 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 5 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 5 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 5 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 6 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 6 ss
+  - 🇮🇩 (ID) Google Cloud 7 vless
+  - 🇮🇩 (ID) Google Cloud 7 trojan
+  - 🇮🇩 (ID) Google Cloud 7 ss
+  - 🇮🇩 (ID) Alibaba 8 vless
+  - 🇮🇩 (ID) Alibaba 8 trojan
+  - 🇮🇩 (ID) Alibaba 8 ss
+  - 🇮🇩 (ID) PT Telkom Indonesia 9 vless
+  - 🇮🇩 (ID) PT Telkom Indonesia 9 trojan
+  - 🇮🇩 (ID) PT Telkom Indonesia 9 ss
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 vless
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 trojan
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 ss
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 12 vless
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 12 trojan
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 12 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 13 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 13 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 13 ss
 - name: ADS
   type: select
   disable-udp: false
@@ -148,6 +772,45 @@ proxy-groups:
   url: https://detectportal.firefox.com/success.txt
   interval: 60
   proxies:
+  - 🇮🇩 (ID) Google Cloud 1 vless
+  - 🇮🇩 (ID) Google Cloud 1 trojan
+  - 🇮🇩 (ID) Google Cloud 1 ss
+  - 🇮🇩 (ID) Amazoncom 2 vless
+  - 🇮🇩 (ID) Amazoncom 2 trojan
+  - 🇮🇩 (ID) Amazoncom 2 ss
+  - 🇮🇩 (ID) Amazoncom 3 vless
+  - 🇮🇩 (ID) Amazoncom 3 trojan
+  - 🇮🇩 (ID) Amazoncom 3 ss
+  - 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 vless
+  - 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 trojan
+  - 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 5 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 5 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 5 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 6 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 6 ss
+  - 🇮🇩 (ID) Google Cloud 7 vless
+  - 🇮🇩 (ID) Google Cloud 7 trojan
+  - 🇮🇩 (ID) Google Cloud 7 ss
+  - 🇮🇩 (ID) Alibaba 8 vless
+  - 🇮🇩 (ID) Alibaba 8 trojan
+  - 🇮🇩 (ID) Alibaba 8 ss
+  - 🇮🇩 (ID) PT Telkom Indonesia 9 vless
+  - 🇮🇩 (ID) PT Telkom Indonesia 9 trojan
+  - 🇮🇩 (ID) PT Telkom Indonesia 9 ss
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 vless
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 trojan
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 10 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 ss
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 12 vless
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 12 trojan
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 12 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 13 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 13 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 13 ss
 rule-providers:
   rule_hijacking:
     type: file
