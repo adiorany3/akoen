@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇮🇱 IL Cloud Lease CDN TLS"
+    - name: "1 🇮🇱 IL SmartApe OU CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -11,9 +11,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /free/77.91.69.51:2053
-    - name: "2 🇮🇱 IL Cloud Lease CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /free/185.239.48.97:2053
+    - name: "2 🇮🇱 IL Stark Industries Solutions CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -25,9 +25,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-        path: /free/77.91.69.146:443
-    - name: "3 🇮🇱 IL Vultr CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /free/77.91.74.6:443
+    - name: "3 🇮🇱 IL HOTnet CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -39,9 +39,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/64.176.168.63:2443
-    - name: "4 🇮🇱 IL HOTnet CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/5.29.142.200:2053
+    - name: "4 🇮🇱 IL SmartApe OU CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -53,20 +53,20 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+        path: /free/185.239.48.97:8443
+    - name: "5 🇮🇱 IL HOTnet CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.biz.id
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      ws-opts:
+        headers:
+            Host: nuclear.biz.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
         path: /free/5.29.142.200:8443
-    - name: "5 🇮🇱 IL Oracle Cloud CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/129.159.129.107:2053
     

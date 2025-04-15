@@ -1,5 +1,5 @@
 proxies:
-    - name: "{1 🇦🇺 AU Oracle Cloud CDN TLS"
+    - name: "1 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -10,87 +10,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-        path: /free/152.69.165.68:44242
-    - name: "{2 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/152.67.125.174:443
-    - name: "{3 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/192.9.180.162:443
-    - name: "{4 🇦🇺 AU Contabo Asia Private CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/154.26.155.98:24726
-    - name: "{5 🇦🇺 AU Vultr CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/207.148.80.190:443
-    - name: "{6 🇦🇺 AU BitCommand CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/202.133.89.8:443
-    - name: "{7 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.biz.id
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
         path: /free/192.9.179.194:24499
-    - name: "{8 🇦🇺 AU Akamai Connected Cloud CDN TLS"
+    - name: "2 🇦🇺 AU TimeWeb CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -101,9 +23,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /free/172.236.43.104:2053
-    - name: "{9 🇦🇺 AU Digital Ocean CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: /free/82.97.247.226:8443
+    - name: "3 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -114,9 +36,48 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+        path: /free/152.69.165.68:44242
+    - name: "4 🇦🇺 AU Oracle Cloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/130.162.193.183:15401
+    - name: "5 🇦🇺 AU Digital Ocean CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /free/170.64.240.100:443
+    - name: "6 🇦🇺 AU Digital Ocean CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
         path: /free/209.38.16.180:14235
-    - name: "{10 🇦🇺 AU Oracle Cloud CDN TLS"
+    - name: "7 🇦🇺 AU Macquarie Technology Operations CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -127,6 +88,45 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-        path: /free/152.67.99.162:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /free/125.7.24.251:443
+    - name: "8 🇦🇺 AU TPG Internet CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/203.219.13.251:443
+    - name: "9 🇦🇺 AU Digital Ocean CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+        path: /free/170.64.192.191:31257
+    - name: "10 🇦🇺 AU Oracle Cloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.biz.id
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        path: /free/152.67.102.161:19286
     

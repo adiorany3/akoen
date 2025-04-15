@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇦🇺 AU Oracle Cloud CDN TLS"
+    - name: "1 🇦🇺 AU Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -11,8 +11,8 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/152.67.99.162:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /free/54.79.133.41:443
     - name: "2 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       port: "443"
@@ -25,9 +25,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /free/192.9.184.12:1013
-    - name: "3 🇦🇺 AU Digital Ocean CDN TLS"
+    - name: "3 🇦🇺 AU BitCommand CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -40,7 +40,7 @@ proxies:
         headers:
             Host: nuclear.biz.id
             User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
-        path: /free/170.64.192.191:31257
+        path: /free/82.115.19.143:443
     - name: "4 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       port: "443"
@@ -53,9 +53,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
-        path: /free/192.9.190.80:23862
-    - name: "5 🇦🇺 AU TimeWeb CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /free/152.67.99.162:443
+    - name: "5 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -67,6 +67,6 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/82.97.247.226:2053
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/152.67.125.174:443
     

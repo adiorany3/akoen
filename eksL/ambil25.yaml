@@ -132,320 +132,320 @@ dns:
     - +.media.dssott.com
 proxies:
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 8aa8f8f1-b9ef-480e-a969-4be220374f08
+  uuid: 6216334a-3e4d-4fed-a3bd-1a392be1b4ca
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: 8aa8f8f1-b9ef-480e-a969-4be220374f08
+  password: 6216334a-3e4d-4fed-a3bd-1a392be1b4ca
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: 8aa8f8f1-b9ef-480e-a969-4be220374f08
+  password: 6216334a-3e4d-4fed-a3bd-1a392be1b4ca
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 37829d50-fc9a-4345-b622-1fa8b48ed212
+  uuid: cfb5dbae-29b5-488b-8b9b-4ff142b0d228
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: 37829d50-fc9a-4345-b622-1fa8b48ed212
+  password: cfb5dbae-29b5-488b-8b9b-4ff142b0d228
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: 37829d50-fc9a-4345-b622-1fa8b48ed212
+  password: cfb5dbae-29b5-488b-8b9b-4ff142b0d228
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 80cc59d8-05d4-4a3e-8899-e4fabe7faa8c
+  uuid: bd9310ee-ca4c-4248-81b4-5b2242c56f84
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: 80cc59d8-05d4-4a3e-8899-e4fabe7faa8c
+  password: bd9310ee-ca4c-4248-81b4-5b2242c56f84
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: 80cc59d8-05d4-4a3e-8899-e4fabe7faa8c
+  password: bd9310ee-ca4c-4248-81b4-5b2242c56f84
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 4 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 01a7b78a-fb6c-4623-9d03-f989bcd771d6
+  uuid: e750f7cf-15d9-41b6-859f-d72272fd9a65
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: 01a7b78a-fb6c-4623-9d03-f989bcd771d6
+  password: e750f7cf-15d9-41b6-859f-d72272fd9a65
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 4 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: 01a7b78a-fb6c-4623-9d03-f989bcd771d6
+  password: e750f7cf-15d9-41b6-859f-d72272fd9a65
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 33ea987e-7d38-4f5d-9acf-14bbd202b2b8
+  uuid: 5ee87548-b559-492a-82af-b1442e3ae7d8
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: 33ea987e-7d38-4f5d-9acf-14bbd202b2b8
+  password: 5ee87548-b559-492a-82af-b1442e3ae7d8
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: 33ea987e-7d38-4f5d-9acf-14bbd202b2b8
+  password: 5ee87548-b559-492a-82af-b1442e3ae7d8
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 6 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 50a31208-0fc1-411b-bbaf-0f490ec459dc
+  uuid: 97e31d43-beee-4587-a7ec-c57d04034424
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: 50a31208-0fc1-411b-bbaf-0f490ec459dc
+  password: 97e31d43-beee-4587-a7ec-c57d04034424
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 6 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: 50a31208-0fc1-411b-bbaf-0f490ec459dc
+  password: 97e31d43-beee-4587-a7ec-c57d04034424
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 vless
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: vless
-  uuid: f4b0d40b-f134-45ad-bfe9-0c3a68a85dd7
+  uuid: 63b07fdc-d9b2-481f-9898-f88a2d0b5a90
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 trojan
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   type: trojan
-  password: f4b0d40b-f134-45ad-bfe9-0c3a68a85dd7
+  password: 63b07fdc-d9b2-481f-9898-f88a2d0b5a90
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 ss
   type: ss
-  server: 104.22.5.240
+  server: 104.17.72.206
   port: 443
   cipher: none
-  password: f4b0d40b-f134-45ad-bfe9-0c3a68a85dd7
+  password: 63b07fdc-d9b2-481f-9898-f88a2d0b5a90
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 proxy-groups:
 - name: INTERNET
   type: select

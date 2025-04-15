@@ -131,972 +131,972 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-- name: 🇯🇵 (JP) Amazoncom 1 vless
+- name: 🇺🇸 (US) Amazoncom 1 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: a22c5fee-292f-4dd0-adb7-ea74d01780bc
+  uuid: cf03144b-4c05-4ba7-8c4d-fb279b49c894
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/54.199.222.232-443
+    path: /Free/TG-at-XionAlva/52.41.218.4-80
     headers:
-      Host: free.xiongt.My.id
-- name: 🇯🇵 (JP) Amazoncom 1 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇺🇸 (US) Amazoncom 1 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: a22c5fee-292f-4dd0-adb7-ea74d01780bc
+  password: cf03144b-4c05-4ba7-8c4d-fb279b49c894
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/54.199.222.232-443
+    path: /Free/TG-at-XionAlva/52.41.218.4-80
     headers:
-      Host: free.xiongt.My.id
-- name: 🇯🇵 (JP) Amazoncom 1 ss
+      Host: free.garaaa.Biz.id
+- name: 🇺🇸 (US) Amazoncom 1 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: a22c5fee-292f-4dd0-adb7-ea74d01780bc
+  password: cf03144b-4c05-4ba7-8c4d-fb279b49c894
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/54.199.222.232-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/52.41.218.4-80
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) netcup 2 vless
+      custom: free.garaaa.Biz.id
+- name: 🇪🇪 (EE) Sprint 2 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 78e2072c-2506-4961-8a41-48ab1ddbdb1e
+  uuid: 5dd68b1e-b592-4321-91cc-0c99336b2bd4
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/202.61.195.218-443
+    path: /Free/TG-at-XionAlva/69.12.83.134-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) netcup 2 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇪🇪 (EE) Sprint 2 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 78e2072c-2506-4961-8a41-48ab1ddbdb1e
+  password: 5dd68b1e-b592-4321-91cc-0c99336b2bd4
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/202.61.195.218-443
+    path: /Free/TG-at-XionAlva/69.12.83.134-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) netcup 2 ss
+      Host: free.garaaa.Biz.id
+- name: 🇪🇪 (EE) Sprint 2 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 78e2072c-2506-4961-8a41-48ab1ddbdb1e
+  password: 5dd68b1e-b592-4321-91cc-0c99336b2bd4
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/202.61.195.218-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/69.12.83.134-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇨🇭 (CH) Private Layer 3 vless
+      custom: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) Amazoncom 3 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 564ad7f5-9912-490b-859a-1ed42f6f43a3
+  uuid: b8256450-48f3-4da5-89b7-1c64208c6a2d
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/179.43.190.20-8443
+    path: /Free/TG-at-XionAlva/18.156.21.22-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇨🇭 (CH) Private Layer 3 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) Amazoncom 3 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 564ad7f5-9912-490b-859a-1ed42f6f43a3
+  password: b8256450-48f3-4da5-89b7-1c64208c6a2d
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/179.43.190.20-8443
+    path: /Free/TG-at-XionAlva/18.156.21.22-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇨🇭 (CH) Private Layer 3 ss
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) Amazoncom 3 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 564ad7f5-9912-490b-859a-1ed42f6f43a3
+  password: b8256450-48f3-4da5-89b7-1c64208c6a2d
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/179.43.190.20-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/18.156.21.22-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) Digital Ocean 4 vless
+      custom: free.garaaa.Biz.id
+- name: 🇨🇭 (CH) Serva One 4 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 54a2ff68-c478-4b4b-b377-59b1e300bc30
+  uuid: 7e284498-26c4-4b43-819c-dbc1405cb64d
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/159.65.122.67-8443
+    path: /Free/TG-at-XionAlva/45.85.93.51-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Digital Ocean 4 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇨🇭 (CH) Serva One 4 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 54a2ff68-c478-4b4b-b377-59b1e300bc30
+  password: 7e284498-26c4-4b43-819c-dbc1405cb64d
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/159.65.122.67-8443
+    path: /Free/TG-at-XionAlva/45.85.93.51-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Digital Ocean 4 ss
+      Host: free.garaaa.Biz.id
+- name: 🇨🇭 (CH) Serva One 4 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 54a2ff68-c478-4b4b-b377-59b1e300bc30
+  password: 7e284498-26c4-4b43-819c-dbc1405cb64d
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/159.65.122.67-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/45.85.93.51-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇨🇦 (CA) Datacamp 5 vless
+      custom: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 5 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: dd4221b2-8f82-4118-904e-20e6ea7a6e92
+  uuid: 81e96f2a-2862-4e32-a8c2-a370808d2f49
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/104.234.240.179-8443
+    path: /Free/TG-at-XionAlva/51.195.45.34-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇨🇦 (CA) Datacamp 5 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 5 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: dd4221b2-8f82-4118-904e-20e6ea7a6e92
+  password: 81e96f2a-2862-4e32-a8c2-a370808d2f49
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/104.234.240.179-8443
+    path: /Free/TG-at-XionAlva/51.195.45.34-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇨🇦 (CA) Datacamp 5 ss
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 5 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: dd4221b2-8f82-4118-904e-20e6ea7a6e92
+  password: 81e96f2a-2862-4e32-a8c2-a370808d2f49
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/104.234.240.179-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/51.195.45.34-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇪🇸 (ES) Spotting Brands Technologies SL 6 vless
+      custom: free.garaaa.Biz.id
+- name: 🇦🇷 (AR) Gigared SA 6 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 502820f0-cb3b-4d5e-87df-c0f9bd97e483
+  uuid: 70fef7a4-4190-43d2-80c3-c94360769855
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/89.29.152.22-32688
+    path: /Free/TG-at-XionAlva/190.183.61.62-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇪🇸 (ES) Spotting Brands Technologies SL 6 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇦🇷 (AR) Gigared SA 6 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 502820f0-cb3b-4d5e-87df-c0f9bd97e483
+  password: 70fef7a4-4190-43d2-80c3-c94360769855
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/89.29.152.22-32688
+    path: /Free/TG-at-XionAlva/190.183.61.62-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇪🇸 (ES) Spotting Brands Technologies SL 6 ss
+      Host: free.garaaa.Biz.id
+- name: 🇦🇷 (AR) Gigared SA 6 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 502820f0-cb3b-4d5e-87df-c0f9bd97e483
+  password: 70fef7a4-4190-43d2-80c3-c94360769855
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/89.29.152.22-32688
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/190.183.61.62-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇸🇬 (SG) Oracle Cloud 7 vless
+      custom: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 7 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: d21039e9-f258-4783-9b8f-b9fcaa3124bf
+  uuid: ed513095-08a9-4aeb-b5e5-1ba6ad10076b
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/138.2.64.229-443
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.xiongt.My.id
-- name: 🇸🇬 (SG) Oracle Cloud 7 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 7 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: d21039e9-f258-4783-9b8f-b9fcaa3124bf
+  password: ed513095-08a9-4aeb-b5e5-1ba6ad10076b
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/138.2.64.229-443
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.xiongt.My.id
-- name: 🇸🇬 (SG) Oracle Cloud 7 ss
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 7 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: d21039e9-f258-4783-9b8f-b9fcaa3124bf
+  password: ed513095-08a9-4aeb-b5e5-1ba6ad10076b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/138.2.64.229-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) Digital Ocean 8 vless
+      custom: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 8 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 5c760024-f8e9-4b34-bb3f-10ee661a5cef
+  uuid: 6b7150aa-e2b2-4c95-b562-678ed959c120
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/165.22.82.35-8443
+    path: /Free/TG-at-XionAlva/57.129.47.72-8443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Digital Ocean 8 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 8 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 5c760024-f8e9-4b34-bb3f-10ee661a5cef
+  password: 6b7150aa-e2b2-4c95-b562-678ed959c120
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/165.22.82.35-8443
+    path: /Free/TG-at-XionAlva/57.129.47.72-8443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Digital Ocean 8 ss
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 8 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 5c760024-f8e9-4b34-bb3f-10ee661a5cef
+  password: 6b7150aa-e2b2-4c95-b562-678ed959c120
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/165.22.82.35-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/57.129.47.72-8443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner Online 9 vless
+      custom: free.garaaa.Biz.id
+- name: 🇦🇪 (AE) G-Core Labs SA 9 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: e8ed84a3-4b7e-4258-954e-fd96fec27cb1
+  uuid: 6126efbb-72a7-467d-a46a-f61ec6594123
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/65.109.182.235-443
+    path: /Free/TG-at-XionAlva/217.195.200.138-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner Online 9 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇦🇪 (AE) G-Core Labs SA 9 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: e8ed84a3-4b7e-4258-954e-fd96fec27cb1
+  password: 6126efbb-72a7-467d-a46a-f61ec6594123
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/65.109.182.235-443
+    path: /Free/TG-at-XionAlva/217.195.200.138-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner Online 9 ss
+      Host: free.garaaa.Biz.id
+- name: 🇦🇪 (AE) G-Core Labs SA 9 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: e8ed84a3-4b7e-4258-954e-fd96fec27cb1
+  password: 6126efbb-72a7-467d-a46a-f61ec6594123
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/65.109.182.235-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/217.195.200.138-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.garaaa.Biz.id
 - name: 🇩🇪 (DE) OVHcloud 10 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: cd982d40-239d-44b8-8833-c60be09706b9
+  uuid: 9d8a85ec-c81b-4bbe-bf56-001b5f81fda0
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/5.178.106.63-2053
+    path: /Free/TG-at-XionAlva/82.117.245.135-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.garaaa.Biz.id
 - name: 🇩🇪 (DE) OVHcloud 10 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: cd982d40-239d-44b8-8833-c60be09706b9
+  password: 9d8a85ec-c81b-4bbe-bf56-001b5f81fda0
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/5.178.106.63-2053
+    path: /Free/TG-at-XionAlva/82.117.245.135-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.garaaa.Biz.id
 - name: 🇩🇪 (DE) OVHcloud 10 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: cd982d40-239d-44b8-8833-c60be09706b9
+  password: 9d8a85ec-c81b-4bbe-bf56-001b5f81fda0
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/5.178.106.63-2053
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/82.117.245.135-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) Fornex Hosting SL 11 vless
+      custom: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 11 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: a4fa5e93-260d-454b-b419-fa19352d30b9
+  uuid: 37df10e8-143e-47e4-b40c-75eeae77f226
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.172.77.67-443
+    path: /Free/TG-at-XionAlva/82.117.245.189-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Fornex Hosting SL 11 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 11 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: a4fa5e93-260d-454b-b419-fa19352d30b9
+  password: 37df10e8-143e-47e4-b40c-75eeae77f226
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.172.77.67-443
+    path: /Free/TG-at-XionAlva/82.117.245.189-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Fornex Hosting SL 11 ss
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) OVHcloud 11 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: a4fa5e93-260d-454b-b419-fa19352d30b9
+  password: 37df10e8-143e-47e4-b40c-75eeae77f226
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/31.172.77.67-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/82.117.245.189-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) Hetzner Online 12 vless
+      custom: free.garaaa.Biz.id
+- name: 🇫🇮 (FI) I-servers 12 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 965eef5f-1f2e-4fc9-93be-b09d1867e510
+  uuid: 621d5b5a-6c09-42db-b32a-b41f8edbba8a
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/78.47.234.20-14539
+    path: /Free/TG-at-XionAlva/185.188.181.14-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Hetzner Online 12 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇫🇮 (FI) I-servers 12 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 965eef5f-1f2e-4fc9-93be-b09d1867e510
+  password: 621d5b5a-6c09-42db-b32a-b41f8edbba8a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/78.47.234.20-14539
+    path: /Free/TG-at-XionAlva/185.188.181.14-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Hetzner Online 12 ss
+      Host: free.garaaa.Biz.id
+- name: 🇫🇮 (FI) I-servers 12 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 965eef5f-1f2e-4fc9-93be-b09d1867e510
+  password: 621d5b5a-6c09-42db-b32a-b41f8edbba8a
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/78.47.234.20-14539
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/185.188.181.14-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 13 vless
+      custom: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Cgi Global 13 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 8041a6af-a412-4cc5-b465-bd8be0c6d52a
+  uuid: 8b185a3e-7055-472d-b741-5a4e73a3e5b6
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/57.129.47.35-8443
+    path: /Free/TG-at-XionAlva/5.144.179.161-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 13 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Cgi Global 13 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 8041a6af-a412-4cc5-b465-bd8be0c6d52a
+  password: 8b185a3e-7055-472d-b741-5a4e73a3e5b6
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/57.129.47.35-8443
+    path: /Free/TG-at-XionAlva/5.144.179.161-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 13 ss
+      Host: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Cgi Global 13 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 8041a6af-a412-4cc5-b465-bd8be0c6d52a
+  password: 8b185a3e-7055-472d-b741-5a4e73a3e5b6
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/57.129.47.35-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/5.144.179.161-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner+Online+GmbH 14 vless
+      custom: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) Hetzner Online 14 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 912c3e4e-bc18-4251-8b41-8aaefd75a1af
+  uuid: 3a1f2c75-b90c-4df1-9b98-4ebd2988d254
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/65.109.220.238-8738
+    path: /Free/TG-at-XionAlva/88.198.18.246-8443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner+Online+GmbH 14 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) Hetzner Online 14 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 912c3e4e-bc18-4251-8b41-8aaefd75a1af
+  password: 3a1f2c75-b90c-4df1-9b98-4ebd2988d254
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/65.109.220.238-8738
+    path: /Free/TG-at-XionAlva/88.198.18.246-8443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner+Online+GmbH 14 ss
+      Host: free.garaaa.Biz.id
+- name: 🇩🇪 (DE) Hetzner Online 14 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 912c3e4e-bc18-4251-8b41-8aaefd75a1af
+  password: 3a1f2c75-b90c-4df1-9b98-4ebd2988d254
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/65.109.220.238-8738
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/88.198.18.246-8443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) Contabo GmbH 15 vless
+      custom: free.garaaa.Biz.id
+- name: 🇨🇦 (CA) Amazoncom 15 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 1c0b41d6-2cee-479a-9cfc-9d1ed24ee103
+  uuid: 43347797-ba5f-4556-adfe-a8122f25bc46
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/185.215.166.116-37801
+    path: /Free/TG-at-XionAlva/3.98.73.243-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Contabo GmbH 15 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇨🇦 (CA) Amazoncom 15 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 1c0b41d6-2cee-479a-9cfc-9d1ed24ee103
+  password: 43347797-ba5f-4556-adfe-a8122f25bc46
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/185.215.166.116-37801
+    path: /Free/TG-at-XionAlva/3.98.73.243-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) Contabo GmbH 15 ss
+      Host: free.garaaa.Biz.id
+- name: 🇨🇦 (CA) Amazoncom 15 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 1c0b41d6-2cee-479a-9cfc-9d1ed24ee103
+  password: 43347797-ba5f-4556-adfe-a8122f25bc46
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/185.215.166.116-37801
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/3.98.73.243-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇸🇬 (SG) Vultr 16 vless
+      custom: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 16 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: dca8eb50-5689-499f-b7cf-e0b391b71ec3
+  uuid: 6d3448d6-c8cc-4d6d-84e4-e83f9ae4576c
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.76.179.81-443
+    path: /Free/TG-at-XionAlva/135.125.191.89-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇸🇬 (SG) Vultr 16 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 16 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: dca8eb50-5689-499f-b7cf-e0b391b71ec3
+  password: 6d3448d6-c8cc-4d6d-84e4-e83f9ae4576c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.76.179.81-443
+    path: /Free/TG-at-XionAlva/135.125.191.89-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇸🇬 (SG) Vultr 16 ss
+      Host: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 16 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: dca8eb50-5689-499f-b7cf-e0b391b71ec3
+  password: 6d3448d6-c8cc-4d6d-84e4-e83f9ae4576c
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/45.76.179.81-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/135.125.191.89-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner Online 17 vless
+      custom: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Aeza International 17 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 488dd602-73db-47d8-9ca7-e8bad7daff3b
+  uuid: 01e1d415-5610-4b2c-9559-626be02ae1be
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/65.109.242.142-8443
+    path: /Free/TG-at-XionAlva/83.147.254.243-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner Online 17 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Aeza International 17 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 488dd602-73db-47d8-9ca7-e8bad7daff3b
+  password: 01e1d415-5610-4b2c-9559-626be02ae1be
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/65.109.242.142-8443
+    path: /Free/TG-at-XionAlva/83.147.254.243-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇫🇮 (FI) Hetzner Online 17 ss
+      Host: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Aeza International 17 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 488dd602-73db-47d8-9ca7-e8bad7daff3b
+  password: 01e1d415-5610-4b2c-9559-626be02ae1be
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/65.109.242.142-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/83.147.254.243-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 18 vless
+      custom: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Digital Ocean 18 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: fa260c2a-1b68-4b19-9c8b-21a305406180
+  uuid: 4bc746bc-eb60-4ae7-a8cb-bbc8db5111f2
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.119-2053
+    path: /Free/TG-at-XionAlva/178.62.17.85-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 18 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Digital Ocean 18 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: fa260c2a-1b68-4b19-9c8b-21a305406180
+  password: 4bc746bc-eb60-4ae7-a8cb-bbc8db5111f2
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.119-2053
+    path: /Free/TG-at-XionAlva/178.62.17.85-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 18 ss
+      Host: free.garaaa.Biz.id
+- name: 🇬🇧 (GB) Digital Ocean 18 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: fa260c2a-1b68-4b19-9c8b-21a305406180
+  password: 4bc746bc-eb60-4ae7-a8cb-bbc8db5111f2
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/31.24.253.119-2053
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/178.62.17.85-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) RouterHosting 19 vless
+      custom: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 19 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 50fbf300-9434-4124-bd6d-cf73d4578cf4
+  uuid: 4ee59aae-03d4-44b0-8370-8d8d25e3c292
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/172.86.69.45-443
+    path: /Free/TG-at-XionAlva/188.165.3.169-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) RouterHosting 19 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 19 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 50fbf300-9434-4124-bd6d-cf73d4578cf4
+  password: 4ee59aae-03d4-44b0-8370-8d8d25e3c292
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/172.86.69.45-443
+    path: /Free/TG-at-XionAlva/188.165.3.169-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) RouterHosting 19 ss
+      Host: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 19 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 50fbf300-9434-4124-bd6d-cf73d4578cf4
+  password: 4ee59aae-03d4-44b0-8370-8d8d25e3c292
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/172.86.69.45-443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/188.165.3.169-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 20 vless
+      custom: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 20 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 6f445e53-6440-48c5-a564-6dfe9aaa30b9
+  uuid: 23e3ed40-35c3-43af-b0ad-c8bcdd1be252
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.57-8443
+    path: /Free/TG-at-XionAlva/109.176.244.183-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 20 trojan
+      Host: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 20 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 6f445e53-6440-48c5-a564-6dfe9aaa30b9
+  password: 23e3ed40-35c3-43af-b0ad-c8bcdd1be252
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.57-8443
+    path: /Free/TG-at-XionAlva/109.176.244.183-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇩🇪 (DE) OVHcloud 20 ss
+      Host: free.garaaa.Biz.id
+- name: 🇫🇷 (FR) OVHcloud 20 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 6f445e53-6440-48c5-a564-6dfe9aaa30b9
+  password: 23e3ed40-35c3-43af-b0ad-c8bcdd1be252
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/31.24.253.57-8443
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/109.176.244.183-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.garaaa.Biz.id
 proxy-groups:
 - name: INTERNET
   type: select
   disable-udp: false
   proxies:
   - BEST-PING
-  - 🇯🇵 (JP) Amazoncom 1 vless
-  - 🇯🇵 (JP) Amazoncom 1 trojan
-  - 🇯🇵 (JP) Amazoncom 1 ss
-  - 🇩🇪 (DE) netcup 2 vless
-  - 🇩🇪 (DE) netcup 2 trojan
-  - 🇩🇪 (DE) netcup 2 ss
-  - 🇨🇭 (CH) Private Layer 3 vless
-  - 🇨🇭 (CH) Private Layer 3 trojan
-  - 🇨🇭 (CH) Private Layer 3 ss
-  - 🇩🇪 (DE) Digital Ocean 4 vless
-  - 🇩🇪 (DE) Digital Ocean 4 trojan
-  - 🇩🇪 (DE) Digital Ocean 4 ss
-  - 🇨🇦 (CA) Datacamp 5 vless
-  - 🇨🇦 (CA) Datacamp 5 trojan
-  - 🇨🇦 (CA) Datacamp 5 ss
-  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 vless
-  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 trojan
-  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 ss
-  - 🇸🇬 (SG) Oracle Cloud 7 vless
-  - 🇸🇬 (SG) Oracle Cloud 7 trojan
-  - 🇸🇬 (SG) Oracle Cloud 7 ss
-  - 🇩🇪 (DE) Digital Ocean 8 vless
-  - 🇩🇪 (DE) Digital Ocean 8 trojan
-  - 🇩🇪 (DE) Digital Ocean 8 ss
-  - 🇫🇮 (FI) Hetzner Online 9 vless
-  - 🇫🇮 (FI) Hetzner Online 9 trojan
-  - 🇫🇮 (FI) Hetzner Online 9 ss
+  - 🇺🇸 (US) Amazoncom 1 vless
+  - 🇺🇸 (US) Amazoncom 1 trojan
+  - 🇺🇸 (US) Amazoncom 1 ss
+  - 🇪🇪 (EE) Sprint 2 vless
+  - 🇪🇪 (EE) Sprint 2 trojan
+  - 🇪🇪 (EE) Sprint 2 ss
+  - 🇩🇪 (DE) Amazoncom 3 vless
+  - 🇩🇪 (DE) Amazoncom 3 trojan
+  - 🇩🇪 (DE) Amazoncom 3 ss
+  - 🇨🇭 (CH) Serva One 4 vless
+  - 🇨🇭 (CH) Serva One 4 trojan
+  - 🇨🇭 (CH) Serva One 4 ss
+  - 🇩🇪 (DE) OVHcloud 5 vless
+  - 🇩🇪 (DE) OVHcloud 5 trojan
+  - 🇩🇪 (DE) OVHcloud 5 ss
+  - 🇦🇷 (AR) Gigared SA 6 vless
+  - 🇦🇷 (AR) Gigared SA 6 trojan
+  - 🇦🇷 (AR) Gigared SA 6 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 7 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 7 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 7 ss
+  - 🇩🇪 (DE) OVHcloud 8 vless
+  - 🇩🇪 (DE) OVHcloud 8 trojan
+  - 🇩🇪 (DE) OVHcloud 8 ss
+  - 🇦🇪 (AE) G-Core Labs SA 9 vless
+  - 🇦🇪 (AE) G-Core Labs SA 9 trojan
+  - 🇦🇪 (AE) G-Core Labs SA 9 ss
   - 🇩🇪 (DE) OVHcloud 10 vless
   - 🇩🇪 (DE) OVHcloud 10 trojan
   - 🇩🇪 (DE) OVHcloud 10 ss
-  - 🇩🇪 (DE) Fornex Hosting SL 11 vless
-  - 🇩🇪 (DE) Fornex Hosting SL 11 trojan
-  - 🇩🇪 (DE) Fornex Hosting SL 11 ss
-  - 🇩🇪 (DE) Hetzner Online 12 vless
-  - 🇩🇪 (DE) Hetzner Online 12 trojan
-  - 🇩🇪 (DE) Hetzner Online 12 ss
-  - 🇩🇪 (DE) OVHcloud 13 vless
-  - 🇩🇪 (DE) OVHcloud 13 trojan
-  - 🇩🇪 (DE) OVHcloud 13 ss
-  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 vless
-  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 trojan
-  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 ss
-  - 🇩🇪 (DE) Contabo GmbH 15 vless
-  - 🇩🇪 (DE) Contabo GmbH 15 trojan
-  - 🇩🇪 (DE) Contabo GmbH 15 ss
-  - 🇸🇬 (SG) Vultr 16 vless
-  - 🇸🇬 (SG) Vultr 16 trojan
-  - 🇸🇬 (SG) Vultr 16 ss
-  - 🇫🇮 (FI) Hetzner Online 17 vless
-  - 🇫🇮 (FI) Hetzner Online 17 trojan
-  - 🇫🇮 (FI) Hetzner Online 17 ss
-  - 🇩🇪 (DE) OVHcloud 18 vless
-  - 🇩🇪 (DE) OVHcloud 18 trojan
-  - 🇩🇪 (DE) OVHcloud 18 ss
-  - 🇩🇪 (DE) RouterHosting 19 vless
-  - 🇩🇪 (DE) RouterHosting 19 trojan
-  - 🇩🇪 (DE) RouterHosting 19 ss
-  - 🇩🇪 (DE) OVHcloud 20 vless
-  - 🇩🇪 (DE) OVHcloud 20 trojan
-  - 🇩🇪 (DE) OVHcloud 20 ss
+  - 🇩🇪 (DE) OVHcloud 11 vless
+  - 🇩🇪 (DE) OVHcloud 11 trojan
+  - 🇩🇪 (DE) OVHcloud 11 ss
+  - 🇫🇮 (FI) I-servers 12 vless
+  - 🇫🇮 (FI) I-servers 12 trojan
+  - 🇫🇮 (FI) I-servers 12 ss
+  - 🇬🇧 (GB) Cgi Global 13 vless
+  - 🇬🇧 (GB) Cgi Global 13 trojan
+  - 🇬🇧 (GB) Cgi Global 13 ss
+  - 🇩🇪 (DE) Hetzner Online 14 vless
+  - 🇩🇪 (DE) Hetzner Online 14 trojan
+  - 🇩🇪 (DE) Hetzner Online 14 ss
+  - 🇨🇦 (CA) Amazoncom 15 vless
+  - 🇨🇦 (CA) Amazoncom 15 trojan
+  - 🇨🇦 (CA) Amazoncom 15 ss
+  - 🇫🇷 (FR) OVHcloud 16 vless
+  - 🇫🇷 (FR) OVHcloud 16 trojan
+  - 🇫🇷 (FR) OVHcloud 16 ss
+  - 🇬🇧 (GB) Aeza International 17 vless
+  - 🇬🇧 (GB) Aeza International 17 trojan
+  - 🇬🇧 (GB) Aeza International 17 ss
+  - 🇬🇧 (GB) Digital Ocean 18 vless
+  - 🇬🇧 (GB) Digital Ocean 18 trojan
+  - 🇬🇧 (GB) Digital Ocean 18 ss
+  - 🇫🇷 (FR) OVHcloud 19 vless
+  - 🇫🇷 (FR) OVHcloud 19 trojan
+  - 🇫🇷 (FR) OVHcloud 19 ss
+  - 🇫🇷 (FR) OVHcloud 20 vless
+  - 🇫🇷 (FR) OVHcloud 20 trojan
+  - 🇫🇷 (FR) OVHcloud 20 ss
 - name: ADS
   type: select
   disable-udp: false
@@ -1108,66 +1108,66 @@ proxy-groups:
   url: https://detectportal.firefox.com/success.txt
   interval: 60
   proxies:
-  - 🇯🇵 (JP) Amazoncom 1 vless
-  - 🇯🇵 (JP) Amazoncom 1 trojan
-  - 🇯🇵 (JP) Amazoncom 1 ss
-  - 🇩🇪 (DE) netcup 2 vless
-  - 🇩🇪 (DE) netcup 2 trojan
-  - 🇩🇪 (DE) netcup 2 ss
-  - 🇨🇭 (CH) Private Layer 3 vless
-  - 🇨🇭 (CH) Private Layer 3 trojan
-  - 🇨🇭 (CH) Private Layer 3 ss
-  - 🇩🇪 (DE) Digital Ocean 4 vless
-  - 🇩🇪 (DE) Digital Ocean 4 trojan
-  - 🇩🇪 (DE) Digital Ocean 4 ss
-  - 🇨🇦 (CA) Datacamp 5 vless
-  - 🇨🇦 (CA) Datacamp 5 trojan
-  - 🇨🇦 (CA) Datacamp 5 ss
-  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 vless
-  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 trojan
-  - 🇪🇸 (ES) Spotting Brands Technologies SL 6 ss
-  - 🇸🇬 (SG) Oracle Cloud 7 vless
-  - 🇸🇬 (SG) Oracle Cloud 7 trojan
-  - 🇸🇬 (SG) Oracle Cloud 7 ss
-  - 🇩🇪 (DE) Digital Ocean 8 vless
-  - 🇩🇪 (DE) Digital Ocean 8 trojan
-  - 🇩🇪 (DE) Digital Ocean 8 ss
-  - 🇫🇮 (FI) Hetzner Online 9 vless
-  - 🇫🇮 (FI) Hetzner Online 9 trojan
-  - 🇫🇮 (FI) Hetzner Online 9 ss
+  - 🇺🇸 (US) Amazoncom 1 vless
+  - 🇺🇸 (US) Amazoncom 1 trojan
+  - 🇺🇸 (US) Amazoncom 1 ss
+  - 🇪🇪 (EE) Sprint 2 vless
+  - 🇪🇪 (EE) Sprint 2 trojan
+  - 🇪🇪 (EE) Sprint 2 ss
+  - 🇩🇪 (DE) Amazoncom 3 vless
+  - 🇩🇪 (DE) Amazoncom 3 trojan
+  - 🇩🇪 (DE) Amazoncom 3 ss
+  - 🇨🇭 (CH) Serva One 4 vless
+  - 🇨🇭 (CH) Serva One 4 trojan
+  - 🇨🇭 (CH) Serva One 4 ss
+  - 🇩🇪 (DE) OVHcloud 5 vless
+  - 🇩🇪 (DE) OVHcloud 5 trojan
+  - 🇩🇪 (DE) OVHcloud 5 ss
+  - 🇦🇷 (AR) Gigared SA 6 vless
+  - 🇦🇷 (AR) Gigared SA 6 trojan
+  - 🇦🇷 (AR) Gigared SA 6 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 7 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 7 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 7 ss
+  - 🇩🇪 (DE) OVHcloud 8 vless
+  - 🇩🇪 (DE) OVHcloud 8 trojan
+  - 🇩🇪 (DE) OVHcloud 8 ss
+  - 🇦🇪 (AE) G-Core Labs SA 9 vless
+  - 🇦🇪 (AE) G-Core Labs SA 9 trojan
+  - 🇦🇪 (AE) G-Core Labs SA 9 ss
   - 🇩🇪 (DE) OVHcloud 10 vless
   - 🇩🇪 (DE) OVHcloud 10 trojan
   - 🇩🇪 (DE) OVHcloud 10 ss
-  - 🇩🇪 (DE) Fornex Hosting SL 11 vless
-  - 🇩🇪 (DE) Fornex Hosting SL 11 trojan
-  - 🇩🇪 (DE) Fornex Hosting SL 11 ss
-  - 🇩🇪 (DE) Hetzner Online 12 vless
-  - 🇩🇪 (DE) Hetzner Online 12 trojan
-  - 🇩🇪 (DE) Hetzner Online 12 ss
-  - 🇩🇪 (DE) OVHcloud 13 vless
-  - 🇩🇪 (DE) OVHcloud 13 trojan
-  - 🇩🇪 (DE) OVHcloud 13 ss
-  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 vless
-  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 trojan
-  - 🇫🇮 (FI) Hetzner+Online+GmbH 14 ss
-  - 🇩🇪 (DE) Contabo GmbH 15 vless
-  - 🇩🇪 (DE) Contabo GmbH 15 trojan
-  - 🇩🇪 (DE) Contabo GmbH 15 ss
-  - 🇸🇬 (SG) Vultr 16 vless
-  - 🇸🇬 (SG) Vultr 16 trojan
-  - 🇸🇬 (SG) Vultr 16 ss
-  - 🇫🇮 (FI) Hetzner Online 17 vless
-  - 🇫🇮 (FI) Hetzner Online 17 trojan
-  - 🇫🇮 (FI) Hetzner Online 17 ss
-  - 🇩🇪 (DE) OVHcloud 18 vless
-  - 🇩🇪 (DE) OVHcloud 18 trojan
-  - 🇩🇪 (DE) OVHcloud 18 ss
-  - 🇩🇪 (DE) RouterHosting 19 vless
-  - 🇩🇪 (DE) RouterHosting 19 trojan
-  - 🇩🇪 (DE) RouterHosting 19 ss
-  - 🇩🇪 (DE) OVHcloud 20 vless
-  - 🇩🇪 (DE) OVHcloud 20 trojan
-  - 🇩🇪 (DE) OVHcloud 20 ss
+  - 🇩🇪 (DE) OVHcloud 11 vless
+  - 🇩🇪 (DE) OVHcloud 11 trojan
+  - 🇩🇪 (DE) OVHcloud 11 ss
+  - 🇫🇮 (FI) I-servers 12 vless
+  - 🇫🇮 (FI) I-servers 12 trojan
+  - 🇫🇮 (FI) I-servers 12 ss
+  - 🇬🇧 (GB) Cgi Global 13 vless
+  - 🇬🇧 (GB) Cgi Global 13 trojan
+  - 🇬🇧 (GB) Cgi Global 13 ss
+  - 🇩🇪 (DE) Hetzner Online 14 vless
+  - 🇩🇪 (DE) Hetzner Online 14 trojan
+  - 🇩🇪 (DE) Hetzner Online 14 ss
+  - 🇨🇦 (CA) Amazoncom 15 vless
+  - 🇨🇦 (CA) Amazoncom 15 trojan
+  - 🇨🇦 (CA) Amazoncom 15 ss
+  - 🇫🇷 (FR) OVHcloud 16 vless
+  - 🇫🇷 (FR) OVHcloud 16 trojan
+  - 🇫🇷 (FR) OVHcloud 16 ss
+  - 🇬🇧 (GB) Aeza International 17 vless
+  - 🇬🇧 (GB) Aeza International 17 trojan
+  - 🇬🇧 (GB) Aeza International 17 ss
+  - 🇬🇧 (GB) Digital Ocean 18 vless
+  - 🇬🇧 (GB) Digital Ocean 18 trojan
+  - 🇬🇧 (GB) Digital Ocean 18 ss
+  - 🇫🇷 (FR) OVHcloud 19 vless
+  - 🇫🇷 (FR) OVHcloud 19 trojan
+  - 🇫🇷 (FR) OVHcloud 19 ss
+  - 🇫🇷 (FR) OVHcloud 20 vless
+  - 🇫🇷 (FR) OVHcloud 20 trojan
+  - 🇫🇷 (FR) OVHcloud 20 ss
 rule-providers:
   rule_hijacking:
     type: file

@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇯🇵 JP Oracle Cloud CDN TLS"
+    - name: "1 🇯🇵 JP Datacamp CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -11,9 +11,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /free/168.138.201.26:38455
-    - name: "2 🇯🇵 JP Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /free/45.11.1.118:44004
+    - name: "2 🇯🇵 JP Stark Industries Solutions CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -25,9 +25,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/150.230.206.237:9710
-    - name: "3 🇯🇵 JP Z.com CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /free/91.194.160.45:8443
+    - name: "3 🇯🇵 JP Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -39,8 +39,8 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /free/150.95.25.108:2053
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /free/138.2.54.190:37911
     - name: "4 🇯🇵 JP Oracle Cloud CDN TLS"
       network: ws
       port: "443"
@@ -53,9 +53,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/138.3.216.18:587
-    - name: "5 🇯🇵 JP Silicon Cloud Global US CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /free/132.226.8.109:43257
+    - name: "5 🇯🇵 JP Tencent cloud computing CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -67,6 +67,6 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-        path: /free/38.47.53.197:443
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /free/124.156.238.155:443
     
