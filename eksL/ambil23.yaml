@@ -135,7 +135,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 5432e6a5-cf57-454b-8284-63dbabf30c9a
+  uuid: 0ca21dfc-9553-4e17-8f4c-8de94f2c56c4
   cipher: auto
   tls: true
   udp: true
@@ -150,7 +150,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 5432e6a5-cf57-454b-8284-63dbabf30c9a
+  password: 0ca21dfc-9553-4e17-8f4c-8de94f2c56c4
   udp: true
   skip-cert-verify: true
   network: ws
@@ -164,7 +164,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 5432e6a5-cf57-454b-8284-63dbabf30c9a
+  password: 0ca21dfc-9553-4e17-8f4c-8de94f2c56c4
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -180,7 +180,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 56555ff6-5e41-4ab9-b988-9e565f53deac
+  uuid: a871c4ff-a1cf-4ec6-bf59-d2c88d6fb204
   cipher: auto
   tls: true
   udp: true
@@ -195,7 +195,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 56555ff6-5e41-4ab9-b988-9e565f53deac
+  password: a871c4ff-a1cf-4ec6-bf59-d2c88d6fb204
   udp: true
   skip-cert-verify: true
   network: ws
@@ -209,7 +209,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 56555ff6-5e41-4ab9-b988-9e565f53deac
+  password: a871c4ff-a1cf-4ec6-bf59-d2c88d6fb204
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -225,7 +225,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 42250999-0c8d-40bb-81cc-5fdbbd3ab61b
+  uuid: 36f8a74a-16b4-49a7-b8f6-0b4423fb70d5
   cipher: auto
   tls: true
   udp: true
@@ -240,7 +240,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 42250999-0c8d-40bb-81cc-5fdbbd3ab61b
+  password: 36f8a74a-16b4-49a7-b8f6-0b4423fb70d5
   udp: true
   skip-cert-verify: true
   network: ws
@@ -254,7 +254,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 42250999-0c8d-40bb-81cc-5fdbbd3ab61b
+  password: 36f8a74a-16b4-49a7-b8f6-0b4423fb70d5
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -270,7 +270,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 67e6904d-4b1c-449f-a05c-050d5fc6e2f5
+  uuid: df0b6666-1161-4699-a577-448f5ee3e145
   cipher: auto
   tls: true
   udp: true
@@ -285,7 +285,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 67e6904d-4b1c-449f-a05c-050d5fc6e2f5
+  password: df0b6666-1161-4699-a577-448f5ee3e145
   udp: true
   skip-cert-verify: true
   network: ws
@@ -299,7 +299,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 67e6904d-4b1c-449f-a05c-050d5fc6e2f5
+  password: df0b6666-1161-4699-a577-448f5ee3e145
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -315,7 +315,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 599001df-e022-47a1-b505-af44bcfeae5e
+  uuid: 7e2f2e41-539c-49a8-bb8d-548b1c0e20ce
   cipher: auto
   tls: true
   udp: true
@@ -330,7 +330,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 599001df-e022-47a1-b505-af44bcfeae5e
+  password: 7e2f2e41-539c-49a8-bb8d-548b1c0e20ce
   udp: true
   skip-cert-verify: true
   network: ws
@@ -344,7 +344,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 599001df-e022-47a1-b505-af44bcfeae5e
+  password: 7e2f2e41-539c-49a8-bb8d-548b1c0e20ce
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -360,7 +360,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 0b387edd-93e3-4b9f-8973-f928e3e2651a
+  uuid: d2a4e3f6-8bbb-4d9c-9fb6-ef950c2c611b
   cipher: auto
   tls: true
   udp: true
@@ -375,7 +375,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 0b387edd-93e3-4b9f-8973-f928e3e2651a
+  password: d2a4e3f6-8bbb-4d9c-9fb6-ef950c2c611b
   udp: true
   skip-cert-verify: true
   network: ws
@@ -389,7 +389,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 0b387edd-93e3-4b9f-8973-f928e3e2651a
+  password: d2a4e3f6-8bbb-4d9c-9fb6-ef950c2c611b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -405,7 +405,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 0cef9dde-e906-4b31-97d3-876c16258ca0
+  uuid: 550a50a5-d1fb-4289-869e-8d3228868ce7
   cipher: auto
   tls: true
   udp: true
@@ -420,7 +420,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 0cef9dde-e906-4b31-97d3-876c16258ca0
+  password: 550a50a5-d1fb-4289-869e-8d3228868ce7
   udp: true
   skip-cert-verify: true
   network: ws
@@ -434,7 +434,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 0cef9dde-e906-4b31-97d3-876c16258ca0
+  password: 550a50a5-d1fb-4289-869e-8d3228868ce7
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
