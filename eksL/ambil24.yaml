@@ -135,317 +135,317 @@ proxies:
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 38fd4e5f-66b7-4769-a837-e3f4338ee5ed
+  uuid: 05435cc8-79a4-4fda-a478-1077640b00ce
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 38fd4e5f-66b7-4769-a837-e3f4338ee5ed
+  password: 05435cc8-79a4-4fda-a478-1077640b00ce
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 38fd4e5f-66b7-4769-a837-e3f4338ee5ed
+  password: 05435cc8-79a4-4fda-a478-1077640b00ce
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 3349ddaf-d316-447b-b7b6-d81517fc6b27
+  uuid: 3274fdd4-4273-4fe4-b50c-6383140863c6
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 3349ddaf-d316-447b-b7b6-d81517fc6b27
+  password: 3274fdd4-4273-4fe4-b50c-6383140863c6
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 3349ddaf-d316-447b-b7b6-d81517fc6b27
+  password: 3274fdd4-4273-4fe4-b50c-6383140863c6
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 9ba402c9-ed92-4f8c-b827-98f03ddfc74f
+  uuid: 34a69f36-1327-4252-96c7-3ce57215cec8
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 9ba402c9-ed92-4f8c-b827-98f03ddfc74f
+  password: 34a69f36-1327-4252-96c7-3ce57215cec8
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 9ba402c9-ed92-4f8c-b827-98f03ddfc74f
+  password: 34a69f36-1327-4252-96c7-3ce57215cec8
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 4 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: e6eab4d8-3a80-4c12-a2de-bb22743c404b
+  uuid: 29d091d0-7215-4608-bf28-edb8b64efdc3
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: e6eab4d8-3a80-4c12-a2de-bb22743c404b
+  password: 29d091d0-7215-4608-bf28-edb8b64efdc3
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 4 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: e6eab4d8-3a80-4c12-a2de-bb22743c404b
+  password: 29d091d0-7215-4608-bf28-edb8b64efdc3
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.235.251.7-587
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 0c89101d-f765-47e0-8297-1951a6e0d3d4
+  uuid: 521d2eaa-73ec-4330-830c-d984ac8a4366
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 0c89101d-f765-47e0-8297-1951a6e0d3d4
+  password: 521d2eaa-73ec-4330-830c-d984ac8a4366
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 0c89101d-f765-47e0-8297-1951a6e0d3d4
+  password: 521d2eaa-73ec-4330-830c-d984ac8a4366
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 6 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: ebe2dc5f-c64d-408d-bf97-9d2099045dcb
+  uuid: 53864b20-68f7-4218-970b-a142457c6827
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: ebe2dc5f-c64d-408d-bf97-9d2099045dcb
+  password: 53864b20-68f7-4218-970b-a142457c6827
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 6 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: ebe2dc5f-c64d-408d-bf97-9d2099045dcb
+  password: 53864b20-68f7-4218-970b-a142457c6827
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 8e615788-be97-4fcd-b4ed-85b63177a7f2
+  uuid: c7aee8e4-f6a2-4a0f-9d35-9824bd2ead3e
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.gegegeming.My.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 8e615788-be97-4fcd-b4ed-85b63177a7f2
+  password: c7aee8e4-f6a2-4a0f-9d35-9824bd2ead3e
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.gegegeming.My.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.gegegeming.My.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 8e615788-be97-4fcd-b4ed-85b63177a7f2
+  password: c7aee8e4-f6a2-4a0f-9d35-9824bd2ead3e
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.gegegeming.My.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     mux: false
     headers:
-      custom: free.gegegeming.My.id
+      custom: free.aloalo.My.id
 proxy-groups:
 - name: INTERNET
   type: select

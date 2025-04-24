@@ -1,72 +1,72 @@
 proxies:
-    - name: "1 🇺🇸 US Secure Dragon LLC. CDN TLS"
+    - name: "1 🇺🇸 US OVHcloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
+      servername: nuclear.us.kg
       tls: true
       type: vless
       packet-encoding: packetaddr
       uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /free/198.57.46.6:443
-    - name: "2 🇺🇸 US Alibaba CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.biz.id
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      ws-opts:
-        headers:
-            Host: nuclear.biz.id
+            Host: nuclear.us.kg
             User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /free/47.252.4.59:38181
-    - name: "3 🇺🇸 US IT7 Networks CDN TLS"
+        path: /free/104.234.50.56:2053
+    - name: "2 🇺🇸 US CTG Server CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
+      servername: nuclear.us.kg
       tls: true
       type: vless
       packet-encoding: packetaddr
       uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
-        path: /free/64.64.240.179:20001
-    - name: "4 🇺🇸 US Multacom Corporation CDN TLS"
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+        path: /free/192.252.178.131:51494
+    - name: "3 🇺🇸 US Akamai Connected Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
+      servername: nuclear.us.kg
       tls: true
       type: vless
       packet-encoding: packetaddr
       uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /free/74.48.5.119:45616
-    - name: "5 🇺🇸 US Akamai Connected Cloud CDN TLS"
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /free/172.234.197.154:587
+    - name: "4 🇺🇸 US ColoCrossing CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
-      servername: nuclear.biz.id
+      servername: nuclear.us.kg
       tls: true
       type: vless
       packet-encoding: packetaddr
       uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       ws-opts:
         headers:
-            Host: nuclear.biz.id
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /free/172.233.224.100:587
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/107.173.7.180:47584
+    - name: "5 🇺🇸 US IT7 Networks CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /free/74.211.107.73:40376
     

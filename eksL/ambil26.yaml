@@ -131,969 +131,969 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-- name: 🇰🇷 (KR) KT 1 vless
+- name: 🇫🇷 (FR) OVHcloud 1 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: c39e360f-47cb-4945-b4fb-840b6bf1b592
+  uuid: 29928076-0d42-4027-b9e5-1637b6063ed9
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/121.188.107.204-26413
+    path: /Free/TG-at-XionAlva/162.19.140.38-8443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇰🇷 (KR) KT 1 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 1 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: c39e360f-47cb-4945-b4fb-840b6bf1b592
+  password: 29928076-0d42-4027-b9e5-1637b6063ed9
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/121.188.107.204-26413
+    path: /Free/TG-at-XionAlva/162.19.140.38-8443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇰🇷 (KR) KT 1 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 1 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: c39e360f-47cb-4945-b4fb-840b6bf1b592
+  password: 29928076-0d42-4027-b9e5-1637b6063ed9
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/121.188.107.204-26413
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/162.19.140.38-8443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 2 vless
+      custom: free.aloalo.My.id
+- name: 🇨🇾 (CY) Stark Industries Solutions 2 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 15df0e46-db15-421c-98ff-926f61d13c5b
+  uuid: db52b5e1-11f0-4189-a489-838f8a89e667
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/51.89.23.69-2053
+    path: /Free/TG-at-XionAlva/171.22.120.111-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 2 trojan
+      Host: free.aloalo.My.id
+- name: 🇨🇾 (CY) Stark Industries Solutions 2 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 15df0e46-db15-421c-98ff-926f61d13c5b
+  password: db52b5e1-11f0-4189-a489-838f8a89e667
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/51.89.23.69-2053
+    path: /Free/TG-at-XionAlva/171.22.120.111-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 2 ss
+      Host: free.aloalo.My.id
+- name: 🇨🇾 (CY) Stark Industries Solutions 2 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 15df0e46-db15-421c-98ff-926f61d13c5b
+  password: db52b5e1-11f0-4189-a489-838f8a89e667
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/51.89.23.69-2053
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/171.22.120.111-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇩🇪 (DE) OVHcloud 3 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 2420a9c3-14b5-4bdc-8c66-f56a879e7418
+  uuid: 734c3910-e8a6-4e80-83db-6e7987861148
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.211-8443
+    path: /Free/TG-at-XionAlva/89.19.44.208-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇩🇪 (DE) OVHcloud 3 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 2420a9c3-14b5-4bdc-8c66-f56a879e7418
+  password: 734c3910-e8a6-4e80-83db-6e7987861148
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.211-8443
+    path: /Free/TG-at-XionAlva/89.19.44.208-2053
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇩🇪 (DE) OVHcloud 3 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 2420a9c3-14b5-4bdc-8c66-f56a879e7418
+  password: 734c3910-e8a6-4e80-83db-6e7987861148
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/31.24.253.211-8443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/89.19.44.208-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 4 vless
+      custom: free.aloalo.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 4 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 6291ea8f-945d-4998-a39c-c1c441e91724
+  uuid: d500cdaf-5159-4d37-be9b-5eb82a98b400
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/5.178.106.172-2053
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 4 trojan
+      Host: free.aloalo.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 6291ea8f-945d-4998-a39c-c1c441e91724
+  password: d500cdaf-5159-4d37-be9b-5eb82a98b400
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/5.178.106.172-2053
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 4 ss
+      Host: free.aloalo.My.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 4 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 6291ea8f-945d-4998-a39c-c1c441e91724
+  password: d500cdaf-5159-4d37-be9b-5eb82a98b400
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/5.178.106.172-2053
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 vless
+      custom: free.aloalo.My.id
+- name: 🇷🇺 (RU) First Server 5 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: f3c6baf6-a740-4e88-b9d4-3b9da97db9dd
+  uuid: 228df45b-56bc-4d00-a456-27dd5eecf9b9
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/2.189.242.35-9899
+    path: /Free/TG-at-XionAlva/185.233.200.93-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 trojan
+      Host: free.aloalo.My.id
+- name: 🇷🇺 (RU) First Server 5 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: f3c6baf6-a740-4e88-b9d4-3b9da97db9dd
+  password: 228df45b-56bc-4d00-a456-27dd5eecf9b9
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/2.189.242.35-9899
+    path: /Free/TG-at-XionAlva/185.233.200.93-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 ss
+      Host: free.aloalo.My.id
+- name: 🇷🇺 (RU) First Server 5 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: f3c6baf6-a740-4e88-b9d4-3b9da97db9dd
+  password: 228df45b-56bc-4d00-a456-27dd5eecf9b9
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/2.189.242.35-9899
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/185.233.200.93-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Hetzner Online 6 vless
+      custom: free.aloalo.My.id
+- name: 🇭🇰 (HK) Alibaba 6 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: b7dfb9cd-661d-417d-9fe3-60fb7663f7f5
+  uuid: 613d2594-1385-47db-ad4b-90a35b6f0c6f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/188.245.88.114-34478
+    path: /Free/TG-at-XionAlva/8.217.45.219-42291
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Hetzner Online 6 trojan
+      Host: free.aloalo.My.id
+- name: 🇭🇰 (HK) Alibaba 6 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: b7dfb9cd-661d-417d-9fe3-60fb7663f7f5
+  password: 613d2594-1385-47db-ad4b-90a35b6f0c6f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/188.245.88.114-34478
+    path: /Free/TG-at-XionAlva/8.217.45.219-42291
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Hetzner Online 6 ss
+      Host: free.aloalo.My.id
+- name: 🇭🇰 (HK) Alibaba 6 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: b7dfb9cd-661d-417d-9fe3-60fb7663f7f5
+  password: 613d2594-1385-47db-ad4b-90a35b6f0c6f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/188.245.88.114-34478
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/8.217.45.219-42291
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 7 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 7 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: ca9564fd-1b8d-4bbc-9f26-58b70acca860
+  uuid: 3ecebd1e-9c3e-4812-bd52-accec18b2144
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.96-2053
+    path: /Free/TG-at-XionAlva/51.38.90.115-8443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 7 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 7 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: ca9564fd-1b8d-4bbc-9f26-58b70acca860
+  password: 3ecebd1e-9c3e-4812-bd52-accec18b2144
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/31.24.253.96-2053
+    path: /Free/TG-at-XionAlva/51.38.90.115-8443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 7 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 7 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: ca9564fd-1b8d-4bbc-9f26-58b70acca860
+  password: 3ecebd1e-9c3e-4812-bd52-accec18b2144
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/31.24.253.96-2053
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/51.38.90.115-8443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Digital Ocean 8 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 8 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: f4dab572-c53a-4319-8255-9c438002f122
+  uuid: a82ae418-83d9-4e95-a36c-cda341e9c6b0
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/161.35.215.201-443
+    path: /Free/TG-at-XionAlva/51.77.140.9-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Digital Ocean 8 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 8 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: f4dab572-c53a-4319-8255-9c438002f122
+  password: a82ae418-83d9-4e95-a36c-cda341e9c6b0
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/161.35.215.201-443
+    path: /Free/TG-at-XionAlva/51.77.140.9-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Digital Ocean 8 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 8 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: f4dab572-c53a-4319-8255-9c438002f122
+  password: a82ae418-83d9-4e95-a36c-cda341e9c6b0
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/161.35.215.201-443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/51.77.140.9-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Leaseweb Germany 9 vless
+      custom: free.aloalo.My.id
+- name: 🇩🇪 (DE) OVHcloud 9 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 41b90197-f359-44db-a1ec-2250e3785dfe
+  uuid: 01708aad-7afa-40fb-8b51-a5da9d102141
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/37.1.198.51-443
+    path: /Free/TG-at-XionAlva/5.178.106.90-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Leaseweb Germany 9 trojan
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) OVHcloud 9 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 41b90197-f359-44db-a1ec-2250e3785dfe
+  password: 01708aad-7afa-40fb-8b51-a5da9d102141
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/37.1.198.51-443
+    path: /Free/TG-at-XionAlva/5.178.106.90-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Leaseweb Germany 9 ss
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) OVHcloud 9 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 41b90197-f359-44db-a1ec-2250e3785dfe
+  password: 01708aad-7afa-40fb-8b51-a5da9d102141
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/37.1.198.51-443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/5.178.106.90-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Melbikomas UAB 10 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) Aeza International 10 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 6c323f64-2001-4b85-9f2f-5e32aca633f2
+  uuid: 58dc53d6-bcd3-469a-870c-132fa430d27f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/185.224.248.120-443
+    path: /Free/TG-at-XionAlva/77.105.166.230-8442
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Melbikomas UAB 10 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) Aeza International 10 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 6c323f64-2001-4b85-9f2f-5e32aca633f2
+  password: 58dc53d6-bcd3-469a-870c-132fa430d27f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/185.224.248.120-443
+    path: /Free/TG-at-XionAlva/77.105.166.230-8442
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Melbikomas UAB 10 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) Aeza International 10 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 6c323f64-2001-4b85-9f2f-5e32aca633f2
+  password: 58dc53d6-bcd3-469a-870c-132fa430d27f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/185.224.248.120-443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/77.105.166.230-8442
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Amazoncom 11 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 11 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: d6ed3a9f-f0a7-48d7-9ab0-b682dd70bf97
+  uuid: edcdd249-55e9-4ac3-b8a3-3170649c060d
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/18.197.195.222-8443
+    path: /Free/TG-at-XionAlva/191.96.153.67-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Amazoncom 11 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 11 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: d6ed3a9f-f0a7-48d7-9ab0-b682dd70bf97
+  password: edcdd249-55e9-4ac3-b8a3-3170649c060d
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/18.197.195.222-8443
+    path: /Free/TG-at-XionAlva/191.96.153.67-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Amazoncom 11 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 11 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: d6ed3a9f-f0a7-48d7-9ab0-b682dd70bf97
+  password: edcdd249-55e9-4ac3-b8a3-3170649c060d
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/18.197.195.222-8443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/191.96.153.67-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Serva One 12 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 12 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 6851064a-5f43-4791-ac48-853262632a37
+  uuid: 4f1a7ece-4893-4cc1-9041-6119260db966
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.129.242.128-443
+    path: /Free/TG-at-XionAlva/57.128.31.36-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Serva One 12 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 12 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 6851064a-5f43-4791-ac48-853262632a37
+  password: 4f1a7ece-4893-4cc1-9041-6119260db966
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.129.242.128-443
+    path: /Free/TG-at-XionAlva/57.128.31.36-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Serva One 12 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 12 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 6851064a-5f43-4791-ac48-853262632a37
+  password: 4f1a7ece-4893-4cc1-9041-6119260db966
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/45.129.242.128-443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/57.128.31.36-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Digital Ocean 13 vless
+      custom: free.aloalo.My.id
+- name: 🇩🇪 (DE) OVHcloud 13 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 022c00f7-2f73-4310-9fbd-bd114716ecfe
+  uuid: c774e7c7-6625-4687-9766-3b528f546f0a
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/161.35.78.241-443
+    path: /Free/TG-at-XionAlva/57.129.63.152-8443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Digital Ocean 13 trojan
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) OVHcloud 13 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 022c00f7-2f73-4310-9fbd-bd114716ecfe
+  password: c774e7c7-6625-4687-9766-3b528f546f0a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/161.35.78.241-443
+    path: /Free/TG-at-XionAlva/57.129.63.152-8443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Digital Ocean 13 ss
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) OVHcloud 13 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 022c00f7-2f73-4310-9fbd-bd114716ecfe
+  password: c774e7c7-6625-4687-9766-3b528f546f0a
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/161.35.78.241-443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/57.129.63.152-8443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) dataforest 14 vless
+      custom: free.aloalo.My.id
+- name: 🇩🇪 (DE) Hetzner Online 14 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: ea64b38d-5184-4525-b8cf-dcb3b0d77993
+  uuid: d5031f6b-2b06-46ea-99f9-0422f00513a3
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.157.233.83-3107
+    path: /Free/TG-at-XionAlva/195.201.231.143-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) dataforest 14 trojan
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) Hetzner Online 14 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: ea64b38d-5184-4525-b8cf-dcb3b0d77993
+  password: d5031f6b-2b06-46ea-99f9-0422f00513a3
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.157.233.83-3107
+    path: /Free/TG-at-XionAlva/195.201.231.143-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) dataforest 14 ss
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) Hetzner Online 14 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: ea64b38d-5184-4525-b8cf-dcb3b0d77993
+  password: d5031f6b-2b06-46ea-99f9-0422f00513a3
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/45.157.233.83-3107
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/195.201.231.143-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇫🇷 (FR) OVHcloud 15 vless
+      custom: free.aloalo.My.id
+- name: 🇩🇪 (DE) Hetzner Online 15 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 76230765-ef0f-4108-9b99-75df2e301497
+  uuid: ac0d3a81-5149-454a-a262-7a4433d3130f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/57.128.27.137-443
+    path: /Free/TG-at-XionAlva/128.140.36.134-1000
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇫🇷 (FR) OVHcloud 15 trojan
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) Hetzner Online 15 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 76230765-ef0f-4108-9b99-75df2e301497
+  password: ac0d3a81-5149-454a-a262-7a4433d3130f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/57.128.27.137-443
+    path: /Free/TG-at-XionAlva/128.140.36.134-1000
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇫🇷 (FR) OVHcloud 15 ss
+      Host: free.aloalo.My.id
+- name: 🇩🇪 (DE) Hetzner Online 15 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 76230765-ef0f-4108-9b99-75df2e301497
+  password: ac0d3a81-5149-454a-a262-7a4433d3130f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/57.128.27.137-443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/128.140.36.134-1000
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Amazoncom 16 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) Bouygues Telecom 16 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: b7e7b0b9-0b36-46c6-8fc0-05861f5a5d68
+  uuid: e7a08c37-914c-47c0-89d2-61a2b6146a84
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/18.193.72.245-8880
+    path: /Free/TG-at-XionAlva/176.191.128.203-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Amazoncom 16 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) Bouygues Telecom 16 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: b7e7b0b9-0b36-46c6-8fc0-05861f5a5d68
+  password: e7a08c37-914c-47c0-89d2-61a2b6146a84
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/18.193.72.245-8880
+    path: /Free/TG-at-XionAlva/176.191.128.203-443
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) Amazoncom 16 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) Bouygues Telecom 16 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: b7e7b0b9-0b36-46c6-8fc0-05861f5a5d68
+  password: e7a08c37-914c-47c0-89d2-61a2b6146a84
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/18.193.72.245-8880
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/176.191.128.203-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇦🇪 (AE) Oracle Cloud 17 vless
+      custom: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 17 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: fb443480-9cec-4482-b89d-a44d1d048d47
+  uuid: 1807b0fd-24e3-4c5d-baf5-11314356db96
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/129.151.128.114-34834
+    path: /Free/TG-at-XionAlva/51.178.82.214-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇦🇪 (AE) Oracle Cloud 17 trojan
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 17 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: fb443480-9cec-4482-b89d-a44d1d048d47
+  password: 1807b0fd-24e3-4c5d-baf5-11314356db96
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/129.151.128.114-34834
+    path: /Free/TG-at-XionAlva/51.178.82.214-2053
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇦🇪 (AE) Oracle Cloud 17 ss
+      Host: free.aloalo.My.id
+- name: 🇫🇷 (FR) OVHcloud 17 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: fb443480-9cec-4482-b89d-a44d1d048d47
+  password: 1807b0fd-24e3-4c5d-baf5-11314356db96
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/129.151.128.114-34834
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/51.178.82.214-2053
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇫🇷 (FR) OVHcloud 18 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 3c2040b0-6d32-43d5-aff7-2ae5ee4566c4
+  uuid: 2da41448-fc2e-40aa-bb18-831b2ac65edb
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/141.94.221.163-8443
+    path: /Free/TG-at-XionAlva/57.128.27.200-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇫🇷 (FR) OVHcloud 18 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 3c2040b0-6d32-43d5-aff7-2ae5ee4566c4
+  password: 2da41448-fc2e-40aa-bb18-831b2ac65edb
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/141.94.221.163-8443
+    path: /Free/TG-at-XionAlva/57.128.27.200-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇫🇷 (FR) OVHcloud 18 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 3c2040b0-6d32-43d5-aff7-2ae5ee4566c4
+  password: 2da41448-fc2e-40aa-bb18-831b2ac65edb
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/141.94.221.163-8443
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/57.128.27.200-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 19 vless
+      custom: free.aloalo.My.id
+- name: 🇦🇺 (AU) Digital Ocean 19 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 3fc8e650-3c29-4e78-9546-8acf66c02a0d
+  uuid: 0a7051eb-a574-4109-9aad-ecd0b912d611
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/77.81.138.105-2053
+    path: /Free/TG-at-XionAlva/170.64.192.191-31257
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 19 trojan
+      Host: free.aloalo.My.id
+- name: 🇦🇺 (AU) Digital Ocean 19 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 3fc8e650-3c29-4e78-9546-8acf66c02a0d
+  password: 0a7051eb-a574-4109-9aad-ecd0b912d611
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/77.81.138.105-2053
+    path: /Free/TG-at-XionAlva/170.64.192.191-31257
     headers:
-      Host: free.garaaa.Biz.id
-- name: 🇩🇪 (DE) OVHcloud 19 ss
+      Host: free.aloalo.My.id
+- name: 🇦🇺 (AU) Digital Ocean 19 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 3fc8e650-3c29-4e78-9546-8acf66c02a0d
+  password: 0a7051eb-a574-4109-9aad-ecd0b912d611
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/77.81.138.105-2053
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/170.64.192.191-31257
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇫🇷 (FR) OVHcloud 20 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: d1794260-9498-46a8-96c1-9a2e98dffd66
+  uuid: 7c1bde18-1fe7-45c0-ae93-f34f7cbe6d4f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.garaaa.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/191.96.153.35-2053
+    path: /Free/TG-at-XionAlva/57.129.137.227-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇫🇷 (FR) OVHcloud 20 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: d1794260-9498-46a8-96c1-9a2e98dffd66
+  password: 7c1bde18-1fe7-45c0-ae93-f34f7cbe6d4f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.garaaa.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/191.96.153.35-2053
+    path: /Free/TG-at-XionAlva/57.129.137.227-443
     headers:
-      Host: free.garaaa.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇫🇷 (FR) OVHcloud 20 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: d1794260-9498-46a8-96c1-9a2e98dffd66
+  password: 7c1bde18-1fe7-45c0-ae93-f34f7cbe6d4f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/191.96.153.35-2053
+    host: free.aloalo.My.id
+    path: /Free/TG-at-XionAlva/57.129.137.227-443
     mux: false
     headers:
-      custom: free.garaaa.Biz.id
+      custom: free.aloalo.My.id
 proxy-groups:
 - name: INTERNET
   type: select
   disable-udp: false
   proxies:
   - BEST-PING
-  - 🇰🇷 (KR) KT 1 vless
-  - 🇰🇷 (KR) KT 1 trojan
-  - 🇰🇷 (KR) KT 1 ss
-  - 🇩🇪 (DE) OVHcloud 2 vless
-  - 🇩🇪 (DE) OVHcloud 2 trojan
-  - 🇩🇪 (DE) OVHcloud 2 ss
+  - 🇫🇷 (FR) OVHcloud 1 vless
+  - 🇫🇷 (FR) OVHcloud 1 trojan
+  - 🇫🇷 (FR) OVHcloud 1 ss
+  - 🇨🇾 (CY) Stark Industries Solutions 2 vless
+  - 🇨🇾 (CY) Stark Industries Solutions 2 trojan
+  - 🇨🇾 (CY) Stark Industries Solutions 2 ss
   - 🇩🇪 (DE) OVHcloud 3 vless
   - 🇩🇪 (DE) OVHcloud 3 trojan
   - 🇩🇪 (DE) OVHcloud 3 ss
-  - 🇩🇪 (DE) OVHcloud 4 vless
-  - 🇩🇪 (DE) OVHcloud 4 trojan
-  - 🇩🇪 (DE) OVHcloud 4 ss
-  - 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 vless
-  - 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 trojan
-  - 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 ss
-  - 🇩🇪 (DE) Hetzner Online 6 vless
-  - 🇩🇪 (DE) Hetzner Online 6 trojan
-  - 🇩🇪 (DE) Hetzner Online 6 ss
-  - 🇩🇪 (DE) OVHcloud 7 vless
-  - 🇩🇪 (DE) OVHcloud 7 trojan
-  - 🇩🇪 (DE) OVHcloud 7 ss
-  - 🇩🇪 (DE) Digital Ocean 8 vless
-  - 🇩🇪 (DE) Digital Ocean 8 trojan
-  - 🇩🇪 (DE) Digital Ocean 8 ss
-  - 🇩🇪 (DE) Leaseweb Germany 9 vless
-  - 🇩🇪 (DE) Leaseweb Germany 9 trojan
-  - 🇩🇪 (DE) Leaseweb Germany 9 ss
-  - 🇩🇪 (DE) Melbikomas UAB 10 vless
-  - 🇩🇪 (DE) Melbikomas UAB 10 trojan
-  - 🇩🇪 (DE) Melbikomas UAB 10 ss
-  - 🇩🇪 (DE) Amazoncom 11 vless
-  - 🇩🇪 (DE) Amazoncom 11 trojan
-  - 🇩🇪 (DE) Amazoncom 11 ss
-  - 🇩🇪 (DE) Serva One 12 vless
-  - 🇩🇪 (DE) Serva One 12 trojan
-  - 🇩🇪 (DE) Serva One 12 ss
-  - 🇩🇪 (DE) Digital Ocean 13 vless
-  - 🇩🇪 (DE) Digital Ocean 13 trojan
-  - 🇩🇪 (DE) Digital Ocean 13 ss
-  - 🇩🇪 (DE) dataforest 14 vless
-  - 🇩🇪 (DE) dataforest 14 trojan
-  - 🇩🇪 (DE) dataforest 14 ss
-  - 🇫🇷 (FR) OVHcloud 15 vless
-  - 🇫🇷 (FR) OVHcloud 15 trojan
-  - 🇫🇷 (FR) OVHcloud 15 ss
-  - 🇩🇪 (DE) Amazoncom 16 vless
-  - 🇩🇪 (DE) Amazoncom 16 trojan
-  - 🇩🇪 (DE) Amazoncom 16 ss
-  - 🇦🇪 (AE) Oracle Cloud 17 vless
-  - 🇦🇪 (AE) Oracle Cloud 17 trojan
-  - 🇦🇪 (AE) Oracle Cloud 17 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 4 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 4 ss
+  - 🇷🇺 (RU) First Server 5 vless
+  - 🇷🇺 (RU) First Server 5 trojan
+  - 🇷🇺 (RU) First Server 5 ss
+  - 🇭🇰 (HK) Alibaba 6 vless
+  - 🇭🇰 (HK) Alibaba 6 trojan
+  - 🇭🇰 (HK) Alibaba 6 ss
+  - 🇫🇷 (FR) OVHcloud 7 vless
+  - 🇫🇷 (FR) OVHcloud 7 trojan
+  - 🇫🇷 (FR) OVHcloud 7 ss
+  - 🇫🇷 (FR) OVHcloud 8 vless
+  - 🇫🇷 (FR) OVHcloud 8 trojan
+  - 🇫🇷 (FR) OVHcloud 8 ss
+  - 🇩🇪 (DE) OVHcloud 9 vless
+  - 🇩🇪 (DE) OVHcloud 9 trojan
+  - 🇩🇪 (DE) OVHcloud 9 ss
+  - 🇫🇷 (FR) Aeza International 10 vless
+  - 🇫🇷 (FR) Aeza International 10 trojan
+  - 🇫🇷 (FR) Aeza International 10 ss
+  - 🇫🇷 (FR) OVHcloud 11 vless
+  - 🇫🇷 (FR) OVHcloud 11 trojan
+  - 🇫🇷 (FR) OVHcloud 11 ss
+  - 🇫🇷 (FR) OVHcloud 12 vless
+  - 🇫🇷 (FR) OVHcloud 12 trojan
+  - 🇫🇷 (FR) OVHcloud 12 ss
+  - 🇩🇪 (DE) OVHcloud 13 vless
+  - 🇩🇪 (DE) OVHcloud 13 trojan
+  - 🇩🇪 (DE) OVHcloud 13 ss
+  - 🇩🇪 (DE) Hetzner Online 14 vless
+  - 🇩🇪 (DE) Hetzner Online 14 trojan
+  - 🇩🇪 (DE) Hetzner Online 14 ss
+  - 🇩🇪 (DE) Hetzner Online 15 vless
+  - 🇩🇪 (DE) Hetzner Online 15 trojan
+  - 🇩🇪 (DE) Hetzner Online 15 ss
+  - 🇫🇷 (FR) Bouygues Telecom 16 vless
+  - 🇫🇷 (FR) Bouygues Telecom 16 trojan
+  - 🇫🇷 (FR) Bouygues Telecom 16 ss
+  - 🇫🇷 (FR) OVHcloud 17 vless
+  - 🇫🇷 (FR) OVHcloud 17 trojan
+  - 🇫🇷 (FR) OVHcloud 17 ss
   - 🇫🇷 (FR) OVHcloud 18 vless
   - 🇫🇷 (FR) OVHcloud 18 trojan
   - 🇫🇷 (FR) OVHcloud 18 ss
-  - 🇩🇪 (DE) OVHcloud 19 vless
-  - 🇩🇪 (DE) OVHcloud 19 trojan
-  - 🇩🇪 (DE) OVHcloud 19 ss
+  - 🇦🇺 (AU) Digital Ocean 19 vless
+  - 🇦🇺 (AU) Digital Ocean 19 trojan
+  - 🇦🇺 (AU) Digital Ocean 19 ss
   - 🇫🇷 (FR) OVHcloud 20 vless
   - 🇫🇷 (FR) OVHcloud 20 trojan
   - 🇫🇷 (FR) OVHcloud 20 ss
@@ -1108,63 +1108,63 @@ proxy-groups:
   url: https://detectportal.firefox.com/success.txt
   interval: 60
   proxies:
-  - 🇰🇷 (KR) KT 1 vless
-  - 🇰🇷 (KR) KT 1 trojan
-  - 🇰🇷 (KR) KT 1 ss
-  - 🇩🇪 (DE) OVHcloud 2 vless
-  - 🇩🇪 (DE) OVHcloud 2 trojan
-  - 🇩🇪 (DE) OVHcloud 2 ss
+  - 🇫🇷 (FR) OVHcloud 1 vless
+  - 🇫🇷 (FR) OVHcloud 1 trojan
+  - 🇫🇷 (FR) OVHcloud 1 ss
+  - 🇨🇾 (CY) Stark Industries Solutions 2 vless
+  - 🇨🇾 (CY) Stark Industries Solutions 2 trojan
+  - 🇨🇾 (CY) Stark Industries Solutions 2 ss
   - 🇩🇪 (DE) OVHcloud 3 vless
   - 🇩🇪 (DE) OVHcloud 3 trojan
   - 🇩🇪 (DE) OVHcloud 3 ss
-  - 🇩🇪 (DE) OVHcloud 4 vless
-  - 🇩🇪 (DE) OVHcloud 4 trojan
-  - 🇩🇪 (DE) OVHcloud 4 ss
-  - 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 vless
-  - 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 trojan
-  - 🇮🇷 (IR) Asre Pardazeshe Ettelaate Amin Institute 5 ss
-  - 🇩🇪 (DE) Hetzner Online 6 vless
-  - 🇩🇪 (DE) Hetzner Online 6 trojan
-  - 🇩🇪 (DE) Hetzner Online 6 ss
-  - 🇩🇪 (DE) OVHcloud 7 vless
-  - 🇩🇪 (DE) OVHcloud 7 trojan
-  - 🇩🇪 (DE) OVHcloud 7 ss
-  - 🇩🇪 (DE) Digital Ocean 8 vless
-  - 🇩🇪 (DE) Digital Ocean 8 trojan
-  - 🇩🇪 (DE) Digital Ocean 8 ss
-  - 🇩🇪 (DE) Leaseweb Germany 9 vless
-  - 🇩🇪 (DE) Leaseweb Germany 9 trojan
-  - 🇩🇪 (DE) Leaseweb Germany 9 ss
-  - 🇩🇪 (DE) Melbikomas UAB 10 vless
-  - 🇩🇪 (DE) Melbikomas UAB 10 trojan
-  - 🇩🇪 (DE) Melbikomas UAB 10 ss
-  - 🇩🇪 (DE) Amazoncom 11 vless
-  - 🇩🇪 (DE) Amazoncom 11 trojan
-  - 🇩🇪 (DE) Amazoncom 11 ss
-  - 🇩🇪 (DE) Serva One 12 vless
-  - 🇩🇪 (DE) Serva One 12 trojan
-  - 🇩🇪 (DE) Serva One 12 ss
-  - 🇩🇪 (DE) Digital Ocean 13 vless
-  - 🇩🇪 (DE) Digital Ocean 13 trojan
-  - 🇩🇪 (DE) Digital Ocean 13 ss
-  - 🇩🇪 (DE) dataforest 14 vless
-  - 🇩🇪 (DE) dataforest 14 trojan
-  - 🇩🇪 (DE) dataforest 14 ss
-  - 🇫🇷 (FR) OVHcloud 15 vless
-  - 🇫🇷 (FR) OVHcloud 15 trojan
-  - 🇫🇷 (FR) OVHcloud 15 ss
-  - 🇩🇪 (DE) Amazoncom 16 vless
-  - 🇩🇪 (DE) Amazoncom 16 trojan
-  - 🇩🇪 (DE) Amazoncom 16 ss
-  - 🇦🇪 (AE) Oracle Cloud 17 vless
-  - 🇦🇪 (AE) Oracle Cloud 17 trojan
-  - 🇦🇪 (AE) Oracle Cloud 17 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 4 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 4 ss
+  - 🇷🇺 (RU) First Server 5 vless
+  - 🇷🇺 (RU) First Server 5 trojan
+  - 🇷🇺 (RU) First Server 5 ss
+  - 🇭🇰 (HK) Alibaba 6 vless
+  - 🇭🇰 (HK) Alibaba 6 trojan
+  - 🇭🇰 (HK) Alibaba 6 ss
+  - 🇫🇷 (FR) OVHcloud 7 vless
+  - 🇫🇷 (FR) OVHcloud 7 trojan
+  - 🇫🇷 (FR) OVHcloud 7 ss
+  - 🇫🇷 (FR) OVHcloud 8 vless
+  - 🇫🇷 (FR) OVHcloud 8 trojan
+  - 🇫🇷 (FR) OVHcloud 8 ss
+  - 🇩🇪 (DE) OVHcloud 9 vless
+  - 🇩🇪 (DE) OVHcloud 9 trojan
+  - 🇩🇪 (DE) OVHcloud 9 ss
+  - 🇫🇷 (FR) Aeza International 10 vless
+  - 🇫🇷 (FR) Aeza International 10 trojan
+  - 🇫🇷 (FR) Aeza International 10 ss
+  - 🇫🇷 (FR) OVHcloud 11 vless
+  - 🇫🇷 (FR) OVHcloud 11 trojan
+  - 🇫🇷 (FR) OVHcloud 11 ss
+  - 🇫🇷 (FR) OVHcloud 12 vless
+  - 🇫🇷 (FR) OVHcloud 12 trojan
+  - 🇫🇷 (FR) OVHcloud 12 ss
+  - 🇩🇪 (DE) OVHcloud 13 vless
+  - 🇩🇪 (DE) OVHcloud 13 trojan
+  - 🇩🇪 (DE) OVHcloud 13 ss
+  - 🇩🇪 (DE) Hetzner Online 14 vless
+  - 🇩🇪 (DE) Hetzner Online 14 trojan
+  - 🇩🇪 (DE) Hetzner Online 14 ss
+  - 🇩🇪 (DE) Hetzner Online 15 vless
+  - 🇩🇪 (DE) Hetzner Online 15 trojan
+  - 🇩🇪 (DE) Hetzner Online 15 ss
+  - 🇫🇷 (FR) Bouygues Telecom 16 vless
+  - 🇫🇷 (FR) Bouygues Telecom 16 trojan
+  - 🇫🇷 (FR) Bouygues Telecom 16 ss
+  - 🇫🇷 (FR) OVHcloud 17 vless
+  - 🇫🇷 (FR) OVHcloud 17 trojan
+  - 🇫🇷 (FR) OVHcloud 17 ss
   - 🇫🇷 (FR) OVHcloud 18 vless
   - 🇫🇷 (FR) OVHcloud 18 trojan
   - 🇫🇷 (FR) OVHcloud 18 ss
-  - 🇩🇪 (DE) OVHcloud 19 vless
-  - 🇩🇪 (DE) OVHcloud 19 trojan
-  - 🇩🇪 (DE) OVHcloud 19 ss
+  - 🇦🇺 (AU) Digital Ocean 19 vless
+  - 🇦🇺 (AU) Digital Ocean 19 trojan
+  - 🇦🇺 (AU) Digital Ocean 19 ss
   - 🇫🇷 (FR) OVHcloud 20 vless
   - 🇫🇷 (FR) OVHcloud 20 trojan
   - 🇫🇷 (FR) OVHcloud 20 ss
