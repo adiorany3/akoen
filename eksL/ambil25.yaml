@@ -135,7 +135,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 7000f649-b510-4345-8745-095c0931bc7e
+  uuid: 5ef63feb-3a5b-4e2a-bf7e-948ba284ae3c
   cipher: auto
   tls: true
   udp: true
@@ -150,7 +150,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 7000f649-b510-4345-8745-095c0931bc7e
+  password: 5ef63feb-3a5b-4e2a-bf7e-948ba284ae3c
   udp: true
   skip-cert-verify: true
   network: ws
@@ -164,7 +164,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 7000f649-b510-4345-8745-095c0931bc7e
+  password: 5ef63feb-3a5b-4e2a-bf7e-948ba284ae3c
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -180,7 +180,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 17ce8b7e-95f7-43f3-8e49-9836419facec
+  uuid: 7fb412e5-264b-4b73-979d-23ab13785d61
   cipher: auto
   tls: true
   udp: true
@@ -195,7 +195,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 17ce8b7e-95f7-43f3-8e49-9836419facec
+  password: 7fb412e5-264b-4b73-979d-23ab13785d61
   udp: true
   skip-cert-verify: true
   network: ws
@@ -209,7 +209,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 17ce8b7e-95f7-43f3-8e49-9836419facec
+  password: 7fb412e5-264b-4b73-979d-23ab13785d61
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -221,11 +221,11 @@ proxies:
     mux: false
     headers:
       custom: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Amazoncom 3 vless
+- name: 🇮🇩 (ID) Akamai Connected Cloud 3 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 096b80a8-58d9-40e0-a8f6-3a098c3dd673
+  uuid: 2ac45f1c-d84a-415c-bb82-04ff45f6e0d0
   cipher: auto
   tls: true
   udp: true
@@ -233,28 +233,28 @@ proxies:
   network: ws
   servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Amazoncom 3 trojan
+- name: 🇮🇩 (ID) Akamai Connected Cloud 3 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 096b80a8-58d9-40e0-a8f6-3a098c3dd673
+  password: 2ac45f1c-d84a-415c-bb82-04ff45f6e0d0
   udp: true
   skip-cert-verify: true
   network: ws
   sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Amazoncom 3 ss
+- name: 🇮🇩 (ID) Akamai Connected Cloud 3 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 096b80a8-58d9-40e0-a8f6-3a098c3dd673
+  password: 2ac45f1c-d84a-415c-bb82-04ff45f6e0d0
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -262,15 +262,15 @@ proxies:
     tls: true
     skip-cert-verify: true
     host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    path: /Free/TG-at-XionAlva/172.235.251.7-587
     mux: false
     headers:
       custom: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 4 vless
+- name: 🇮🇩 (ID) Amazoncom 4 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 261a4471-3c00-4be0-aca4-ca720ca608d7
+  uuid: cbd03809-328a-4e76-9321-146c9870614f
   cipher: auto
   tls: true
   udp: true
@@ -278,28 +278,28 @@ proxies:
   network: ws
   servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
+- name: 🇮🇩 (ID) Amazoncom 4 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 261a4471-3c00-4be0-aca4-ca720ca608d7
+  password: cbd03809-328a-4e76-9321-146c9870614f
   udp: true
   skip-cert-verify: true
   network: ws
   sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 4 ss
+- name: 🇮🇩 (ID) Amazoncom 4 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 261a4471-3c00-4be0-aca4-ca720ca608d7
+  password: cbd03809-328a-4e76-9321-146c9870614f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -307,7 +307,7 @@ proxies:
     tls: true
     skip-cert-verify: true
     host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/172.235.251.7-587
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
       custom: free.garaaa.Biz.id
@@ -315,7 +315,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 379ccb92-4449-4c0a-84d0-67d44bfb35f2
+  uuid: 854f48f3-8c71-409a-8f9e-ac239145bb19
   cipher: auto
   tls: true
   udp: true
@@ -330,7 +330,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 379ccb92-4449-4c0a-84d0-67d44bfb35f2
+  password: 854f48f3-8c71-409a-8f9e-ac239145bb19
   udp: true
   skip-cert-verify: true
   network: ws
@@ -344,7 +344,7 @@ proxies:
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 379ccb92-4449-4c0a-84d0-67d44bfb35f2
+  password: 854f48f3-8c71-409a-8f9e-ac239145bb19
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -356,11 +356,146 @@ proxies:
     mux: false
     headers:
       custom: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 6 vless
+- name: 🇮🇩 (ID) Alibaba 6 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 1d451dd2-e696-4402-8b8d-814c34e002cd
+  uuid: d53cdad1-54a3-4a54-8c12-e73535245590
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Alibaba 6 trojan
+  server: 104.17.72.206
+  port: 443
+  type: trojan
+  password: d53cdad1-54a3-4a54-8c12-e73535245590
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Alibaba 6 ss
+  type: ss
+  server: 104.17.72.206
+  port: 443
+  cipher: none
+  password: d53cdad1-54a3-4a54-8c12-e73535245590
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/8.215.196.18-587
+    mux: false
+    headers:
+      custom: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) PT Telkom Indonesia 7 vless
+  server: 104.17.72.206
+  port: 443
+  type: vless
+  uuid: 1e2a6601-eea6-412c-bc3f-09be218a52e3
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
+  server: 104.17.72.206
+  port: 443
+  type: trojan
+  password: 1e2a6601-eea6-412c-bc3f-09be218a52e3
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) PT Telkom Indonesia 7 ss
+  type: ss
+  server: 104.17.72.206
+  port: 443
+  cipher: none
+  password: 1e2a6601-eea6-412c-bc3f-09be218a52e3
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/36.95.152.58-12137
+    mux: false
+    headers:
+      custom: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 vless
+  server: 104.17.72.206
+  port: 443
+  type: vless
+  uuid: f39efb04-73fd-47a7-a41d-52cbb6f74a68
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 trojan
+  server: 104.17.72.206
+  port: 443
+  type: trojan
+  password: f39efb04-73fd-47a7-a41d-52cbb6f74a68
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 ss
+  type: ss
+  server: 104.17.72.206
+  port: 443
+  cipher: none
+  password: f39efb04-73fd-47a7-a41d-52cbb6f74a68
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    mux: false
+    headers:
+      custom: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 9 vless
+  server: 104.17.72.206
+  port: 443
+  type: vless
+  uuid: f13c5793-8bda-4058-ba30-b9067f7cc177
   cipher: auto
   tls: true
   udp: true
@@ -371,11 +506,11 @@ proxies:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
+- name: 🇮🇩 (ID) Akamai Connected Cloud 9 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 1d451dd2-e696-4402-8b8d-814c34e002cd
+  password: f13c5793-8bda-4058-ba30-b9067f7cc177
   udp: true
   skip-cert-verify: true
   network: ws
@@ -384,12 +519,12 @@ proxies:
     path: /Free/TG-at-XionAlva/172.232.237.112-2053
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 6 ss
+- name: 🇮🇩 (ID) Akamai Connected Cloud 9 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 1d451dd2-e696-4402-8b8d-814c34e002cd
+  password: f13c5793-8bda-4058-ba30-b9067f7cc177
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -401,11 +536,11 @@ proxies:
     mux: false
     headers:
       custom: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 vless
+- name: 🇮🇩 (ID) PT Pusat Media Indonesia 10 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 8ecd6bb6-420d-4e0b-bee1-37bb2c8f9100
+  uuid: bdfed629-b2a8-4b17-9453-c223bb401a1e
   cipher: auto
   tls: true
   udp: true
@@ -413,28 +548,28 @@ proxies:
   network: ws
   servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 trojan
+- name: 🇮🇩 (ID) PT Pusat Media Indonesia 10 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 8ecd6bb6-420d-4e0b-bee1-37bb2c8f9100
+  password: bdfed629-b2a8-4b17-9453-c223bb401a1e
   udp: true
   skip-cert-verify: true
   network: ws
   sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 ss
+- name: 🇮🇩 (ID) PT Pusat Media Indonesia 10 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 8ecd6bb6-420d-4e0b-bee1-37bb2c8f9100
+  password: bdfed629-b2a8-4b17-9453-c223bb401a1e
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -442,7 +577,52 @@ proxies:
     tls: true
     skip-cert-verify: true
     host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/203.194.112.119-2053
+    path: /Free/TG-at-XionAlva/103.6.207.108-8080
+    mux: false
+    headers:
+      custom: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 11 vless
+  server: 104.17.72.206
+  port: 443
+  type: vless
+  uuid: c8304eee-16c6-4a96-9bf1-ad4e2be6a73c
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.134-443
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
+  server: 104.17.72.206
+  port: 443
+  type: trojan
+  password: c8304eee-16c6-4a96-9bf1-ad4e2be6a73c
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/172.232.239.134-443
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) Akamai Connected Cloud 11 ss
+  type: ss
+  server: 104.17.72.206
+  port: 443
+  cipher: none
+  password: c8304eee-16c6-4a96-9bf1-ad4e2be6a73c
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/172.232.239.134-443
     mux: false
     headers:
       custom: free.garaaa.Biz.id
@@ -458,21 +638,33 @@ proxy-groups:
   - 🇮🇩 (ID) Amazoncom 2 vless
   - 🇮🇩 (ID) Amazoncom 2 trojan
   - 🇮🇩 (ID) Amazoncom 2 ss
-  - 🇮🇩 (ID) Amazoncom 3 vless
-  - 🇮🇩 (ID) Amazoncom 3 trojan
-  - 🇮🇩 (ID) Amazoncom 3 ss
-  - 🇮🇩 (ID) Akamai Connected Cloud 4 vless
-  - 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
-  - 🇮🇩 (ID) Akamai Connected Cloud 4 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 3 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 3 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 3 ss
+  - 🇮🇩 (ID) Amazoncom 4 vless
+  - 🇮🇩 (ID) Amazoncom 4 trojan
+  - 🇮🇩 (ID) Amazoncom 4 ss
   - 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 vless
   - 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 trojan
   - 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 ss
-  - 🇮🇩 (ID) Akamai Connected Cloud 6 vless
-  - 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
-  - 🇮🇩 (ID) Akamai Connected Cloud 6 ss
-  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 vless
-  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 trojan
-  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 ss
+  - 🇮🇩 (ID) Alibaba 6 vless
+  - 🇮🇩 (ID) Alibaba 6 trojan
+  - 🇮🇩 (ID) Alibaba 6 ss
+  - 🇮🇩 (ID) PT Telkom Indonesia 7 vless
+  - 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
+  - 🇮🇩 (ID) PT Telkom Indonesia 7 ss
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 vless
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 trojan
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 9 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 9 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 9 ss
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 10 vless
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 10 trojan
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 10 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 ss
 - name: ADS
   type: select
   disable-udp: false
@@ -490,21 +682,33 @@ proxy-groups:
   - 🇮🇩 (ID) Amazoncom 2 vless
   - 🇮🇩 (ID) Amazoncom 2 trojan
   - 🇮🇩 (ID) Amazoncom 2 ss
-  - 🇮🇩 (ID) Amazoncom 3 vless
-  - 🇮🇩 (ID) Amazoncom 3 trojan
-  - 🇮🇩 (ID) Amazoncom 3 ss
-  - 🇮🇩 (ID) Akamai Connected Cloud 4 vless
-  - 🇮🇩 (ID) Akamai Connected Cloud 4 trojan
-  - 🇮🇩 (ID) Akamai Connected Cloud 4 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 3 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 3 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 3 ss
+  - 🇮🇩 (ID) Amazoncom 4 vless
+  - 🇮🇩 (ID) Amazoncom 4 trojan
+  - 🇮🇩 (ID) Amazoncom 4 ss
   - 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 vless
   - 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 trojan
   - 🇮🇩 (ID) CV+Rumahweb+Indonesia 5 ss
-  - 🇮🇩 (ID) Akamai Connected Cloud 6 vless
-  - 🇮🇩 (ID) Akamai Connected Cloud 6 trojan
-  - 🇮🇩 (ID) Akamai Connected Cloud 6 ss
-  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 vless
-  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 trojan
-  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 7 ss
+  - 🇮🇩 (ID) Alibaba 6 vless
+  - 🇮🇩 (ID) Alibaba 6 trojan
+  - 🇮🇩 (ID) Alibaba 6 ss
+  - 🇮🇩 (ID) PT Telkom Indonesia 7 vless
+  - 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
+  - 🇮🇩 (ID) PT Telkom Indonesia 7 ss
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 vless
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 trojan
+  - 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 8 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 9 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 9 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 9 ss
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 10 vless
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 10 trojan
+  - 🇮🇩 (ID) PT Pusat Media Indonesia 10 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 11 ss
 rule-providers:
   rule_hijacking:
     type: file
