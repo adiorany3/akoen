@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇮🇱 IL Cloud Lease CDN TLS"
+    - name: "1 🇮🇱 IL Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -11,9 +11,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /free/77.91.69.141:2053
-    - name: "2 🇮🇱 IL Cloud Lease CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+        path: /free/129.159.129.107:2053
+    - name: "2 🇮🇱 IL SmartApe OU CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -25,8 +25,8 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/77.91.69.141:8443
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /free/185.239.48.97:8443
     - name: "3 🇮🇱 IL Vultr CDN TLS"
       network: ws
       port: "443"
@@ -39,9 +39,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /free/64.176.168.63:2443
-    - name: "4 🇮🇱 IL Vultr CDN TLS"
+    - name: "4 🇮🇱 IL Oracle Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -53,9 +53,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /free/64.176.167.241:8443
-    - name: "5 🇮🇱 IL Cloud Lease CDN TLS"
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /free/129.159.143.171:8443
+    - name: "5 🇮🇱 IL Stark Industries Solutions CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -67,6 +67,6 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /free/77.91.69.146:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /free/94.131.114.50:81
     

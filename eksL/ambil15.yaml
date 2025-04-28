@@ -10,9 +10,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
-        path: /free/194.147.173.117:443
-    - name: "2 🇨🇭 CH Aeza International CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /free/195.141.65.98:443
+    - name: "2 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -23,8 +23,8 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /free/91.103.253.92:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/45.95.232.232:8443
     - name: "3 🇨🇭 CH Datasource CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
@@ -36,48 +36,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /free/185.195.69.119:8443
-    - name: "4 🇨🇭 CH Global Connectivity Solutions Llp CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /free/45.95.232.18:8443
-    - name: "5 🇨🇭 CH Baykov Ilya Sergeevich CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /free/138.124.3.148:443
-    - name: "6 🇨🇭 CH Datasource CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /free/185.195.69.153:2053
-    - name: "7 🇨🇭 CH Serva One CDN TLS"
+    - name: "4 🇨🇭 CH Sunrise CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -88,9 +49,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /free/45.85.93.83:443
-    - name: "8 🇨🇭 CH Three Fourteen SASU CDN TLS"
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /free/194.147.173.117:443
+    - name: "5 🇨🇭 CH Stark Industries Solutions CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -101,8 +62,47 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
-        path: /free/85.208.70.235:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/94.131.3.101:443
+    - name: "6 🇨🇭 CH Stark Industries Solutions CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /free/94.131.3.123:2053
+    - name: "7 🇨🇭 CH Datasource CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /free/94.247.42.207:443
+    - name: "8 🇨🇭 CH Private Layer CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /free/179.43.180.231:443
     - name: "9 🇨🇭 CH Private Layer CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
@@ -114,9 +114,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /free/179.43.154.26:443
-    - name: "10 🇨🇭 CH Serva One CDN TLS"
+    - name: "10 🇨🇭 CH Stark Industries Solutions CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -127,6 +127,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /free/45.85.93.243:8443
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /free/94.131.12.30:2053
     

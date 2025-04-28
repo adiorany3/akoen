@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇺🇸 US Multacom Corporation CDN TLS"
+    - name: "1 🇺🇸 US Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -11,9 +11,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
-        path: /free/142.171.204.111:30843
-    - name: "2 🇺🇸 US Akamai Connected Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/54.193.104.34:80
+    - name: "2 🇺🇸 US Coretel America CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -25,9 +25,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
-        path: /free/172.234.66.180:587
-    - name: "3 🇺🇸 US Cnservers LLC CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /free/103.170.72.129:25950
+    - name: "3 🇺🇸 US Eonix Corporation CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -39,8 +39,8 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /free/2.59.151.128:33557
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+        path: /free/173.44.139.118:8443
     - name: "4 🇺🇸 US Multacom Corporation CDN TLS"
       network: ws
       port: "443"
@@ -53,8 +53,8 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/142.171.92.117:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /free/142.171.31.155:27193
     - name: "5 🇺🇸 US ColoCrossing CDN TLS"
       network: ws
       port: "443"
@@ -67,6 +67,6 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /free/23.95.91.159:443
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /free/107.172.103.195:23456
     

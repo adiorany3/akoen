@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇦🇺 AU Oracle Cloud CDN TLS"
+    - name: "1 🇦🇺 AU TPG Internet CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -10,35 +10,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
-        path: /free/192.9.179.194:24499
-    - name: "2 🇦🇺 AU Amazon.com CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-        path: /free/3.24.174.233:443
-    - name: "3 🇦🇺 AU TPG Internet CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
         path: /free/203.219.13.251:443
-    - name: "4 🇦🇺 AU Digital Ocean CDN TLS"
+    - name: "2 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -49,8 +23,34 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /free/170.64.192.191:31257
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/192.9.183.128:45673
+    - name: "3 🇦🇺 AU Oracle Cloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /free/152.67.99.162:443
+    - name: "4 🇦🇺 AU OVHcloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+        path: /free/139.99.236.163:443
     - name: "5 🇦🇺 AU Digital Ocean CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
@@ -62,34 +62,34 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
-        path: /free/170.64.240.100:443
-    - name: "6 🇦🇺 AU BitCommand CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /free/82.115.19.143:443
-    - name: "7 🇦🇺 AU Oracle Cloud CDN TLS"
-      network: ws
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: true
-      sni: nuclear.us.kg
-      type: trojan
-      udp: false
-      ws-opts:
-        headers:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /free/152.67.102.161:19286
+        path: /free/209.38.16.180:4002
+    - name: "6 🇦🇺 AU Oracle Cloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /free/192.9.180.162:443
+    - name: "7 🇦🇺 AU Akamai Connected Cloud CDN TLS"
+      network: ws
+      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      port: "443"
+      server: 104.17.3.81
+      skip-cert-verify: true
+      sni: nuclear.us.kg
+      type: trojan
+      udp: false
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /free/172.236.43.104:2053
     - name: "8 🇦🇺 AU Oracle Cloud CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
@@ -101,9 +101,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /free/152.69.165.68:44242
-    - name: "9 🇦🇺 AU OVHcloud CDN TLS"
+    - name: "9 🇦🇺 AU Digital Ocean CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -114,9 +114,9 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /free/139.99.236.163:443
-    - name: "10 🇦🇺 AU Oracle Cloud CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
+        path: /free/170.64.152.77:7443
+    - name: "10 🇦🇺 AU Digital Ocean CDN TLS"
       network: ws
       password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
       port: "443"
@@ -127,6 +127,6 @@ proxies:
       udp: false
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /free/152.67.125.174:443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /free/170.64.192.191:31257
     

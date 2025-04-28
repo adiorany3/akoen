@@ -1,5 +1,5 @@
 proxies:
-    - name: "1 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+    - name: "1 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -11,23 +11,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-        path: /free/172.93.165.228:443
-    - name: "2 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.us.kg
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
         path: /free/38.60.193.247:13300
-    - name: "3 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
+    - name: "2 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -39,8 +25,22 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
         path: /free/123.253.33.182:12306
+    - name: "3 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+        path: /free/38.60.195.203:10478
     - name: "4 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
       network: ws
       port: "443"
@@ -53,9 +53,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
         path: /free/45.159.51.121:32199
-    - name: "5 🇲🇾 MY Kaopu Cloud Hk Limited CDN TLS"
+    - name: "5 🇲🇾 MY Gigabit Hosting Sdn Bhd CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -67,6 +67,6 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /free/38.60.195.203:10478
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /free/172.93.165.228:443
     
