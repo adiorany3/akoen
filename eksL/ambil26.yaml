@@ -131,972 +131,972 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-- name: 🇳🇱 (NL) Aeza International 1 vless
+- name: 🇵🇱 (PL) OVHcloud 1 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: e232c762-4631-4ac6-a899-064aa6a695a9
+  uuid: a2c71f37-564a-4399-b94b-e3a57c74751b
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/150.241.70.95-2053
+    path: /Free/TG-at-XionAlva/86.110.56.64-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 1 trojan
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 1 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: e232c762-4631-4ac6-a899-064aa6a695a9
+  password: a2c71f37-564a-4399-b94b-e3a57c74751b
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/150.241.70.95-2053
+    path: /Free/TG-at-XionAlva/86.110.56.64-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 1 ss
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 1 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: e232c762-4631-4ac6-a899-064aa6a695a9
+  password: a2c71f37-564a-4399-b94b-e3a57c74751b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/150.241.70.95-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/86.110.56.64-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇳🇱 (NL) Servers Tech Fzco 2 vless
+      custom: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 2 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: c6a5e6d6-9f7b-45fe-8187-bfff4b95e6c2
+  uuid: 4ea1201c-a16e-4418-a994-c48b956a5180
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/77.238.246.45-443
+    path: /Free/TG-at-XionAlva/45.149.63.94-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Servers Tech Fzco 2 trojan
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 2 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: c6a5e6d6-9f7b-45fe-8187-bfff4b95e6c2
+  password: 4ea1201c-a16e-4418-a994-c48b956a5180
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/77.238.246.45-443
+    path: /Free/TG-at-XionAlva/45.149.63.94-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Servers Tech Fzco 2 ss
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 2 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: c6a5e6d6-9f7b-45fe-8187-bfff4b95e6c2
+  password: 4ea1201c-a16e-4418-a994-c48b956a5180
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/77.238.246.45-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/45.149.63.94-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇷🇺 (RU) Stolica Telecom Ltd 3 vless
+      custom: free.gegegeming.My.id
+- name: 🇸🇪 (SE) Aeza International 3 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 97fcdad0-066c-4e5c-8933-fb65336d492d
+  uuid: 7d555926-4f36-4338-8af1-f6f70f40e7d9
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.46.1.22-2053
+    path: /Free/TG-at-XionAlva/147.45.77.67-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) Stolica Telecom Ltd 3 trojan
+      Host: free.gegegeming.My.id
+- name: 🇸🇪 (SE) Aeza International 3 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 97fcdad0-066c-4e5c-8933-fb65336d492d
+  password: 7d555926-4f36-4338-8af1-f6f70f40e7d9
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.46.1.22-2053
+    path: /Free/TG-at-XionAlva/147.45.77.67-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) Stolica Telecom Ltd 3 ss
+      Host: free.gegegeming.My.id
+- name: 🇸🇪 (SE) Aeza International 3 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 97fcdad0-066c-4e5c-8933-fb65336d492d
+  password: 7d555926-4f36-4338-8af1-f6f70f40e7d9
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/95.46.1.22-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/147.45.77.67-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇳🇱 (NL) Melbikomas UAB 4 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 4 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 7192f618-51df-4f10-90d4-16629fc1996e
+  uuid: 04bfefa9-f972-42a7-8813-a976956142d9
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/213.183.51.243-2053
+    path: /Free/TG-at-XionAlva/5.182.87.6-40944
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Melbikomas UAB 4 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 4 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 7192f618-51df-4f10-90d4-16629fc1996e
+  password: 04bfefa9-f972-42a7-8813-a976956142d9
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/213.183.51.243-2053
+    path: /Free/TG-at-XionAlva/5.182.87.6-40944
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Melbikomas UAB 4 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 4 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 7192f618-51df-4f10-90d4-16629fc1996e
+  password: 04bfefa9-f972-42a7-8813-a976956142d9
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/213.183.51.243-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/5.182.87.6-40944
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇷🇺 (RU) LLC Baxet 5 vless
+      custom: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 5 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 6ad5a55d-6bb1-47c3-9295-c70d45ddb684
+  uuid: 0e3f26b3-8ad6-4c51-9e14-0cd13eb7e3e2
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.147.200.100-443
+    path: /Free/TG-at-XionAlva/45.149.63.8-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) LLC Baxet 5 trojan
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 5 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 6ad5a55d-6bb1-47c3-9295-c70d45ddb684
+  password: 0e3f26b3-8ad6-4c51-9e14-0cd13eb7e3e2
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.147.200.100-443
+    path: /Free/TG-at-XionAlva/45.149.63.8-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) LLC Baxet 5 ss
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 5 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 6ad5a55d-6bb1-47c3-9295-c70d45ddb684
+  password: 0e3f26b3-8ad6-4c51-9e14-0cd13eb7e3e2
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/45.147.200.100-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/45.149.63.8-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇷🇺 (RU) TimeWeb 6 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Sia Veesp 6 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: ce44e945-0a21-4da6-95dc-ad1b8000a278
+  uuid: 1afc4291-096e-454d-9600-896fb83abb70
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/176.57.211.166-8443
+    path: /Free/TG-at-XionAlva/82.115.6.231-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) TimeWeb 6 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Sia Veesp 6 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: ce44e945-0a21-4da6-95dc-ad1b8000a278
+  password: 1afc4291-096e-454d-9600-896fb83abb70
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/176.57.211.166-8443
+    path: /Free/TG-at-XionAlva/82.115.6.231-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) TimeWeb 6 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Sia Veesp 6 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: ce44e945-0a21-4da6-95dc-ad1b8000a278
+  password: 1afc4291-096e-454d-9600-896fb83abb70
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/176.57.211.166-8443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/82.115.6.231-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇳🇱 (NL) SERVA ONE LTD 7 vless
+      custom: free.gegegeming.My.id
+- name: 🇰🇷 (KR) KT 7 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 9992814f-d66d-48dc-bcce-29ff18b83ae2
+  uuid: 36b7e501-c2af-49a1-9eaa-74ff70970050
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/163.5.207.235-443
+    path: /Free/TG-at-XionAlva/121.154.79.130-10126
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) SERVA ONE LTD 7 trojan
+      Host: free.gegegeming.My.id
+- name: 🇰🇷 (KR) KT 7 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 9992814f-d66d-48dc-bcce-29ff18b83ae2
+  password: 36b7e501-c2af-49a1-9eaa-74ff70970050
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/163.5.207.235-443
+    path: /Free/TG-at-XionAlva/121.154.79.130-10126
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) SERVA ONE LTD 7 ss
+      Host: free.gegegeming.My.id
+- name: 🇰🇷 (KR) KT 7 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 9992814f-d66d-48dc-bcce-29ff18b83ae2
+  password: 36b7e501-c2af-49a1-9eaa-74ff70970050
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/163.5.207.235-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/121.154.79.130-10126
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 8 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Vultr 8 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 6164ce88-d0a4-49f1-85fe-4c76cf55d63f
+  uuid: c40c6159-923d-45ea-9ada-3cba8a26906f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/213.176.93.74-443
+    path: /Free/TG-at-XionAlva/95.179.139.59-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 8 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Vultr 8 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 6164ce88-d0a4-49f1-85fe-4c76cf55d63f
+  password: c40c6159-923d-45ea-9ada-3cba8a26906f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/213.176.93.74-443
+    path: /Free/TG-at-XionAlva/95.179.139.59-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 8 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Vultr 8 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 6164ce88-d0a4-49f1-85fe-4c76cf55d63f
+  password: c40c6159-923d-45ea-9ada-3cba8a26906f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/213.176.93.74-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/95.179.139.59-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇰🇷 (KR) Green Cable Television Station 9 vless
+      custom: free.gegegeming.My.id
+- name: 🇱🇻 (LV) Sia Veesp 9 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 71f92c49-668a-4814-9076-1c318710a284
+  uuid: 285dc7e2-b119-45de-8b83-7b9609de076c
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/114.199.10.185-21317
+    path: /Free/TG-at-XionAlva/195.135.252.35-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇰🇷 (KR) Green Cable Television Station 9 trojan
+      Host: free.gegegeming.My.id
+- name: 🇱🇻 (LV) Sia Veesp 9 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 71f92c49-668a-4814-9076-1c318710a284
+  password: 285dc7e2-b119-45de-8b83-7b9609de076c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/114.199.10.185-21317
+    path: /Free/TG-at-XionAlva/195.135.252.35-2053
     headers:
-      Host: free.xiongt.My.id
-- name: 🇰🇷 (KR) Green Cable Television Station 9 ss
+      Host: free.gegegeming.My.id
+- name: 🇱🇻 (LV) Sia Veesp 9 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 71f92c49-668a-4814-9076-1c318710a284
+  password: 285dc7e2-b119-45de-8b83-7b9609de076c
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/114.199.10.185-21317
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/195.135.252.35-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 10 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Kamatera Inc 10 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: e4fc941b-d702-4a3f-b6d1-a9c68d93d03a
+  uuid: 0f447519-cb5e-4d04-b748-14c1d713e87c
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/89.39.120.7-2053
+    path: /Free/TG-at-XionAlva/194.146.39.128-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 10 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Kamatera Inc 10 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: e4fc941b-d702-4a3f-b6d1-a9c68d93d03a
+  password: 0f447519-cb5e-4d04-b748-14c1d713e87c
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/89.39.120.7-2053
+    path: /Free/TG-at-XionAlva/194.146.39.128-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 10 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Kamatera Inc 10 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: e4fc941b-d702-4a3f-b6d1-a9c68d93d03a
+  password: 0f447519-cb5e-4d04-b748-14c1d713e87c
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/89.39.120.7-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/194.146.39.128-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 11 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Des Capital 11 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 9e789e1d-fb31-494e-93e5-012256e027b1
+  uuid: 1e55b157-77cb-40a3-81c5-444ffcc42ee2
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.169.162.95-2053
+    path: /Free/TG-at-XionAlva/41.216.181.151-10443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 11 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Des Capital 11 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 9e789e1d-fb31-494e-93e5-012256e027b1
+  password: 1e55b157-77cb-40a3-81c5-444ffcc42ee2
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.169.162.95-2053
+    path: /Free/TG-at-XionAlva/41.216.181.151-10443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 11 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Des Capital 11 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 9e789e1d-fb31-494e-93e5-012256e027b1
+  password: 1e55b157-77cb-40a3-81c5-444ffcc42ee2
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/95.169.162.95-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/41.216.181.151-10443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 12 vless
+      custom: free.gegegeming.My.id
+- name: 🇰🇷 (KR) LG Uplus 12 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: a727d66b-7998-4d87-bacc-fdddf538b4ee
+  uuid: a89eac18-fadc-4f6f-bd58-9e5fab3e7f40
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/213.176.65.253-443
+    path: /Free/TG-at-XionAlva/182.213.59.227-17832
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 12 trojan
+      Host: free.gegegeming.My.id
+- name: 🇰🇷 (KR) LG Uplus 12 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: a727d66b-7998-4d87-bacc-fdddf538b4ee
+  password: a89eac18-fadc-4f6f-bd58-9e5fab3e7f40
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/213.176.65.253-443
+    path: /Free/TG-at-XionAlva/182.213.59.227-17832
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) Aeza International 12 ss
+      Host: free.gegegeming.My.id
+- name: 🇰🇷 (KR) LG Uplus 12 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: a727d66b-7998-4d87-bacc-fdddf538b4ee
+  password: a89eac18-fadc-4f6f-bd58-9e5fab3e7f40
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/213.176.65.253-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/182.213.59.227-17832
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇳🇱 (NL) First Server 13 vless
+      custom: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 13 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: e53f188f-3c77-4909-8828-36008acf9d86
+  uuid: fa3e8dd1-5cfd-47f1-ad6e-be64cc9c290f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/185.94.165.218-443
+    path: /Free/TG-at-XionAlva/145.239.90.225-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) First Server 13 trojan
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 13 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: e53f188f-3c77-4909-8828-36008acf9d86
+  password: fa3e8dd1-5cfd-47f1-ad6e-be64cc9c290f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/185.94.165.218-443
+    path: /Free/TG-at-XionAlva/145.239.90.225-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇳🇱 (NL) First Server 13 ss
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) OVHcloud 13 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: e53f188f-3c77-4909-8828-36008acf9d86
+  password: fa3e8dd1-5cfd-47f1-ad6e-be64cc9c290f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/185.94.165.218-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/145.239.90.225-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 14 vless
+      custom: free.gegegeming.My.id
+- name: 🇰🇷 (KR) Oracle Cloud 14 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 026f156d-fc1f-4b69-8041-aa12db0c5e1e
+  uuid: 52302e39-7a87-42d5-8150-ed38ab8734b2
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/89.39.120.93-2053
+    path: /Free/TG-at-XionAlva/129.154.223.89-15800
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 14 trojan
+      Host: free.gegegeming.My.id
+- name: 🇰🇷 (KR) Oracle Cloud 14 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 026f156d-fc1f-4b69-8041-aa12db0c5e1e
+  password: 52302e39-7a87-42d5-8150-ed38ab8734b2
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/89.39.120.93-2053
+    path: /Free/TG-at-XionAlva/129.154.223.89-15800
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) OVHcloud 14 ss
+      Host: free.gegegeming.My.id
+- name: 🇰🇷 (KR) Oracle Cloud 14 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 026f156d-fc1f-4b69-8041-aa12db0c5e1e
+  password: 52302e39-7a87-42d5-8150-ed38ab8734b2
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/89.39.120.93-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/129.154.223.89-15800
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇵🇱 (PL) OVHcloud 15 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: c33cbe89-6a28-40ac-826e-b6c3617d1e08
+  uuid: 55be20cf-6fba-424f-97ef-efdc3d080384
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.169.162.164-2053
+    path: /Free/TG-at-XionAlva/89.39.120.242-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇵🇱 (PL) OVHcloud 15 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: c33cbe89-6a28-40ac-826e-b6c3617d1e08
+  password: 55be20cf-6fba-424f-97ef-efdc3d080384
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.169.162.164-2053
+    path: /Free/TG-at-XionAlva/89.39.120.242-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇵🇱 (PL) OVHcloud 15 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: c33cbe89-6a28-40ac-826e-b6c3617d1e08
+  password: 55be20cf-6fba-424f-97ef-efdc3d080384
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/95.169.162.164-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/89.39.120.242-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇷🇺 (RU) Aeza+Group+Ltd 16 vless
+      custom: free.gegegeming.My.id
+- name: 🇵🇱 (PL) Aves Sp z oo 16 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: 335198ea-5f55-4390-a5d3-b9f75b384fc6
+  uuid: 03f54288-3b80-458c-b572-51f89b601226
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.142.122.152-2053
+    path: /Free/TG-at-XionAlva/46.45.65.60-34548
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) Aeza+Group+Ltd 16 trojan
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) Aves Sp z oo 16 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: 335198ea-5f55-4390-a5d3-b9f75b384fc6
+  password: 03f54288-3b80-458c-b572-51f89b601226
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/45.142.122.152-2053
+    path: /Free/TG-at-XionAlva/46.45.65.60-34548
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) Aeza+Group+Ltd 16 ss
+      Host: free.gegegeming.My.id
+- name: 🇵🇱 (PL) Aves Sp z oo 16 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: 335198ea-5f55-4390-a5d3-b9f75b384fc6
+  password: 03f54288-3b80-458c-b572-51f89b601226
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/45.142.122.152-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/46.45.65.60-34548
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇱🇹 (LT) Serverio technologijos MB 17 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 17 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: ac186ecc-abb2-48fc-a81a-298b82100f17
+  uuid: 99f3d01f-a70b-4468-9423-1ccc83c86ff6
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/194.0.194.237-14181
+    path: /Free/TG-at-XionAlva/62.60.228.18-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇱🇹 (LT) Serverio technologijos MB 17 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 17 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: ac186ecc-abb2-48fc-a81a-298b82100f17
+  password: 99f3d01f-a70b-4468-9423-1ccc83c86ff6
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/194.0.194.237-14181
+    path: /Free/TG-at-XionAlva/62.60.228.18-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇱🇹 (LT) Serverio technologijos MB 17 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 17 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: ac186ecc-abb2-48fc-a81a-298b82100f17
+  password: 99f3d01f-a70b-4468-9423-1ccc83c86ff6
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/194.0.194.237-14181
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/62.60.228.18-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇷🇺 (RU) Aeza+Group+Ltd 18 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Servers Tech Fzco 18 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: af6ec20e-ae73-4ea4-bf77-034c5a66a677
+  uuid: 4ee81d75-41cc-457d-9616-eea5d351caf7
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/77.221.151.83-24443
+    path: /Free/TG-at-XionAlva/212.34.148.102-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) Aeza+Group+Ltd 18 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Servers Tech Fzco 18 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: af6ec20e-ae73-4ea4-bf77-034c5a66a677
+  password: 4ee81d75-41cc-457d-9616-eea5d351caf7
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/77.221.151.83-24443
+    path: /Free/TG-at-XionAlva/212.34.148.102-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇷🇺 (RU) Aeza+Group+Ltd 18 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Servers Tech Fzco 18 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: af6ec20e-ae73-4ea4-bf77-034c5a66a677
+  password: 4ee81d75-41cc-457d-9616-eea5d351caf7
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/77.221.151.83-24443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/212.34.148.102-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇵🇱 (PL) OVHcloud 19 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: bec43055-f241-4ee7-976c-09300c4e132d
+  uuid: 3ef9fb65-d8d1-450e-8ff1-2ec4aa97dc9a
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.169.162.20-2053
+    path: /Free/TG-at-XionAlva/89.39.120.192-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇵🇱 (PL) OVHcloud 19 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: bec43055-f241-4ee7-976c-09300c4e132d
+  password: 3ef9fb65-d8d1-450e-8ff1-2ec4aa97dc9a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/95.169.162.20-2053
+    path: /Free/TG-at-XionAlva/89.39.120.192-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇵🇱 (PL) OVHcloud 19 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: bec43055-f241-4ee7-976c-09300c4e132d
+  password: 3ef9fb65-d8d1-450e-8ff1-2ec4aa97dc9a
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/95.169.162.20-2053
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/89.39.120.192-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
-- name: 🇵🇱 (PL) Baxet Group Inc 20 vless
+      custom: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 20 vless
   server: 104.17.155.243
   port: 443
   type: vless
-  uuid: f1f546f9-955a-4bf2-a702-c145eb6f8c7b
+  uuid: f9f90502-653c-4fbe-a3bf-c13b395078c9
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/91.149.253.65-443
+    path: /Free/TG-at-XionAlva/62.60.231.78-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) Baxet Group Inc 20 trojan
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 20 trojan
   server: 104.17.155.243
   port: 443
   type: trojan
-  password: f1f546f9-955a-4bf2-a702-c145eb6f8c7b
+  password: f9f90502-653c-4fbe-a3bf-c13b395078c9
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/91.149.253.65-443
+    path: /Free/TG-at-XionAlva/62.60.231.78-443
     headers:
-      Host: free.xiongt.My.id
-- name: 🇵🇱 (PL) Baxet Group Inc 20 ss
+      Host: free.gegegeming.My.id
+- name: 🇳🇱 (NL) Aeza International 20 ss
   type: ss
   server: 104.17.155.243
   port: 443
   cipher: none
-  password: f1f546f9-955a-4bf2-a702-c145eb6f8c7b
+  password: f9f90502-653c-4fbe-a3bf-c13b395078c9
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
-    path: /Free/TG-at-XionAlva/91.149.253.65-443
+    host: free.gegegeming.My.id
+    path: /Free/TG-at-XionAlva/62.60.231.78-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 proxy-groups:
 - name: INTERNET
   type: select
   disable-udp: false
   proxies:
   - BEST-PING
-  - 🇳🇱 (NL) Aeza International 1 vless
-  - 🇳🇱 (NL) Aeza International 1 trojan
-  - 🇳🇱 (NL) Aeza International 1 ss
-  - 🇳🇱 (NL) Servers Tech Fzco 2 vless
-  - 🇳🇱 (NL) Servers Tech Fzco 2 trojan
-  - 🇳🇱 (NL) Servers Tech Fzco 2 ss
-  - 🇷🇺 (RU) Stolica Telecom Ltd 3 vless
-  - 🇷🇺 (RU) Stolica Telecom Ltd 3 trojan
-  - 🇷🇺 (RU) Stolica Telecom Ltd 3 ss
-  - 🇳🇱 (NL) Melbikomas UAB 4 vless
-  - 🇳🇱 (NL) Melbikomas UAB 4 trojan
-  - 🇳🇱 (NL) Melbikomas UAB 4 ss
-  - 🇷🇺 (RU) LLC Baxet 5 vless
-  - 🇷🇺 (RU) LLC Baxet 5 trojan
-  - 🇷🇺 (RU) LLC Baxet 5 ss
-  - 🇷🇺 (RU) TimeWeb 6 vless
-  - 🇷🇺 (RU) TimeWeb 6 trojan
-  - 🇷🇺 (RU) TimeWeb 6 ss
-  - 🇳🇱 (NL) SERVA ONE LTD 7 vless
-  - 🇳🇱 (NL) SERVA ONE LTD 7 trojan
-  - 🇳🇱 (NL) SERVA ONE LTD 7 ss
-  - 🇳🇱 (NL) Aeza International 8 vless
-  - 🇳🇱 (NL) Aeza International 8 trojan
-  - 🇳🇱 (NL) Aeza International 8 ss
-  - 🇰🇷 (KR) Green Cable Television Station 9 vless
-  - 🇰🇷 (KR) Green Cable Television Station 9 trojan
-  - 🇰🇷 (KR) Green Cable Television Station 9 ss
-  - 🇵🇱 (PL) OVHcloud 10 vless
-  - 🇵🇱 (PL) OVHcloud 10 trojan
-  - 🇵🇱 (PL) OVHcloud 10 ss
-  - 🇵🇱 (PL) OVHcloud 11 vless
-  - 🇵🇱 (PL) OVHcloud 11 trojan
-  - 🇵🇱 (PL) OVHcloud 11 ss
-  - 🇳🇱 (NL) Aeza International 12 vless
-  - 🇳🇱 (NL) Aeza International 12 trojan
-  - 🇳🇱 (NL) Aeza International 12 ss
-  - 🇳🇱 (NL) First Server 13 vless
-  - 🇳🇱 (NL) First Server 13 trojan
-  - 🇳🇱 (NL) First Server 13 ss
-  - 🇵🇱 (PL) OVHcloud 14 vless
-  - 🇵🇱 (PL) OVHcloud 14 trojan
-  - 🇵🇱 (PL) OVHcloud 14 ss
+  - 🇵🇱 (PL) OVHcloud 1 vless
+  - 🇵🇱 (PL) OVHcloud 1 trojan
+  - 🇵🇱 (PL) OVHcloud 1 ss
+  - 🇵🇱 (PL) OVHcloud 2 vless
+  - 🇵🇱 (PL) OVHcloud 2 trojan
+  - 🇵🇱 (PL) OVHcloud 2 ss
+  - 🇸🇪 (SE) Aeza International 3 vless
+  - 🇸🇪 (SE) Aeza International 3 trojan
+  - 🇸🇪 (SE) Aeza International 3 ss
+  - 🇳🇱 (NL) Aeza International 4 vless
+  - 🇳🇱 (NL) Aeza International 4 trojan
+  - 🇳🇱 (NL) Aeza International 4 ss
+  - 🇵🇱 (PL) OVHcloud 5 vless
+  - 🇵🇱 (PL) OVHcloud 5 trojan
+  - 🇵🇱 (PL) OVHcloud 5 ss
+  - 🇳🇱 (NL) Sia Veesp 6 vless
+  - 🇳🇱 (NL) Sia Veesp 6 trojan
+  - 🇳🇱 (NL) Sia Veesp 6 ss
+  - 🇰🇷 (KR) KT 7 vless
+  - 🇰🇷 (KR) KT 7 trojan
+  - 🇰🇷 (KR) KT 7 ss
+  - 🇳🇱 (NL) Vultr 8 vless
+  - 🇳🇱 (NL) Vultr 8 trojan
+  - 🇳🇱 (NL) Vultr 8 ss
+  - 🇱🇻 (LV) Sia Veesp 9 vless
+  - 🇱🇻 (LV) Sia Veesp 9 trojan
+  - 🇱🇻 (LV) Sia Veesp 9 ss
+  - 🇳🇱 (NL) Kamatera Inc 10 vless
+  - 🇳🇱 (NL) Kamatera Inc 10 trojan
+  - 🇳🇱 (NL) Kamatera Inc 10 ss
+  - 🇳🇱 (NL) Des Capital 11 vless
+  - 🇳🇱 (NL) Des Capital 11 trojan
+  - 🇳🇱 (NL) Des Capital 11 ss
+  - 🇰🇷 (KR) LG Uplus 12 vless
+  - 🇰🇷 (KR) LG Uplus 12 trojan
+  - 🇰🇷 (KR) LG Uplus 12 ss
+  - 🇵🇱 (PL) OVHcloud 13 vless
+  - 🇵🇱 (PL) OVHcloud 13 trojan
+  - 🇵🇱 (PL) OVHcloud 13 ss
+  - 🇰🇷 (KR) Oracle Cloud 14 vless
+  - 🇰🇷 (KR) Oracle Cloud 14 trojan
+  - 🇰🇷 (KR) Oracle Cloud 14 ss
   - 🇵🇱 (PL) OVHcloud 15 vless
   - 🇵🇱 (PL) OVHcloud 15 trojan
   - 🇵🇱 (PL) OVHcloud 15 ss
-  - 🇷🇺 (RU) Aeza+Group+Ltd 16 vless
-  - 🇷🇺 (RU) Aeza+Group+Ltd 16 trojan
-  - 🇷🇺 (RU) Aeza+Group+Ltd 16 ss
-  - 🇱🇹 (LT) Serverio technologijos MB 17 vless
-  - 🇱🇹 (LT) Serverio technologijos MB 17 trojan
-  - 🇱🇹 (LT) Serverio technologijos MB 17 ss
-  - 🇷🇺 (RU) Aeza+Group+Ltd 18 vless
-  - 🇷🇺 (RU) Aeza+Group+Ltd 18 trojan
-  - 🇷🇺 (RU) Aeza+Group+Ltd 18 ss
+  - 🇵🇱 (PL) Aves Sp z oo 16 vless
+  - 🇵🇱 (PL) Aves Sp z oo 16 trojan
+  - 🇵🇱 (PL) Aves Sp z oo 16 ss
+  - 🇳🇱 (NL) Aeza International 17 vless
+  - 🇳🇱 (NL) Aeza International 17 trojan
+  - 🇳🇱 (NL) Aeza International 17 ss
+  - 🇳🇱 (NL) Servers Tech Fzco 18 vless
+  - 🇳🇱 (NL) Servers Tech Fzco 18 trojan
+  - 🇳🇱 (NL) Servers Tech Fzco 18 ss
   - 🇵🇱 (PL) OVHcloud 19 vless
   - 🇵🇱 (PL) OVHcloud 19 trojan
   - 🇵🇱 (PL) OVHcloud 19 ss
-  - 🇵🇱 (PL) Baxet Group Inc 20 vless
-  - 🇵🇱 (PL) Baxet Group Inc 20 trojan
-  - 🇵🇱 (PL) Baxet Group Inc 20 ss
+  - 🇳🇱 (NL) Aeza International 20 vless
+  - 🇳🇱 (NL) Aeza International 20 trojan
+  - 🇳🇱 (NL) Aeza International 20 ss
 - name: ADS
   type: select
   disable-udp: false
@@ -1108,66 +1108,66 @@ proxy-groups:
   url: https://detectportal.firefox.com/success.txt
   interval: 60
   proxies:
-  - 🇳🇱 (NL) Aeza International 1 vless
-  - 🇳🇱 (NL) Aeza International 1 trojan
-  - 🇳🇱 (NL) Aeza International 1 ss
-  - 🇳🇱 (NL) Servers Tech Fzco 2 vless
-  - 🇳🇱 (NL) Servers Tech Fzco 2 trojan
-  - 🇳🇱 (NL) Servers Tech Fzco 2 ss
-  - 🇷🇺 (RU) Stolica Telecom Ltd 3 vless
-  - 🇷🇺 (RU) Stolica Telecom Ltd 3 trojan
-  - 🇷🇺 (RU) Stolica Telecom Ltd 3 ss
-  - 🇳🇱 (NL) Melbikomas UAB 4 vless
-  - 🇳🇱 (NL) Melbikomas UAB 4 trojan
-  - 🇳🇱 (NL) Melbikomas UAB 4 ss
-  - 🇷🇺 (RU) LLC Baxet 5 vless
-  - 🇷🇺 (RU) LLC Baxet 5 trojan
-  - 🇷🇺 (RU) LLC Baxet 5 ss
-  - 🇷🇺 (RU) TimeWeb 6 vless
-  - 🇷🇺 (RU) TimeWeb 6 trojan
-  - 🇷🇺 (RU) TimeWeb 6 ss
-  - 🇳🇱 (NL) SERVA ONE LTD 7 vless
-  - 🇳🇱 (NL) SERVA ONE LTD 7 trojan
-  - 🇳🇱 (NL) SERVA ONE LTD 7 ss
-  - 🇳🇱 (NL) Aeza International 8 vless
-  - 🇳🇱 (NL) Aeza International 8 trojan
-  - 🇳🇱 (NL) Aeza International 8 ss
-  - 🇰🇷 (KR) Green Cable Television Station 9 vless
-  - 🇰🇷 (KR) Green Cable Television Station 9 trojan
-  - 🇰🇷 (KR) Green Cable Television Station 9 ss
-  - 🇵🇱 (PL) OVHcloud 10 vless
-  - 🇵🇱 (PL) OVHcloud 10 trojan
-  - 🇵🇱 (PL) OVHcloud 10 ss
-  - 🇵🇱 (PL) OVHcloud 11 vless
-  - 🇵🇱 (PL) OVHcloud 11 trojan
-  - 🇵🇱 (PL) OVHcloud 11 ss
-  - 🇳🇱 (NL) Aeza International 12 vless
-  - 🇳🇱 (NL) Aeza International 12 trojan
-  - 🇳🇱 (NL) Aeza International 12 ss
-  - 🇳🇱 (NL) First Server 13 vless
-  - 🇳🇱 (NL) First Server 13 trojan
-  - 🇳🇱 (NL) First Server 13 ss
-  - 🇵🇱 (PL) OVHcloud 14 vless
-  - 🇵🇱 (PL) OVHcloud 14 trojan
-  - 🇵🇱 (PL) OVHcloud 14 ss
+  - 🇵🇱 (PL) OVHcloud 1 vless
+  - 🇵🇱 (PL) OVHcloud 1 trojan
+  - 🇵🇱 (PL) OVHcloud 1 ss
+  - 🇵🇱 (PL) OVHcloud 2 vless
+  - 🇵🇱 (PL) OVHcloud 2 trojan
+  - 🇵🇱 (PL) OVHcloud 2 ss
+  - 🇸🇪 (SE) Aeza International 3 vless
+  - 🇸🇪 (SE) Aeza International 3 trojan
+  - 🇸🇪 (SE) Aeza International 3 ss
+  - 🇳🇱 (NL) Aeza International 4 vless
+  - 🇳🇱 (NL) Aeza International 4 trojan
+  - 🇳🇱 (NL) Aeza International 4 ss
+  - 🇵🇱 (PL) OVHcloud 5 vless
+  - 🇵🇱 (PL) OVHcloud 5 trojan
+  - 🇵🇱 (PL) OVHcloud 5 ss
+  - 🇳🇱 (NL) Sia Veesp 6 vless
+  - 🇳🇱 (NL) Sia Veesp 6 trojan
+  - 🇳🇱 (NL) Sia Veesp 6 ss
+  - 🇰🇷 (KR) KT 7 vless
+  - 🇰🇷 (KR) KT 7 trojan
+  - 🇰🇷 (KR) KT 7 ss
+  - 🇳🇱 (NL) Vultr 8 vless
+  - 🇳🇱 (NL) Vultr 8 trojan
+  - 🇳🇱 (NL) Vultr 8 ss
+  - 🇱🇻 (LV) Sia Veesp 9 vless
+  - 🇱🇻 (LV) Sia Veesp 9 trojan
+  - 🇱🇻 (LV) Sia Veesp 9 ss
+  - 🇳🇱 (NL) Kamatera Inc 10 vless
+  - 🇳🇱 (NL) Kamatera Inc 10 trojan
+  - 🇳🇱 (NL) Kamatera Inc 10 ss
+  - 🇳🇱 (NL) Des Capital 11 vless
+  - 🇳🇱 (NL) Des Capital 11 trojan
+  - 🇳🇱 (NL) Des Capital 11 ss
+  - 🇰🇷 (KR) LG Uplus 12 vless
+  - 🇰🇷 (KR) LG Uplus 12 trojan
+  - 🇰🇷 (KR) LG Uplus 12 ss
+  - 🇵🇱 (PL) OVHcloud 13 vless
+  - 🇵🇱 (PL) OVHcloud 13 trojan
+  - 🇵🇱 (PL) OVHcloud 13 ss
+  - 🇰🇷 (KR) Oracle Cloud 14 vless
+  - 🇰🇷 (KR) Oracle Cloud 14 trojan
+  - 🇰🇷 (KR) Oracle Cloud 14 ss
   - 🇵🇱 (PL) OVHcloud 15 vless
   - 🇵🇱 (PL) OVHcloud 15 trojan
   - 🇵🇱 (PL) OVHcloud 15 ss
-  - 🇷🇺 (RU) Aeza+Group+Ltd 16 vless
-  - 🇷🇺 (RU) Aeza+Group+Ltd 16 trojan
-  - 🇷🇺 (RU) Aeza+Group+Ltd 16 ss
-  - 🇱🇹 (LT) Serverio technologijos MB 17 vless
-  - 🇱🇹 (LT) Serverio technologijos MB 17 trojan
-  - 🇱🇹 (LT) Serverio technologijos MB 17 ss
-  - 🇷🇺 (RU) Aeza+Group+Ltd 18 vless
-  - 🇷🇺 (RU) Aeza+Group+Ltd 18 trojan
-  - 🇷🇺 (RU) Aeza+Group+Ltd 18 ss
+  - 🇵🇱 (PL) Aves Sp z oo 16 vless
+  - 🇵🇱 (PL) Aves Sp z oo 16 trojan
+  - 🇵🇱 (PL) Aves Sp z oo 16 ss
+  - 🇳🇱 (NL) Aeza International 17 vless
+  - 🇳🇱 (NL) Aeza International 17 trojan
+  - 🇳🇱 (NL) Aeza International 17 ss
+  - 🇳🇱 (NL) Servers Tech Fzco 18 vless
+  - 🇳🇱 (NL) Servers Tech Fzco 18 trojan
+  - 🇳🇱 (NL) Servers Tech Fzco 18 ss
   - 🇵🇱 (PL) OVHcloud 19 vless
   - 🇵🇱 (PL) OVHcloud 19 trojan
   - 🇵🇱 (PL) OVHcloud 19 ss
-  - 🇵🇱 (PL) Baxet Group Inc 20 vless
-  - 🇵🇱 (PL) Baxet Group Inc 20 trojan
-  - 🇵🇱 (PL) Baxet Group Inc 20 ss
+  - 🇳🇱 (NL) Aeza International 20 vless
+  - 🇳🇱 (NL) Aeza International 20 trojan
+  - 🇳🇱 (NL) Aeza International 20 ss
 rule-providers:
   rule_hijacking:
     type: file

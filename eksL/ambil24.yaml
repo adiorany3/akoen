@@ -135,317 +135,317 @@ proxies:
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: e3351f1e-cf8c-4879-9999-18466c3d0750
+  uuid: e3c902e4-5e3a-4c93-a05f-f71cf867d526
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: e3351f1e-cf8c-4879-9999-18466c3d0750
+  password: e3c902e4-5e3a-4c93-a05f-f71cf867d526
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 1 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: e3351f1e-cf8c-4879-9999-18466c3d0750
+  password: e3c902e4-5e3a-4c93-a05f-f71cf867d526
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: bf758d89-9b3e-48a2-87c2-cb3a3bebe9f1
+  uuid: 5efdf30f-10d0-4470-87f0-f18b0e933ad3
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: bf758d89-9b3e-48a2-87c2-cb3a3bebe9f1
+  password: 5efdf30f-10d0-4470-87f0-f18b0e933ad3
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Amazoncom 2 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: bf758d89-9b3e-48a2-87c2-cb3a3bebe9f1
+  password: 5efdf30f-10d0-4470-87f0-f18b0e933ad3
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 2dad5448-cc3c-4862-87a4-e3c7f66b3ad5
+  uuid: 17157cb1-3634-4947-88d9-ecf987a59d6b
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 2dad5448-cc3c-4862-87a4-e3c7f66b3ad5
+  password: 17157cb1-3634-4947-88d9-ecf987a59d6b
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 2dad5448-cc3c-4862-87a4-e3c7f66b3ad5
+  password: 17157cb1-3634-4947-88d9-ecf987a59d6b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 391b82a1-2d83-493d-b1a0-b1e3389524e8
+  uuid: d17d54ed-5fad-408a-92ad-09c8870e29a0
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 391b82a1-2d83-493d-b1a0-b1e3389524e8
+  password: d17d54ed-5fad-408a-92ad-09c8870e29a0
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 391b82a1-2d83-493d-b1a0-b1e3389524e8
+  password: d17d54ed-5fad-408a-92ad-09c8870e29a0
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 5 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 2a2f01db-0c37-42f1-a03d-11b3fff0e12d
+  uuid: 40f946b1-40c8-48ec-893d-8b531fdd3140
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 5 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 2a2f01db-0c37-42f1-a03d-11b3fff0e12d
+  password: 40f946b1-40c8-48ec-893d-8b531fdd3140
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 5 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 2a2f01db-0c37-42f1-a03d-11b3fff0e12d
+  password: 40f946b1-40c8-48ec-893d-8b531fdd3140
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 6 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 99e566c8-2bc6-4ac2-9231-adfd3e343f38
+  uuid: a6e68d34-f270-4d50-8cf4-df40e81ce2f4
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 6 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 99e566c8-2bc6-4ac2-9231-adfd3e343f38
+  password: a6e68d34-f270-4d50-8cf4-df40e81ce2f4
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 6 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 99e566c8-2bc6-4ac2-9231-adfd3e343f38
+  password: a6e68d34-f270-4d50-8cf4-df40e81ce2f4
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 7 vless
   server: 104.22.5.240
   port: 443
   type: vless
-  uuid: 83811380-fc45-4507-8b79-abd8da490d2e
+  uuid: c13339ab-f388-4b25-bf6d-324f20b80520
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.My.id
+  servername: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 83811380-fc45-4507-8b79-abd8da490d2e
+  password: c13339ab-f388-4b25-bf6d-324f20b80520
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.My.id
+  sni: free.gegegeming.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.xiongt.My.id
+      Host: free.gegegeming.My.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 7 ss
   type: ss
   server: 104.22.5.240
   port: 443
   cipher: none
-  password: 83811380-fc45-4507-8b79-abd8da490d2e
+  password: c13339ab-f388-4b25-bf6d-324f20b80520
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.My.id
+    host: free.gegegeming.My.id
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     mux: false
     headers:
-      custom: free.xiongt.My.id
+      custom: free.gegegeming.My.id
 proxy-groups:
 - name: INTERNET
   type: select
