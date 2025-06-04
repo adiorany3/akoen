@@ -11,9 +11,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
         path: /free/203.194.112.119:2053
-    - name: "2 🇮🇩 ID PT Telkom Indonesia CDN TLS"
+    - name: "2 🇮🇩 ID Akamai Connected Cloud CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -25,9 +25,9 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /free/36.95.152.58:12137
-    - name: "3 🇮🇩 ID PT Pusat Media Indonesia CDN TLS"
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /free/172.232.239.134:443
+    - name: "3 🇮🇩 ID Amazon.com CDN TLS"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -39,34 +39,34 @@ proxies:
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /free/103.6.207.108:8080
-    - name: "4 🇮🇩 ID First Cagayan Converge Data Center Inc. CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.us.kg
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
-        path: /free/203.194.112.119:8443
-    - name: "5 🇮🇩 ID Amazon.com CDN TLS"
-      network: ws
-      port: "443"
-      server: 104.17.3.81
-      servername: nuclear.us.kg
-      tls: true
-      type: vless
-      packet-encoding: packetaddr
-      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
         path: /free/43.218.77.16:1443
+    - name: "4 🇮🇩 ID PT Telkom Indonesia CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /free/36.95.152.58:12137
+    - name: "5 🇮🇩 ID PT Pusat Media Indonesia CDN TLS"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nuclear.us.kg
+      tls: true
+      type: vless
+      packet-encoding: packetaddr
+      uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /free/103.6.207.108:8080
     

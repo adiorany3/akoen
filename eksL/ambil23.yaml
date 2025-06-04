@@ -131,11 +131,11 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-- name: 🇮🇩 (ID) Akamai Connected Cloud 1 vless
+- name: 🇮🇩 (ID) Amazoncom 1 vless
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: d7b248b8-a82c-4154-a90f-0b686d6d147a
+  uuid: 7aa6712e-190a-4d30-bb21-ab26a05e301b
   cipher: auto
   tls: true
   udp: true
@@ -143,28 +143,28 @@ proxies:
   network: ws
   servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
+- name: 🇮🇩 (ID) Amazoncom 1 trojan
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: d7b248b8-a82c-4154-a90f-0b686d6d147a
+  password: 7aa6712e-190a-4d30-bb21-ab26a05e301b
   udp: true
   skip-cert-verify: true
   network: ws
   sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Akamai Connected Cloud 1 ss
+- name: 🇮🇩 (ID) Amazoncom 1 ss
   type: ss
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: d7b248b8-a82c-4154-a90f-0b686d6d147a
+  password: 7aa6712e-190a-4d30-bb21-ab26a05e301b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -172,15 +172,15 @@ proxies:
     tls: true
     skip-cert-verify: true
     host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/172.232.239.151-587
+    path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
       custom: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Amazoncom 2 vless
+- name: 🇮🇩 (ID) Akamai Connected Cloud 2 vless
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: bfe08929-7edd-4502-96d2-3270dbfb3cfc
+  uuid: f8075b6c-e1de-482b-bf11-71e27afa4886
   cipher: auto
   tls: true
   udp: true
@@ -188,28 +188,28 @@ proxies:
   network: ws
   servername: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Amazoncom 2 trojan
+- name: 🇮🇩 (ID) Akamai Connected Cloud 2 trojan
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: bfe08929-7edd-4502-96d2-3270dbfb3cfc
+  password: f8075b6c-e1de-482b-bf11-71e27afa4886
   udp: true
   skip-cert-verify: true
   network: ws
   sni: free.garaaa.Biz.id
   ws-opts:
-    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
       Host: free.garaaa.Biz.id
-- name: 🇮🇩 (ID) Amazoncom 2 ss
+- name: 🇮🇩 (ID) Akamai Connected Cloud 2 ss
   type: ss
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: bfe08929-7edd-4502-96d2-3270dbfb3cfc
+  password: f8075b6c-e1de-482b-bf11-71e27afa4886
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -217,7 +217,7 @@ proxies:
     tls: true
     skip-cert-verify: true
     host: free.garaaa.Biz.id
-    path: /Free/TG-at-XionAlva/43.218.77.16-1443
+    path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
       custom: free.garaaa.Biz.id
@@ -225,7 +225,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 5393106d-306e-4e98-b905-4ede92ed6b56
+  uuid: 44b2d6cd-7ea1-4866-abb7-ea5325b2be9f
   cipher: auto
   tls: true
   udp: true
@@ -240,7 +240,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 5393106d-306e-4e98-b905-4ede92ed6b56
+  password: 44b2d6cd-7ea1-4866-abb7-ea5325b2be9f
   udp: true
   skip-cert-verify: true
   network: ws
@@ -254,7 +254,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 5393106d-306e-4e98-b905-4ede92ed6b56
+  password: 44b2d6cd-7ea1-4866-abb7-ea5325b2be9f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -270,7 +270,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: ed816189-cf38-4aaf-aaf2-075c08ec603f
+  uuid: 520ad3dc-3304-4506-a9d2-4188ee294053
   cipher: auto
   tls: true
   udp: true
@@ -285,7 +285,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: ed816189-cf38-4aaf-aaf2-075c08ec603f
+  password: 520ad3dc-3304-4506-a9d2-4188ee294053
   udp: true
   skip-cert-verify: true
   network: ws
@@ -299,7 +299,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: ed816189-cf38-4aaf-aaf2-075c08ec603f
+  password: 520ad3dc-3304-4506-a9d2-4188ee294053
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -315,7 +315,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 48364ca6-dfc6-49a2-842e-54c7222e24be
+  uuid: ff7a46f9-845b-498b-8bda-681a03f619fb
   cipher: auto
   tls: true
   udp: true
@@ -330,7 +330,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 48364ca6-dfc6-49a2-842e-54c7222e24be
+  password: ff7a46f9-845b-498b-8bda-681a03f619fb
   udp: true
   skip-cert-verify: true
   network: ws
@@ -344,7 +344,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 48364ca6-dfc6-49a2-842e-54c7222e24be
+  password: ff7a46f9-845b-498b-8bda-681a03f619fb
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -360,7 +360,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 7b7cd8d8-8e8f-4d2b-a684-f989614350c4
+  uuid: dc890934-40d8-476c-b905-b6d099709666
   cipher: auto
   tls: true
   udp: true
@@ -375,7 +375,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 7b7cd8d8-8e8f-4d2b-a684-f989614350c4
+  password: dc890934-40d8-476c-b905-b6d099709666
   udp: true
   skip-cert-verify: true
   network: ws
@@ -389,7 +389,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 7b7cd8d8-8e8f-4d2b-a684-f989614350c4
+  password: dc890934-40d8-476c-b905-b6d099709666
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -405,7 +405,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: vless
-  uuid: 16565c43-161f-400d-9578-7722321325fd
+  uuid: 1d0fc073-fda2-47ea-9a48-549c4cff506b
   cipher: auto
   tls: true
   udp: true
@@ -420,7 +420,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 16565c43-161f-400d-9578-7722321325fd
+  password: 1d0fc073-fda2-47ea-9a48-549c4cff506b
   udp: true
   skip-cert-verify: true
   network: ws
@@ -434,7 +434,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   cipher: none
-  password: 16565c43-161f-400d-9578-7722321325fd
+  password: 1d0fc073-fda2-47ea-9a48-549c4cff506b
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
@@ -446,18 +446,63 @@ proxies:
     mux: false
     headers:
       custom: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) MyRepublic Indonesia 8 vless
+  server: 172.66.0.145
+  port: 443
+  type: vless
+  uuid: 61d000ff-9247-425f-9cdc-768575886166
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/103.130.17.116-12336
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) MyRepublic Indonesia 8 trojan
+  server: 172.66.0.145
+  port: 443
+  type: trojan
+  password: 61d000ff-9247-425f-9cdc-768575886166
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: free.garaaa.Biz.id
+  ws-opts:
+    path: /Free/TG-at-XionAlva/103.130.17.116-12336
+    headers:
+      Host: free.garaaa.Biz.id
+- name: 🇮🇩 (ID) MyRepublic Indonesia 8 ss
+  type: ss
+  server: 172.66.0.145
+  port: 443
+  cipher: none
+  password: 61d000ff-9247-425f-9cdc-768575886166
+  udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: free.garaaa.Biz.id
+    path: /Free/TG-at-XionAlva/103.130.17.116-12336
+    mux: false
+    headers:
+      custom: free.garaaa.Biz.id
 proxy-groups:
 - name: INTERNET
   type: select
   disable-udp: false
   proxies:
   - BEST-PING
-  - 🇮🇩 (ID) Akamai Connected Cloud 1 vless
-  - 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
-  - 🇮🇩 (ID) Akamai Connected Cloud 1 ss
-  - 🇮🇩 (ID) Amazoncom 2 vless
-  - 🇮🇩 (ID) Amazoncom 2 trojan
-  - 🇮🇩 (ID) Amazoncom 2 ss
+  - 🇮🇩 (ID) Amazoncom 1 vless
+  - 🇮🇩 (ID) Amazoncom 1 trojan
+  - 🇮🇩 (ID) Amazoncom 1 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 2 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 2 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 2 ss
   - 🇮🇩 (ID) Amazoncom 3 vless
   - 🇮🇩 (ID) Amazoncom 3 trojan
   - 🇮🇩 (ID) Amazoncom 3 ss
@@ -473,6 +518,9 @@ proxy-groups:
   - 🇮🇩 (ID) PT Telkom Indonesia 7 vless
   - 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
   - 🇮🇩 (ID) PT Telkom Indonesia 7 ss
+  - 🇮🇩 (ID) MyRepublic Indonesia 8 vless
+  - 🇮🇩 (ID) MyRepublic Indonesia 8 trojan
+  - 🇮🇩 (ID) MyRepublic Indonesia 8 ss
 - name: ADS
   type: select
   disable-udp: false
@@ -484,12 +532,12 @@ proxy-groups:
   url: https://detectportal.firefox.com/success.txt
   interval: 60
   proxies:
-  - 🇮🇩 (ID) Akamai Connected Cloud 1 vless
-  - 🇮🇩 (ID) Akamai Connected Cloud 1 trojan
-  - 🇮🇩 (ID) Akamai Connected Cloud 1 ss
-  - 🇮🇩 (ID) Amazoncom 2 vless
-  - 🇮🇩 (ID) Amazoncom 2 trojan
-  - 🇮🇩 (ID) Amazoncom 2 ss
+  - 🇮🇩 (ID) Amazoncom 1 vless
+  - 🇮🇩 (ID) Amazoncom 1 trojan
+  - 🇮🇩 (ID) Amazoncom 1 ss
+  - 🇮🇩 (ID) Akamai Connected Cloud 2 vless
+  - 🇮🇩 (ID) Akamai Connected Cloud 2 trojan
+  - 🇮🇩 (ID) Akamai Connected Cloud 2 ss
   - 🇮🇩 (ID) Amazoncom 3 vless
   - 🇮🇩 (ID) Amazoncom 3 trojan
   - 🇮🇩 (ID) Amazoncom 3 ss
@@ -505,6 +553,9 @@ proxy-groups:
   - 🇮🇩 (ID) PT Telkom Indonesia 7 vless
   - 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
   - 🇮🇩 (ID) PT Telkom Indonesia 7 ss
+  - 🇮🇩 (ID) MyRepublic Indonesia 8 vless
+  - 🇮🇩 (ID) MyRepublic Indonesia 8 trojan
+  - 🇮🇩 (ID) MyRepublic Indonesia 8 ss
 rule-providers:
   rule_hijacking:
     type: file
