@@ -1,0 +1,266 @@
+allow-lan: true
+bind-address: '*'
+dns:
+    default-nameserver:
+        - 8.8.8.8
+        - 1.1.1.1
+    enable: true
+    enhanced-mode: redir-host
+    fallback:
+        - https://1.1.1.1/dns-query
+        - 8.8.8.8
+        - 1.1.1.1
+    ipv6: false
+    listen: 0.0.0.0:7874
+    nameserver:
+        - https://8.8.8.8/dns-query
+        - https://8.8.4.4/dns-query
+external-controller: 0.0.0.0:9090
+ipv6: false
+log-level: silent
+mixed-port: 7893
+mode: rule
+port: 7890
+profile:
+    store-selected: true
+proxies:
+    # SSHOcean Servers - Indonesia
+    - name: "🇮🇩 SSHOcean ID-1 VLESS TLS"
+      type: vless
+      server: id1-v2ray.sshocean.net
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: id1-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: id1-v2ray.sshocean.net
+      udp: true
+      
+    - name: "🇮🇩 SSHOcean ID-2 VLESS TLS"
+      type: vless
+      server: id2-v2ray.sshocean.net
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: id2-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: id2-v2ray.sshocean.net
+      udp: true
+      
+    # OpenTunnel Servers - USA
+    - name: "🇺🇸 OpenTunnel USA Vmess TLS"
+      type: vmess
+      server: usv-4.openv2ray.com
+      port: 443
+      uuid: your-uuid-here
+      alterId: 0
+      cipher: auto
+      tls: true
+      servername: usv-4.openv2ray.com
+      network: ws
+      ws-opts:
+        path: /opentunnel
+        headers:
+          Host: usv-4.openv2ray.com
+      udp: true
+      
+    - name: "🇺🇸 OpenTunnel USA Vmess HTTP"
+      type: vmess
+      server: usv-4.openv2ray.com
+      port: 80
+      uuid: your-uuid-here
+      alterId: 0
+      cipher: auto
+      tls: false
+      network: ws
+      ws-opts:
+        path: /opentunnel
+        headers:
+          Host: usv-4.openv2ray.com
+      udp: true
+      
+    # SSHOcean Singapore Servers
+    - name: "🇸🇬 SSHOcean SG-1 VLESS TLS"
+      type: vless
+      server: sg1-v2ray.sshocean.net
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: sg1-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: sg1-v2ray.sshocean.net
+      udp: true
+      
+    - name: "🇸🇬 SSHOcean SG-2 VLESS TLS"
+      type: vless
+      server: sg2-v2ray.sshocean.net
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: sg2-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: sg2-v2ray.sshocean.net
+      udp: true
+      
+    # Howdy.ID Trojan Servers - Singapore
+    - name: "🇸🇬 Howdy.ID SG Trojan TLS"
+      type: trojan
+      server: sg-hetz.howdy.id
+      port: 443
+      password: your-password-here
+      sni: sg-hetz.howdy.id
+      skip-cert-verify: false
+      network: ws
+      ws-opts:
+        path: /howdy
+        headers:
+          Host: sg-hetz.howdy.id
+      udp: true
+      
+    # Alternative Cloudflare IP (Active)
+    - name: "🔸 CF-Edge VLESS WebSocket"
+      type: vless
+      server: 104.21.24.98
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: id1-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: id1-v2ray.sshocean.net
+      udp: true
+      
+    # Backup Free Servers
+    - name: "🆓 Backup VLESS-1"
+      type: vless
+      server: ca1-v2ray.sshocean.net
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: ca1-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: ca1-v2ray.sshocean.net
+      udp: true
+      
+    - name: "🆓 Backup VLESS-2"
+      type: vless
+      server: de1-v2ray.sshocean.net
+      port: 443
+      uuid: your-uuid-here
+      tls: true
+      servername: de1-v2ray.sshocean.net
+      network: ws
+      ws-opts:
+        path: /vless
+        headers:
+          Host: de1-v2ray.sshocean.net
+      udp: true
+
+proxy-groups:
+    - name: 🚀 TUNNEL
+      type: select
+      proxies:
+        - ⚡ AUTO-FASTEST
+        - 🎯 MANUAL-SELECT
+        - 🇮🇩 ID-SERVERS
+        - 🇸🇬 SG-SERVERS
+        - 🇺🇸 US-SERVERS
+        - DIRECT
+        
+    - name: ⚡ AUTO-FASTEST
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+      tolerance: 50
+      proxies:
+        - "🇮🇩 SSHOcean ID-1 VLESS TLS"
+        - "🇮🇩 SSHOcean ID-2 VLESS TLS"
+        - "🇸🇬 SSHOcean SG-1 VLESS TLS"
+        - "🇸🇬 SSHOcean SG-2 VLESS TLS"
+        - "🇺🇸 OpenTunnel USA Vmess TLS"
+        - "🇸🇬 Howdy.ID SG Trojan TLS"
+        - "🔸 CF-Edge VLESS WebSocket"
+        
+    - name: 🎯 MANUAL-SELECT
+      type: select
+      proxies:
+        - "🇮🇩 SSHOcean ID-1 VLESS TLS"
+        - "🇮🇩 SSHOcean ID-2 VLESS TLS"
+        - "🇸🇬 SSHOcean SG-1 VLESS TLS"
+        - "🇸🇬 SSHOcean SG-2 VLESS TLS"
+        - "🇺🇸 OpenTunnel USA Vmess TLS"
+        - "🇺🇸 OpenTunnel USA Vmess HTTP"
+        - "🇸🇬 Howdy.ID SG Trojan TLS"
+        - "🔸 CF-Edge VLESS WebSocket"
+        - "🆓 Backup VLESS-1"
+        - "🆓 Backup VLESS-2"
+        
+    - name: 🇮🇩 ID-SERVERS
+      type: select
+      proxies:
+        - "🇮🇩 SSHOcean ID-1 VLESS TLS"
+        - "🇮🇩 SSHOcean ID-2 VLESS TLS"
+        
+    - name: 🇸🇬 SG-SERVERS
+      type: select
+      proxies:
+        - "🇸🇬 SSHOcean SG-1 VLESS TLS"
+        - "🇸🇬 SSHOcean SG-2 VLESS TLS"
+        - "🇸🇬 Howdy.ID SG Trojan TLS"
+        
+    - name: 🇺🇸 US-SERVERS
+      type: select
+      proxies:
+        - "🇺🇸 OpenTunnel USA Vmess TLS"
+        - "🇺🇸 OpenTunnel USA Vmess HTTP"
+
+redir-port: 7892
+rules:
+    # Block ads and malware
+    - DOMAIN-KEYWORD,ads,REJECT
+    - DOMAIN-KEYWORD,analytics,REJECT
+    - DOMAIN-SUFFIX,doubleclick.net,REJECT
+    - DOMAIN-SUFFIX,googleadservices.com,REJECT
+    
+    # Direct connection for local/private networks
+    - GEOIP,PRIVATE,DIRECT,no-resolve
+    - GEOIP,CN,DIRECT,no-resolve
+    
+    # NTP traffic
+    - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+    
+    # Block YouTube UDP (if needed)
+    - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
+    
+    # Streaming services through tunnel
+    - DOMAIN-SUFFIX,youtube.com,🚀 TUNNEL
+    - DOMAIN-SUFFIX,netflix.com,🚀 TUNNEL
+    - DOMAIN-SUFFIX,instagram.com,🚀 TUNNEL
+    - DOMAIN-SUFFIX,facebook.com,🚀 TUNNEL
+    - DOMAIN-SUFFIX,twitter.com,🚀 TUNNEL
+    - DOMAIN-SUFFIX,telegram.org,🚀 TUNNEL
+    
+    # Default rule
+    - MATCH,🚀 TUNNEL
+
+secret: ""
+socks-port: 7891
+tproxy-port: 7895
+unified-delay: true
