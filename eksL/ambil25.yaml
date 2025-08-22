@@ -135,362 +135,362 @@ proxies:
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: e860e061-9cd8-4cb6-9aa8-9c60c7cf89ad
+  uuid: 25bc0a4f-641d-411a-a789-5e7173b018c8
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 1 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: e860e061-9cd8-4cb6-9aa8-9c60c7cf89ad
+  password: 25bc0a4f-641d-411a-a789-5e7173b018c8
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 1 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: e860e061-9cd8-4cb6-9aa8-9c60c7cf89ad
+  password: 25bc0a4f-641d-411a-a789-5e7173b018c8
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-1443
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 2 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: bfdaa90c-a99b-4d05-a4fb-5d24e5c75c6e
+  uuid: 3933b7ec-ab53-40a7-a1d2-c60dab20a8f5
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 2 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: bfdaa90c-a99b-4d05-a4fb-5d24e5c75c6e
+  password: 3933b7ec-ab53-40a7-a1d2-c60dab20a8f5
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Akamai Connected Cloud 2 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: bfdaa90c-a99b-4d05-a4fb-5d24e5c75c6e
+  password: 3933b7ec-ab53-40a7-a1d2-c60dab20a8f5
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/172.232.239.151-587
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 0bb8278a-01ac-4370-be20-5b02704e5f25
+  uuid: 0f2c3f17-4447-4dd7-ad1d-6c555a326118
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 0bb8278a-01ac-4370-be20-5b02704e5f25
+  password: 0f2c3f17-4447-4dd7-ad1d-6c555a326118
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) Amazoncom 3 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 0bb8278a-01ac-4370-be20-5b02704e5f25
+  password: 0f2c3f17-4447-4dd7-ad1d-6c555a326118
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/43.218.77.16-443
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 67ab76d1-a9e3-46d8-985c-666404e9062d
+  uuid: 32ea065d-1b94-44ad-a879-aefe509f7665
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 67ab76d1-a9e3-46d8-985c-666404e9062d
+  password: 32ea065d-1b94-44ad-a879-aefe509f7665
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) CV+Rumahweb+Indonesia 4 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 67ab76d1-a9e3-46d8-985c-666404e9062d
+  password: 32ea065d-1b94-44ad-a879-aefe509f7665
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-8443
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 5 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: 69f80dff-c246-42b5-b246-dce54f8138b2
+  uuid: a4de1afa-b794-45b3-95de-ee2bec88914f
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 5 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: 69f80dff-c246-42b5-b246-dce54f8138b2
+  password: a4de1afa-b794-45b3-95de-ee2bec88914f
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) PT Pusat Media Indonesia 5 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: 69f80dff-c246-42b5-b246-dce54f8138b2
+  password: a4de1afa-b794-45b3-95de-ee2bec88914f
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/103.6.207.108-8080
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 6 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: f1179ae9-5090-42e9-8893-1be482b1d3ae
+  uuid: cb8a5633-af31-455e-bf5c-46d488290225
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 6 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: f1179ae9-5090-42e9-8893-1be482b1d3ae
+  password: cb8a5633-af31-455e-bf5c-46d488290225
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) First Cagayan Converge Data Center Inc. 6 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: f1179ae9-5090-42e9-8893-1be482b1d3ae
+  password: cb8a5633-af31-455e-bf5c-46d488290225
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/203.194.112.119-2053
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 7 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: c2539c76-245b-4a9f-bf42-58cf0267d4ad
+  uuid: d30c17fb-424c-4e4a-b185-ac0ddfbc3d5a
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 7 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: c2539c76-245b-4a9f-bf42-58cf0267d4ad
+  password: d30c17fb-424c-4e4a-b185-ac0ddfbc3d5a
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) PT Telkom Indonesia 7 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: c2539c76-245b-4a9f-bf42-58cf0267d4ad
+  password: d30c17fb-424c-4e4a-b185-ac0ddfbc3d5a
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/36.95.152.58-12137
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 - name: 🇮🇩 (ID) MyRepublic Indonesia 8 vless
   server: 104.17.72.206
   port: 443
   type: vless
-  uuid: b85e3de8-2fad-41e6-b296-bc08849cb084
+  uuid: 6e2dde6c-0ca8-470c-8a17-ede8e32ed533
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: free.xiongt.Biz.id
+  servername: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.130.17.116-12336
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) MyRepublic Indonesia 8 trojan
   server: 104.17.72.206
   port: 443
   type: trojan
-  password: b85e3de8-2fad-41e6-b296-bc08849cb084
+  password: 6e2dde6c-0ca8-470c-8a17-ede8e32ed533
   udp: true
   skip-cert-verify: true
   network: ws
-  sni: free.xiongt.Biz.id
+  sni: free.aloalo.My.id
   ws-opts:
     path: /Free/TG-at-XionAlva/103.130.17.116-12336
     headers:
-      Host: free.xiongt.Biz.id
+      Host: free.aloalo.My.id
 - name: 🇮🇩 (ID) MyRepublic Indonesia 8 ss
   type: ss
   server: 104.17.72.206
   port: 443
   cipher: none
-  password: b85e3de8-2fad-41e6-b296-bc08849cb084
+  password: 6e2dde6c-0ca8-470c-8a17-ede8e32ed533
   udp: true
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
     tls: true
     skip-cert-verify: true
-    host: free.xiongt.Biz.id
+    host: free.aloalo.My.id
     path: /Free/TG-at-XionAlva/103.130.17.116-12336
     mux: false
     headers:
-      custom: free.xiongt.Biz.id
+      custom: free.aloalo.My.id
 proxy-groups:
 - name: INTERNET
   type: select
